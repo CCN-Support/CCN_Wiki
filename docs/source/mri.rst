@@ -50,6 +50,7 @@ Frequently Asked Questions
 - Contact CCN staff for access to the CCN mailing lists and Slack workspace. These are the primary communication channels for CCN information and announcements.
 
 **I am a certified user, but need a refresher on how to use the scanner console. Can I attend the Operations Training to review?**
+
 - Yes. Attending the Operations Training is required as part of the safety certification process, but established users may also attend if they need to re-familiarize themselves with the system (e.g., after a significant time away).
 - Please check the BruinLearn calendar for available sessions and contact CCN staff for permission to attend. Do not just sign up without notifying CCN staff. Because new users must attend a Walkthrough and Operations Training as a pair, there are the same number of available spots in both. If you sign up for an Operations Training without the corresponding Walkthrough, you will take up a spot that a Walkthrough attendee needs. Communicate with CCN so staff can help accommodate your extra slot.
 
@@ -58,11 +59,9 @@ Frequently Asked Questions
 - Yes. CCN and BMC are separate organizations, so you will need to be safety certified at CCN to access the scanner and server.
 
 **Will I get some kind of certificate after I finish safety certification?**
+
 - No. This safety certification procedure is internal to CCN. It does not constitute any kind of approval to scan at other institutions and does not produce any literal certificates.
 
-**Why am I not in the user dropdown list when scheduling a scan?**
-
-- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
 
 Scan Users
 ----------
@@ -79,6 +78,14 @@ Scan Users
 - In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
 
 **Visitors:** As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
+
+Frequently Asked Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Why am I not in the user dropdown list when scheduling a scan?**
+
+- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
+
 
 Scan Scheduling
 ---------------
