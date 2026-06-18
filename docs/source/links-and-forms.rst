@@ -1,16 +1,16 @@
-Links and Forms
+Commonly Used Links and Forms
 ===============
 
-Commonly Used Links
-========
+Links & Sites
+-----
 
 - `Scanner schedule: <https://www.sistat.ucla.edu/CCNSAS/login.asp/>`_ You do not need to log in to SISTAT to view the calendar. This is also bookmarked on the control room iMac.
 - `SIStat system login: <https://www.sistat.ucla.edu/CCNSAS/ShowCalendar.asp#/>`_ This is your gateway to all activities regarding scan scheduling: booking scans, adding lab personnel, checking certification status, linking funds, uploading IRBs, and so on.
 - `CCN YouTube channel: <https://www.youtube.com/@uclastaglincenterforcognit4262/videos/>`_ The channel contains very useful videos demonstrating common procedures at CCN--how to prepare a participant for a scan, navigating the XA30 upgraded software, placing voxels for spectroscopy, and so on.
 -  `BruinLearn: <https://bruinlearn.ucla.edu/>`_ This platform hosts the materials and exams required for safety certification.
 
-Commonly Used Forms
-========
+Forms
+-----
 
 - `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing/>`_
 - `Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_
