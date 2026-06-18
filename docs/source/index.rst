@@ -16,7 +16,7 @@ Contents
 
 **List of commonly used links:**
 
-- `CCN YouTube channel: <https://www.youtube.com/@uclastaglincenterforcognit4262/videos/>`_ The channel contains very useful videos demonstrating common procedures at CCN--how to prepare a participant for a scan, navigating the XA30 upgraded software, placing voxels for spectroscopy, and so on.
+- `CCN YouTube channel: <https://www.youtube.com/@uclastaglincenterforcognit4262/videos/>`_ The channel contains very useful videos demonstrating common procedures at CCN--how to prepare a participant for a scan, navigating the XA30 upgraded software, placing voxels for spectroscopy, and so on. Testing
 - `SIStat system login: <https://www.sistat.ucla.edu/CCNSAS/ShowCalendar.asp#/>`_ This is your gateway to all activities regarding scan scheduling: booking scans, adding lab personnel, checking certification status, linking funds, uploading IRBs, and so on.
 - `Scanner schedule: <https://www.sistat.ucla.edu/CCNSAS/login.asp/>`_ You do not need to log in to SISTAT to view the calendar. It is also bookmarked on the control room iMac.
 - **Safety certification (and recertification):** This is done through a combination of BruinLearn and in-person training sessions. The process is documented in the MR Training section. All links and resources necessary can be found on the `BruinLearn <https://bruinlearn.ucla.edu/>`_ course. If you log in to BruinLearn (using your UCLA credentials) and do not see the Staglin Center Safety course, you are not yet registered for it and will need to enroll yourself using the enrollment link. Lab managers and admin, please make a note of this link for future lab members that need to be safety certified.
