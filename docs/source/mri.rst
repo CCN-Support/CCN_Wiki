@@ -8,6 +8,7 @@ How to Get Safety Certified
 CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_ . You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
 
 - The process is summarized as follows and the BruinLearn module will guide you through the steps once you begin:
+
    1. Review the safety materials, upload your metal screen form, and pass the MR Safety Exam (on BruinLearn). Once you have passed, check the BruinLearn calendar regularly for Walkthrough and Operations Training sessions. Sign up for an available pair of trainings when you find one you can attend. The Walkthrough and Operations sessions should be one week apart. You should not sign up for a Walkthrough without its corresponding Operations, or vice versa, unless you have explicit permission from CCN staff. If you sign up for a disjointed pair of sessions, or for multiple sessions, it causes problems for other users trying to get certified and your signup will be cancelled.
    2. Attend a Walkthrough Training session (in person at CCN).
    3. Submit the Walkthrough Worksheet and pass the Walkthrough Exam (on BruinLearn).
@@ -19,7 +20,11 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 Recertification
 ~~~~~~~~~~~~~~~
-Every safety-certified user is required to renew their certification annually. This recertification is done through an exam on the BruinLearn platform--simply log into the course using your UCLA credentials and navigate to the Recertification Module under Modules. You will need to complete a metal screening form for yourself (must be updated annually) and pass the "MRI Recertification Exam". Email CCN staff as instructed when you have passed both requirements. There is no password necessary to access the Exam. Please only email CCN staff about recertification if you are experiencing BruinLearn issues, have questions about the materials, or have passed the exam. If you have not scanned much or at all in the interim year between (re)certifications, CCN will request that you repeat some or all of the certification process.
+- Every safety-certified user is required to renew their certification annually. This recertification is done through an exam on the BruinLearn platform--simply log into the course using your UCLA credentials and navigate to the Recertification Module under Modules. You will need to complete a metal screening form for yourself (must be updated annually) and pass the "MRI Recertification Exam".
+- There is no password necessary to access the Exam.
+- Email CCN staff as instructed when you have passed both requirements.
+- Please only email CCN staff about recertification if you have passed the requirements, are experiencing BruinLearn issues, or have questions about the materials. Consult your labmates and carefully read the detailed guide linked above before asking CCN staff how to get recertified.
+- If you have not scanned much or at all in the interim year between (re)certifications, CCN will request that you repeat some or all of the certification process.
 
 Certification FAQ
 ~~~~~~~~~~~~~~~~~
