@@ -3,9 +3,9 @@ MRI
 Safety Certification and Training
 ---------------------------------
 
-Safety Certification Process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-CCN safety certification is done using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_ . You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
+How to Get Safety Certified
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_ . You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
 
 - The process is summarized as follows and the BruinLearn module will guide you through the steps once you begin:
    1. Review the safety materials, upload your metal screen form, and pass the MR Safety Exam (on BruinLearn). Once you have passed, check the BruinLearn calendar regularly for Walkthrough and Operations Training sessions. Sign up for an available pair of trainings when you find one you can attend. The Walkthrough and Operations sessions should be one week apart. You should not sign up for a Walkthrough without its corresponding Operations, or vice versa, unless you have explicit permission from CCN staff. If you sign up for a disjointed pair of sessions, or for multiple sessions, it causes problems for other users trying to get certified and your signup will be cancelled.
@@ -13,9 +13,9 @@ CCN safety certification is done using a combination of in-person sessions and r
    3. Submit the Walkthrough Worksheet and pass the Walkthrough Exam (on BruinLearn).
    4. Attend an Operations Training session (at CCN).
    5. Pass the Operations Exam (on BruinLearn).
- - Step-by-Step Guide: See `this document <https://docs.google.com/document/d/1O_xt0fdFmxP1JE7NKGeT_fQSYbvwXxtdP51_UB-ksH4/edit?usp=sharing>`_ for detailed explanations of all requirements related to safety certification and user status. It steps through the entire process of becoming safety certified, with screenshots, starting from accessing BruinLearn.
 
-- **Operations Training:** CCN offers multiple trainings per month to familiarize individuals with operations in the MR suite. Attending one of these sessions is required as part of the safety certification process, but established users may also attend if they need to re-familiarize themselves with the system (e.g., after a significant time away). Please enroll in the BruinLearn course, check the calendar for available sessions, and contact CCN staff for permission to attend. Additional training opportunities on more advanced or specialized topics can be arranged as necessary.
+- Step-by-Step Guide: See `this document <https://docs.google.com/document/d/1O_xt0fdFmxP1JE7NKGeT_fQSYbvwXxtdP51_UB-ksH4/edit?usp=sharing>`_ for detailed explanations of all requirements related to safety certification and user status. It walks through the entire process of becoming safety certified, with screenshots, starting from the first step of accessing BruinLearn.
+
 
 Recertification
 ~~~~~~~~~~~~~~~
@@ -44,9 +44,16 @@ Certification FAQ
 - After you have gained some experience as a safety second, you will be able to become a Primary or Responsible User. See the section about primary users on this page for qualification criteria. CCN does not stipulate a specific number of required experience hours, as everyone's MR background is different, but will assess each individual's experience level as necessary.
 - Contact CCN staff for access to the CCN mailing lists and Slack workspace. These are the primary communication channels for CCN information and announcements.
 
+**I am a certified user, but need a refresher on how to use the scanner console. Can I attend the Operations Training to review?**
+- Yes. Attending the Operations Training is required as part of the safety certification process, but established users may also attend if they need to re-familiarize themselves with the system (e.g., after a significant time away).
+- Please check the BruinLearn calendar for available sessions and contact CCN staff for permission to attend. Do not just sign up without notifying CCN staff. Because new users must attend a Walkthrough and Operations Training as a pair, there are the same number of available spots in both. If you sign up for an Operations Training without the corresponding Walkthrough, you will take up a spot that a Walkthrough attendee needs. Communicate with CCN so staff can help accommodate your extra slot.
+
 **I am BMC certified. Will I need to get re-certified to be allowed in the CCN scanner and/or to access the CCN server?**
 
-- Yes. CCN and BMC are separate organizations, so you will need to be safety certified at CCN to access the scanner and server.=
+- Yes. CCN and BMC are separate organizations, so you will need to be safety certified at CCN to access the scanner and server.
+
+**Will I get some kind of certificate after I finish safety certification?**
+- No. This safety certification procedure is internal to CCN. It does not constitute any kind of approval to scan at other institutions and does not produce any literal certificates.
 
 **Why am I not in the user dropdown list when scheduling a scan?**
 
