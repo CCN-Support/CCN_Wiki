@@ -6,17 +6,18 @@ Links & Sites
 
 - `Scanner schedule: <https://www.sistat.ucla.edu/CCNSAS/login.asp/>`_ You do not need to log in to SISTAT to view the calendar. This is also bookmarked on the control room iMac.
 - `SIStat system login: <https://www.sistat.ucla.edu/CCNSAS/ShowCalendar.asp#/>`_ This is your gateway to all activities regarding scan scheduling: booking scans, adding lab personnel, checking certification status, linking funds, uploading IRBs, and so on.
-- `CCN YouTube channel: <https://www.youtube.com/@uclastaglincenterforcognit4262/videos/>`_ The channel contains very useful videos demonstrating common procedures at CCN--how to prepare a participant for a scan, navigating the XA30 upgraded software, placing voxels for spectroscopy, and so on.
 -  `BruinLearn: <https://bruinlearn.ucla.edu/>`_ This platform hosts the materials and exams required for safety certification.
+- `CCN YouTube channel: <https://www.youtube.com/@uclastaglincenterforcognit4262/videos/>`_ The channel contains very useful videos demonstrating common procedures at CCN--how to prepare a participant for a scan, navigating the XA30 upgraded software, placing voxels for spectroscopy, and so on.
+
 
 Forms
 -----
 
-- `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing/>`_
-- `Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_
-- `Pre-Scan Form <https://uclahs.az1.qualtrics.com/jfe/form/SV_6tI8o3SvorTot9k/>`_
-- `Post-Scan Form <https://uclahs.az1.qualtrics.com/jfe/form/SV_3BQesXgv9K8kgPc/>`_
-- `Scan Cancellation Form: <https://forms.gle/E9uzNYDZheAqihce7/>`_ Fill out this form if you need to cancel a scan within 72 hours.
+- `Metal Screening Form: <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing/>`_ REQUIRED for any person entering the scanner. Review carefully and submit documentation regarding any concerns `as a ticket <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_.
+- `Illness Screening Form: <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ Must be administered the evening before or morning of the participant's scan appointment. Reschedule your participant if they show signs of illness.
+- `Pre-Scan Form: <https://uclahs.az1.qualtrics.com/jfe/form/SV_6tI8o3SvorTot9k/>`_ Fll out this form at the beginning of every scan. Bookmarked on the iMac and very brief.
+- `Post-Scan Form: <https://uclahs.az1.qualtrics.com/jfe/form/SV_3BQesXgv9K8kgPc/>`_ Fill out this form after each scan. Bookmarked on the iMac and very brief.
+- `Scan Cancellation Form: <https://forms.gle/E9uzNYDZheAqihce7/>`_ Fill out this form if you need to cancel a scan within 72 hours. You must also formally cancel your scan on SIStat.
 - `Pilot Application Form: <https://drive.google.com/file/d/1rhfezXO3QP4pV5yjUnNmI8LNkjw7EqS9/view?usp=drive_link/>`_ Fill out this form if you would like to apply for scan hours toward a pilot project. Send the completed form to alenarto@g.ucla.edu and make sure to tell us the outcome of the pilot--if it helps you successfully secure funding, this information is crucial to keeping the pilot program going!
 
 
