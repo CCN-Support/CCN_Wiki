@@ -12,6 +12,7 @@ Contents
    generalpolicies
    mri
    eeg
+   links-and-forms
 
 **List of commonly used links:**
 
