@@ -1,8 +1,8 @@
 Commonly Used Links and Forms
-===============
+=============================
 
 Links & Sites
------
+-------------
 
 - `Scanner schedule: <https://www.sistat.ucla.edu/CCNSAS/login.asp/>`_ You do not need to log in to SISTAT to view the calendar. This is also bookmarked on the control room iMac.
 - `SIStat system login: <https://www.sistat.ucla.edu/CCNSAS/ShowCalendar.asp#/>`_ This is your gateway to all activities regarding scan scheduling: booking scans, adding lab personnel, checking certification status, linking funds, uploading IRBs, and so on.
@@ -22,3 +22,8 @@ Forms
 - `Pilot Application Form: <https://drive.google.com/file/d/1rhfezXO3QP4pV5yjUnNmI8LNkjw7EqS9/view?usp=drive_link/>`_ Fill out this form if you would like to apply for scan hours toward a pilot project. Send the completed form to alenarto@g.ucla.edu and make sure to tell us the outcome of the pilot--if it helps you successfully secure funding, this information is crucial to keeping the pilot program going!
 
 
+Manuals
+-------
+
+- `CCN Safety Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about emergency devices and procedures.
+- `CCN Operations Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about handling reboots, save logs, and incidental findings.
