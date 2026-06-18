@@ -14,10 +14,11 @@ Contents
    eeg
    links-and-forms
 
-**Help Contacts**
+Help Contacts
+-------
 
-- Need safety/metal clearance for your participants? Submit a ticket following instructions: `Submit a Ticket <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit/>`_
-- Having issues with Hoffman2? Submit a ticket at `<https://support.idre.ucla.edu/>`_ under Group Support > CCN(hoffman2 cluster) category.
+- Need safety/metal clearance for your participants? Submit a safety ticket following these instructions: `Submit a Ticket <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit/>`_
+- Having issues with Hoffman2? Submit an IT ticket at `<https://support.idre.ucla.edu/>`_ under the Group Support > CCN (Hoffman2 cluster) category.
 - Questions regarding DICOM? Please contact Haiyan (HaiyanWang@mednet.ucla.edu) or Jonathan (JonHernandez@mednet.ucla.edu) .
 - **ccnsupport@g.ucla.edu:** Email this address with all other CCN-related questions and requests.
 
