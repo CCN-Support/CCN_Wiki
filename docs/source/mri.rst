@@ -26,8 +26,8 @@ Recertification
 - Please only email CCN staff about recertification if you have passed the requirements, are experiencing BruinLearn issues, or have questions about the materials. Consult your labmates and carefully read the detailed guide linked above before asking CCN staff how to get recertified.
 - If you have not scanned much or at all in the interim year between (re)certifications, CCN will request that you repeat some or all of the certification process.
 
-Certification FAQ
-~~~~~~~~~~~~~~~~~
+Frequently Asked Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 **I've been safety certified with CCN before. How do I get recertified?**
 
 - Safety-certified users need to renew their certification every year. To summarize, you will need to log onto BruinLearn (with your UCLA credentials), enroll in the Staglin safety course if you haven't already, take the MRI Recertification Exam, and email CCN staff once you've passed. *If you can log into BruinLearn, but don't see the Staglin Safety course and can't find the MR Recertification Exam, you are not yet enrolled in the course.* Please talk to your lab manager or admin for an enrollment link and only email CCN staff if they do not have it.
