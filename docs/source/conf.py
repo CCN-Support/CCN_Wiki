@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'CCN'
-copyright = '2026, Jillian Pontanares'
-author = 'Jillian Pontanares'
+copyright = '2026, Staglin Center for Cognitive Neuroscience'
+author = 'Staglin CCN'
 
 release = '0.1'
 version = '0.1.0'
