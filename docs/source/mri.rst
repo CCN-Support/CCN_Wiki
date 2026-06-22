@@ -35,8 +35,7 @@ Frequently Asked Questions
 
 **I've been safety certified with CCN before. How do I get recertified?**
 
-- See the previous section: :ref:`renew_cert`
-To summarize:
+- See the previous section: :ref:`renew_cert`. To summarize:
 - *Users who have been actively scanning at CCN since they were last certified*: Follow the instructions in the Recertification Module on BruinLearn. You will need to submit an updated metal screening form for yourself and pass the MRI Recertification Exam.
 - *Users who have not been actively/regularly scanning at CCN** since they were last certified*: The online MRI Recertification Exam will not be sufficient to renew your certification. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
 - *Users whose certification has expired*: This indicates that you have not been actively scanning at CCN for quite some time, because only users with un-expired certification can be scheduled on scans. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
