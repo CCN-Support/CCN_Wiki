@@ -28,13 +28,23 @@ How to Renew Safety Certification
 
 - Email CCN staff as instructed by the module when you have passed both requirements.
 - Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
-- **IMPORTANT NOTE:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. CCN will request that you repeat some or all of the full certification process. This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
+- **IMPORTANT NOTE:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
 Frequently Asked Questions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **I've been safety certified with CCN before. How do I get recertified?**
 
-- Safety-certified users need to renew their certification every year. To summarize, you will need to log onto BruinLearn (with your UCLA credentials), enroll in the Staglin safety course if you haven't already, take the MRI Recertification Exam, and email CCN staff once you've passed. *If you can log into BruinLearn, but don't see the Staglin Safety course and can't find the MR Recertification Exam, you are not yet enrolled in the course.* Please talk to your lab manager or admin for an enrollment link and only email CCN staff if they do not have it.
+- See the previous section: :ref:`How to Renew Safety Certification`. To summarize:
+- Users who have been actively scanning at CCN since they were last certified: Follow the instructions in the Recertification Module on BruinLearn. You will need to submit an updated metal screening form for yourself and pass the MRI Recertification Exam.
+- Users who have not been actively/regularly scanning at CCN since they were last certified: The online MRI Recertification Exam will not be sufficient to renew your certification. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
+- Users whose certification has expired: This indicates that you have not been actively scanning at CCN for quite some time, because only users with un-expired certification can be scheduled on scans. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
+
+**I was certified a few years ago. Can I just take the Recertification Exam or skip some of the certification steps?**
+- No. Safety is always the top priority. CCN must be fully confident that all certified users are prepared to respond in an emergency situation. Even if you were a PI or have been scanning at another institution in the meantime, there is no way to remember all of the crucial information covered during certification training if you have not been active at CCN since you were last certified. Even though MR safety principles are the same regardless of institution, each site is different and the locations of emergency buttons and tools will be different. The course materials, assignments, and exams themselves are also periodically updated.
+
+**I can log into BruinLearn, but don't see the Staglin Safety course.**
+- This means you are not yet enrolled in the course. Please talk to your lab manager or admin for an enrollment link. Only email CCN staff if they do not have it. The enrollment link is sent to the PI and lab managers/coordinators when they are first certified at CCN and it is their responsibility to note and distribute it to future lab members who need certification.
 
 **I got the enrollment link from my lab admin, but clicking it gives me a Page Not Found error.**
 
