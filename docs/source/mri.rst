@@ -269,20 +269,33 @@ Booking Rules and Policies
 
 The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
 
-1. **No slot-holding allowed.** You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participants lined up for the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
+4.1.1 No holding slots
+^^^^^^^^^^^^^^^^^^^^^^
+Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
 
-2. **Maximum of 3 scans per project, per week, during prime time (Mon-Fri, 8am - 6pm).** This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
+4.1.2 Prime time scan limits
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The scan limit is 3 scans maximum per project, per week, during prime hours (Mon-Fri, 8am - 6pm). This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
 
-3. **Confirm with participants at least 5 days in advance of your scheduled scan.** If your participant cannot commit to their participation 5 days out, please cancel your appointment so that other groups may be able to fill the time. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste. We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
+4.1.3 Appointment reminders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment at that time so other groups may be able to fill the opening. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste. We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
 
-4. **15-Minute Gaps:** Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours. The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
+4.1.4. 15-Minute Gaps 
+^^^^^^^^^^^^^^^^^^^^^^^
+Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours. The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
 
-5. **Subject ID:** As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
-6. Protocol ID: You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
+4.1.5 Subject ID
+^^^^^^^^^^^^^^^^
+As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
 
-7. **Special Accommodations:** Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact our MR Technician and make other arrangements.
+4.1.6 Protocol ID
+^^^^^^^^^^^^^^^^^
+You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
 
-8. **Cancellations:** Scans must be cancelled >72hrs prior to the scheduled time to avoid scan charge. 
+4.1.7 Special Accommodations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact ccnsupport@g.ucla.edu and make specific arrangements.
 
 
 Cancellation Policy
