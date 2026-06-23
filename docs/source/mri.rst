@@ -176,7 +176,7 @@ Cancelled Scans: See the Scan Scheduling section below for CCN's cancellation po
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
 
-- Yes. In cases of IRBs that don't need to be renewed, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes.
+- Yes. In cases of IRBs that were approved without need for continuing review, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes to the protocol, consent form, or administrative details.
 
 
 Personnel Policies
@@ -228,16 +228,19 @@ All volunteers who would like to join a lab and gain valuable research experienc
 
 3.4 MR Technician Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in all aspects of MR imaging, including assisting during scanning. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan. Contact information is posted in multiple areas throughout the center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
+Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in developing scan protocols and troubleshooting scanner-related issues. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan.
+
+Contact information is posted in multiple areas throughout the Center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
 
 3.5 Observers
 ~~~~~~~~~~~~~
-Persons who have not completed safety certification are not allowed to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and Common Personnel Questions.
+Persons who have not completed safety certification are not permitted to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and :ref:`FAQ_personnel`.
 
 3.6 Visitors
 ~~~~~~~~~~~~
-As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
+As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please email ccnsupport@g.ucla.edu to arrange a visit for external groups or individuals. CCN staff will need to set up an Event with UCLA Insurance & Risk Management and create a waiver for the visitors to sign.
 
+.. _FAQ_personnel:
 3.7 FAQ: Personnel Policies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -258,30 +261,42 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 - If your group needs an undergrad RA or work-study to become a Primary User, please email ccnsupport@g.ucla.edu for review.
 
 
-Scan Scheduling
----------------
+Scheduling Policies
+-------------------
 
 Booking Rules and Policies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
 
-1. No slot-holding allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participants lined up for the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
-2. Maximum of 3 scans per project, per week, during prime time (Mon-Fri, 8am - 6pm). This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
-3. Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment so that other groups may be able to fill the time. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste. We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
-4. 15-Minute Gaps: Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours. The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
-5. Subject ID: As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
+1. **No slot-holding allowed.** You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participants lined up for the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
+
+2. **Maximum of 3 scans per project, per week, during prime time (Mon-Fri, 8am - 6pm).** This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
+
+3. **Confirm with participants at least 5 days in advance of your scheduled scan.** If your participant cannot commit to their participation 5 days out, please cancel your appointment so that other groups may be able to fill the time. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste. We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
+
+4. **15-Minute Gaps:** Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours. The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
+
+5. **Subject ID:** As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
 6. Protocol ID: You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
-7. Special Accommodations: Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact our MR Technician and make other arrangements.
-8. Cancellations: Scans must be cancelled >72hrs prior to the scheduled time to avoid scan charge. If a research group continually falls in the late cancellation range, CCN will ask for information to verify those slots were filled using appropriate scheduling practices. CCN may impose additional restrictions on scheduling (such as limiting the amount of scans that can be booked at one time) for groups that engage in profligate cancelling and/or reserving slots without confirmed participants. Each funded project starts with two free cancellations and accrues another after every 10 completed scans. Please fill out this `scan cancellation form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_ in order to inform CCN admin of issues leading to late (<72hr) cancellations. CCN has compiled a `list of best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ regarding how to mitigate late cancellations.
+
+7. **Special Accommodations:** Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact our MR Technician and make other arrangements.
+
+8. **Cancellations:** Scans must be cancelled >72hrs prior to the scheduled time to avoid scan charge. 
 
 
 Cancellation Policy
 ~~~~~~~~~~~~~~~~~~~
 
-There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time.
+There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time. Simply log into SIStat and delete your booking from the calendar.
 
-*Scans cancelled within 72 hours of the scheduled time will be charged 25% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
+**Scans cancelled within 72 hours of the scheduled time will be charged 25% of the full scan fee.** If you need to cancel a scan within the 72-hour window, please fill out the `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_ in addition to cancelling the scan in SIStat. The information collected on this form helps CCN monitor patterns to inform policymaking, as well as track cancellation events that merit fee refunds (e.g., fire evacuations).
+
+Note that, once the start time for your scan booking has passed, SIStat will not allow you to cancel it. As such, users should formally delete the scan through SIStat as soon as they know it cannot proceed (e.g., in cases that the participant arrives, but suddenly discloses a contraindication that was not previously known). Even if the cancellation occurs 5 minutes before the start time, the system will allow it and mark the session to be charged the 25% late cancellation fee. As soon as the start time passes, SIStat considers it complete and indicates the full charge should apply.
+
+If a research group continually falls in the late cancellation range, CCN will ask for information to verify those slots were filled using appropriate scheduling practices. CCN may impose additional restrictions on scheduling (such as limiting the amount of scans that can be booked at one time) for groups that engage in profligate cancelling and/or reserving slots without confirmed participants. CCN has compiled a `list of best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ regarding how to mitigate late cancellations.
+
+Each funded project starts with two free cancellations and accrues another after every 10 completed scans. When a user cancels a scan late, the system will automatically use a free cancellation if one is available.
 
 
 Scan Procedures
