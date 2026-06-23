@@ -181,38 +181,14 @@ FAQ: Project Management
 
 Personnel Policies
 ------------------
-**User Rights:** All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
 
-**Scan Personnel:** For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan. In case this cannot be achieved, please make arrangements with one of our MR Technicians to provide support. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice. Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
+User Rights
+~~~~~~~~~~~
+All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
 
-**MR Technician Services:** The Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in all aspects of MR imaging, including assisting during scanning. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan. Contact information is posted in multiple areas throughout the center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
-
-**Observers:** Persons who have not completed safety certification are not allowed to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and Common Personnel Questions.
-
-**Volunteers:** All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full on-boarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Please read through the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_ for duties and responsibilities. 
-
-- In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
-
-**Visitors:** As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
-
-FAQ: Personnel Policies
-~~~~~~~~~~~~~~~~~~~~~~~
-
-**Why am I not in the user dropdown list when scheduling a scan?**
-
-- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
-
-**Can an uncertified person shadow my scan?**
-
-- As per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
-
-**Can I be a primary user?**
-
-- See "Scan Personnel" in section for general restrictions on user roles. Current CCN policy stipulates that primary users need to be full-time in some capacity (staff, faculty, postdocs, etc.), with a few exceptions for personnel such as faculty with part-time appointments.
-
-- Primary Users are required to have significant scanning experience. The typical path to Primary status is to gain experience by scanning alongside existing Primary Users in the lab as Secondary Users (safety seconds). CCN does not stipulate a specific number of required scans because we understand that new users come in with different backgrounds and levels of scan experience. Once the Secondary User has become highly familiar with the setup/cleanup process and scan procedures, email ccnsupport@g.ucla.edu (cc'ing the PI and Primaries they have scanned with) to request Primary status.
-- If your lab is new or has no current Primary Users for another reason, email ccnsupport@g.ucla.edu and explain your situation. You will need to find other ways to gain scan experience, which may involve scanning with and/or shadowing other labs. The situation becomes more complicated if you need to go from newly-certified to Primary User very quickly. Communicate early and closely with CCN admins to work out a plan.
-- If your group needs an undergrad RA or work-study to become a Primary User, please email ccnsupport@g.ucla.edu for review.
+Scan Personnel
+~~~~~~~~~~~~~~
+For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan. In case this cannot be achieved, please make arrangements with one of our MR Technicians to provide support. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice. Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
 
 **Primary User (Responsible User) Definition**
 - Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
@@ -239,6 +215,43 @@ Full-time roles
    - Required to undergo full CCN safety training
    - Must be officially onboarded via UCLA Health Sciences Volunteer Office
    - Please refer to the Staglin CCN Volunteer Addendum
+
+Volunteers
+~~~~~~~~~~
+All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full on-boarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Please read through the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_ for duties and responsibilities. 
+
+- In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
+
+MR Technician Services
+~~~~~~~~~~~~~~~~~~~~~~
+The Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in all aspects of MR imaging, including assisting during scanning. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan. Contact information is posted in multiple areas throughout the center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
+
+Observers
+~~~~~~~~~
+Persons who have not completed safety certification are not allowed to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and Common Personnel Questions.
+
+Visitors
+~~~~~~~~
+As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
+
+FAQ: Personnel Policies
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**Why am I not in the user dropdown list when scheduling a scan?**
+
+- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
+
+**Can an uncertified person shadow my scan?**
+
+- As per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
+
+**Can I be a primary user?**
+
+- See "Scan Personnel" in section for general restrictions on user roles. Current CCN policy stipulates that primary users need to be full-time in some capacity (staff, faculty, postdocs, etc.), with a few exceptions for personnel such as faculty with part-time appointments.
+
+- Primary Users are required to have significant scanning experience. The typical path to Primary status is to gain experience by scanning alongside existing Primary Users in the lab as Secondary Users (safety seconds). CCN does not stipulate a specific number of required scans because we understand that new users come in with different backgrounds and levels of scan experience. Once the Secondary User has become highly familiar with the setup/cleanup process and scan procedures, email ccnsupport@g.ucla.edu (cc'ing the PI and Primaries they have scanned with) to request Primary status.
+- If your lab is new or has no current Primary Users for another reason, email ccnsupport@g.ucla.edu and explain your situation. You will need to find other ways to gain scan experience, which may involve scanning with and/or shadowing other labs. The situation becomes more complicated if you need to go from newly-certified to Primary User very quickly. Communicate early and closely with CCN admins to work out a plan.
+- If your group needs an undergrad RA or work-study to become a Primary User, please email ccnsupport@g.ucla.edu for review.
 
 
 Scan Scheduling
