@@ -27,3 +27,4 @@ Manuals
 
 - `CCN Safety Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about emergency devices and procedures.
 - `CCN Operations Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about handling reboots, save logs, and incidental findings.
+- `Best Practices for Appointment Management <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ A list of recommendations for minimizing late cancellations.
