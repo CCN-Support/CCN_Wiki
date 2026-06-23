@@ -87,12 +87,12 @@ FAQ: Safety Certification
 
 Project Management
 ------------------
-SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is used for all project management at CCN. On SISat, you will be able to:
+SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is the platform CCN uses to manage all scan-related activities. It is hosted by the Semel Institute Biostatistics Core and will serve as your hub for:
 
-- Upload your IRB approvals
-- Encumber funds so you can bill scans to your project
-- Schedule/cancel scans
-- Add certified personnel to your lab/project
+- Uploading your IRB approvals
+- Encumbering funds so you can bill scans to your project
+- Adding certified personnel to your lab/project
+- Scheduling and cancelling scans
 
 The diagram below provides an overview of the steps required to set up a project on SIStat, from the perspective of a completely new lab with new users. Keep this workflow in mind as you read through the following sections.
 For any questions (and Step 1B, referring to the CCN Administrator), please contact ccnsupport@g.ucla.edu and cc Marlo Duran at mdduran@mednet.ucla.edu. 
@@ -169,9 +169,34 @@ Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropria
 
 Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
 
-FAQ: Project Management & Personnel 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cancelled Scans: See the Scan Scheduling section below for CCN's cancellation policy.
 
+FAQ: Project Management 
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**My IRB doesn't expire. Do I still need to put an expiration date?**
+
+-Yes. In cases of IRBs that don't need to be renewed, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes.
+
+
+Personnel Policies
+------------------
+**User Rights:** All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
+
+**Scan Personnel:** For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan. In case this cannot be achieved, please make arrangements with one of our MR Technicians to provide support. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice. Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
+
+**MR Technician Services:** The Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in all aspects of MR imaging, including assisting during scanning. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan. Contact information is posted in multiple areas throughout the center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
+
+**Observers:** Persons who have not completed safety certification are not allowed to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and Common Personnel Questions.
+
+**Volunteers:** All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full on-boarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Please read through the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_ for duties and responsibilities. 
+
+- In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
+
+**Visitors:** As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
+
+FAQ: Personnel Policies
+~~~~~~~~~~~~~~~~~~~~~~~
 
 **Why am I not in the user dropdown list when scheduling a scan?**
 
@@ -215,35 +240,14 @@ Full-time roles
    - Must be officially onboarded via UCLA Health Sciences Volunteer Office
    - Please refer to the Staglin CCN Volunteer Addendum
 
-Cancellation Policy
-~~~~~~~~~~~~~~~~~~~
-
-There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time.
-
-*Scans cancelled within 72 hours of the scheduled time will be charged 25% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
-
-Scan Users
-----------
-**User Rights:** All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
-
-**Scan Personnel:** For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan. In case this cannot be achieved, please make arrangements with one of our MR Technicians to provide support. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice. Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
-
-**MR Technician Services:** The Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in all aspects of MR imaging, including assisting during scanning. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan. Contact information is posted in multiple areas throughout the center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
-
-**Observers:** Persons who have not completed safety certification are not allowed to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and Common Personnel Questions.
-
-**Volunteers:** All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full on-boarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Please read through the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_ for duties and responsibilities. 
-
-- In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
-
-**Visitors:** As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
-
-
 
 Scan Scheduling
 ---------------
 
-**Booking Rules and Policies:** The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
+Booking Rules and Policies
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
 
 1. No slot-holding allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participants lined up for the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
 2. Maximum of 3 scans per project, per week, during prime time (Mon-Fri, 8am - 6pm). This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
@@ -253,6 +257,15 @@ Scan Scheduling
 6. Protocol ID: You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
 7. Special Accommodations: Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact our MR Technician and make other arrangements.
 8. Cancellations: Scans must be cancelled >72hrs prior to the scheduled time to avoid scan charge. If a research group continually falls in the late cancellation range, CCN will ask for information to verify those slots were filled using appropriate scheduling practices. CCN may impose additional restrictions on scheduling (such as limiting the amount of scans that can be booked at one time) for groups that engage in profligate cancelling and/or reserving slots without confirmed participants. Each funded project starts with two free cancellations and accrues another after every 10 completed scans. Please fill out this `scan cancellation form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_ in order to inform CCN admin of issues leading to late (<72hr) cancellations. CCN has compiled a `list of best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ regarding how to mitigate late cancellations.
+
+
+Cancellation Policy
+~~~~~~~~~~~~~~~~~~~
+
+There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time.
+
+*Scans cancelled within 72 hours of the scheduled time will be charged 25% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
+
 
 Scan Procedures
 ----------------
