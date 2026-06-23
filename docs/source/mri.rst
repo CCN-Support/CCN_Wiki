@@ -94,33 +94,32 @@ SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is used for all project ma
 - Schedule/cancel scans
 - Add certified personnel to your lab/project
 
-**Visit this page for more information on managing your project on SIStat:**  https://www.sistat.ucla.edu/ccnsas/AboutCCNSAS.asp
-For any further questions, please contact Marlo Duran at mdduran@mednet.ucla.edu.
+The diagram below provides an overview of the steps required to set up a project on SIStat, from the perspective of a completely new lab with new users. Keep this workflow in mind as you read through the following sections.
+For any questions (and Step 1B, referring to the CCN Administrator), please contact ccnsupport@g.ucla.edu and cc Marlo Duran at mdduran@mednet.ucla.edu. 
 
 .. image:: CCN_pmFlowChart.png
 
-Adding a new project to SIStat
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When adding a new project to the system, it is important to fill out all fields in the New Project Form. This includes IRB, Funding, Personnel, as well as project specific information regarding start and end dates, expected number of scans per week, total scan load, duration, and whether the project has any scheduling constraints.
+Getting a SIStat account
+~~~~~~~~~~~~~~~~~~~~~~~~
+**New user under existing lab:** Your lab can create an account for you. See Adding a New User below. This also applies to users who need to access SIStat, but do not scan (e.g., schedulers and fund managers).
+**New user with new lab:** CCN will need to create your lab in the system, then add the PI. The PI can then add lab members from there.
 
-All currently active projects should have this Form completed. If your project already exists and you need to add this information, simply navigate to Project Management in the SISTAT system, click on Edit/View of the project in question, and fill out the available information fields. This is very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
-
-.. image:: AddProjInfo.png
-
-Adding personnel to your project
+Adding personnel to your lab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Information about lab members can be found under General --> My Profile | My Personnel.
 
 **Adding a New User**
 
-Before CCN Techs can activate a user for scanning in the scheduling system, an account must be created for them by a member of their lab. Your lab study PI or co-coordinator should have administrative privileges to add new users to the lab.
+The lab PI or coordinator should have administrative privileges to add new users to the lab.
 
 1. Navigate to "General" → "My Profile | My Personnel"
-2. Under the "User" dropdown menu, select "Create Passport For New User"
+2. Click the "User" dropdown menu and first check to see if their account already exists. This will be the case for most fund managers and users who are/were affiliated with other labs. If the user does not already exist, select "Create Passport For New User"
 3. Input the new user's information (bolded fields). Either create a strong password for them or a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
 4. The new user will receive an email with their login credentials.
 5. Once the account is created, please email ccnsupport@g.ucla.edu to activate the account and input their certification information. SIStat does not notify CCN when accounts are created, so if you forget this step, CCN staff will not know there is a new account to be activated. The new user will not appear in SIStat as a Primary/Secondary User scheduling option until the lab sends CCN the email and receives confirmation that the process is complete. Either the user him/herself or the lab member who creates the account can email CCN with the notification--just make sure nobody forgets/delays this step or you will only find out when you try to schedule the new user for the first time.
 6. Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
+
+This step is crucial for the system to recognize newly safety-certified users. CCN can only mark a user certified after that user is added under your lab -- otherwise, SIStat has no way of knowing they exist. Email ccnsupport@g.ucla.edu after creating an account for the newly-certified user and CCN will activate their certification. *The user will only appear on the scheduler as a select-able option after this step is completed.*
 
 **DICOM Accounts**
 
@@ -130,6 +129,15 @@ CCN has a DICOM server that stores raw data under each group's directory. To app
    - Your Hoffman2 account ID if you have one
    - CC your request to the PI whose group directory you need access to for approval
 - If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts and policies.
+
+Adding a new project to SIStat
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When adding a new project to the system, it is important to fill out all fields in the New Project Form. This includes IRB, Funding, Personnel, as well as project specific information regarding start and end dates, expected number of scans per week, total scan load, duration, and whether the project has any scheduling constraints.
+
+All currently active projects should have this Form completed. If your project already exists and you need to add this information, simply navigate to Project Management in the SISTAT system, click on Edit/View of the project in question, and fill out the available information fields. This is very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
+
+.. image:: AddProjInfo.png
+
 
 Study Team & Personnel FAQ
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
