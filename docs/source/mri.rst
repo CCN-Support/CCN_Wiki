@@ -102,11 +102,12 @@ For any questions (and Step 1B, referring to the CCN Administrator), please cont
 Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~
 **New user under existing lab:** Your lab can create an account for you. See Adding a New User below. This also applies to users who need to access SIStat, but do not scan (e.g., schedulers and fund managers).
+
 **New user with new lab:** CCN will need to create your lab in the system, then add the PI. The PI can then add lab members from there.
 
 Adding personnel to your lab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Information about lab members can be found under General --> My Profile | My Personnel.
+Information about your current lab members can be found under General --> My Profile | My Personnel.
 
 **Adding a New User**
 
@@ -123,16 +124,17 @@ This step is crucial for the system to recognize newly safety-certified users. C
 
 **DICOM Accounts**
 
-CCN has a DICOM server that stores raw data under each group's directory. To apply for a DICOM server account:
+CCN maintains a DICOM server that raw imaging data is automatically transferred to as it is acquired. Each lab has their own directory. As such, lab members involved in checking/analyzing the data will need DICOM accounts to access their lab's folder. To apply for a DICOM account:
 
 - Send an email with the following information to the CCN Programmer Analyst **Jonathan Hernandez (jonhernandez@mednet.ucla.edu)**
    - Your Hoffman2 account ID if you have one
    - CC your request to the PI whose group directory you need access to for approval
-- If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts and policies.
+- It is possible to have a SIStat account without a DICOM account or vice versa. The user's role in the lab determines whether they need one, the other, or both.
+- If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts with separate policies.
 
 Adding a new project to SIStat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When adding a new project to the system, it is important to fill out all fields in the New Project Form. This includes IRB, Funding, Personnel, as well as project specific information regarding start and end dates, expected number of scans per week, total scan load, duration, and whether the project has any scheduling constraints.
+Navigate to Project --> Project Management. The left side of the page will be titled ADD NEW PROJECT and display the required fields for the user to fill out. This includes IRB, Funding, and PI, as well as project-specific information regarding start and end dates, expected number of scans per week, total scan load, and duration.
 
 All currently active projects should have this Form completed. If your project already exists and you need to add this information, simply navigate to Project Management in the SISTAT system, click on Edit/View of the project in question, and fill out the available information fields. This is very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
 
@@ -212,7 +214,7 @@ Cancellation Policy
 
 There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time.
 
-*Scans cancelled within 72 hours of the scheduled time will be charged 30% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
+*Scans cancelled within 72 hours of the scheduled time will be charged 25% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
 
 Scan Users
 ----------
