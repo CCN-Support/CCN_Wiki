@@ -31,15 +31,15 @@ How to Renew Safety Certification
 - Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the conceptual materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
 - **IMPORTANT NOTE:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
-Frequently Asked Questions
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+FAQ: Safety Certification
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **I've been safety certified with CCN before. How do I get recertified?**
 
 - See the previous section: :ref:`renew_cert`. To summarize:
-- *Users who have been actively scanning at CCN since they were last certified*: Follow the instructions in the Recertification Module on BruinLearn. You will need to submit an updated metal screening form for yourself and pass the MRI Recertification Exam.
-- *Users who have not been actively/regularly scanning at CCN** since they were last certified*: The online MRI Recertification Exam will not be sufficient to renew your certification. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
-- *Users whose certification has expired*: This indicates that you have not been actively scanning at CCN for quite some time, because only users with un-expired certification can be scheduled on scans. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
+- **Users who have been actively scanning at CCN since they were last certified**: Follow the instructions in the Recertification Module on BruinLearn. You will need to submit an updated metal screening form for yourself and pass the MRI Recertification Exam.
+- **Users who have not been actively/regularly scanning at CCN** since they were last certified*: The online MRI Recertification Exam will not be sufficient to renew your certification. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
+- **Users whose certification has expired**: This indicates that you have not been actively scanning at CCN for quite some time, because only users with un-expired certification can be scheduled on scans. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
 
 **I was certified a few years ago. Can I just take the Recertification Exam or skip some of the certification steps?**
 
@@ -101,26 +101,26 @@ For any questions (and Step 1B, referring to the CCN Administrator), please cont
 
 Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~
-**New user under existing lab:** Your lab can create an account for you. See Adding a New User below. This also applies to users who need to access SIStat, but do not scan (e.g., schedulers and fund managers).
+**New user under existing lab:** Your lab can create an account for you. See :ref:`add_user` below. This also applies to users who need to access SIStat, but do not scan (e.g., schedulers and fund managers).
 
 **New user with new lab:** CCN will need to create your lab in the system, then add the PI. The PI can then add lab members from there.
 
 Adding personnel to your lab
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Information about your current lab members can be found under General --> My Profile | My Personnel.
 
+.. _add_user:
 **Adding a New User**
 
 The lab PI or coordinator should have administrative privileges to add new users to the lab.
 
 1. Navigate to "General" → "My Profile | My Personnel"
 2. Click the "User" dropdown menu and first check to see if their account already exists. This will be the case for most fund managers and users who are/were affiliated with other labs. If the user does not already exist, select "Create Passport For New User"
-3. Input the new user's information (bolded fields). Either create a strong password for them or a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
+3. Input the new user's information. Only the bolded fields are mandatory. Either create a strong password for them or make a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
 4. The new user will receive an email with their login credentials.
+(*If this new user just completed safety certification:*)
 5. Once the account is created, please email ccnsupport@g.ucla.edu to activate the account and input their certification information. SIStat does not notify CCN when accounts are created, so if you forget this step, CCN staff will not know there is a new account to be activated. The new user will not appear in SIStat as a Primary/Secondary User scheduling option until the lab sends CCN the email and receives confirmation that the process is complete. Either the user him/herself or the lab member who creates the account can email CCN with the notification--just make sure nobody forgets/delays this step or you will only find out when you try to schedule the new user for the first time.
 6. Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
-
-This step is crucial for the system to recognize newly safety-certified users. CCN can only mark a user certified after that user is added under your lab -- otherwise, SIStat has no way of knowing they exist. Email ccnsupport@g.ucla.edu after creating an account for the newly-certified user and CCN will activate their certification. *The user will only appear on the scheduler as a select-able option after this step is completed.*
 
 **DICOM Accounts**
 
@@ -132,17 +132,50 @@ CCN maintains a DICOM server that raw imaging data is automatically transferred 
 - It is possible to have a SIStat account without a DICOM account or vice versa. The user's role in the lab determines whether they need one, the other, or both.
 - If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts with separate policies.
 
-Adding a new project to SIStat
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding a new project
+~~~~~~~~~~~~~~~~~~~~
 Navigate to Project --> Project Management. The left side of the page will be titled ADD NEW PROJECT and display the required fields for the user to fill out. This includes IRB, Funding, and PI, as well as project-specific information regarding start and end dates, expected number of scans per week, total scan load, and duration.
 
-All currently active projects should have this Form completed. If your project already exists and you need to add this information, simply navigate to Project Management in the SISTAT system, click on Edit/View of the project in question, and fill out the available information fields. This is very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
+All currently active projects should have this form completed. If your project already exists and you need to add this information, navigate to Project --> Project Management in the SISTAT system, click on Edit/View at the right-hand side of the project's name, and fill out the available information fields. These details are very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
 
 .. image:: AddProjInfo.png
 
 
-Study Team & Personnel FAQ
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Funding & Costs
+~~~~~~~~~~~~~~~
+
+**Scan Costs**
+
+- Current pricing for the scanner is set at $600 per hour (incremented at $150 every 15 minutes) during "Prime Time" hours. Please note this is expected to increase to $650 per hour after our Sales and Service contract is reviewed.
+- Scanning is priced at a reduced rate for "Off-Peak Hours" and Weekends
+Full list of pricing:
+
+.. image:: Staglin_MRI_Scanner_Costs.png
+
+**Adding funds**
+
+Funding sources can be added under "Financial" → "Add Fund". You will need the following information:
+   1. Funding agency
+   2. Active FAU
+   3. Start and End date
+   4. Fund manager overseeing this fund
+
+New projects must be linked with Active funds.
+
+
+**Billing and Refunds**
+
+Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see previous section: Scan Procedures > Pilot Program), but all others are paid for by labs via linked funds. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN.
+
+Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
+
+FAQ: Project Management & Personnel 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+**Why am I not in the user dropdown list when scheduling a scan?**
+
+- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
 
 **Can an uncertified person shadow my scan?**
 
@@ -182,33 +215,6 @@ Full-time roles
    - Must be officially onboarded via UCLA Health Sciences Volunteer Office
    - Please refer to the Staglin CCN Volunteer Addendum
 
-Funding & Costs
-~~~~~~~~~~~~~~~
-
-**Scan Costs**
-
-- Current pricing for the scanner is set at $600 per hour (incremented at $150 every 15 minutes) during "Prime Time" hours. Please note this is expected to increase to $650 per hour after our Sales and Service contract is reviewed.
-- Scanning is priced at a reduced rate for "Off-Peak Hours" and Weekends
-Full list of pricing:
-
-.. image:: Staglin_MRI_Scanner_Costs.png
-
-**Add Fund**
-
-Funding sources can be added under "Financial" → "Add Fund"
-New projects must be linked with Active funds.
-Adding a fund requires:
-   1. Funding agency
-   2. Active FAU
-   3. Start and End date
-   4. Fund manager overseeing this fund
-
-**Billing and Refunds**
-
-Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see previous section: Scan Procedures > Pilot Program), but all others are paid for by users. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN Tech.
-
-Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
-
 Cancellation Policy
 ~~~~~~~~~~~~~~~~~~~
 
@@ -232,12 +238,6 @@ Scan Users
 
 **Visitors:** As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
 
-Frequently Asked Questions
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Why am I not in the user dropdown list when scheduling a scan?**
-
-- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
 
 
 Scan Scheduling
