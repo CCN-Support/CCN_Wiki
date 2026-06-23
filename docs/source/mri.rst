@@ -176,7 +176,7 @@ FAQ: Project Management
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
 
--Yes. In cases of IRBs that don't need to be renewed, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes.
+- Yes. In cases of IRBs that don't need to be renewed, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes.
 
 
 Personnel Policies
@@ -188,7 +188,11 @@ All users have equal rights and privileges to perform projects at the center. Al
 
 Scan Personnel
 ~~~~~~~~~~~~~~
-For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan. In case this cannot be achieved, please make arrangements with one of our MR Technicians to provide support. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice. Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
+For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan.
+
+In the event that this cannot be achieved, please make every effort to pull in backup scan team members, contact certified colleagues in other labs, and reach out to the CCN community (e.g., via the #general channel on the CCN Slack workspace). Only request arrangements with one of our MR Technicians as a last resort. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice.
+
+Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
 
 **Primary User (Responsible User) Definition**
 - Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
