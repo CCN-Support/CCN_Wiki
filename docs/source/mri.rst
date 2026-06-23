@@ -4,8 +4,8 @@ Safety Certification and Training
 ---------------------------------
 
 .. _safety_cert:
-How to Get Safety Certified
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.1 How to Get Safety Certified
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_. You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
 
 - Overview: The process is summarized as follows and the BruinLearn module will guide you through the steps once you begin:
@@ -19,8 +19,8 @@ CCN safety certification is achieved using a combination of in-person sessions a
 - Step-by-Step Guide: See `this document <https://docs.google.com/document/d/1O_xt0fdFmxP1JE7NKGeT_fQSYbvwXxtdP51_UB-ksH4/edit?usp=sharing>`_ for detailed explanations of all requirements related to safety certification and user status. It walks through the entire process of becoming safety certified, with screenshots, starting from the first step of accessing BruinLearn.
 
 .. _renew_cert:
-How to Renew Safety Certification
-~~~~~~~~~~~~~~~
+1.2 How to Renew Safety Certification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Safety certification expires after one year. Every safety-certified user is required to renew their certification annually.
 - To get recertified, log into BruinLearn, click "Modules" in the left-hand sidebar, and scroll down to the Recertification Module. Complete the two requirements:
 
@@ -31,8 +31,8 @@ How to Renew Safety Certification
 - Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the conceptual materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
 - **IMPORTANT NOTE:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
-FAQ: Safety Certification
-~~~~~~~~~~~~~~~~~~~~~~~~~
+1.3 FAQ: Safety Certification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **I've been safety certified with CCN before. How do I get recertified?**
 
@@ -99,14 +99,14 @@ For any questions (and Step 1B, referring to the CCN Administrator), please cont
 
 .. image:: CCN_pmFlowChart.png
 
-Getting a SIStat account
-~~~~~~~~~~~~~~~~~~~~~~~~
+2.1 Getting a SIStat account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **New user under existing lab:** Your lab can create an account for you. See :ref:`add_user` below. This also applies to users who need to access SIStat, but do not scan (e.g., schedulers and fund managers).
 
 **New user with new lab:** CCN will need to create your lab in the system, then add the PI. The PI can then add lab members from there.
 
-Adding personnel to your lab
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2 Adding personnel to your lab
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Information about your current lab members can be found under General --> My Profile | My Personnel.
 
 .. _add_user:
@@ -132,8 +132,8 @@ CCN maintains a DICOM server that raw imaging data is automatically transferred 
 - It is possible to have a SIStat account without a DICOM account or vice versa. The user's role in the lab determines whether they need one, the other, or both.
 - If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts with separate policies.
 
-Adding a new project
-~~~~~~~~~~~~~~~~~~~~
+2.3 Adding a new project
+~~~~~~~~~~~~~~~~~~~~~~~~
 Navigate to Project --> Project Management. The left side of the page will be titled ADD NEW PROJECT and display the required fields for the user to fill out. This includes IRB, Funding, and PI, as well as project-specific information regarding start and end dates, expected number of scans per week, total scan load, and duration.
 
 All currently active projects should have this form completed. If your project already exists and you need to add this information, navigate to Project --> Project Management in the SISTAT system, click on Edit/View at the right-hand side of the project's name, and fill out the available information fields. These details are very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
@@ -141,8 +141,8 @@ All currently active projects should have this form completed. If your project a
 .. image:: AddProjInfo.png
 
 
-Funding & Costs
-~~~~~~~~~~~~~~~
+2.4 Funding & Costs
+~~~~~~~~~~~~~~~~~~~
 
 **Scan Costs**
 
@@ -171,8 +171,8 @@ Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) o
 
 Cancelled Scans: See the Scan Scheduling section below for CCN's cancellation policy.
 
-FAQ: Project Management 
-~~~~~~~~~~~~~~~~~~~~~~~
+2.5 FAQ: Project Management 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
 
@@ -182,12 +182,12 @@ FAQ: Project Management
 Personnel Policies
 ------------------
 
-User Rights
-~~~~~~~~~~~
+3.1 User Rights
+~~~~~~~~~~~~~~~
 All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
 
-Scan Personnel
-~~~~~~~~~~~~~~
+3.2 Scan Personnel
+~~~~~~~~~~~~~~~~~~
 For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan.
 
 In the event that this cannot be achieved, please make every effort to pull in backup scan team members, contact certified colleagues in other labs, and reach out to the CCN community (e.g., via the #general channel on the CCN Slack workspace). Only request arrangements with one of our MR Technicians as a last resort. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice.
@@ -220,26 +220,26 @@ Full-time roles
    - Must be officially onboarded via UCLA Health Sciences Volunteer Office
    - Please refer to the Staglin CCN Volunteer Addendum
 
-Volunteers
-~~~~~~~~~~
+3.3 Volunteers
+~~~~~~~~~~~~~~
 All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full on-boarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Please read through the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_ for duties and responsibilities. 
 
 - In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
 
-MR Technician Services
-~~~~~~~~~~~~~~~~~~~~~~
+3.4 MR Technician Services
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in all aspects of MR imaging, including assisting during scanning. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan. Contact information is posted in multiple areas throughout the center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
 
-Observers
-~~~~~~~~~
+3.5 Observers
+~~~~~~~~~~~~~
 Persons who have not completed safety certification are not allowed to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and Common Personnel Questions.
 
-Visitors
-~~~~~~~~
+3.6 Visitors
+~~~~~~~~~~~~
 As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please contact our MR Technicians to arrange a visit for a group or individual.
 
-FAQ: Personnel Policies
-~~~~~~~~~~~~~~~~~~~~~~~
+3.7 FAQ: Personnel Policies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Why am I not in the user dropdown list when scheduling a scan?**
 
