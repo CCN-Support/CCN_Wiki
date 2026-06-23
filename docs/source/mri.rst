@@ -3,6 +3,7 @@ MRI
 Safety Certification and Training
 ---------------------------------
 
+.. _safety_cert:
 How to Get Safety Certified
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_. You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
@@ -27,7 +28,7 @@ How to Renew Safety Certification
    2. Pass the MRI Recertification Exam. There is no password necessary to access it.
 
 - Email CCN staff as instructed by the module when you have passed both requirements.
-- Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
+- Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the conceptual materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
 - **IMPORTANT NOTE:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
 Frequently Asked Questions
@@ -41,9 +42,11 @@ Frequently Asked Questions
 - *Users whose certification has expired*: This indicates that you have not been actively scanning at CCN for quite some time, because only users with un-expired certification can be scheduled on scans. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
 
 **I was certified a few years ago. Can I just take the Recertification Exam or skip some of the certification steps?**
+
 - No. Safety is always the top priority. CCN must be fully confident that all certified users are prepared to respond in an emergency situation. Even if you were a PI or have been scanning at another institution in the meantime, there is no way to remember all of the crucial information covered during certification training if you have not been active at CCN since you were last certified. Even though MR safety principles are the same regardless of institution, each site is different and the locations of emergency buttons and tools will be different. The course materials, assignments, and exams themselves are also periodically updated.
 
 **I can log into BruinLearn, but don't see the Staglin Safety course.**
+
 - This means you are not yet enrolled in the course. Please talk to your lab manager or admin for an enrollment link. Only email CCN staff if they do not have it. The enrollment link is sent to the PI and lab managers/coordinators when they are first certified at CCN and it is their responsibility to note and distribute it to future lab members who need certification.
 
 **I got the enrollment link from my lab admin, but clicking it gives me a Page Not Found error.**
@@ -54,7 +57,12 @@ Frequently Asked Questions
 **I passed the MR Safety Exam. Now what?**
 
 - Monitor the BruinLearn calendar for Walkthrough and Operations Training sessions. Sign up for a pair of these sessions as soon as you see an available posting that you can attend.
-- If you are looking at the calendar and don't see any options for signing up, it means all current postings are full. CCN staff offers these sessions as often as the schedule allows, but demand for safety certification is usually high and the sessions fill up very quickly. Watch the calendar for cancellations and new postings--if you have a strict deadline or have been actively trying to find a spot for a long time, reach out to discuss a special accommodation.
+
+**I'm on the Calendar page, but don't see any options to sign up.**
+
+- Make sure you click "Find Appointments" on the right-hand side. The detailed guide linked under :ref:`safety_cert` explains this step and many others that are frequently missed--please read it carefully.
+- If you still do not see any options for signing up, it means all current postings are full. CCN staff offers these sessions as often as the schedule allows, but demand for safety certification is usually high and the sessions fill up very quickly. Watch the calendar for cancellations and new postings--BruinLearn sends automatic email notifications (if your settings allow it) about new session availabilities.
+- If you have a strict deadline or have been actively trying to find a spot for a long time, email ccnsupport@g.ucla.edu to discuss a special accommodation. CCN will do its best to help, but cannot guarantee anything. Training opportunities are limited by both scanner and staff availability.
 
 **I finished my certification training and passed the exams. Now what?**
 
