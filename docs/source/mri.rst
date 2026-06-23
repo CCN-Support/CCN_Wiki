@@ -60,13 +60,13 @@ Frequently Asked Questions
 
 **I'm on the Calendar page, but don't see any options to sign up.**
 
-- Make sure you click "Find Appointments" on the right-hand side. The detailed guide linked under :ref:`safety_cert` explains this step and many others that are frequently missed--please read it carefully.
+- Make sure you click "Find Appointments" on the right-hand side. The detailed guide linked under :ref:`safety_cert` explains this step and many others that are frequently missed -- please read it carefully.
 - If you still do not see any options for signing up, it means all current postings are full. CCN staff offers these sessions as often as the schedule allows, but demand for safety certification is usually high and the sessions fill up very quickly. Watch the calendar for cancellations and new postings--BruinLearn sends automatic email notifications (if your settings allow it) about new session availabilities.
 - If you have a strict deadline or have been actively trying to find a spot for a long time, email ccnsupport@g.ucla.edu to discuss a special accommodation. CCN will do its best to help, but cannot guarantee anything. Training opportunities are limited by both scanner and staff availability.
 
 **I finished my certification training and passed the exams. Now what?**
 
-- Once you have passed the Operations Exam, you are able to start serving as a safety second for scans. There are no further exams to take or physical certificates to get. You will simply need to be recertified after a year has passed (see "How do I get recertified?" above).
+- Once you have passed the Operations Exam, you are able to start serving as a safety second for scans. There are no further exams to take or physical certificates to get. You will simply need to be recertified after a year has passed (see :ref:`renew_cert` above).
 - Your lab admin will need to add you to your lab's personnel list on SIStat. See the Lab Personnel section on this page for instructions. This will allow us to mark your certified status in the system, your lab to schedule you for scans, and you to book scans yourself.
 - After you have gained some experience as a safety second, you will be able to become a Primary or Responsible User. See the section about primary users on this page for qualification criteria. CCN does not stipulate a specific number of required experience hours, as everyone's MR background is different, but will assess each individual's experience level as necessary.
 - Contact CCN staff for access to the CCN mailing lists and Slack workspace. These are the primary communication channels for CCN information and announcements.
@@ -84,6 +84,127 @@ Frequently Asked Questions
 
 - No. This safety certification procedure is internal to CCN. It does not constitute any kind of approval to scan at other institutions and does not produce any literal certificates.
 
+
+Project Management
+------------------
+SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is used for all project management at CCN. On SISat, you will be able to:
+
+- Upload your IRB approvals
+- Encumber funds so you can bill scans to your project
+- Schedule/cancel scans
+- Add certified personnel to your lab/project
+
+**Visit this page for more information on managing your project on SIStat:**  https://www.sistat.ucla.edu/ccnsas/AboutCCNSAS.asp
+For any further questions, please contact Marlo Duran at mdduran@mednet.ucla.edu.
+
+.. image:: CCN_pmFlowChart.png
+
+Adding a new project to SIStat
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When adding a new project to the system, it is important to fill out all fields in the New Project Form. This includes IRB, Funding, Personnel, as well as project specific information regarding start and end dates, expected number of scans per week, total scan load, duration, and whether the project has any scheduling constraints.
+
+All currently active projects should have this Form completed. If your project already exists and you need to add this information, simply navigate to Project Management in the SISTAT system, click on Edit/View of the project in question, and fill out the available information fields. This is very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
+
+.. image:: AddProjInfo.png
+
+Adding personnel to your project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Information about lab members can be found under General --> My Profile | My Personnel.
+
+**Adding a New User**
+
+Before CCN Techs can activate a user for scanning in the scheduling system, an account must be created for them by a member of their lab. Your lab study PI or co-coordinator should have administrative privileges to add new users to the lab.
+
+1. Navigate to "General" → "My Profile | My Personnel"
+2. Under the "User" dropdown menu, select "Create Passport For New User"
+3. Input the new user's information (bolded fields). Either create a strong password for them or a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
+4. The new user will receive an email with their login credentials.
+5. Once the account is created, please email ccnsupport@g.ucla.edu to activate the account and input their certification information. SIStat does not notify CCN when accounts are created, so if you forget this step, CCN staff will not know there is a new account to be activated. The new user will not appear in SIStat as a Primary/Secondary User scheduling option until the lab sends CCN the email and receives confirmation that the process is complete. Either the user him/herself or the lab member who creates the account can email CCN with the notification--just make sure nobody forgets/delays this step or you will only find out when you try to schedule the new user for the first time.
+6. Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
+
+**DICOM Accounts**
+
+CCN has a DICOM server that stores raw data under each group's directory. To apply for a DICOM server account:
+
+- Send an email with the following information to the CCN Programmer Analyst **Jonathan Hernandez (jonhernandez@mednet.ucla.edu)**
+   - Your Hoffman2 account ID if you have one
+   - CC your request to the PI whose group directory you need access to for approval
+- If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts and policies.
+
+Study Team & Personnel FAQ
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Can an uncertified person shadow my scan?**
+
+- As per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
+
+**Can I be a primary user?**
+
+- See "Scan Personnel" in section for general restrictions on user roles. Current CCN policy stipulates that primary users need to be full-time in some capacity (staff, faculty, postdocs, etc.), with a few exceptions for personnel such as faculty with part-time appointments.
+
+- Primary Users are required to have significant scanning experience. The typical path to Primary status is to gain experience by scanning alongside existing Primary Users in the lab as Secondary Users (safety seconds). CCN does not stipulate a specific number of required scans because we understand that new users come in with different backgrounds and levels of scan experience. Once the Secondary User has become highly familiar with the setup/cleanup process and scan procedures, email ccnsupport@g.ucla.edu (cc'ing the PI and Primaries they have scanned with) to request Primary status.
+- If your lab is new or has no current Primary Users for another reason, email ccnsupport@g.ucla.edu and explain your situation. You will need to find other ways to gain scan experience, which may involve scanning with and/or shadowing other labs. The situation becomes more complicated if you need to go from newly-certified to Primary User very quickly. Communicate early and closely with CCN admins to work out a plan.
+- If your group needs an undergrad RA or work-study to become a Primary User, please email ccnsupport@g.ucla.edu for review.
+
+**Primary User (Responsible User) Definition**
+- Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
+   - Can perform all scan related responsibilities independently without the need for supervision
+   - Will serve as the primary scan operator
+   - Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user has volunteer status
+
+**Secondary User Definition**
+Allowable Roles: Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
+Full-time roles
+   - Allowed to perform all responsibilities independently without supervision of the primary scanner
+   - May serve as scan operators
+   - Part-time paid undergraduate/work-study
+   - May perform responsibilities explicitly defined in their UCLA approved job description independently without supervision
+      - This can include operating the scanner, handling scanner and peripheral equipment, interacting with participants
+   - May only serve as primary user with additional review by CCN
+
+**UCLA Volunteer**
+
+   - May NOT directly handle participants, coils, or operate MR beds/controls
+   - Must ALWAYS navigate the CCN suite under strict supervision of the primary scanner/responsible user
+   - May not serve as primary user
+   - In the event of an emergency where the primary scanner is unable to perform their duties, volunteer personnel should be trained on stopping the scan and removing the participant
+   - Required to undergo full CCN safety training
+   - Must be officially onboarded via UCLA Health Sciences Volunteer Office
+   - Please refer to the Staglin CCN Volunteer Addendum
+
+Funding & Costs
+~~~~~~~~~~~~~~~
+
+**Scan Costs**
+
+- Current pricing for the scanner is set at $600 per hour (incremented at $150 every 15 minutes) during "Prime Time" hours. Please note this is expected to increase to $650 per hour after our Sales and Service contract is reviewed.
+- Scanning is priced at a reduced rate for "Off-Peak Hours" and Weekends
+Full list of pricing:
+
+.. image:: Staglin_MRI_Scanner_Costs.png
+
+**Add Fund**
+
+Funding sources can be added under "Financial" → "Add Fund"
+New projects must be linked with Active funds.
+Adding a fund requires:
+   1. Funding agency
+   2. Active FAU
+   3. Start and End date
+   4. Fund manager overseeing this fund
+
+**Billing and Refunds**
+
+Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see previous section: Scan Procedures > Pilot Program), but all others are paid for by users. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN Tech.
+
+Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
+
+Cancellation Policy
+~~~~~~~~~~~~~~~~~~~
+
+There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time.
+
+*Scans cancelled within 72 hours of the scheduled time will be charged 30% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
 
 Scan Users
 ----------
@@ -244,124 +365,4 @@ To start up the dual-boot and access Windows, restart the iMac while holding dow
 For new software, please contact the MR Technician before installation.
 
 
-Project Management
-------------------
-SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is used for all project management at CCN. On SISat, you will be able to:
-
-- Upload your IRB approvals
-- Encumber funds so you can bill scans to your project
-- Schedule/cancel scans
-- Add certified personnel to your lab/project
-
-**Visit this page for more information on managing your project on SIStat:**  https://www.sistat.ucla.edu/ccnsas/AboutCCNSAS.asp
-For any further questions, please contact Marlo Duran at mdduran@mednet.ucla.edu.
-
-.. image:: CCN_pmFlowChart.png
-
-Adding a new project to SIStat
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When adding a new project to the system, it's important to fill out all fields in the New Project Form. This includes IRB, Funding, Personnel, as well as project specific information regarding start and end dates, expected number of scans per week, total scan load, duration, and whether the project has any scheduling constraints.
-
-All currently active projects should have this Form completed. If your project already exists and you need to add this information, simply navigate to Project Management in the SISTAT system, click on Edit/View of the project in question, and fill out the available information fields. This is very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
-
-.. image:: AddProjInfo.png
-
-Adding personnel to your project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Information about lab members can be found under General --> My Profile | My Personnel.
-
-**Adding a New User**
-
-Before CCN Techs can activate a user for scanning in the scheduling system, an account must be created for them by a member of their lab. Your lab study PI or co-coordinator should have administrative privileges to add new users to the lab.
-
-1. Navigate to "General" → "My Profile | My Personnel"
-2. Under the "User" dropdown menu, select "Create Passport For New User"
-3. Input the new user's information (bolded fields). Either create a strong password for them or a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
-4. The new user will receive an email with their login credentials.
-5. Once the account is created, please email ccnsupport@g.ucla.edu to activate the account and input their certification information. SIStat does not notify CCN when accounts are created, so if you forget this step, CCN staff will not know there is a new account to be activated. The new user will not appear in SIStat as a Primary/Secondary User scheduling option until the lab sends CCN the email and receives confirmation that the process is complete. Either the user him/herself or the lab member who creates the account can email CCN with the notification--just make sure nobody forgets/delays this step or you will only find out when you try to schedule the new user for the first time.
-6. Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
-
-**DICOM Accounts**
-
-CCN has a DICOM server that stores raw data under each group's directory. To apply for a DICOM server account:
-
-- Send an email with the following information to the CCN Programmer Analyst **Jonathan Hernandez (jonhernandez@mednet.ucla.edu)**
-   - Your Hoffman2 account ID if you have one
-   - CC your request to the PI whose group directory you need access to for approval
-- If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts and policies.
-
-Study Team & Personnel FAQ
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Can an uncertified person shadow my scan?**
-
-- As per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
-
-**Can I be a primary user?**
-
-- See "Scan Personnel" in section for general restrictions on user roles. Current CCN policy stipulates that primary users need to be full-time in some capacity (staff, faculty, postdocs, etc.), with a few exceptions for personnel such as faculty with part-time appointments.
-
-- Primary Users are required to have significant scanning experience. The typical path to Primary status is to gain experience by scanning alongside existing Primary Users in the lab as Secondary Users (safety seconds). CCN does not stipulate a specific number of required scans because we understand that new users come in with different backgrounds and levels of scan experience. Once the Secondary User has become highly familiar with the setup/cleanup process and scan procedures, email ccnsupport@g.ucla.edu (cc'ing the PI and Primaries they have scanned with) to request Primary status.
-- If your lab is new or has no current Primary Users for another reason, email ccnsupport@g.ucla.edu and explain your situation. You will need to find other ways to gain scan experience, which may involve scanning with and/or shadowing other labs. The situation becomes more complicated if you need to go from newly-certified to Primary User very quickly. Communicate early and closely with CCN admins to work out a plan.
-- If your group needs an undergrad RA or work-study to become a Primary User, please email ccnsupport@g.ucla.edu for review.
-
-**Primary User (Responsible User) Definition**
-- Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
-   - Can perform all scan related responsibilities independently without the need for supervision
-   - Will serve as the primary scan operator
-   - Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user has volunteer status
-
-**Secondary User Definition**
-Allowable Roles: Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
-Full-time roles
-   - Allowed to perform all responsibilities independently without supervision of the primary scanner
-   - May serve as scan operators
-   - Part-time paid undergraduate/work-study
-   - May perform responsibilities explicitly defined in their UCLA approved job description independently without supervision
-      - This can include operating the scanner, handling scanner and peripheral equipment, interacting with participants
-   - May only serve as primary user with additional review by CCN
-
-**UCLA Volunteer**
-
-   - May NOT directly handle participants, coils, or operate MR beds/controls
-   - Must ALWAYS navigate the CCN suite under strict supervision of the primary scanner/responsible user
-   - May not serve as primary user
-   - In the event of an emergency where the primary scanner is unable to perform their duties, volunteer personnel should be trained on stopping the scan and removing the participant
-   - Required to undergo full CCN safety training
-   - Must be officially onboarded via UCLA Health Sciences Volunteer Office
-   - Please refer to the Staglin CCN Volunteer Addendum
-
-Funding & Costs
-~~~~~~~~~~~~~~~
-
-**Scan Costs**
-
-- Current pricing for the scanner is set at $600 per hour (incremented at $150 every 15 minutes) during "Prime Time" hours. Please note this is expected to increase to $650 per hour after our Sales and Service contract is reviewed.
-- Scanning is priced at a reduced rate for "Off-Peak Hours" and Weekends
-Full list of pricing:
-
-.. image:: Staglin_MRI_Scanner_Costs.png
-
-**Add Fund**
-
-Funding sources can be added under "Financial" → "Add Fund"
-New projects must be linked with Active funds.
-Adding a fund requires:
-   1. Funding agency
-   2. Active FAU
-   3. Start and End date
-   4. Fund manager overseeing this fund
-
-**Billing and Refunds**
-
-Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see previous section: Scan Procedures > Pilot Program), but all others are paid for by users. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN Tech.
-
-Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
-
-Cancellation Policy
-~~~~~~~~~~~~~~~~~~~
-
-There is no cancellation fee for scans cancelled more than 72 hours before the scheduled time.
-
-*Scans cancelled within 72 hours of the scheduled time will be charged 30% of the full scan fee.* Each project will accrue one free cancellation per ten scans completed. Please continue to fill out the late cancellation form for scans cancelled within 72 hours, so we can monitor patterns under this policy: `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_
 
