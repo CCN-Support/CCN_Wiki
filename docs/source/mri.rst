@@ -200,8 +200,8 @@ Personnel Policies
 ~~~~~~~~~~~~~~~
 All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
 
-3.2  Scan Personnel
-~~~~~~~~~~~~~~~~~~
+3.2  Scan User Roles & Definitions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan.
 
 In the event that this cannot be achieved, please make every effort to pull in backup scan team members, contact certified colleagues in other labs, and reach out to the CCN community (e.g., via the #general channel on the CCN Slack workspace). Only request arrangements with one of our MR Technicians as a last resort. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice.
@@ -222,10 +222,12 @@ In the event that this cannot be achieved, please make every effort to pull in b
 - The scope of a Secondary User's permitted tasks depends on the user's employment status:
 
 1. Full-time roles
+
    - Allowed to perform all responsibilities independently without supervision of the primary scanner
-   - May serve as scan operators
+   - May perform all tasks except operating the console
 
 2. Part-time paid undergraduate/work-study
+
    - May perform responsibilities explicitly defined in their UCLA approved job description independently without supervision
    - This can include operating the scanner, handling scanner and peripheral equipment, interacting with participants
    - May only serve as primary user with **additional review by CCN**
