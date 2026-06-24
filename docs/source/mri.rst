@@ -32,7 +32,7 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 .. warning::
 
-**IMPORTANT:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
+   **IMPORTANT:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to  recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user  is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email          ccnsupport@g.ucla.edu to discuss your situation.
 
 1.3 FAQ: Safety Certification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,6 +86,10 @@ CCN safety certification is achieved using a combination of in-person sessions a
 **Will I get some kind of certificate after I finish safety certification?**
 
 - No. This safety certification procedure is internal to CCN. It does not constitute any kind of approval to scan at other institutions and does not produce any literal certificates.
+
+.. raw:: html
+
+   <hr>
 
 
 Project Management
