@@ -210,12 +210,14 @@ In the event that this cannot be achieved, please make every effort to pull in b
    At least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless approved by CCN after additional review. Email ccnsupport@g.ucla.edu to request review. See below for a full breakdown of roles and permitted duties.
 
 **Primary User (Responsible User) Definition**
+
 - Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
    - Can perform all scan related responsibilities independently without the need for supervision
    - Will serve as the primary scan operator
    - Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user has volunteer status
 
 **Secondary User Definition**
+
 - Allowable Roles: Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
 - The scope of a Secondary User's permitted tasks depends on the user's employment status:
 
@@ -229,6 +231,7 @@ In the event that this cannot be achieved, please make every effort to pull in b
    - May only serve as primary user with **additional review by CCN**
 
 3. UCLA Volunteer
+
    - May NOT directly handle participants, coils, or operate MR beds/controls
    - Must ALWAYS navigate the CCN suite under strict supervision of the primary scanner/responsible user
    - May not serve as primary user
