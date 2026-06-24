@@ -4,7 +4,7 @@ Safety Certification and Training
 ---------------------------------
 
 .. _safety_cert:
-1.1 How to Get Safety Certified
+1.1  How to Get Safety Certified
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_. You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
 
@@ -19,7 +19,7 @@ CCN safety certification is achieved using a combination of in-person sessions a
 - Step-by-Step Guide: See `this document <https://docs.google.com/document/d/1O_xt0fdFmxP1JE7NKGeT_fQSYbvwXxtdP51_UB-ksH4/edit?usp=sharing>`_ for detailed explanations of all requirements related to safety certification and user status. It walks through the entire process of becoming safety certified, with screenshots, starting from the first step of accessing BruinLearn.
 
 .. _renew_cert:
-1.2 How to Renew Safety Certification
+1.2  How to Renew Safety Certification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Safety certification expires after one year. Every safety-certified user is required to renew their certification annually.
 - To get recertified, log into BruinLearn, click "Modules" in the left-hand sidebar, and scroll down to the Recertification Module. Complete the two requirements:
@@ -36,7 +36,7 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
    This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
-1.3 FAQ: Safety Certification
+1.3  FAQ: Safety Certification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **I've been safety certified with CCN before. How do I get recertified?**
@@ -108,13 +108,13 @@ For any questions (and Step 1B, referring to the CCN Administrator), please cont
 
 .. image:: CCN_pmFlowChart.png
 
-2.1 Getting a SIStat account
+2.1  Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **New user under existing lab:** Your lab can create an account for you. See :ref:`add_user` below. This also applies to users who need to access SIStat, but do not scan (e.g., schedulers and fund managers).
 
 **New user with new lab:** CCN will need to create your lab in the system, then add the PI. The PI can then add lab members from there.
 
-2.2 Adding personnel to your lab
+2.2  Adding personnel to your lab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Information about your current lab members can be found under General --> My Profile | My Personnel.
 
@@ -143,7 +143,7 @@ CCN maintains a DICOM server that raw imaging data is automatically transferred 
 - It is possible to have a SIStat account without a DICOM account or vice versa. The user's role in the lab determines whether they need one, the other, or both.
 - If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts with separate policies.
 
-2.3 Adding a new project
+2.3  Adding a new project
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Navigate to Project --> Project Management. The left side of the page will be titled ADD NEW PROJECT and display the required fields for the user to fill out. This includes IRB, Funding, and PI, as well as project-specific information regarding start and end dates, expected number of scans per week, total scan load, and duration.
 
@@ -152,7 +152,7 @@ All currently active projects should have this form completed. If your project a
 .. image:: AddProjInfo.png
 
 
-2.4 Funding & Costs
+2.4  Funding & Costs
 ~~~~~~~~~~~~~~~~~~~
 
 **Scan Costs**
@@ -182,7 +182,7 @@ Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) o
 
 Cancelled Scans: See the :ref:`cancel_policy` section below.
 
-2.5 FAQ: Project Management 
+2.5  FAQ: Project Management 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
@@ -196,11 +196,11 @@ Cancelled Scans: See the :ref:`cancel_policy` section below.
 Personnel Policies
 ------------------
 
-3.1 User Rights
+3.1  User Rights
 ~~~~~~~~~~~~~~~
 All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
 
-3.2 Scan Personnel
+3.2  Scan Personnel
 ~~~~~~~~~~~~~~~~~~
 For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan.
 
@@ -231,31 +231,39 @@ Full-time roles
    - May not serve as primary user
    - In the event of an emergency where the primary scanner is unable to perform their duties, volunteer personnel should be trained on stopping the scan and removing the participant
    - Required to undergo full CCN safety training
-   - Must be officially onboarded via UCLA Health Sciences Volunteer Office
-   - Please refer to the Staglin CCN Volunteer Addendum
+   - Must be officially onboarded via the UCLA Health Science Volunteer Office and perform duties according to the Staglin CCN Volunteer Addendum
+   - See next section for details
 
-3.3 Volunteers
+3.3  Volunteers
 ~~~~~~~~~~~~~~
-All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full on-boarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Please read through the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_ for duties and responsibilities. 
+All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full onboarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_.
+
+Their duties and responsibilites are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. 
 
 - In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
 
-3.4 MR Technician Services
+- All volunteers must still complete CCN's full safety certification process in order to serve as a Secondary User during scans at CCN. This is because, as Secondary Users, they must still be aware of CCN's protocols and prepared to respond in an emergency situation. In the event that urgent, life-saving action is needed, they must already be knowledgeable about emergency equipment and familiar with basic console operation (e.g., "which button stops a scan?"), even if they are not permitted to use it under normal circumstances. 
+
+.. note::
+
+   A volunteer cannot become a Primary User, regardless of how much experience they gain. They must transition to another role if they wish to be a Primary User. A role that is paid in some capacity (staff, grad student, etc.) is most straightforward. Undergrad RAs and work study students may potentially be eligible, but must seek additional approval from CCN staff.
+
+3.4  MR Technician Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in developing scan protocols and troubleshooting scanner-related issues. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan.
 
 Contact information is posted in multiple areas throughout the Center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
 
-3.5 Observers
+3.5  Observers
 ~~~~~~~~~~~~~
 Persons who have not completed safety certification are not permitted to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and :ref:`FAQ_personnel`.
 
-3.6 Visitors
+3.6  Visitors
 ~~~~~~~~~~~~
 As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please email ccnsupport@g.ucla.edu to arrange a visit for external groups or individuals. CCN staff will need to set up an Event with UCLA Insurance & Risk Management and create a waiver for the visitors to sign.
 
 .. _FAQ_personnel:
-3.7 FAQ: Personnel Policies
+3.7  FAQ: Personnel Policies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Why am I not in the user dropdown list when scheduling a scan?**
@@ -281,36 +289,36 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 Scheduling Policies
 -------------------
 
-4.1 Booking Rules and Policies
+4.1  Booking Rules and Policies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
 
-**4.1.1** No slot-holding
+**4.1.1**  No slot-holding
 ^^^^^^^^^^^^^^^^^^^^^^
 Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
 
-**4.1.2** Prime time scan limits
+**4.1.2**  Prime time scan limits
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The scan limit is 3 scans maximum per project, per week, during prime hours (Mon-Fri, 8am - 6pm). This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
 
-**4.1.3** Appointment reminders
+**4.1.3**  Appointment reminders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment at that time so other groups may be able to fill the opening. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste. We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
 
-**4.1.4** 15-Minute Gaps 
+**4.1.4**  15-Minute Gaps 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours. The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
 
-**4.1.5** Subject ID
+**4.1.5**  Subject ID
 ^^^^^^^^^^^^^^^^
 As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
 
-**4.1.6** Protocol ID
+**4.1.6**  Protocol ID
 ^^^^^^^^^^^^^^^^^
 You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
 
-**4.1.7** Special Accommodations
+**4.1.7**  Special Accommodations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact ccnsupport@g.ucla.edu and make specific arrangements.
 
@@ -322,7 +330,10 @@ There is no cancellation fee for scans cancelled more than 72 hours before the s
 
 **Scans cancelled within 72 hours of the scheduled time will be charged 25% of the full scan fee.** If you need to cancel a scan within the 72-hour window, please fill out the `Late Cancellation Form <https://docs.google.com/forms/d/e/1FAIpQLSd5d9vuN6ii9h0W9BZ1C1-fspoS5VPB-oMDZHjyql8oSmywzg/viewform>`_ in addition to cancelling the scan in SIStat. The information collected on this form helps CCN monitor patterns to inform policymaking, as well as track cancellation events that merit fee refunds (e.g., fire evacuations).
 
-Note that, once the start time for your scan booking has passed, SIStat will not allow you to cancel it. As such, users should formally delete the scan through SIStat as soon as they know it cannot proceed (e.g., in cases that the participant arrives, but suddenly discloses a contraindication that was not previously known). Even if the cancellation occurs 5 minutes before the start time, the system will allow it and mark the session to be charged the 25% late cancellation fee. As soon as the start time passes, SIStat considers it complete and indicates the full charge should apply.
+.. note::
+
+   Once the start time for your scan booking has passed, SIStat will not allow you to cancel it. As such, users should formally delete the scan through SIStat as soon as they know it cannot proceed (e.g., in cases that the participant arrives, but suddenly discloses a contraindication that was not previously known).
+   Even if the cancellation occurs 5 minutes before the start time, the system will allow it and mark the session to be charged the 25% late cancellation fee. As soon as the start time passes, SIStat considers it complete and indicates the full charge should apply.
 
 If a research group continually falls in the late cancellation range, CCN will ask for information to verify those slots were filled using appropriate scheduling practices. CCN may impose additional restrictions on scheduling (such as limiting the amount of scans that can be booked at one time) for groups that engage in profligate cancelling and/or reserving slots without confirmed participants. CCN has compiled a `list of best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ regarding how to mitigate late cancellations.
 
