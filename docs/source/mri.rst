@@ -180,7 +180,7 @@ Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropria
 
 Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
 
-Cancelled Scans: See :ref:`cancel_policy` below.
+Cancelled Scans: See Section :ref:`cancel_policy` below.
 
 2.5  FAQ: Project Management 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -207,7 +207,7 @@ For the safety of both the participants and the investigators, all scans must ha
 In the event that this cannot be achieved, please make every effort to pull in backup scan team members, contact certified colleagues in other labs, and reach out to the CCN community (e.g., via the #general channel on the CCN Slack workspace). Only request arrangements with one of our MR Technicians as a last resort. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice.
 
 .. note::
-   At least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless approved by CCN after additional review. See below for a full breakdown of roles and permitted duties.
+   At least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless approved by CCN after additional review. Email ccnsupport@g.ucla.edu to request review. See below for a full breakdown of roles and permitted duties.
 
 **Primary User (Responsible User) Definition**
 - Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
@@ -218,13 +218,16 @@ In the event that this cannot be achieved, please make every effort to pull in b
 **Secondary User Definition**
 - Allowable Roles: Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
 - The scope of a Secondary User's permitted tasks depends on the user's employment status:
+
 1. Full-time roles
    - Allowed to perform all responsibilities independently without supervision of the primary scanner
    - May serve as scan operators
+
 2. Part-time paid undergraduate/work-study
    - May perform responsibilities explicitly defined in their UCLA approved job description independently without supervision
    - This can include operating the scanner, handling scanner and peripheral equipment, interacting with participants
    - May only serve as primary user with **additional review by CCN**
+
 3. UCLA Volunteer
    - May NOT directly handle participants, coils, or operate MR beds/controls
    - Must ALWAYS navigate the CCN suite under strict supervision of the primary scanner/responsible user
