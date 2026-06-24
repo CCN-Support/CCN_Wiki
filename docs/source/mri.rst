@@ -56,7 +56,7 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 **I got the enrollment link from my lab admin, but clicking it gives me a Page Not Found error.**
 
-- Make sure you are able to log into bruinlearn.ucla.edu with your UCLA credentials. Do not use Mednet credentials, as BruinLearn requires a @ucla.edu address to enroll.
+- If you only have/primarily use Mednet credentials, make sure you are trying to access BruinLearn properly. Go to bruinlearn.ucla.edu and click "Sign in with your Mednet username and password".
 - Try again in 24-48 hours. UCLA credentials that were granted very recently to new employees/students take some time to propagate through the system.
 
 **I passed the MR Safety Exam. Now what?**
