@@ -32,7 +32,9 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 .. warning::
 
-   **IMPORTANT:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to  recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user  is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email          ccnsupport@g.ucla.edu to discuss your situation.
+   **IMPORTANT:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to  recertify you. *CCN will request that you repeat some or all of the full certification process.*
+
+   This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
 1.3 FAQ: Safety Certification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,7 +127,9 @@ The lab PI or coordinator should have administrative privileges to add new users
 2. Click the "User" dropdown menu and first check to see if their account already exists. This will be the case for most fund managers and users who are/were affiliated with other labs. If the user does not already exist, select "Create Passport For New User"
 3. Input the new user's information. Only the bolded fields are mandatory. Either create a strong password for them or make a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
 4. The new user will receive an email with their login credentials.
+
 (*If this new user just completed safety certification:*)
+
 5. Once the account is created, please email ccnsupport@g.ucla.edu to activate the account and input their certification information. SIStat does not notify CCN when accounts are created, so if you forget this step, CCN staff will not know there is a new account to be activated. The new user will not appear in SIStat as a Primary/Secondary User scheduling option until the lab sends CCN the email and receives confirmation that the process is complete. Either the user him/herself or the lab member who creates the account can email CCN with the notification--just make sure nobody forgets/delays this step or you will only find out when you try to schedule the new user for the first time.
 6. Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
 
@@ -176,7 +180,7 @@ Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropria
 
 Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
 
-Cancelled Scans: See the Scan Scheduling section below for CCN's cancellation policy.
+Cancelled Scans: See the :ref:`cancel_policy` section below.
 
 2.5 FAQ: Project Management 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -185,6 +189,9 @@ Cancelled Scans: See the Scan Scheduling section below for CCN's cancellation po
 
 - Yes. In cases of IRBs that were approved without need for continuing review, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes to the protocol, consent form, or administrative details.
 
+.. raw:: html
+
+   <hr>
 
 Personnel Policies
 ------------------
@@ -267,6 +274,9 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 - If your lab is new or has no current Primary Users for another reason, email ccnsupport@g.ucla.edu and explain your situation. You will need to find other ways to gain scan experience, which may involve scanning with and/or shadowing other labs. The situation becomes more complicated if you need to go from newly-certified to Primary User very quickly. Communicate early and closely with CCN admins to work out a plan.
 - If your group needs an undergrad RA or work-study to become a Primary User, please email ccnsupport@g.ucla.edu for review.
 
+.. raw:: html
+
+   <hr>
 
 Scheduling Policies
 -------------------
@@ -304,7 +314,7 @@ You will also be required to enter a Protocol ID at the time of booking. This is
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Investigators whose experimental needs do not fit these guidelines (e.g., if the study requires participants to have multiple scans within a specific time window) are encouraged to contact ccnsupport@g.ucla.edu and make specific arrangements.
 
-
+.. _cancel_policy:
 4.2 Cancellation Policy
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -318,6 +328,9 @@ If a research group continually falls in the late cancellation range, CCN will a
 
 Each funded project starts with two free cancellations and accrues another after every 10 completed scans. When a user cancels a scan late, the system will automatically use a free cancellation if one is available.
 
+.. raw:: html
+
+   <hr>
 
 Scan Procedures
 ---------------
