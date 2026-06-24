@@ -81,4 +81,6 @@ Sample text. Does the box wrap around?
    * TR: 800 ms
    * TE: 37 ms
 
-More text. Where does the box end up?
+More text. Where does the box end up? Does it stay on the left of the box? Does it wrap around?
+
+I put this on a new line. Where is it now? Under the box or beside it?
