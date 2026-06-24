@@ -180,7 +180,7 @@ Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropria
 
 Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
 
-Cancelled Scans: See the :ref:`cancel_policy` section below.
+Cancelled Scans: See :ref:`cancel_policy` below.
 
 2.5  FAQ: Project Management 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -206,7 +206,8 @@ For the safety of both the participants and the investigators, all scans must ha
 
 In the event that this cannot be achieved, please make every effort to pull in backup scan team members, contact certified colleagues in other labs, and reach out to the CCN community (e.g., via the #general channel on the CCN Slack workspace). Only request arrangements with one of our MR Technicians as a last resort. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice.
 
-Please note that at least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless submitted to CCN for review.
+.. note::
+   At least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless approved by CCN after additional review. See below for a full breakdown of roles and permitted duties.
 
 **Primary User (Responsible User) Definition**
 - Allowable Roles: Full-time staff, Post-doc, Graduate student, or Faculty member
@@ -215,17 +216,16 @@ Please note that at least one individual present is required to be a full-time/p
    - Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user has volunteer status
 
 **Secondary User Definition**
-Allowable Roles: Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
-Full-time roles
+- Allowable Roles: Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
+- The scope of a Secondary User's permitted tasks depends on the user's employment status:
+1. Full-time roles
    - Allowed to perform all responsibilities independently without supervision of the primary scanner
    - May serve as scan operators
-   - Part-time paid undergraduate/work-study
+2. Part-time paid undergraduate/work-study
    - May perform responsibilities explicitly defined in their UCLA approved job description independently without supervision
-      - This can include operating the scanner, handling scanner and peripheral equipment, interacting with participants
-   - May only serve as primary user with additional review by CCN
-
-**UCLA Volunteer**
-
+   - This can include operating the scanner, handling scanner and peripheral equipment, interacting with participants
+   - May only serve as primary user with **additional review by CCN**
+3. UCLA Volunteer
    - May NOT directly handle participants, coils, or operate MR beds/controls
    - Must ALWAYS navigate the CCN suite under strict supervision of the primary scanner/responsible user
    - May not serve as primary user
@@ -304,11 +304,15 @@ The scan limit is 3 scans maximum per project, per week, during prime hours (Mon
 
 **4.1.3**  Appointment reminders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment at that time so other groups may be able to fill the opening. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste. We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
+Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment at that time so other groups may be able to fill the opening. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste.
+
+We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
 
 **4.1.4**  15-Minute Gaps 
 ^^^^^^^^^^^^^^^^^^^^^^^
-Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours. The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
+Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours.
+
+The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
 
 **4.1.5**  Subject ID
 ^^^^^^^^^^^^^^^^
@@ -333,6 +337,7 @@ There is no cancellation fee for scans cancelled more than 72 hours before the s
 .. note::
 
    Once the start time for your scan booking has passed, SIStat will not allow you to cancel it. As such, users should formally delete the scan through SIStat as soon as they know it cannot proceed (e.g., in cases that the participant arrives, but suddenly discloses a contraindication that was not previously known).
+   
    Even if the cancellation occurs 5 minutes before the start time, the system will allow it and mark the session to be charged the 25% late cancellation fee. As soon as the start time passes, SIStat considers it complete and indicates the full charge should apply.
 
 If a research group continually falls in the late cancellation range, CCN will ask for information to verify those slots were filled using appropriate scheduling practices. CCN may impose additional restrictions on scheduling (such as limiting the amount of scans that can be booked at one time) for groups that engage in profligate cancelling and/or reserving slots without confirmed participants. CCN has compiled a `list of best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ regarding how to mitigate late cancellations.
