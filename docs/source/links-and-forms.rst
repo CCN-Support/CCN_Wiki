@@ -29,3 +29,52 @@ Manuals
 - `CCN Operations Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about handling reboots, save logs, and incidental findings.
 - `Best Practices for Appointment Management: <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ A list of recommendations for minimizing late cancellations.
 
+Testing Area
+------------
+**Before scanning**
+
+#. Load protocol
+#. Verify coil selection
+#. Check shim volume
+
+**After scanning**
+
+#. Review images
+#. Export DICOMs
+#. Archive data
+
+Heading
+~~~~~~~
+
+Short intro paragraph.
+
+.. important::
+
+   One key takeaway.
+
+Procedure
+~~~~~~~~~
+
+Numbered steps.
+
+.. warning::
+
+   Common failure mode.
+
+.. rubric:: Troubleshooting
+
+Bullet list.
+
+.. seealso::
+
+   Link to related section.
+
+.. admonition:: XA30 Only
+
+   This feature is only available on XA30.
+
+.. sidebar:: Quick Reference
+
+   * MB factor: 3
+   * TR: 800 ms
+   * TE: 37 ms
