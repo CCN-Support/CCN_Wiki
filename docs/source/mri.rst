@@ -29,7 +29,9 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 - Email CCN staff as instructed by the module when you have passed both requirements.
 - Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the conceptual materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
+
 .. warning::
+
 **IMPORTANT:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.* This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
 1.3 FAQ: Safety Certification
