@@ -73,8 +73,12 @@ Bullet list.
 
    This feature is only available on XA30.
 
+Sample text. Does the box wrap around?
+
 .. sidebar:: Quick Reference
 
    * MB factor: 3
    * TR: 800 ms
    * TE: 37 ms
+
+More text. Where does the box end up?
