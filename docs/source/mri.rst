@@ -209,20 +209,22 @@ In the event that this cannot be achieved, please make every effort to pull in b
 .. note::
    At least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless approved by CCN after additional review. Email ccnsupport@g.ucla.edu to request review. See below for a full breakdown of roles and permitted duties.
 
-3.2.1  Primary (Responsible) User Definition
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+3.2.1  Primary User Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Allowable Roles:** Full-time staff, Post-doc, Graduate student, or Faculty member
 
+- Also known as "Responsible User"
+- Leads scan and serves as console operator 
 - Can perform all scan related responsibilities independently without the need for supervision
-- Will serve as the primary scan operator
-- Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user has volunteer status
+- Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user is a Volunteer
 
 3.2.1  Secondary User Definition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Allowable Roles:** Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
 
+- Also known as "Safety Second"
 - The scope of a Secondary User's permitted tasks depends on the user's employment status:
 
 1. Full-time roles
