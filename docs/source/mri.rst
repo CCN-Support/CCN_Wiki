@@ -389,13 +389,13 @@ Peripherals
    -The rainbow box they connect to (I think?) is still in the control room and the cables that run through the ceiling to the equipment room are still there
 
 
-iMac Computer
+On-Site Computer
 ^^^^^^^^^^^^^
 The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra with a dual-boot Windows 10 partition for the purpose of:
 
 **Visual presentation:**
 
-- PsychoPy (versions __ )
+- PsychoPy (versions __ ) for basic tasks
 - Netflix
 - PowerPoint
 - Crosshairs of various dimensions
@@ -408,6 +408,12 @@ If you need to install new software or images on the iMac, please contact ccnsup
 - Playing music or white noise (can play your task audio if your task is run from the iMac as well)
 - Pre- and Post-Scan surveys
 - Providing safety and operational manuals for troubleshooting reference
+
+.. note::
+   CCN recommends using your own dedicated task laptop for running fMRI tasks.
+   The iMac should only be used for very simple presentation tasks such as displaying crosshairs, playing movies, or running basic tasks via a compatible installed PsychoPy version.
+   Relying on this computer to run your task means editing/troubleshooting your code will be more difficult (because you cannot access the iMac outside of CCN), your files will be susceptible to sudden changes in
+   software without your knowledge, and any issues with/maintenance for the computer will advsersely affect your scan.
 
 .. The following features were also listed in the original wiki, but I'm not sure they're still supported/advised:
    -Psychtoolbox
