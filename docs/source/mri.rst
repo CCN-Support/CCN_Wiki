@@ -362,8 +362,8 @@ Each funded project starts with two free cancellations and accrues another after
 
    <hr>
 
-Scan Procedures
----------------
+Scan Facility & Procedures
+--------------------------
 
 Scan Equipment
 ~~~~~~~~~~~~~~
@@ -411,6 +411,7 @@ If you need to install new software or images on the iMac, please contact ccnsup
 
 .. note::
    CCN recommends using your own dedicated task laptop for running fMRI tasks.
+
    The iMac should only be used for very simple presentation tasks such as displaying crosshairs, playing movies, or running basic tasks via a compatible installed PsychoPy version.
    Relying on this computer to run your task means editing/troubleshooting your code will be more difficult (because you cannot access the iMac outside of CCN), your files will be susceptible to sudden changes in
    software without your knowledge, and any issues with/maintenance for the computer will advsersely affect your scan.
@@ -423,6 +424,18 @@ If you need to install new software or images on the iMac, please contact ccnsup
 .. The old wiki also says "To start up the dual-boot and access Windows, restart the iMac while holding down the Option key. You will need a password--contact CCN staff for it."
    What is this password? I don't have it in my Ops sheet.
 
+Pilot Program
+~~~~~~~~~~~~~
+
+CCN will consider proposals by members of the UCLA community to access both the scanning and analysis core services for pilot studies without charge to the investigator. Priority will be given to junior investigators and to proposals for novel cognitive neuroscience projects that have a high likelihood of achieving extramural funding. 
+
+See the `Pilot Application here <https://drive.google.com/file/d/1rhfezXO3QP4pV5yjUnNmI8LNkjw7EqS9/view?usp=drive_link>`_. Fill out the application if you would like to apply for scan hours toward a pilot project. Send the completed form to alenarto@g.ucla.edu and be sure to inform CCN about the outcome of the pilot--if it helps you successfully secure funding, this information is crucial to keeping the pilot program going!
+
+The proposal will be reviewed by the Executive Committee members and CCN personnel will contact you regarding the status of the submission. As stated in the application, if you need more space than provided for any item within please use a Word document to submit your answers.
+
+.. note::
+Please still consider `CTSI <https://ctsi.ucla.edu/funding-opportunities>`_ for funding opportunities. 
+
 Metal Screening and Safety Clearance
 ~~~~~~~~~~~~~~~~
 All participants need to be diligently screened for contraindications to MR imaging during recruitment. Review and sign the `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing>`_ with each participant for each scan session. If there are any items of concern, follow up with your participant for more information, collect all relevant documentation from them and/or their medical team, and pass everything along to CCN staff for a final decision. Do not ask CCN about your participant's implant or device without first researching the relevant background. 
@@ -431,6 +444,31 @@ All implants needs to be cleared by CCN *before scanning*. If your participant h
 
 - At least six weeks must pass after any surgical procedure before your participant can be considered for scanning.
 - No tattoos or other permanent cosmetics on the face or head. The only exception is eyebrow microblading. To be clear, you should still obtain clearance for other tattoos your participant may have--just be aware that permanent ink of any kind on the face or head (except microbladed eyebrows) automatically disqualifies your subject.
+
+Developing & Testing a Scan Protocol
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Protocol Development
+^^^^^^^^^^^^^^^^^^^^
+CCN staff can assist you with developing and refining a scan protocol at no charge.
+
+If you need CCN staff to help you with creating and designing the protocol on the console computer, reach out to ccnsupport@g.ucla.edu with the following information:
+
+- Name of lab and PI
+- Name of existing or new project you want this protocol to be organized under
+- Description of desired sequences with as much detail as possible (TR, number of volumes/measurements, resolution, etc.)
+- All resources from other protocols that can be used as references (e.g., PDF and/or .exar1 file from another study you ran and would like to closely emulate)
+
+The more information you can provide up front, the more work CCN staff can start doing whenever the scanner is available. References from other protocols will be especially helpful to speed things up as a starting point.
+
+CCN will grant your SIStat account uncharged time that you can use to schedule development time on the calendar. This time will need to be coordinated with CCN staff and occur during regular business hours.
+
+If you do not need assistance from CCN to build your protocol, still reach out to ccnsupport@g.ucla.edu to keep staff appraised of the situation. You will need an actively certified Primary User who is familiar with the XA30 software and comfortable with responsibly navigating the MR environment. CCN staff will also need to grant you uncharged time for reserving a development session on the calendar. Please make every effort to prioritize off-hours (evenings and weekends).
+
+**1.3 Scan Testing**
+^^^^^^^^^^^^^^^^^^^^
+
+Each new project is permitted two free scan sessions with a human phantom to ensure that the full setup is functional. The group is responsible for recruiting their own test participant, whose images cannot be used as publishable data, and who must still undergo safety screening despite not being included as a real study participant. All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
 
 Facility Policies
 ~~~~~~~~~~~~~~~~~~
@@ -445,22 +483,7 @@ Please make sure that your study participants have a direct contact and that lab
 Scanner Use
 ~~~~~~~~~~~~~~~~~
 
-**1.1 Pilot Program**
-^^^^^^^^^^^^^^^^^^^^^
 
-*NOTE: The pilot program is back! However, please still consider CTSI for funding opportunities.* The Center will consider proposals by members of the UCLA community to access both the scanning and analysis core services for pilot studies without charge to the investigator. Priority will be given to junior investigators and to proposals for novel cognitive neuroscience projects that have a high likelihood of achieving extramural funding. 
-
-See the `Pilot Application here <https://drive.google.com/file/d/1rhfezXO3QP4pV5yjUnNmI8LNkjw7EqS9/view?usp=drive_link>`_! Fill out the application if you would like to apply for scan hours toward a pilot project. Send the completed form to alenarto@g.ucla.edu and make sure to tell us the outcome of the pilot--if it helps you successfully secure funding, this information is crucial to keeping the pilot program going! To submit such a request, email the completed application to the CCN Managing Director. The proposal will be reviewed by the Executive Committee members and CCN personnel will contact you regarding the status of the submission. As stated in the application, if you need more space than provided for any item within please use a Word document to submit your answers.
-
-**1.2 Protocol Testing**
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Each new protocol is granted off-hours time to test and refine the scanning protocol, at no charge. Development (and pilot) time is granted by CCN personnel and booked via SIStat. Please reach out to ccnsupport@g.ucla.edu for instructions on booking development time when your team is ready to test a protocol.
-
-**1.3 Scan Testing**
-^^^^^^^^^^^^^^^^^^^^
-
-Each new project is permitted two free scan sessions with a human phantom to ensure that the full setup is functional. The group is responsible for recruiting their own test participant, whose images cannot be used as publishable data, and who must still undergo safety screening despite not being included as a real study participant. All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
 
 **1.4 Scan Time** 
 ^^^^^^^^^^^^^^^^^
