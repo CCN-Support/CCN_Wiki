@@ -13,6 +13,7 @@ Contents
    mri
    eeg
    links-and-forms
+   future_content
 
 Help Contacts
 -------
