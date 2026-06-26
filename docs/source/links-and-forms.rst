@@ -93,11 +93,12 @@ Now I'm trying a table:
    * - Name
      - Type
      - Description
-   * - ``foo``
+   * - **foo**
      - String
      - Name of the object.
    * - ``count``
      - Integer
+       Can it overflow onto the next row?
      - Number of items.
    * - ``flag``
      - Boolean
