@@ -88,6 +88,7 @@ Fans
 - If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the back of the device contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
 
 Scan Failure
+
 - Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
 - In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
 
@@ -107,6 +108,7 @@ Re-plug the Coils
 - Re-align and send the participant back to isocenter. 
 
 Reset the Bed Alignment
+
 - Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
 - Move the bed back to home.
 - Unplug and re-plug the coil connections.
@@ -122,6 +124,7 @@ Completely Redo the Patient Setup
 - Try running your protocol again.
 
 Restart the Scanner
+
 - If nothing is working, a reboot may be in order. Open the Staglin Operating Manual on the iMac computer to refer to the instructions for Standard Shutdown and Reboot Procedures.
 - If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
 - This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
