@@ -365,6 +365,56 @@ Each funded project starts with two free cancellations and accrues another after
 Scan Procedures
 ---------------
 
+Scan Equipment
+~~~~~~~~~~~~~~
+
+CCN maintains the following equipment to support scan activities:
+
+Peripherals
+^^^^^^^^^^^
+
+- Siemens intercom system
+- Siemens physiological measurement system: pulse, respiration, and EKG (is this still true?)
+- Opto Acoustic Noise Canceling Headphones: Thin profile headphones that fit in 32CH coil with active noise cancellation technology
+- BOLDscreen Display: LCD display system controlled via fiberoptic cabling
+- Current Designs Response Devices: 4-button, 2-button, and track-ball response devices
+- FIRMM: Real-time motion monitoring system
+- BioPac MP150: For collecting physiological measures including skin conductance, respiration rate, and pulse rate/waveform
+- Eye Camera: Used to monitor wakefulness
+- EyeLink 1000 Eyetracker: Used to monitor fixations and saccades
+
+.. Retired:
+   -VisuaStim digital system by RTC: Includes goggles/headphone/controller unit
+   -These were the Restech goggles hanging off the side of the scanner until we disconnected and returned them 2026.
+   -The rainbow box they connect to (I think?) is still in the control room and the cables that run through the ceiling to the equipment room are still there
+
+
+iMac Computer
+^^^^^^^^^^^^^
+The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra with a dual-boot Windows 10 partition for the purpose of:
+
+Visual presentation:
+- PsychoPy (versions __ )
+- Netflix
+- PowerPoint
+- Crosshairs of various dimensions
+
+If you need to install new software or images on the iMac, please contact ccnsupport@g.ucla.edu for permission and setup assistance.
+
+Scan management activities:
+- Scanner calendar to monitor time
+- Playing music or white noise (can play your task audio if your task is run from the iMac as well)
+- Pre- and Post-Scan surveys
+- Providing safety and operational manuals for troubleshooting reference
+
+.. The following features were also listed in the original wiki, but I'm not sure they're still supported/advised:
+   -Psychtoolbox
+   -E-Prime
+   -Matlab 2015b
+   -AcqKnowledge 4 (for BioPac MP150)
+.. The old wiki also says "To start up the dual-boot and access Windows, restart the iMac while holding down the Option key. You will need a password--contact CCN staff for it."
+   What is this password? I don't have it in my Ops sheet.
+
 Metal Screening and Safety Clearance
 ~~~~~~~~~~~~~~~~
 All participants need to be diligently screened for contraindications to MR imaging during recruitment. Review and sign the `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing>`_ with each participant for each scan session. If there are any items of concern, follow up with your participant for more information, collect all relevant documentation from them and/or their medical team, and pass everything along to CCN staff for a final decision. Do not ask CCN about your participant's implant or device without first researching the relevant background. 
@@ -454,33 +504,6 @@ What will happen after you upload the zip file:
 
 Our script will check the Box folder once a day and if there’s a new zip file, it will unzip it and then send an email to the radiologist with the images attached. It will also send the link of the movie file.
 
-Scan Equipment
-~~~~~~~~~~~~~~
-Peripheral equipment available for projects include:
-
-- Siemens intercom system
-- Siemens physiological measurement system: Includes pulse, respiration, and EKG
-- VisuaStim digital system by RTC: Includes goggles/headphone/controller unit
-- Opto Acoustic Noise Canceling Headphones: Thin profile headphones that fit in 32CH coil with active noise cancellation technology
-- BOLDscreen Display: LCD display system controlled via fiberoptic cabling
-- Current Designs Response Devices: 4-button, 2-button, and track-ball response devices
-- FIRMM: Real-time motion monitoring system
-- BioPac MP150: For collecting physiological measures including skin conductance, respiration rate, and pulse rate/waveform
-- Eye Camera: Used to monitor wakefulness
-- EyeLink 1000 Eyetracker: Used to monitor fixations and saccades
-
-iMac Computer:
-The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra with a dual-boot Windows 10 partition capable of running:
-
-Psychophysics Software:
-- Psychtoolbox,
-- PsychoPy
-- E-Prime
-- MATLAB 2015b
-- AcqKnowledge 4 (for BioPac MP150)
-To start up the dual-boot and access Windows, restart the iMac while holding down the Option key. You will need a password--contact CCN staff for it.
-
-For new software, please contact the MR Technician before installation.
 
 
 
