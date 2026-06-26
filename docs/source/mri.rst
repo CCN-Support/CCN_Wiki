@@ -375,7 +375,7 @@ Peripherals
 
 - Siemens intercom system
 - Siemens physiological measurement system: pulse, respiration, and EKG (is this still true?)
-- Opto Acoustic Noise Canceling Headphones: Thin profile headphones that fit in 32CH coil with active noise cancellation technology
+- Optoacoustic Noise Canceling Headphones: Thin profile headphones that fit in 32CH coil with active noise cancellation technology
 - BOLDscreen Display: LCD display system controlled via fiberoptic cabling
 - Current Designs Response Devices: 4-button, 2-button, and track-ball response devices
 - FIRMM: Real-time motion monitoring system
@@ -393,7 +393,8 @@ iMac Computer
 ^^^^^^^^^^^^^
 The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra with a dual-boot Windows 10 partition for the purpose of:
 
-Visual presentation:
+**Visual presentation:**
+
 - PsychoPy (versions __ )
 - Netflix
 - PowerPoint
@@ -401,7 +402,8 @@ Visual presentation:
 
 If you need to install new software or images on the iMac, please contact ccnsupport@g.ucla.edu for permission and setup assistance.
 
-Scan management activities:
+**Scan management activities:**
+
 - Scanner calendar to monitor time
 - Playing music or white noise (can play your task audio if your task is run from the iMac as well)
 - Pre- and Post-Scan surveys
