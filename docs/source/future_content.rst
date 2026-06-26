@@ -97,6 +97,7 @@ Retry the Failed Series
 - See "Adding/Deleting a Sequences During a Scan" further above on this page for help with this.
 
 Re-plug the Coils
+
 - This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "failed to converge".
 - Move the bed back to home.
 - Remove the participant or at least have them sit up.
