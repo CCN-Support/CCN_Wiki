@@ -86,6 +86,7 @@ More text. Where does the box end up? Does it stay on the left of the box? Does 
 I put this on a new line. Where is it now? Under the box or beside it?
 
 Now I'm trying a table:
+
 .. list-table::
    :header-rows: 1
 
