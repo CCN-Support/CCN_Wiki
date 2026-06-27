@@ -249,7 +249,7 @@ In the event that this cannot be achieved, please make every effort to pull in b
    - See next section for details
 
 3.3  Volunteers
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full onboarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_.
 
 Their duties and responsibilites are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. 
@@ -263,22 +263,22 @@ Their duties and responsibilites are outlined in accordance with the `Staglin Vo
    A volunteer cannot become a Primary User, regardless of how much experience they gain. They must transition to another role if they wish to be a Primary User. A role that is paid in some capacity (staff, grad student, etc.) is most straightforward. Undergrad RAs and work study students may potentially be eligible, but must seek additional approval from CCN staff.
 
 3.4  MR Technician Services
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in developing scan protocols and troubleshooting scanner-related issues. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan.
 
 Contact information is posted in multiple areas throughout the Center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
 
 3.5  Observers
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 Persons who have not completed safety certification are not permitted to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and :ref:`FAQ_personnel`.
 
 3.6  Visitors
-~~~~~~~~~~~~
+~~~~~~~~~~~~~
 As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please email ccnsupport@g.ucla.edu to arrange a visit for external groups or individuals. CCN staff will need to set up an Event with UCLA Insurance & Risk Management and create a waiver for the visitors to sign.
 
 .. _FAQ_personnel:
 3.7  FAQ: Personnel Policies
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Why am I not in the user dropdown list when scheduling a scan?**
 
@@ -365,8 +365,8 @@ Each funded project starts with two free cancellations and accrues another after
 Scan Facility & Procedures
 --------------------------
 
-Scan Equipment
-~~~~~~~~~~~~~~
+Facility Equipment
+~~~~~~~~~~~~~~~~~~
 
 CCN maintains the following equipment to support scan activities:
 
@@ -412,7 +412,7 @@ If you need to install new software or images on the iMac, please contact ccnsup
 .. note::
    CCN recommends using your own dedicated task laptop for running fMRI tasks.
 
-   The iMac should only be used for very simple presentation tasks such as displaying crosshairs, playing movies, or running basic tasks via a compatible installed PsychoPy version.
+   The iMac should only be used for very simple presentation jobs such as displaying crosshairs, playing movies, or running basic tasks via a compatible installed PsychoPy version.
    Relying on this computer to run your task means editing/troubleshooting your code will be more difficult (because you cannot access the iMac outside of CCN), your files will be susceptible to sudden changes in
    software without your knowledge, and any issues with/maintenance for the computer will advsersely affect your scan.
 
@@ -437,20 +437,25 @@ The proposal will be reviewed by the Executive Committee members and CCN personn
 Please still consider `CTSI <https://ctsi.ucla.edu/funding-opportunities>`_ for funding opportunities. 
 
 Metal Screening and Safety Clearance
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 All participants need to be diligently screened for contraindications to MR imaging during recruitment. Review and sign the `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing>`_ with each participant for each scan session. If there are any items of concern, follow up with your participant for more information, collect all relevant documentation from them and/or their medical team, and pass everything along to CCN staff for a final decision. Do not ask CCN about your participant's implant or device without first researching the relevant background. 
 
 All implants needs to be cleared by CCN *before scanning*. If your participant has an implant, please follow the `instructions <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_ to submit a ticket in our `ticketing system <https://support.idre.ucla.edu/helpdesk/>`_ for clearance. Please keep in mind:
 
-- At least six weeks must pass after any surgical procedure before your participant can be considered for scanning.
-- No tattoos or other permanent cosmetics on the face or head. The only exception is eyebrow microblading. To be clear, you should still obtain clearance for other tattoos your participant may have--just be aware that permanent ink of any kind on the face or head (except microbladed eyebrows) automatically disqualifies your subject.
+.. warning::
+   At least six weeks must pass after any surgical procedure before your participant can be considered for scanning.
+
+.. danger::
+   No tattoos or other permanent cosmetics on the face or head. The ONLY exception is microbloaded (NOT tattooed) eyebrows.
+
+   Submit a clearance ticket for any other tattoos your participant may have. Just be aware that permanent ink of any kind on the face or head (except microbladed eyebrows) automatically disqualifies your subject.
 
 Developing & Testing a Scan Protocol
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Protocol Development
 ^^^^^^^^^^^^^^^^^^^^
-CCN staff can assist you with developing and refining a scan protocol at no charge.
+CCN can assist you with developing and refining a scan protocol at no charge.
 
 If you need CCN staff to help you with creating and designing the protocol on the console computer, reach out to ccnsupport@g.ucla.edu with the following information:
 
@@ -461,14 +466,17 @@ If you need CCN staff to help you with creating and designing the protocol on th
 
 The more information you can provide up front, the more work CCN staff can start doing whenever the scanner is available. References from other protocols will be especially helpful to speed things up as a starting point.
 
-CCN will grant your SIStat account uncharged time that you can use to schedule development time on the calendar. This time will need to be coordinated with CCN staff and occur during regular business hours.
+CCN will grant your SIStat account uncharged time that you can use to schedule development time on the calendar. This time will need to be coordinated with CCN staff and take place during regular business hours.
 
-If you do not need assistance from CCN to build your protocol, still reach out to ccnsupport@g.ucla.edu to keep staff appraised of the situation. You will need an actively certified Primary User who is familiar with the XA30 software and comfortable with responsibly navigating the MR environment. CCN staff will also need to grant you uncharged time for reserving a development session on the calendar. Please make every effort to prioritize off-hours (evenings and weekends).
+If you do not need assistance from CCN to build your protocol, still reach out to ccnsupport@g.ucla.edu to keep staff appraised of the situation. You will need an actively certified Primary User who is familiar with the XA30 software and comfortable with responsibly navigating the MR environment. CCN staff will also need to grant you time for reserving a development session on the calendar. Please make every effort to prioritize off-hours (evenings and weekends).
 
-**1.3 Scan Testing**
-^^^^^^^^^^^^^^^^^^^^
+Protocol Testing
+^^^^^^^^^^^^^^^^
+Once you have a workable protocol, you will need to run through it in its entirety. CCN has phantoms available for this purpose. Please reach out to CCN staff for assistance with phantom scanning. Even if scanning independently with an experienced team, please still keep CCN notified (especially if you will be needing a phantom other than the standard Siemens bottle).
 
-Each new project is permitted two free scan sessions with a human phantom to ensure that the full setup is functional. The group is responsible for recruiting their own test participant, whose images cannot be used as publishable data, and who must still undergo safety screening despite not being included as a real study participant. All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
+Each new project is permitted two free scan sessions with a human phantom for the sole purpose of ensuring that the full setup is functional. The group is responsible for recruiting their own test participant, whose images cannot be used as publishable data, and who must still undergo safety screening despite not being included as a real study participant.
+
+All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
 
 Facility Policies
 ~~~~~~~~~~~~~~~~~~
