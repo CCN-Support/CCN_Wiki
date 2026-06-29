@@ -481,14 +481,14 @@ All such scans must be booked with free Development/Practice time, assigned by C
 Running a Participant Scan
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**5.5.1** Infection Control
+**5.5.1**  Infection Control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please make sure the participant completes the `Pre-Appointment Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ before arriving at UCLA. You should administer this form either the night before or the morning of their scan appointment. Many other researchers, staff, research subjects, and family members come through CCN, meaning we need to minimize the potential for unknown infections floating around the Center. If your participant fails to clear the illness screening, please reschedule their appointment.
 
 Past guidance for infection control policies can be found `here <https://drive.google.com/file/d/18CiRxYb4VmBn4z3tE7jADcGV5wBg4-xb/view?usp=sharing>_. This is archived to document the policy changes that were implemented to safely navigate the COVID-19 restrictions. Most policies described within no longer apply, but some (e.g., handwashing upon arrival at the Center) were retained.
 
-**5.5.2** Participant Arrival
+**5.5.2**  Participant Arrival
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please make sure that your study participants have a direct contact readily on hand and that lab personnel will be available to take calls and/or respond promptly to texts/emails as the time of the scan approaches.
@@ -502,18 +502,18 @@ Do NOT let someone in just because they claim to be here for research. The prese
 Do NOT rely on CCN staff to let your participant in if they arrive early. CCN admins are in and out of the suite, scanner room, and equipment room all day and may not hear the doorbell. Moreover, they are not responsible for standing at the door with a participant and figuring out who they are supposed to be meeting. 
 
 
-**5.5.3** Scan Start and End Time
+**5.5.3**  Scan Start and End Time
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 All scans are expected to start and end promptly at the scheduled time. Start and stop time includes setup and cleanup, meaning users must build this into their scanner scheduling (i.e., the lab must have the scanner ready for next group, not just starting to clean up, by the scheduled end time).
 
 All users have the right to start their scan on time, no questions asked.
 
-When possible, try and be flexible. However, if the next group is adamant about starting their scan at the scheduled time, then it must be so. If the current scan is running late, **the current group must make an effort to inform the next group**. The next group may then, at their discretion, allow the current group to scan into their allotted time, but this is done as a courtesy and not out of expectation that the next user will provide the same. Please watch the clock carefully and make an effort to approach the next group for accommodations ASAP if you need more time. Do NOT simply scan past your scheduled time and put the onus on the next group to approach *you* and ask you to finish up.
+When possible, try and be flexible. However, if the next group is adamant about starting their scan at the scheduled time, then it must be so. If the current scan is running late, **the current group must make an effort to inform the next group**. The next group may then, at their discretion, allow the current group to scan into their allotted time, but this is done as a courtesy and not out of expectation that the next user will provide the same. Please watch the clock carefully and  approach the next group for accommodations ASAP if you need more time. Do NOT simply scan past your scheduled time and put the onus on the next group to approach YOU and ask you to finish up.
 
 CCN periodically audits the schedule and keeps track of all pre- and post-scan reports. Projects that continually run over time will be required to book more time for future scans.
 
-**5.5.4** Data Transfer
+**5.5.4**  Data Transfer
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 All f/MRI data are transferred automatically to a dedicated server and stored for 5 years before being deleted. In cases where data must be transferred manually from any of the computers in the MR suite, please notify the MR Technician to make arrangements. No external storage devices (flash drives, hard disks, etc.) are to be connected to the scanner without prior approval. If data is not visible in the DICOM server 24 hours after acquisition, please contact MR Technician immediately to resolve. Due to high scan load, only 3 days of scan data can be guaranteed to be kept on the host machine at any given time. The onus is on each lab to check DICOM the morning after each scan (data syncs overnight) and make sure all images have transferred successfully. It is not CCN's responsibility to check that data has transferred to the server without issue.
