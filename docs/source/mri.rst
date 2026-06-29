@@ -472,44 +472,54 @@ If you do not need assistance from CCN to build your protocol, still reach out t
 
 Protocol Testing
 ^^^^^^^^^^^^^^^^
-Once you have a workable protocol, you will need to run through it in its entirety. CCN has phantoms available for this purpose. Please reach out to CCN staff for assistance with phantom scanning. Even if scanning independently with an experienced team, please still keep CCN notified (especially if you will be needing a phantom other than the standard Siemens bottle).
+Once you have a workable protocol, you will need to run through it in its entirety. CCN has phantoms available for this purpose. Please reach out to CCN staff for phantom scanning with tech assistance. Even if scanning independently with an experienced team, please still keep CCN notified (especially if you will be needing a phantom other than the standard Siemens bottle).
 
 Each new project is permitted two free scan sessions with a human phantom for the sole purpose of ensuring that the full setup is functional. The group is responsible for recruiting their own test participant, whose images cannot be used as publishable data, and who must still undergo safety screening despite not being included as a real study participant.
 
 All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
 
-Facility Policies
-~~~~~~~~~~~~~~~~~~
-**Infection Control**
+Running a Participant Scan
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Please make sure the participant completes the Pre-Appointment Illness Screening Form before arriving at UCLA. You should administer this form either the night before or the morning of their scan appointment. Many other researchers, staff, research subjects, and family members come through CCN, meaning we need to minimize the potential for infections floating around the Center. If your participant fails to clear the illness screening, please reschedule their appointment. Past guidance for infection control policies can be found here.
+**5.5.1** Infection Control
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Participant Arrival**
+Please make sure the participant completes the `Pre-Appointment Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ before arriving at UCLA. You should administer this form either the night before or the morning of their scan appointment. Many other researchers, staff, research subjects, and family members come through CCN, meaning we need to minimize the potential for unknown infections floating around the Center. If your participant fails to clear the illness screening, please reschedule their appointment.
 
-Please make sure that your study participants have a direct contact and that lab personnel will be available to take calls and/or respond promptly to texts/emails as the time of the scan approaches. Study participants should not wait inside of CCN unattended. If a participant arrives early and you are part of the research team, make sure someone is available to communicate with the person and direct them to wait on the bench right outside CCN. If you are in CCN and not part of the research team expecting this participant's arrival, it is up to you if you have the time to ask questions and help figure out who their research contact is. Regardless, still ask them to wait on the bench outside CCN.
+Past guidance for infection control policies can be found `here <https://drive.google.com/file/d/18CiRxYb4VmBn4z3tE7jADcGV5wBg4-xb/view?usp=sharing>_. This is archived to document the policy changes that were implemented to safely navigate the COVID-19 restrictions. Most policies described within no longer apply, but some (e.g., handwashing upon arrival at the Center) were retained.
 
-Scanner Use
-~~~~~~~~~~~~~~~~~
+**5.5.2** Participant Arrival
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Please make sure that your study participants have a direct contact readily on hand and that lab personnel will be available to take calls and/or respond promptly to texts/emails as the time of the scan approaches.
+
+If a participant arrives early and you are part of their research team, make sure someone is available to communicate with the person and help give directions if they are having trouble finding the suite. Once they are at C7-439, direct them to wait on the bench right outside CCN until lab personnel meets them and brings them inside. Generally, study participants should not be sitting in the CCN lobby unattended. This increases the risk of their wandering into restricted spaces while other lab staff are working in the area or seeing information they should not be privy to.
+
+If you are in CCN and someone unexpectedly rings the doorbell saying they are here for a scan, it is up to you if you have the time to ask questions and help them get in touch with their research contact. Regardless, you should still ask them to wait on the bench outside CCN.
+
+Do NOT let someone in just because they claim to be here for research. The presence of the powerful magnet means that access should be highly controlled. You should only let in participants you are expecting, your certified labmates that you recognize, and people explicitly permitted by CCN (e.g., helium refill tech).
+
+Do NOT rely on CCN staff to let your participant in if they arrive early. CCN admins are in and out of the suite, scanner room, and equipment room all day and may not hear the doorbell. Moreover, they are not responsible for standing at the door with a participant and figuring out who they are supposed to be meeting. 
 
 
+**5.5.3** Scan Start and End Time
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**1.4 Scan Time** 
-^^^^^^^^^^^^^^^^^
+All scans are expected to start and end promptly at the scheduled time. Start and stop time includes setup and cleanup, meaning users must build this into their scanner scheduling (i.e., the lab must have the scanner ready for next group, not just starting to clean up, by the scheduled end time).
 
-All scans are expected to start and end promptly at the scheduled time. It is the investigators’ responsibility to communicate with the CCN staff and/or other investigators if these times cannot be met. Please note that CCN and/or other investigators may not be able to accommodate requests for change of scheduled time when these are communicated less than 24 hours prior to the appointment.
+All users have the right to start their scan on time, no questions asked.
 
-**1.5 Scan Start and End** 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+When possible, try and be flexible. However, if the next group is adamant about starting their scan at the scheduled time, then it must be so. If the current scan is running late, **the current group must make an effort to inform the next group**. The next group may then, at their discretion, allow the current group to scan into their allotted time, but this is done as a courtesy and not out of expectation that the next user will provide the same. Please watch the clock carefully and make an effort to approach the next group for accommodations ASAP if you need more time. Do NOT simply scan past your scheduled time and put the onus on the next group to approach *you* and ask you to finish up.
 
-All users have the right to start their scan on time, no questions asked. Start and stop time includes setup and cleanup--users must build this into their scanner scheduling (i.e., scanner must be ready for next group by their scheduled start time). When possible, try and be flexible. However, if the next group is adamant about starting their scan at the scheduled time, then it must be so. If the current scan is running behind, the current group must make an effort to inform the next group. The next group may then, at their discretion, allow the current group to scan into their allotted time, but this is done as a courtesy and not out of expectation that the next user will provide the same. Projects that continually run over time will be required to book more time for future scans.
+CCN periodically audits the schedule and keeps track of all pre- and post-scan reports. Projects that continually run over time will be required to book more time for future scans.
 
-**1.6 Data Transfer** 
-^^^^^^^^^^^^^^^^^^^^^
+**5.5.4** Data Transfer
+^^^^^^^^^^^^^^^^^^^^^^^
 
 All f/MRI data are transferred automatically to a dedicated server and stored for 5 years before being deleted. In cases where data must be transferred manually from any of the computers in the MR suite, please notify the MR Technician to make arrangements. No external storage devices (flash drives, hard disks, etc.) are to be connected to the scanner without prior approval. If data is not visible in the DICOM server 24 hours after acquisition, please contact MR Technician immediately to resolve. Due to high scan load, only 3 days of scan data can be guaranteed to be kept on the host machine at any given time. The onus is on each lab to check DICOM the morning after each scan (data syncs overnight) and make sure all images have transferred successfully. It is not CCN's responsibility to check that data has transferred to the server without issue.
 
-**1.7 Incident Reporting**
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+**5.5.5** Incident Reporting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Users are responsible for communicating with CCN staff any equipment malfunction or software irregularities that occur during the course of the scan session. This may include scanner error messages which do not allow users to continue with their session, the breaking or malfunction of peripheral equipment etc. Emergency incidents, such as injuries, natural disasters or magnet quench, should be relayed to the MR Tech immediately and CCN's `Incident Reporting Form <https://docs.google.com/forms/d/e/1FAIpQLSckiYXnkzlWcYBfD6BEGTV60Tb36Jj2680Tq8mdw02auoFiKQ/viewform>`_ should be filled out in a timely manner.
 
