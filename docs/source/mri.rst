@@ -502,7 +502,7 @@ Do NOT let someone in just because they claim to be here for research. The prese
 Do NOT rely on CCN staff to let your participant in if they arrive early. CCN admins are in and out of the suite, scanner room, and equipment room all day and may not hear the doorbell. Moreover, they are not responsible for standing at the door with a participant and figuring out who they are supposed to be meeting. 
 
 
-**5.5.3**  Scan Start and End Time
+**5.5.3**  Scan Start & End Time
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 All scans are expected to start and end promptly at the scheduled time. Start and stop time includes setup and cleanup, meaning users must build this into their scanner scheduling (i.e., the lab must have the scanner ready for next group, not just starting to clean up, by the scheduled end time).
@@ -513,15 +513,25 @@ When possible, try and be flexible. However, if the next group is adamant about 
 
 CCN periodically audits the schedule and keeps track of all pre- and post-scan reports. Projects that continually run over time will be required to book more time for future scans.
 
-**5.5.4**  Data Transfer
-^^^^^^^^^^^^^^^^^^^^^^^
+**5.5.4**  Data Transfer & Storage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-All f/MRI data are transferred automatically to a dedicated server and stored for 5 years before being deleted. In cases where data must be transferred manually from any of the computers in the MR suite, please notify the MR Technician to make arrangements. No external storage devices (flash drives, hard disks, etc.) are to be connected to the scanner without prior approval. If data is not visible in the DICOM server 24 hours after acquisition, please contact MR Technician immediately to resolve. Due to high scan load, only 3 days of scan data can be guaranteed to be kept on the host machine at any given time. The onus is on each lab to check DICOM the morning after each scan (data syncs overnight) and make sure all images have transferred successfully. It is not CCN's responsibility to check that data has transferred to the server without issue.
+All f/MRI data are transferred automatically to a dedicated remote server as it is acquired. There is no further action required during or after a scan to send your data to this DICOM server.
+
+If data is not accessible in the DICOM server 24 hours after acquisition, please contact MR Technician immediately to resolve. Due to high scan load, only 2 days of scan data can be guaranteed to be kept on the host machine at any given time. The onus is on each lab to check DICOM after each scan and make sure all images have transferred successfully. Data typically finishes transferring within several hours of the scan's end time, but at a minimum should be present and complete by the following morning. It is not CCN's responsibility to check that each data set has transferred to the server without issue.
+
+Data is stored for 5 years on the remote DICOM server before being deleted. However, Data collected in the past calendar year or older may be moved to archive folders for space management. Please email ccnsupport@g.ucla.edu and cc HaiyanWang@mednet.ucla.edu for help if you are having trouble finding data from the last calendar year (up to 5 years old).
+
+In cases where data must be transferred manually from any of the computers in the MR suite, please notify the MR Technician to make arrangements. No external storage devices (flash drives, hard disks, etc.) are to be connected to the scanner without prior approval.
 
 **5.5.5** Incident Reporting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Users are responsible for communicating with CCN staff any equipment malfunction or software irregularities that occur during the course of the scan session. This may include scanner error messages which do not allow users to continue with their session, the breaking or malfunction of peripheral equipment etc. Emergency incidents, such as injuries, natural disasters or magnet quench, should be relayed to the MR Tech immediately and CCN's `Incident Reporting Form <https://docs.google.com/forms/d/e/1FAIpQLSckiYXnkzlWcYBfD6BEGTV60Tb36Jj2680Tq8mdw02auoFiKQ/viewform>`_ should be filled out in a timely manner.
+Users are responsible for communicating with CCN staff any equipment malfunction or software irregularities that occur during the course of the scan session. This includes scanner error messages which do not allow users to continue with their session, the breaking or malfunction of peripheral equipment, and so on. The pre- and post-scan forms on the iMac will ask basic questions about the state of the suite and equipment.
+
+Emergency incidents, such as injuries, natural disasters or magnet quench, should be relayed to the MR Tech immediately and CCN's `Incident Reporting Form <https://docs.google.com/forms/d/e/1FAIpQLSckiYXnkzlWcYBfD6BEGTV60Tb36Jj2680Tq8mdw02auoFiKQ/viewform>`_ should be filled out in a timely manner.
+
+Staff will be on-site during regular hours. If they have stepped out for deliveries, meetings, lunch, etc. please send a Slack or phone message. Contact information (including the appropriate after-hours call tree) is posted on the control room wall.
 
 Incidental Findings
 ~~~~~~~~~~~~~~~~~~~
@@ -532,7 +542,7 @@ A neuroradiologist is on CCN retainer for reviewing potential incidental finding
 
 .. image:: Incidental_finding_report_flow.png
 
-1. Create a folder and put in all your images and movie files you want to send to the radiologist. *Please circle the area where you consider an anomaly.*
+1. Create a folder and put in all your images and movie files you want to send to the radiologist. *Please circle the area that you consider anomalous.*
 
    - The images should include T1 and T2, and are saved in png or jpeg/jpg formats.
    - (Optional) You can create a "movie" from MRI images to give the radiologist with a fuller, 3D view. This is not required, but often useful in providing more detailed information for the review.
@@ -547,11 +557,13 @@ A neuroradiologist is on CCN retainer for reviewing potential incidental finding
 
 3. Upload the zip file to the Box folder, “CCN_report/YOURGROUP”, which should be shared with your lab.
 
-   - Before you upload the files, please make sure the images and videos are in good quality so the radiologist can make the correct decision based on them. No phone pictures of computer screens. If your lab does not have a Box group folder shared by us, please contact ccnsupport@g.ucla.edu so we can set one up for you.
+   - If your lab does not yet have a Box group folder shared by us, please contact ccnsupport@g.ucla.edu (confirming your IRB permits these reviews) so we can set one up for you.
+   - Before you upload the files, please make sure the images and videos are in good quality so the radiologist can make the correct decision based on them. No phone pictures of computer screens.
 
-What will happen after you upload the zip file:
+4. What will happen after you upload the zip file:
 
-Our script will check the Box folder once a day and if there’s a new zip file, it will unzip it and then send an email to the radiologist with the images attached. It will also send the link of the movie file.
+   - Our script will check the Box folder once a day, and if there is a new zip file, it will be unzipped and sent to the radiologist with the images attached. The link for the movie file will also be included.
+   - CCN will forward the radiologist's read to your PI. Regardless of who submited the materials, only the PI will receive the review.
 
 
 
