@@ -4,23 +4,50 @@ General Policies and Resources
 CCN Space
 ---------
 
-**Restricted Areas:**
-Zones are marked with signage. Only safety certified users and screened participants are allowed to enter the scanning suite (control room & scanner room) unless granted an exemption by CCN. This is for the safety of the individuals and liability of the center. If an exemption is granted, it is for a single instance. It is paramount that uncertified users do not touch any research equipment while shadowing.
+Lobby
+^^^^^
+Tea
 
-- Exceptions to Restricted Access: CCN may allow a non-operator, non-participant individual into the scanner room only under a very narrow set of circumstances. See the Scanner Room Visitor Policy for details on rules that must be strictly followed in such cases.
-**MR Suite:**
-It is the responsibility of all experimenters to maintain the facility in a clean and orderly state. This includes all surfaces, linens, cabling, computing and other equipment in both the MR room and the scanner operation room of the MR suite.
+Slideshow
 
-- Equipment and Peripherals: Users must obtain consent from CCN Tech or Dr. Robert Welsh to add, change, and/or remove equipment in the control room or magnet room. USB flash drives must be properly scanned for viruses before connecting to console.
-- Mock Scanner: An MRI simulator or "mock scanner" that gives subjects a realistic sensory experience. Features a real table fitted with a wooden bore (no magnetic field or metal concerns). Includes Mo-Track software, and a dedicated laptop to play movies and recorded scanner noise.
+Restricted Areas
+^^^^^^^^^^^^^^^^
 
-**Electronics and Machine Shop:**
+MR Zones are marked with signage. Only safety-certified users and screened participants are allowed to enter the scanning suite (control room & scanner room) unless granted an exemption by CCN. This is for the safety of the individuals and liability of the Center. It is paramount that uncertified users do not touch any research equipment or enter the scanner room while shadowing.
+
+**Exceptions to Restricted Access:**  CCN may allow a non-operator, non-participant individual into the scanner room only under a very narrow set of circumstances. If an exemption is granted, it is for a single instance. See :ref:`observers` and :ref:`visitors` for details on rules that must be strictly followed in such cases.
+
+MR/EEG Suite & Shared Areas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+It is the responsibility of all experimenters to maintain the facility in a clean and orderly state. This includes all surfaces, linens, cabling, computing and other equipment in the MRI scanner room, control room, hallways, back/supply area, sink and counters, mock scanner, side rooms, and EEG suites.
+
+Clean up after your group and your participant. If you come in to set up for a scan and find the space messy, report it on the pre-scan form bookmarked on the iMac (or email ccnsupport@g.ucla.edu if you are in for scan-unrelated activites). Do not assume that the next group, CCN staff, or Semel Facilities will tidy up for you. Loop cables to their hooks on walls, return equipment to their designated storage locations, unplug head coils from the scanner bed, throw away all trash, and put the Participant Items bin back by the door.
+
+If the linens bin in the scanner room or hallway is full after you've used it, take out the full bag, tie it off, and leave it aginst the wall behind the sink. There are typically new bags in the bin underneath the full one--if not, there will be more in the cabinet marked "LINEN BAGS". Do NOT stack your used linens on top and simply leave the full bag in the bin for someone else to take out. 
+
+Clean water, gel, adhesive, and all other substances from the counters and furnishings if your study procedures leave them behind. This includes:
+
+- Tape residue on the scanner bed, head coil, and headphones.
+- Electrode cap gel on EEG chairs.
+- Water on the counter around the sink.
+- Drinks spilled on the floor/carpets.
+
+Semel Facilities periodically vacuums the carpets, but does not have access to every room or time to deep-clean every stain. Address messes promptly to avoid worse messes that become more difficult to clean down the road. There is stain remover in the cleaning supplies cabinet, washcloths and towels with the linens, and brushes in the left-most drawer when facing the sink. Reach out to CCN staff for help as needed.
+
+Mock Scanner
+^^^^^^^^^^^^
+An MRI simulator or "mock scanner" that gives subjects a realistic sensory experience. Features a real table fitted with a wooden bore (no magnetic field or metal concerns). Includes Mo-Track software, and a dedicated laptop to play movies and recorded scanner noise.
+
+Electronics and Machine Shop
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Facilities for fabrication of specialized devices such as radio receiver coils, stimulation and response devices, holders and stabilizers for subjects, as needed by the users for quick and temporary solutions. 
 
-**Testing Room:** 
+Testing Room
+^^^^^^^^^^^^
 The suite houses a private side room for scan-related testing and tasks. Each group is allowed 30 minutes of access to this room with any paid scan, at no additional charge. The testing room can be reserved on SIStat when you book your scan.
 
-**Blood Collection:**
+Blood Collection
+^^^^^^^^^^^^^^^^
 CCN has gone through the necessary review and approval to open C7-439C (EEG Prep Room) to its users as a blood collection site. Submit the appropriate paperwork (see below) to ccnsupport@g.ucla.edu. Strict adherence to protocol is required to maintain a safe research site for everyone:
 
 - For traditional venipuncture phlebotomy: Send CCN the completed Blood Collection SOP (Venipuncture). Updated signatures will be required annually.
