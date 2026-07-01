@@ -268,10 +268,12 @@ Staglin One Mind MR technicians maintain the MR facility and are available to su
 
 Contact information is posted in multiple areas throughout the Center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
 
+.. _observers:
 3.5  Observers
 ~~~~~~~~~~~~~~
 Persons who have not completed safety certification are not permitted to observe scans or enter the magnet room for training or other purposes. For case-by-case exceptions with respect to scan shadowing, see the sections regarding CCN's Restricted Areas policy and :ref:`FAQ_personnel`.
 
+.. _visitors:
 3.6  Visitors
 ~~~~~~~~~~~~~
 As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR suite without prior approval. Please email ccnsupport@g.ucla.edu to arrange a visit for external groups or individuals. CCN staff will need to set up an Event with UCLA Insurance & Risk Management and create a waiver for the visitors to sign.
