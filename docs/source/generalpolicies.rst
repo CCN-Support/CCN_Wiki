@@ -1,5 +1,5 @@
-General Policies and Resources
-================================
+General Policies and Getting Started
+====================================
 
 CCN Space
 ---------
@@ -92,15 +92,19 @@ The Ultrasound Suite is equipped with:
 - BrainSight Neuronavigation camera
 - 55mm, 65mm, and 80mm ultrasound transducers
 
-Resources
----------
+Getting Started at CCN
+----------------------
 
-New User Checklist
-~~~~~~~~~~~~~~~~~~
+IT, Trainings, & Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Getting started with research at UCLA**
+The following is a collection of portals for various trainings and services that may or may not be required for your particular situation. Check with your PI and lab admins for information about what is most applicable to you.
 
-1. Register for a g.ucla.edu (Google) account: https://g.ucla.edu/
+1. Google Apps for UCLA: https://g.ucla.edu/
+
+  - If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmail and related apps (e.g., Drive) from here.
+
+2. Forms for requesting account access or other Semel activities: https://it.semel.ucla.edu/forms/
 2. Install and configure VPN on your personal computer: https://it.ucla.edu/it-support-center/services/virtual-private-network-vpn-clients
 3. Complete CITI research training: https://ohrpp.research.ucla.edu/citi-training/
   Relevant courses are listed below. Some may be required or optional depending on your specific area of research:
@@ -111,11 +115,14 @@ New User Checklist
     - Social & Behavioral Researchers & Staff
     - Social and Behavioral Responsible Conduct of Research OPTIONAL
     - FDA Regulated Research
-4. Complete any UCLA Health training certifications listed under “My Transcript” (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
+4. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
+
+  - You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
+
 5. UCLA Employee Discounts: Check for deals on supplies and services as you get set up at UCLA! https://campusservices.ucla.edu/discounts
 
-Getting Started at CCN
-~~~~~~~~~~~~~~~~~~~~~~
+Checklist for New PIs
+~~~~~~~~~~~~~~~~~~~~~
 
 1. Set up your project at CCN Scanning and Analysis Service (SIStat): SIStat is the platform CCN uses to schedule scans, manage personnel, connect funds. Please contact Marlo Duran to create your lab and set up your project.
 2. If your lab uses the Hoffman2 cluster for data processing:
