@@ -60,15 +60,16 @@ Blood Collection
 ^^^^^^^^^^^^^^^^
 CCN has gone through the necessary review and approval to open C7-439C (EEG Prep Room) to its users as a blood collection site. Submit the appropriate paperwork (see below) to ccnsupport@g.ucla.edu. Strict adherence to protocol is required to maintain a safe research site for everyone:
 
-- For traditional venipuncture phlebotomy: Send CCN the completed Blood Collection SOP (Venipuncture). Updated signatures will be required annually.
-- For self-contained devices (e.g., Tasso): Send CCN the completed Blood Collection SOP (Self-Contained) and a copy of your IRB confirming self-contained blood collection is approved for your study. Updated signatures will be required annually.
+- For traditional venipuncture phlebotomy: Send CCN the completed `Blood Collection SOP (Venipuncture) <https://docs.google.com/document/d/1WNXvtkOqQU1CcQjaQm7HOkLU_xgSrStZXLESRDcd9Ks/edit?usp=sharing>`_. Updated signatures will be required annually.
+- For self-contained devices (e.g., Tasso): Send CCN the completed `Blood Collection SOP (Self-Contained) <https://docs.google.com/document/d/1TB9sdUqEMPC-ZqQI7L7XA0Jw_-r7aU8cuRgXdh_Uro0/edit?usp=sharing>`_ and a copy of your IRB confirming self-contained blood collection is approved for your study. Updated signatures will be required annually.
 Ensure that all lab personnel involved in blood collection have completed the required training, in accordance with UCLA/IRB policy. Typically, this will involve BBP, medical waste, and biosafety trainings like the ones listed below, but it is the lab's responsibility to make sure their staff are compliant with current guidelines:
 
 - `Bloodborne Pathogens Online Training <https://worksafe.ucla.edu/UCLA/Programs/Standard/Control/elmLearner.wml?UPID=0321200236&Segment=CourseHomePage&Option=&ReloadSegmentID=CourseSearch&ReloadOptionID=&CourseID=BIO-BBP-OL>`_
 - `Medical Waste Online Training <https://worksafe.ucla.edu/UCLA/Programs/Standard/Control/elmLearner.wml?UPID=0321200236&Segment=CourseHomePage&Option=&ReloadSegmentID=CourseSearch&ReloadOptionID=&CourseID=BIO-MWM-OL>`_
 - `Biosafety Fundamentals: BSL2 and BSL2+ <https://worksafe.ucla.edu/UCLA/Programs/Standard/Control/elmLearner.wml?UPID=0321200236&Segment=CourseHomePage&Option=&ReloadSegmentID=CourseSearch&ReloadOptionID=&CourseID=BIO-BSL2-OL>`_
 
-**EEG Facilities:**
+EEG Facilities
+^^^^^^^^^^^^^^
 The Staglin EEG Suite contains two fully shielded EEG suites and a prep room.
 
 The Left EEG Suite:
@@ -82,7 +83,8 @@ The Right EEG Suite:
 
 - Bio-Semi 64 channel EEG system using active electrodes
 
-**Ultrasound Suite:**
+Ultrasound Suite
+^^^^^^^^^^^^^^^^
 
 The Ultrasound Suite is equipped with:
 
