@@ -6,9 +6,9 @@ CCN Space
 
 Lobby
 ^^^^^
-Tea
+Tea and water (hot and cold) are available for CCN staff, users, and participants.
 
-Slideshow
+The monitor on the wall displays recruitment flyers from labs on a loop. Contact ccnsupport@g.ucla.edu if you are a CCN user with an active study and would like to include your recruitment materials in this slideshow.
 
 Restricted Areas
 ^^^^^^^^^^^^^^^^
