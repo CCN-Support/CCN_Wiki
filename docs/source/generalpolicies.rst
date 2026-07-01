@@ -21,7 +21,7 @@ MR/EEG Suite & Shared Areas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 It is the responsibility of all experimenters to maintain the facility in a clean and orderly state. This includes all surfaces, linens, cabling, computing and other equipment in the MRI scanner room, control room, hallways, back/supply area, sink and counters, mock scanner, side rooms, and EEG suites.
 
-Clean up after your group and your participant. If you come in to set up for a scan and find the space messy, report it on the pre-scan form bookmarked on the iMac (or email ccnsupport@g.ucla.edu if you are in for scan-unrelated activites). Do not assume that the next group, CCN staff, or Semel Facilities will tidy up for you. Loop cables to their hooks on walls, return equipment to their designated storage locations, unplug head coils from the scanner bed, throw away all trash, and put the Participant Items bin back by the door.
+Clean up after your group and your participant. If you come in to set up for a scan and find the space messy, report it on the pre-scan form bookmarked on the iMac (or email ccnsupport@g.ucla.edu if you are in for scan-unrelated activites). Do not assume that the next group, CCN staff, or Semel Facilities will tidy up for you. Loop cables back on their hooks on the walls, return equipment to their designated storage locations, unplug head coils from the scanner bed, throw away all trash, and put the Participant Items bin back by the door.
 
 If the linens bin in the scanner room or hallway is full after you've used it, take out the full bag, tie it off, and leave it aginst the wall behind the sink. There are typically new bags in the bin underneath the full one--if not, there will be more in the cabinet marked "LINEN BAGS". Do NOT stack your used linens on top and simply leave the full bag in the bin for someone else to take out. 
 
@@ -36,15 +36,25 @@ Semel Facilities periodically vacuums the carpets, but does not have access to e
 
 Mock Scanner
 ^^^^^^^^^^^^
-An MRI simulator or "mock scanner" that gives subjects a realistic sensory experience. Features a real table fitted with a wooden bore (no magnetic field or metal concerns). Includes Mo-Track software, and a dedicated laptop to play movies and recorded scanner noise.
+An MRI simulator or "mock scanner" that gives subjects a realistic sensory experience. Features a real table fitted with a wooden bore (no magnetic field or metal concerns). Includes a dedicated laptop for playing recorded scanner noise and running Mo-Track software, for the purpose of giving the participant live feedback on how much they are moving.
 
-Electronics and Machine Shop
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Facilities for fabrication of specialized devices such as radio receiver coils, stimulation and response devices, holders and stabilizers for subjects, as needed by the users for quick and temporary solutions. 
+The mock scanner is available as a resource for any research group who would find it useful. It may help young participants practice holding still, reassure parents who are unsure what to expect for their child's scan, and offer a trial experience for anyone who anticipates difficulty tolerating the experience (e.g., an adult with claustrophobia). Email ccnsupport@g.ucla.edu if you would like to be added to the calendar for scheduling time on the mock scanner.
+
+Workshop
+^^^^^^^^
+CCN has some tools for making basic repairs and adjustments to equipment. These are stored in a locked office/workshop space to make sure they are not accidentally carried into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
 
 Testing Room
 ^^^^^^^^^^^^
-The suite houses a private side room for scan-related testing and tasks. Each group is allowed 30 minutes of access to this room with any paid scan, at no additional charge. The testing room can be reserved on SIStat when you book your scan.
+The suite houses a private side room for scan-related testing and tasks. Each group is allowed 30 minutes of access to this room with any paid scan, at no additional charge, directly before or after that scan. The testing room must be reserved on SIStat when you book your scan.
+
+Do not come to CCN and use the room for your own purposes when the schedule indicates it is open. The purpose of this room is to support the activities required immediately before or after a scan, NOT to serve as an open resource for anybody to use when it is unreserved.
+
+If you have the testing room booked and need to use it longer than your reserved time, you may only do so if it does not impinge on another group's scheduled room time. Communicate promptly and courteously with the next group if you are seeking permission to run into their time.
+
+Please work cooperatively with your fellow researchers as much as possible. Some projects are logistically demanding and value access to a private room/work surface highly. If your need for the room is less critical, please extend as much grace and flexibility to the group with greater needs as you can. For example, if you only needed the room as a space for your participant to change into scrubs, and the group before you is not yet finished administering behavioral assessments, please consider directing your participant to the restroom down the hall instead.
+
+However, as with MRI scan start/end times, the scheduled group has the final say. If the users listed on the calendar are firm about starting on time, it must be so. A group whose reservation has formally ended must figure out alternate arrangements if asked by the scheduled group and **cannot** force the scheduled group to accommodate them instead. These incidents should be reported to CCN staff, who will notify the PIs involved and take disciplinary action as appropriate.
 
 Blood Collection
 ^^^^^^^^^^^^^^^^
