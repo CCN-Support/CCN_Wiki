@@ -102,17 +102,20 @@ Checklist for New PIs
 Clicking on MRI on the left-hand sidebar and reading through the sub-sections will give you an idea of CCN's policies and the process of getting a scan project set up. The topics are broadly organized to mirror the order in which you will need to complete the setup steps: getting personnel certified, creating the project in CCN's scheduling system, familiarizing yourself with CCN's policies, and running scans.
 
 ☐ Set up your project
+
 ☐ Get your scan team safety certified
   ☐ Do sub-items work?
+
 ☑ Request a DICOM account
 
 
 
 
-1. Set up your project at CCN Scanning and Analysis Service (SIStat): SIStat is the platform CCN uses to schedule scans, manage personnel, connect funds. Please contact Marlo Duran to create your lab and set up your project.
+✅ Set up your project at CCN Scanning and Analysis Service (SIStat): SIStat is the platform CCN uses to schedule scans, manage personnel, connect funds. Please contact Marlo Duran to create your lab and set up your project.
 
-3. To access your scan data on the DICOM server: Contact CCN's IT team. Instructions are on the "DICOM Accounts" section of this wiki: https://www.ccn.ucla.edu/wiki/index.php?title=Personnel#DICOM_Accounts
-4. Complete MRI and/or EEG Certification: CCN safety certification is done using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on Bruinlearn. Please ask your lab manager/research coordinator if you need an enrollment link. All links and resources necessary can be found on the BruinLearn course. Recertification is also done via the BruinLearn platform, with no password necessary. Please only email the MR Tech if you are experiencing trouble enrolling in the course or you have questions with the materials.
+✅ To access your scan data on the DICOM server: Contact CCN's IT team. Instructions are on the "DICOM Accounts" section of this wiki: https://www.ccn.ucla.edu/wiki/index.php?title=Personnel#DICOM_Accounts
+
+✅ Complete MRI and/or EEG Certification: CCN safety certification is done using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on Bruinlearn. Please ask your lab manager/research coordinator if you need an enrollment link. All links and resources necessary can be found on the BruinLearn course. Recertification is also done via the BruinLearn platform, with no password necessary. Please only email the MR Tech if you are experiencing trouble enrolling in the course or you have questions with the materials.
 
 
 IT, Trainings, & Resources
