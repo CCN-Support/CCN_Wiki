@@ -95,18 +95,34 @@ The Ultrasound Suite is equipped with:
 Getting Started at CCN
 ----------------------
 
+
+Checklist for New PIs
+^^^^^^^^^^^^^^^^^^^^^
+
+Clicking on MRI on the left-hand sidebar and reading through the sub-sections will give you an idea of CCN's policies and the process of getting a scan project set up. The topics are broadly organized to mirror the order in which you will need to complete the setup steps: getting personnel certified, creating the project in CCN's scheduling system, familiarizing yourself with CCN's policies, and running scans.
+
+1. Set up your project at CCN Scanning and Analysis Service (SIStat): SIStat is the platform CCN uses to schedule scans, manage personnel, connect funds. Please contact Marlo Duran to create your lab and set up your project.
+2. If your lab uses the Hoffman2 cluster for data processing:
+
+  - Register for a Hoffman2 account: https://www.hoffman2.idre.ucla.edu/Accounts/Requesting-an-account.html
+  - Download X2Go: https://wiki.x2go.org/doku.php/doc:installation:x2goclient
+  - Configure X2Go for remote desktop access to Hoffman2: https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html#x2go-client
+3. To access your scan data on the DICOM server: Contact CCN's IT team. Instructions are on the "DICOM Accounts" section of this wiki: https://www.ccn.ucla.edu/wiki/index.php?title=Personnel#DICOM_Accounts
+4. Complete MRI and/or EEG Certification: CCN safety certification is done using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on Bruinlearn. Please ask your lab manager/research coordinator if you need an enrollment link. All links and resources necessary can be found on the BruinLearn course. Recertification is also done via the BruinLearn platform, with no password necessary. Please only email the MR Tech if you are experiencing trouble enrolling in the course or you have questions with the materials.
+
+
 IT, Trainings, & Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The following is a collection of portals for various trainings and services that may or may not be required for your particular situation. Check with your PI and lab admins for information about what is most applicable to you.
+The following is a list of various trainings and services that may or may not be required for your particular situation. Check with your PI and lab admins for information about what is most applicable to you.
 
 1. Google Apps for UCLA: https://g.ucla.edu/
 
-  - If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmail and related apps (e.g., Drive) from here.
+If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmail and related apps (e.g., Drive) from here.
 
-2. Forms for requesting account access or other Semel activities: https://it.semel.ucla.edu/forms/
-3. Install and configure VPN on your personal computer: https://it.ucla.edu/it-support-center/services/virtual-private-network-vpn-clients
-4. Complete CITI research training: https://ohrpp.research.ucla.edu/citi-training/
+2. Forms for requesting access to Mednet accounts or other Semel-releated features: https://it.semel.ucla.edu/forms/
+3. Configuring VPN on your personal computer: https://it.ucla.edu/it-support-center/services/virtual-private-network-vpn-clients
+4. CITI research training: https://ohrpp.research.ucla.edu/citi-training/
   Relevant courses are listed below. Some may be required or optional depending on your specific area of research:
     
     - Biomedical Researchers & Staff
@@ -118,26 +134,14 @@ The following is a collection of portals for various trainings and services that
 
 5. UC Learning Center: http://lms.ucla.edu/
 
-  - You will almost certainly have trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
+You will almost certainly have trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
 
 6. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
 
-  - You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
+You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
 
 7. UCLA Employee Discounts: Check for deals on supplies and services as you get set up at UCLA! https://campusservices.ucla.edu/discounts
 
-
-Checklist for New PIs
-^^^^^^^^^^^^^^^^^^^^^
-
-1. Set up your project at CCN Scanning and Analysis Service (SIStat): SIStat is the platform CCN uses to schedule scans, manage personnel, connect funds. Please contact Marlo Duran to create your lab and set up your project.
-2. If your lab uses the Hoffman2 cluster for data processing:
-
-  - Register for a Hoffman2 account: https://www.hoffman2.idre.ucla.edu/Accounts/Requesting-an-account.html
-  - Download X2Go: https://wiki.x2go.org/doku.php/doc:installation:x2goclient
-  - Configure X2Go for remote desktop access to Hoffman2: https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html#x2go-client
-3. To access your scan data on the DICOM server: Contact CCN's IT team. Instructions are on the "DICOM Accounts" section of this wiki: https://www.ccn.ucla.edu/wiki/index.php?title=Personnel#DICOM_Accounts
-4. Complete MRI and/or EEG Certification: CCN safety certification is done using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on Bruinlearn. Please ask your lab manager/research coordinator if you need an enrollment link. All links and resources necessary can be found on the BruinLearn course. Recertification is also done via the BruinLearn platform, with no password necessary. Please only email the MR Tech if you are experiencing trouble enrolling in the course or you have questions with the materials.
 
 Software Licenses
 ^^^^^^^^^^^^^^^^^
