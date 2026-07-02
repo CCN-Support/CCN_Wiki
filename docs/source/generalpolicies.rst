@@ -101,12 +101,17 @@ Checklist for New PIs
 
 Clicking on MRI on the left-hand sidebar and reading through the sub-sections will give you an idea of CCN's policies and the process of getting a scan project set up. The topics are broadly organized to mirror the order in which you will need to complete the setup steps: getting personnel certified, creating the project in CCN's scheduling system, familiarizing yourself with CCN's policies, and running scans.
 
-☐ Set up your project
+1a. Set up your project
+  ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
+  ☐ Link funds
 
-☐ Get your scan team safety certified
-  ☐ Do sub-items work?
+1b. Get your scan team safety certified
+  ☐ Make sure everyone can log in to BruinLearn
+  ☐ Follow the instructions on .. safety_cert::
 
-☑ Request a DICOM account
+2. Send ccnsupport@g.ucla.edu your protocol or ask for help building one
+3. Request a DICOM account
+4. Request testing time
 
 
 
