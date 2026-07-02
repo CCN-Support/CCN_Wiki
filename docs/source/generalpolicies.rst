@@ -103,14 +103,18 @@ Clicking on MRI on the left-hand sidebar and reading through the sub-sections wi
 
 1a. Set up your project
   ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
+
   ☐ Link funds
 
 1b. Get your scan team safety certified
   ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
-  ☐ Follow the instructions on :ref:`safety_cert`
+
+  ☐ Follow the instructions in :ref:`safety_cert`
 
 2. Send ccnsupport@g.ucla.edu your protocol or ask for help building one
+
 3a. Request testing time
+
 3b. Request a DICOM account
 
 
