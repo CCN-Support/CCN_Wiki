@@ -106,21 +106,13 @@ Clicking on MRI on the left-hand sidebar and reading through the sub-sections wi
   ☐ Link funds
 
 1b. Get your scan team safety certified
-  ☐ Make sure everyone can log in to BruinLearn
-  ☐ Follow the instructions on .. safety_cert::
+  ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
+  ☐ Follow the instructions on :ref:`safety_cert`
 
 2. Send ccnsupport@g.ucla.edu your protocol or ask for help building one
-3. Request a DICOM account
-4. Request testing time
+3a. Request testing time
+3b. Request a DICOM account
 
-
-
-
-✅ Set up your project at CCN Scanning and Analysis Service (SIStat): SIStat is the platform CCN uses to schedule scans, manage personnel, connect funds. Please contact Marlo Duran to create your lab and set up your project.
-
-✅ To access your scan data on the DICOM server: Contact CCN's IT team. Instructions are on the "DICOM Accounts" section of this wiki: https://www.ccn.ucla.edu/wiki/index.php?title=Personnel#DICOM_Accounts
-
-✅ Complete MRI and/or EEG Certification: CCN safety certification is done using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on Bruinlearn. Please ask your lab manager/research coordinator if you need an enrollment link. All links and resources necessary can be found on the BruinLearn course. Recertification is also done via the BruinLearn platform, with no password necessary. Please only email the MR Tech if you are experiencing trouble enrolling in the course or you have questions with the materials.
 
 
 IT, Trainings, & Resources
