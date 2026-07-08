@@ -135,6 +135,7 @@ If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmai
   - Register for a Hoffman2 account: https://www.hoffman2.idre.ucla.edu/Accounts/Requesting-an-account.html
   - Download X2Go: https://wiki.x2go.org/doku.php/doc:installation:x2goclient
   - Configure X2Go for remote desktop access to Hoffman2: https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html#x2go-client
+
 5. CITI research training: https://ohrpp.research.ucla.edu/citi-training/
   Relevant courses are listed below. Some may be required or optional depending on your specific area of research:
     
@@ -149,19 +150,19 @@ If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmai
 
 You will almost certainly have trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
 
-6. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
+7. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
 
 You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
 
-7. UCLA Employee Discounts: Check for deals on supplies and services as you get set up at UCLA! https://campusservices.ucla.edu/discounts
+8. UCLA Employee Discounts: Check for deals on supplies and services as you get set up at UCLA! https://campusservices.ucla.edu/discounts
 
 
 Software Licenses
 ^^^^^^^^^^^^^^^^^
 
-Below is a non-exhaustive list of campus-wide software licenses available to UCLA students, faculty, and staff.
+Below is a (non-exhaustive) list of campus-wide software licenses available to UCLA students, faculty, and staff.
 
-For up-to-date information, please visit the `UCLA Digital Toolkit <https://dts.ucla.edu/>`_ , `the UCLA IT Services Knowledge Base <https://ucla.service-now.com/support?id=kb_view>`_ , and the `UCLA Software Central <https://ucla.service-now.com/support?id=sc_category&sys_id=526f0ae81b6c29143b0555351a4bcbc8>`_ .
+For up-to-date information, please check the `UCLA Digital Toolkit <https://dts.ucla.edu/>`_ , `UCLA IT Services Knowledge Base <https://ucla.service-now.com/support?id=kb_view>`_ , and `UCLA Software Central <https://ucla.service-now.com/support?id=sc_category&sys_id=526f0ae81b6c29143b0555351a4bcbc8>`_ .
 
 
 **Google Apps for UCLA**
@@ -171,9 +172,11 @@ For up-to-date information, please visit the `UCLA Digital Toolkit <https://dts.
 - Generally required for access to UCLA licensed software.
 - Includes Unlimited Cloud Storage with Google Drive.
 
-**Office 365**
+**Professional Tools**
+`Digital & Technology Solutions - Software Downloads <https://dts.ucla.edu/products-services/software-downloads>`_
 
-Microsoft Office ProPlus (Students)
+- Microsoft Office ProPlus (Students)
+- Adobe Pro
 
 **Box**
 
