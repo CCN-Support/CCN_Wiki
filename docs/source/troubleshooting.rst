@@ -25,6 +25,10 @@ Editing Registration Info
 
 .. image:: PtRegisterEdit.png
 
+.. raw:: html
+
+   <hr>
+
 Peripherals
 -----------
 
@@ -117,6 +121,10 @@ Restart the Scanner
 - If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
 - This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
 - Inform CCN personnel about any persisting errors.
+
+.. raw:: html
+
+   <hr>
 
 Scanner Room
 ------------
