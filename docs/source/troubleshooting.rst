@@ -25,7 +25,8 @@ Editing Registration Info
 
 .. image:: PtRegisterEdit.png
 
-Peripherals Setup
+Peripherals
+-----------
 
 iMac Won't Accept Password
 
@@ -44,6 +45,7 @@ Troubleshooting Connection Issues
 
 - When the USB labeled trigger/button box is plugged into a machine, the 'USB' light on the button box interface should be static; when not plugged into anything, it will flash.
 - If you notice that the 'USB' light on the button box is flashing while the USB is plugged into your machine, test the USB on a different machine (like the iMac). Oftentimes the USB port may not be recognizing that there is an input being plugged in, and the machine may need to be restarted.
+
 
 Screen(s) Fails to Display Task
 
@@ -72,20 +74,6 @@ Pulse Monitor Doesn't Work
 - If you do not see the red light at all, the sensor loop has gotten shifted around and is now positioned incorrectly within the clip. Remove the rubber finger attachment completely by gently pulling on it--it should slide off easily. Straighten out the sensor loop inside and replace the attachment so that the red light properly shines through one of the holes. Make sure the sensor is not blocked on the opposite side of the light, then try inserting a finger again.
 - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
 
-**Scanner Suite**
-
-Blankets
-
-- If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the main room. Many other spare supplies will be there, including scrubs and mesh covers, in their respectively labelled cabinets.
-
-Linens Basket
-
-- When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall by the scale and hand sanitizer station adjacent to the sink.
-
-Fans
-
-- There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies and notice that the fan is turned off or out of place, orient it toward the bed and turn it back on.
-- If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the back of the device contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
 
 Scan Failure
 
@@ -129,4 +117,23 @@ Restart the Scanner
 - If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
 - This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
 - Inform CCN personnel about any persisting errors.
+
+Scanner Room
+------------
+
+Blankets
+~~~~~~~~
+
+- If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the main room. Many other spare supplies will be there, including scrubs and mesh covers, in their respectively labelled cabinets.
+
+Linens Basket
+~~~~~~~~~~~~~
+
+- When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall by the scale and hand sanitizer station adjacent to the sink.
+
+Fans
+~~~~
+
+- There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies and notice that the fan is turned off or out of place, orient it toward the bed and turn it back on.
+- If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the back of the device contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
 
