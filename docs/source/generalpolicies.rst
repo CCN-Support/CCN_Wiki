@@ -173,10 +173,12 @@ For up-to-date information, please check the `UCLA Digital Toolkit <https://dts.
 - Includes Unlimited Cloud Storage with Google Drive.
 
 **Professional Tools**
+
 `Digital & Technology Solutions - Software Downloads <https://dts.ucla.edu/products-services/software-downloads>`_
 
-- Microsoft Office ProPlus (Students)
+- Microsoft Office ProPlus: Currently only available for students
 - Adobe Pro
+- `FrontDoorSoftware <https://frontdoorsoftware.com/UCLA/>`_ : Loss, Recovery and Personal Safety Software. Available for up to four years
 
 **Box**
 
@@ -197,12 +199,10 @@ Academic Licenses
 
 - Slack: ucla.slack.com
 - Zoom:
-  General Purpose (g.ucla.edu): https://ucla.zoom.us/
-  HIPAA-compliant (mednet): https://ucla-hipaa.zoom.us
+  - General Purpose (g.ucla.edu): https://ucla.zoom.us/
+  - HIPAA-compliant (mednet): https://ucla-hipaa.zoom.us
 - Overleaf: overleaf.com/edu/ucla
 
-**Security Software**
-- `FrontDoorSoftware <https://frontdoorsoftware.com/UCLA/>`_ : Loss, Recovery and Personal Safety Software. Available for up to four years
 
 
 **References:**
