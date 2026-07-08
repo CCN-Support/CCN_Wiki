@@ -197,11 +197,13 @@ Academic Licenses
 
 **Collaboration Tools**
 
-- Slack: ucla.slack.com
+- Slack: http://ucla.slack.com
 - Zoom:
+
   - General Purpose (g.ucla.edu): https://ucla.zoom.us/
   - HIPAA-compliant (mednet): https://ucla-hipaa.zoom.us
-- Overleaf: overleaf.com/edu/ucla
+
+- Overleaf: https://overleaf.com/edu/ucla
 
 
 
