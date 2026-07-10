@@ -4,26 +4,83 @@ Troubleshooting
 Scanning & Console
 ------------------
 
-**Console**
+General Console Operations
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Adding/Deleting Sequences During a Scan
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - To stop a sequence that has started: Click the button with the red square on it at the bottom of the screen.
 - To start a stopped sequence from the beginning: The sequence you stopped will now be greyed out on the list, as if it had completed and the program is ready to continue on. Right-click the sequence you just stopped and click "Rerun from here", assuming the scan you stopped was the one that had just started and you intend to run the rest of the card from there. If you are trying to redo a sequence that you stopped several series ago, copy it down by clicking on it and dragging it down to when you would like it to be run.
 - To delete an upcoming sequence: Right-click the scan and click "Delete". This will remove it from the card you are currently running, but will not delete it from the exam card as it was designed and intended to be run. As such, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete them from the currently-running program and the entire original card will still appear the next time you start the study.
 
 Closing a Patient
+^^^^^^^^^^^^^^^^^
 
-- Click the "Patient" tab at the top left of the screen and choose "Close Patient". You will need to do this if, for example, you realize the patient has been registered incorrectly and you need to redo it, or you need to end the scan.
+- Click the X on the "Patient" tab at the top left of the screen and choose "Close Patient". You will need to do this if, for example, you realize the patient has been registered incorrectly and you need to redo it, or you need to end the scan.
 - If you are trying to do this while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it. Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you. This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
 
 Editing Registration Info
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Navigate to the patient browser by clicking on the “Person being hit by a tennis racket” icon at the top of the computer screen
+1. Navigate to the patient browser by clicking on the “Person with magnifying glass” icon at the top of the computer screen
 2. Right-click on the subject ID you would like to correct and select ‘Correct’ from the option menu
 3. A Correction of Study window will appear
 
 .. image:: PtRegisterEdit.png
+
+4. Make your changes and export the data again in its corrected form.
+
+
+Scan Failures
+~~~~~~~~~~~~~
+
+- Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
+- In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
+- Try each of the following steps in the escalating order described. The more drastic the action, the more time it will take to resume your scan, so generally it is worth trying the simpler solutions before moving on to full restarts.
+
+Retry the Failed Series
+^^^^^^^^^^^^^^^^^^^^^^^
+
+- Right-click > Rerun From Here on the sequence that acquisition failed on. Start-stop if necessary.
+- See "Adding/Deleting a Sequences During a Scan" further above on this page for help with this.
+
+Re-plug the Coils
+^^^^^^^^^^^^^^^^^
+
+- This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "failed to converge".
+- Move the bed back to home.
+- Remove the participant or at least have them sit up.
+- Unplug the coils. Make sure the posterior coil is flush with the back of the bed and not sitting crookedly in the square space. Plug the coil back in.
+- The 32ch coil is sensitive to positioning inconsistencies. Be aware that just being able to push the plug into the port isn't enough--make sure the posterior coil is completely flush with the back of the bed and everything is lined up straight. When the posterior is plugged in and ready, you should be able to push it (in the direction of the bore) and feel no movement at all.
+- Confirm there are no coil file errors on the bore screen and no System Check errors on the console.
+- Re-align and send the participant back to isocenter. 
+
+Reset the Bed Alignment
+^^^^^^^^^^^^^^^^^^^^^^^
+
+- Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
+- Move the bed back to home.
+- Unplug and re-plug the coil connections.
+- Lower the bed down (as if you were preparing to have a participant climb up or step down).
+- Move the bed back to home. Re-align and try moving to isocenter again.
+
+Completely Redo the Patient Setup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Close out the subject.
+- Redo the prep as if you were just beginning a new scan:
+- Move the bed back to the home position. Unplug and re-plug the coils. Re-navigate the bed to isocenter.
+- Re-register the participant. You can use the same Subject ID if you'd like--everything is timestamped, so the console will allow you to do this. You will just get multiple subdirectories under that ID's folder in the DICOM server, differentiated by timestamp. If you'd rather have the new attempt saved under an entirely new folder at the Subject ID level, use a different ID.
+- Try running your protocol again.
+
+Restart the Scanner
+^^^^^^^^^^^^^^^^^^^
+
+- If nothing is working, a reboot may be in order. Open the Staglin Operating Manual on the iMac computer to refer to the instructions for Standard Shutdown and Reboot Procedures.
+- If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
+- This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
+- Inform CCN personnel about any persisting errors.
 
 .. raw:: html
 
@@ -79,48 +136,6 @@ Pulse Monitor Doesn't Work
 - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
 
 
-Scan Failure
-
-- Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
-- In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
-
-Retry the Failed Series
-
-- Right-click > Rerun From Here on the sequence that acquisition failed on. Start-stop if necessary.
-- See "Adding/Deleting a Sequences During a Scan" further above on this page for help with this.
-
-Re-plug the Coils
-
-- This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "failed to converge".
-- Move the bed back to home.
-- Remove the participant or at least have them sit up.
-- Unplug the coils. Make sure the posterior coil is flush with the back of the bed and not sitting crookedly in the square space. Plug the coil back in.
-- The 32ch coil is sensitive to positioning inconsistencies. Be aware that just being able to push the plug into the port isn't enough--make sure the posterior coil is completely flush with the back of the bed and everything is lined up straight. When the posterior is plugged in and ready, you should be able to push it (in the direction of the bore) and feel no movement at all.
-- Confirm there are no coil file errors on the bore screen and no System Check errors on the console.
-- Re-align and send the participant back to isocenter. 
-
-Reset the Bed Alignment
-
-- Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
-- Move the bed back to home.
-- Unplug and re-plug the coil connections.
-- Lower the bed down (as if you were preparing to have a participant climb up or step down).
-- Move the bed back to home. Re-align and try moving to isocenter again.
-
-Completely Redo the Patient Setup
-
-- Close out the subject.
-- Redo the prep as if you were just beginning a new scan:
-- Move the bed back to the home position. Unplug and re-plug the coils. Re-navigate the bed to isocenter.
-- Re-register the participant. You can use the same Subject ID if you'd like--everything is timestamped, so the console will allow you to do this. You will just get multiple subdirectories under that ID's folder in the DICOM server, differentiated by timestamp. If you'd rather have the new attempt saved under an entirely new folder at the Subject ID level, use a different ID.
-- Try running your protocol again.
-
-Restart the Scanner
-
-- If nothing is working, a reboot may be in order. Open the Staglin Operating Manual on the iMac computer to refer to the instructions for Standard Shutdown and Reboot Procedures.
-- If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
-- This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
-- Inform CCN personnel about any persisting errors.
 
 .. raw:: html
 
