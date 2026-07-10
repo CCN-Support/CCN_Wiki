@@ -35,9 +35,11 @@ Editing Registration Info
 Scan Failures
 ~~~~~~~~~~~~~
 
-- Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
-- In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
-- Try each of the following steps in the escalating order described. The more drastic the action, the more time it will take to resume your scan, so generally it is worth trying the simpler solutions before moving on to full restarts.
+Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
+
+In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
+
+Try each of the following steps in the escalating order described. The more drastic the action, the more time it will take to resume your scan, so generally it is worth trying the simpler solutions before moving on to full restarts.
 
 Retry the Failed Series
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -90,11 +92,13 @@ Peripherals
 -----------
 
 iMac Won't Accept Password
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Make sure you have the correct password (message CCN admins if you can't remember).
 - Restart the computer. Sometimes the iMac will give you a "Welcome" message as though it's logging in, then kick you out anyway with an "incorrect password" warning. Rebooting seems to resolve this.
 
 Task Fails to Trigger
+~~~~~~~~~~~~~~~~~~~~~
 
 - Exit your task (and ideally its entire host program) completely.
 - Unplug the trigger cable.
@@ -103,12 +107,14 @@ Task Fails to Trigger
 - This restart routine is usually sufficient to fix trigger problems because most of them arise from the task program not communicating with the task computer correctly. Matlab in particular can be finicky about this--for example, unplugging and re-plugging the trigger USB while Matlab is running will cause unreliable behaviors that often affect downstream functionality (such as the scan triggers and button box responses). If you are using the eyetracker, multiple calibration/validation attempts have also been observed to cause problems with task triggers.
 
 Troubleshooting Connection Issues
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - When the USB labeled trigger/button box is plugged into a machine, the 'USB' light on the button box interface should be static; when not plugged into anything, it will flash.
 - If you notice that the 'USB' light on the button box is flashing while the USB is plugged into your machine, test the USB on a different machine (like the iMac). Oftentimes the USB port may not be recognizing that there is an input being plugged in, and the machine may need to be restarted.
 
 
 Screen(s) Fails to Display Task
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Make sure that the correct input option is selected on the AV box.
 - Look at the front panel of the black box on the control room desk. Check that the light to the RIGHT of the input you want (DisplayPort, HDMI, etc.) is lit orange. If not, simply press the correct button.
@@ -118,6 +124,7 @@ Screen(s) Fails to Display Task
 - Reset the AV box. At the leftmost edge of the front panel of the box, there is a power button. Press it once to turn off, then again to turn back on.
 
 Button Box Fails to Respond
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Redo the settings on the controller box as outlined by the instructions taped directly above it. Remember that steps 3 and/or 5 will be different depending on whether you are using the 2-button box, 4-button box, or trackball mouse.
 - Make sure the grey trigger cable is connected firmly.
@@ -126,6 +133,7 @@ Button Box Fails to Respond
 - If one or more buttons are still not responding, ask the MR Tech for another box. There are spares in the drawer beneath where the test magnet and thermometer are kept. Remember, do NOT bring the demo button box from the testing room into the scanner room--it is NOT MR safe.
 
 Pulse Monitor Doesn't Work
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Note that the HR monitor needs to be close enough to the scanner before the computer in the control room can detect it on the physiological display. The screen on the bore will also show the physio readings and relevant error messages when it senses that the monitor is nearby. If you try to test or check the monitor device from the control room, the waveform won't change and the battery icon will be red regardless of actual charge.
 - The small square lights on the top left of the device are the charging indicators. They will flash green when the device is successfully charging.
@@ -147,12 +155,14 @@ Scanner Room
 Blankets
 ~~~~~~~~
 
-- If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the main room. Many other spare supplies will be there, including scrubs and mesh covers, in their respectively labelled cabinets.
+- If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the back area of teh suite. Many other spare supplies will be there, including scrubs and headphones mesh covers, in their respectively labelled cabinets.
 
 Linens Basket
 ~~~~~~~~~~~~~
 
-- When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall by the scale and hand sanitizer station adjacent to the sink.
+- When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall directly behind the sink.
+
+- If you leave it anywhere else, even close by, Facilities will not pick it up.
 
 Fans
 ~~~~
