@@ -104,16 +104,12 @@ Now I'm trying a table:
      - Boolean
      - Whether it is enabled.
 
-::::{grid} 2
+.. grid:: 2
 
-:::{grid-item-card} Installation
-Instructions...
+   .. grid-item-card:: Installation
 
-:::
+      Install the package.
 
-:::{grid-item-card} Examples
-Examples...
+   .. grid-item-card:: Tutorials
 
-:::
-
-::::
+      Learn by example.
