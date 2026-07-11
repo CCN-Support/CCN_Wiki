@@ -103,3 +103,17 @@ Now I'm trying a table:
    * - ``flag``
      - Boolean
      - Whether it is enabled.
+
+::::{grid} 2
+
+:::{grid-item-card} Installation
+Instructions...
+
+:::
+
+:::{grid-item-card} Examples
+Examples...
+
+:::
+
+::::
