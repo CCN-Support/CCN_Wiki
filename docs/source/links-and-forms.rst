@@ -104,12 +104,18 @@ Now I'm trying a table:
      - Boolean
      - Whether it is enabled.
 
-.. grid:: 2
+.. graphviz::
 
-   .. grid-item-card:: Installation
+   digraph {
+      Input -> Processing;
+      Processing -> Output;
+      Processing -> Cache;
+   }
 
-      Install the package.
+.. graphviz::
 
-   .. grid-item-card:: Tutorials
-
-      Learn by example.
+   graph {
+      A -- B;
+      B -- C;
+      C -- D;
+   }
