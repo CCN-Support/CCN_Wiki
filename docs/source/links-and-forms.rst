@@ -262,3 +262,11 @@ Workflow Example
        F -->|Yes| C
        F -->|No| G[Display error message]
        G --> D
+
+       classDef start fill:#d5f5e3,stroke:#27ae60,color:#000;
+       classDef decision fill:#fcf3cf,stroke:#f39c12,color:#000;
+       classDef action fill:#d6eaf8,stroke:#2980b9,color:#000;
+
+       class A start;
+       class B,F decision;
+       class C,D,E,G action;
