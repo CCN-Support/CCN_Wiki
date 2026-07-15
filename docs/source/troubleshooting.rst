@@ -12,20 +12,20 @@ Adding/Deleting Sequences During a Scan
 
 .. dropdown:: Stop a sequence that is running
 
-   | Click the button with the square on it, labelled "STOP", at the bottom of the scan queue toward the left of the screen.
-   | You should hear the sound of active acquisition stop.
-   | Do not click the Pause button, which will do nothing.
+   * Click the button with the square on it, labelled "STOP", at the bottom of the scan queue toward the left of the screen.
+   * You should hear the sound of active acquisition stop.
+   * Do not click the Pause button. It does nothing.
 
 .. dropdown:: Restart a stopped sequence
 
-   | The sequence you stopped will now be greyed out on the list, with a small jagged arrow icon to the left of the sequence name. If you hit the orange "GO" button at this point, it will continue on to the next sequence.
-   | Right-click the sequence you stopped and click "Rerun from here". This will un-grey the sequence, start it from the beginning, and continue on with the rest of the queue in the prescribed order.
-   | If you are trying to redo a sequence that you stopped several series ago, without rerunning all the other sequences in between, copy the sequence of interest and move it to the point where you want it run instead. You can either click on it and drag it down to where you would like it to be run, or right-click the sequence, choose "Copy", right-click at the bottom of the queue, choose "Paste", then click and drag to the desired position.
+   * The sequence you stopped will now be greyed out on the list, with a small jagged arrow icon to the left of the sequence name. If you hit the orange "GO" button at this point, it will continue on to the next sequence.
+   * Right-click the sequence you stopped and click "Rerun from here". This will un-grey the sequence, start it from the beginning, and continue on with the rest of the queue in the prescribed order.
+   * If you are trying to redo a sequence that you stopped several series ago, without rerunning all the other sequences in between, copy the sequence of interest and move it to the point where you want it run instead. You can either click on it and drag it down to where you would like it to be run, or right-click the sequence, choose "Copy", right-click at the bottom of the queue, choose "Paste", then click and drag to the desired position.
 
 .. dropdown:: Delete an upcoming sequence
 
-   | Right-click the series and click "Delete".
-   | This will remove it from the card you are currently running, but will not delete it from the exam card as it was designed and intended to be run. As such, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete them from the currently-running program and the entire original card will still appear the next time you start the study.
+   * Right-click the series and click "Delete".
+   * This will remove it from the card you are currently running, but will not delete it from the exam card as it was designed and intended to be run. As such, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete them from the currently-running program and the entire original card will still appear the next time you start the study.
 
 Closing a Patient
 ^^^^^^^^^^^^^^^^^
