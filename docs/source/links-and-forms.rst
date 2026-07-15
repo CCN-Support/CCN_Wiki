@@ -104,18 +104,131 @@ Now I'm trying a table:
      - Boolean
      - Whether it is enabled.
 
-.. graphviz::
+Visual Elements Demo
+====================
 
-   digraph {
-      Input -> Processing;
-      Processing -> Output;
-      Processing -> Cache;
-   }
+This page demonstrates several common reStructuredText elements.
 
-.. graphviz::
+1. Grid Table
+-------------
 
-   graph {
-      A -- B;
-      B -- C;
-      C -- D;
-   }
++------------+------------+
+| Column 1   | Column 2   |
++============+============+
+| Item A     | Value A    |
++------------+------------+
+| Item B     | Value B    |
++------------+------------+
+
+2. Simple Table
+---------------
+
+========== ==========
+Column 1   Column 2
+========== ==========
+Item A     Value A
+Item B     Value B
+========== ==========
+
+3. Code Block
+-------------
+
+.. code-block:: python
+
+   def hello():
+       print("Hello!")
+
+4. Image
+--------
+
+.. image:: images/example.png
+   :width: 300px
+   :align: center
+   :alt: Example image
+
+5. Figure
+---------
+
+.. figure:: images/example.png
+   :width: 50%
+   :align: center
+
+   Figure 1. This is an example figure caption.
+
+6. Topic
+--------
+
+.. topic:: Background
+
+   This is a topic box used to provide background information.
+
+7. Rubric
+---------
+
+.. rubric:: Before You Begin
+
+This paragraph follows a rubric.
+
+8. Horizontal Rule
+------------------
+
+This text appears above the rule.
+
+----
+
+This text appears below the rule.
+
+9. Sidebar
+----------
+
+.. sidebar:: Tip
+
+   This content appears in a sidebar (if supported by your theme).
+
+Continue reading the main text here.
+
+10. Definition List
+-------------------
+
+API
+    Application Programming Interface.
+
+SDK
+    Software Development Kit.
+
+CLI
+    Command Line Interface.
+
+11. Field List
+--------------
+
+:Author: Jane Doe
+:Version: 1.0
+:Status: Draft
+
+12. Option List
+---------------
+
+-h, --help
+    Show the help message.
+
+-v, --verbose
+    Enable verbose output.
+
+-o FILE
+    Write output to FILE.
+
+13. Block Quote
+---------------
+
+    This is a block quote.
+
+    It can span multiple paragraphs if desired.
+
+14. Line Block
+--------------
+
+| First line
+| Second line
+| Third line
+
