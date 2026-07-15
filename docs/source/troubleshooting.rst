@@ -60,16 +60,15 @@ General Console Operations
 
     4. Make your changes and export the data again in its corrected form.
 
-.. dropdown:: (Re-)Exporting Data
+.. dropdown:: (Re-) Exporting Data
 
   1. Click on the "Person with magnifying glass" icon at the top of the computer screen
   2. Click on the scan that you want to export. If you only want to export specific sequences, not the entire scan, you can select them from the smaller window that opens up to the right.
   3. Click on the "Export" button toward the upper right of the screen
   4. Click on the "Network" radio button if it is not already selected
   5. Select the server(s) you want to send the data to.
-
-    * The usual DICOM server is called dicom_server1. If you are part of one of the large consortium studies, you may need XNAT, FIONA, or HBCD-FIONA.
-    * Make sure to un-check all servers you don't need. If you do not de-select them, your data will be sent and this will cause confusion at other sites.
+    | The usual DICOM server is called dicom_server1. If you are part of one of the large consortium studies, you may need XNAT, FIONA, or HBCD-FIONA.
+    | Make sure to un-check all servers you don't need. If you do not de-select them, your data will be sent and this will cause confusion at other sites.
   6. Click "OK"
 
 
