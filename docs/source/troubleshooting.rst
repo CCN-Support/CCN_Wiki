@@ -68,7 +68,8 @@ General Console Operations
   4. Click on the "Network" radio button if it is not already selected
   5. Select the server(s) you want to send the data to.
     | The usual DICOM server is called dicom_server1. If you are part of one of the large consortium studies, you may need XNAT, FIONA, or HBCD-FIONA.
-    | Make sure to un-check all servers you don't need. If you do not de-select them, your data will be sent and this will cause confusion at other sites.
+    |
+    | Make sure to un-check all servers you don't need. If you do not de-select them, your data will be sent to other sites and this will cause confusion.
   6. Click "OK"
 
 
