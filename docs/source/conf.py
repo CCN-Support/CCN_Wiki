@@ -38,3 +38,6 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Theme for Mermaid flowchart extension
+mermaid_theme = "dark"
