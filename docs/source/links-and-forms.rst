@@ -273,7 +273,37 @@ This is back to normal text.
 
    Hidden content goes here.
 
-18. Flowchart (Mermaid feature)
+18. Badges (sphinx-design feature)
+
+.. dropdown:: Documentation Status Examples
+
+   This page contains several types of status indicators:
+
+   :bdg-success:`Complete` The installation guide has been reviewed and tested.
+
+   :bdg-info:`Info` This section contains additional background information.
+
+   :bdg-warning:`Warning` This configuration option may change in future releases.
+
+   :bdg-danger:`Deprecated` This method should no longer be used.
+
+   :bdg-primary:`New` This feature was added in version 2.0.
+
+   :bdg-secondary:`Optional` This step is not required for most users.
+
+Using badges in inline text:
+
+The API is :bdg-success:`stable` and the old endpoint is
+:bdg-danger:`deprecated`.
+
+Using badges as compact labels in a list:
+
+* :bdg-success:`PASS` Unit tests completed successfully
+* :bdg-warning:`CHECK` Review required before merging
+* :bdg-danger:`FAIL` Build failed
+* :bdg-info:`NOTE` Additional information available
+
+19. Flowchart (Mermaid feature)
 --------------------------------
 
 .. mermaid::
