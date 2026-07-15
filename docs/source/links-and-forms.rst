@@ -219,9 +219,13 @@ CLI
 13. Block Quote
 ---------------
 
+This is a normal paragraph introducing the quote.
+
     This is a block quote.
 
-    It can span multiple paragraphs if desired.
+    It can contain multiple paragraphs.
+
+This is back to normal text.
 
 14. Line Block
 --------------
@@ -232,21 +236,29 @@ CLI
 |   jane@example.edu
 | Allows newlines without having to hit Return twice in the code to inject the line break
 
-15. Card (sphinx-design feature)
+15. Epigraph
+------------
+.. epigraph::
+
+   Documentation is a love letter that you write to your future self.
+
+   -- Damian Conway
+
+16. Card (sphinx-design feature)
 --------------------------------
 
 .. card:: My Card
 
    This is inside a card.
 
-16. Dropdown (sphinx-design feature)
+17. Dropdown (sphinx-design feature)
 ------------------------------------
 
 .. dropdown:: More information
 
    Hidden content goes here.
 
-17. Flowchart (Mermaid feature)
+18. Flowchart (Mermaid feature)
 --------------------------------
 
 .. mermaid::
