@@ -244,7 +244,7 @@ CLI
 
    Hidden content goes here.
 
-17. Flowchart (Mmermaid feature)
+17. Flowchart (Mermaid feature)
 --------------------------------
 
 Workflow Example
@@ -255,17 +255,17 @@ Workflow Example
 
    flowchart TD
        A[User visits website] --> B{Logged in?}
-       B -->|Yes| C[Show dashboard]
-       B -->|No| D[Show login page]
+       B -->| Yes | C[Show dashboard]
+       B -->| No | D[Show login page]
        D --> E[User enters credentials]
        E --> F{Credentials valid?}
-       F -->|Yes| C
-       F -->|No| G[Display error message]
+       F -->| Yes | C
+       F -->| No | G[Display error message]
        G --> D
 
-       classDef start fill:#d5f5e3,stroke:#27ae60,color:#000;
-       classDef decision fill:#fcf3cf,stroke:#f39c12,color:#000;
-       classDef action fill:#d6eaf8,stroke:#2980b9,color:#000;
+       classDef start fill:#a9dfbf,stroke:#239b56,color:#000;
+       classDef decision fill:#f7dc6f,stroke:#d68910,color:#000;
+       classDef action fill:#85c1e9,stroke:#2471a3,color:#000;
 
        class A start;
        class B,F decision;
