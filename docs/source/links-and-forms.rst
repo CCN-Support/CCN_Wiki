@@ -104,10 +104,8 @@ Now I'm trying a table:
      - Boolean
      - Whether it is enabled.
 
-Visual Elements Demo
-====================
 
-This page demonstrates several common reStructuredText elements.
+The following section demonstrates several common reStructuredText elements.
 
 1. Grid Table
 -------------
