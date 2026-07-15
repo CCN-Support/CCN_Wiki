@@ -7,9 +7,6 @@ Scanning & Console
 General Console Operations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Adding/Deleting Sequences During a Scan
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 .. dropdown:: Stop a sequence that is running
 
    * Click the button with the square on it, labelled "STOP", at the bottom of the scan queue toward the left of the screen.
@@ -30,18 +27,31 @@ Adding/Deleting Sequences During a Scan
    * Right-click the series and click "Delete".
    * This will remove it from the queue you are currently running, but will not delete it from the exam card as it was designed and intended to be run. Meaning, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete sequences from the currently-running program and the entire original protocol will still appear the next time you start the study.
 
-Closing the Participant
-^^^^^^^^^^^^^^^^^
+.. dropdown:: Closing the Participant
 
-* Click the X on the "Patient" tab at the top left of the screen and choose "Close Patient". You will need to do this if, for example, you realize the patient has been registered incorrectly and you need to redo it, or you need to end the scan.
-* If you are trying to do this while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it.
+  * Click the X on the "Patient" tab at the top left of the screen and choose "Close Patient".
 
-  * Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you.
-  * This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
+    * Do this at the end of every scan, whether you are finishing as planned or have to end the scan prematurely for other reasons. Do not leave your participant's images up for everyone to see.
 
-Editing Registration Info
-^^^^^^^^^^^^^^^^^^^^^^^^^
+* If you try to close the participant while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it.
 
+    * Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you.
+    * This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
+
+..dropdown:: Editing Registration Info
+
+If you realize that the registration information is incorrect for your participant, you should correct it. This is especially important for the Last Name, Participant ID, and Referring Physician fields. Incorrect information will cause your data to be mislabelled or sent to the wrong folder on the DICOM server.
+
+** If you have progressed to the scan screen (but not yet started) **
+
+* Click the X in the Patient tab to close out the Participant window
+
+** If you are in the middle of scanning **
+
+* Finish the scan. Do not stop mid-session to edit Registration.
+* See the instructions below.
+
+** If you have already finished the scan **
 1. Navigate to the Patient Browser by clicking on the “Person with magnifying glass” icon at the top of the computer screen
 2. Right-click on the subject ID you would like to correct and select ‘Correct’ from the option menu
 3. A Correction of Study window will appear
