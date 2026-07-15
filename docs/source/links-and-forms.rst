@@ -247,11 +247,29 @@ CLI
 17. Flowchart (Mermaid feature)
 --------------------------------
 
-Workflow Example
-================
+.. mermaid::
+   :caption: Figure 1. Colored nodes (default is black with white text)
+
+   flowchart TD
+       A[User visits website] --> B{Logged in?}
+       B -->|Yes| C[Show dashboard]
+       B -->|No| D[Show login page]
+       D --> E[User enters credentials]
+       E --> F{Credentials valid?}
+       F -->|Yes| C
+       F -->|No| G[Display error message]
+       G --> D
+
+       classDef start fill:#d5f5e3,stroke:#27ae60,color:#000;
+       classDef decision fill:#fcf3cf,stroke:#f39c12,color:#000;
+       classDef action fill:#d6eaf8,stroke:#2980b9,color:#000;
+
+       class A start;
+       class B,F decision;
+       class C,D,E,G action;
 
 .. mermaid::
-   :caption: Figure 1. User authentication workflow
+   :caption: Figure 2. With "YES" and "NO" as nodes to give them more space
 
    flowchart TD
        A[User visits website] --> B{Logged in?}
