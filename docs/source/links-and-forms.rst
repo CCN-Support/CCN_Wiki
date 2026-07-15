@@ -134,7 +134,7 @@ Item B     Value B
 .. code-block:: python
 
    def hello():
-       print("Hello!")
+       print("Code block text!")
 
 4. Image
 --------
@@ -230,3 +230,16 @@ CLI
 | Second line
 | Third line
 
+15. Card (sphinx-design feature)
+--------------------------------
+
+.. card:: My Card
+
+   This is inside a card.
+
+16. Dropdown (sphinx-design feature)
+------------------------------------
+
+.. dropdown:: More information
+
+   Hidden content goes here.
