@@ -300,3 +300,33 @@ CLI
        class B,F decision;
        class C,D,E,G action;
        class Y1,N1,Y2,N2 choice;
+
+
+.. mermaid::
+   :caption: Figure 3. Using dark theme (see conf.py)
+
+   %%{init: {
+       "theme": "dark",
+       "themeVariables": {
+           "fontSize": "18px",
+           "edgeLabelBackground": "#333333"
+       }
+   }}%%
+
+   flowchart TD
+       A[User visits website] --> B{Logged in?}
+       B -->|  YES  | C[Show dashboard]
+       B -->|  NO  | D[Show login page]
+       D --> E[User enters credentials]
+       E --> F{Credentials valid?}
+       F -->|  YES  | C
+       F -->|  NO  | G[Display error message]
+       G --> D
+
+       classDef start fill:#1e8449,stroke:#82e0aa,color:#fff,font-size:18px;
+       classDef decision fill:#b7950b,stroke:#f7dc6f,color:#000,font-size:18px;
+       classDef action fill:#2874a6,stroke:#85c1e9,color:#fff,font-size:18px;
+
+       class A start;
+       class B,F decision;
+       class C,D,E,G action;
