@@ -274,6 +274,7 @@ This is back to normal text.
    Hidden content goes here.
 
 18. Badges (sphinx-design feature)
+----------------------------------
 
 .. dropdown:: Documentation Status Examples
 
