@@ -38,7 +38,7 @@ General Console Operations
     * Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you.
     * This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
 
-..dropdown:: Editing Registration Info
+.. dropdown:: Editing Registration Info
 
   If you realize that the registration information is incorrect for your participant, you should correct it. This is especially important for the Last Name, Participant ID, and Referring Physician fields. Incorrect information will cause your data to be mislabelled or sent to the wrong folder on the DICOM server.
 
