@@ -67,6 +67,7 @@ General Console Operations
   3. Click on the "Export" button toward the upper right of the screen
   4. Click on the "Network" radio button if it is not already selected
   5. Select the server(s) you want to send the data to.
+
      The usual DICOM server is called dicom_server1. If you are part of one of the large consortium studies, you may need XNAT, FIONA, or HBCD-FIONA.
 
      Make sure to un-check all servers you don't need. If you do not de-select them, your data will be sent to other sites and this will cause confusion.
@@ -151,7 +152,7 @@ Peripherals
   - If you notice that the 'USB' light on the button box is flashing while the USB is plugged into your machine, test the USB on a different machine (like the iMac). Oftentimes the USB port may not be recognizing that there is an input being plugged in, and the machine may need to be restarted.
 
 
-dropdown:: Screen(s) Fails to Display Task
+.. dropdown:: Screen(s) Fails to Display Task
 
   - Make sure that the correct input option is selected on the AV box.
   - Look at the front panel of the black box on the control room desk. Check that the light to the RIGHT of the input you want (DisplayPort, HDMI, etc.) is lit orange. If not, simply press the correct button.
