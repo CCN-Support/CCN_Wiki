@@ -20,18 +20,24 @@ Adding/Deleting Sequences During a Scan
 
    * The sequence you stopped will now be greyed out on the list, with a small jagged arrow icon to the left of the sequence name. If you hit the orange "GO" button at this point, it will continue on to the next sequence.
    * Right-click the sequence you stopped and click "Rerun from here". This will un-grey the sequence, start it from the beginning, and continue on with the rest of the queue in the prescribed order.
-   * If you are trying to redo a sequence that you stopped several series ago, without rerunning all the other sequences in between, copy the sequence of interest and move it to the point where you want it run instead. You can either click on it and drag it down to where you would like it to be run, or right-click the sequence, choose "Copy", right-click at the bottom of the queue, choose "Paste", then click and drag to the desired position.
+   * If you are trying to redo a sequence that you stopped several series ago, without rerunning all the other sequences in between, copy the sequence of interest and move it to the point where you want it run instead. You can either:
+
+      * click on the sequence and drag it down to where you would like it to be run, or
+      * right-click the sequence, choose "Copy", right-click at the bottom of the queue, choose "Paste", then click and drag to the desired position.
 
 .. dropdown:: Delete an upcoming sequence
 
    * Right-click the series and click "Delete".
-   * This will remove it from the card you are currently running, but will not delete it from the exam card as it was designed and intended to be run. As such, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete them from the currently-running program and the entire original card will still appear the next time you start the study.
+   * This will remove it from the queue you are currently running, but will not delete it from the exam card as it was designed and intended to be run. Meaning, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete sequences from the currently-running program and the entire original protocol will still appear the next time you start the study.
 
-Closing a Patient
+Closing the Participant
 ^^^^^^^^^^^^^^^^^
 
-- Click the X on the "Patient" tab at the top left of the screen and choose "Close Patient". You will need to do this if, for example, you realize the patient has been registered incorrectly and you need to redo it, or you need to end the scan.
-- If you are trying to do this while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it. Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you. This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
+* Click the X on the "Patient" tab at the top left of the screen and choose "Close Patient". You will need to do this if, for example, you realize the patient has been registered incorrectly and you need to redo it, or you need to end the scan.
+* If you are trying to do this while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it.
+
+  * Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you.
+  * This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
 
 Editing Registration Info
 ^^^^^^^^^^^^^^^^^^^^^^^^^
