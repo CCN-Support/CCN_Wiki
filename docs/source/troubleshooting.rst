@@ -33,32 +33,32 @@ General Console Operations
 
     * Do this at the end of every scan, whether you are finishing as planned or have to end the scan prematurely for other reasons. Do not leave your participant's images up for everyone to see.
 
-* If you try to close the participant while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it.
+  * If you try to close the participant while paused between sequences, you may find that the "Close Patient" option is greyed out and you cannot click on it.
 
     * Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you.
     * This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
 
 ..dropdown:: Editing Registration Info
 
-If you realize that the registration information is incorrect for your participant, you should correct it. This is especially important for the Last Name, Participant ID, and Referring Physician fields. Incorrect information will cause your data to be mislabelled or sent to the wrong folder on the DICOM server.
+  If you realize that the registration information is incorrect for your participant, you should correct it. This is especially important for the Last Name, Participant ID, and Referring Physician fields. Incorrect information will cause your data to be mislabelled or sent to the wrong folder on the DICOM server.
 
-** If you have progressed to the scan screen (but not yet started) **
+  ** If you have progressed to the scan screen (but not yet started) **
 
-* Click the X in the Patient tab to close out the Participant window
+    * Click the X in the Patient tab to close out the Participant window
 
-** If you are in the middle of scanning **
+  ** If you are in the middle of scanning **
 
-* Finish the scan. Do not stop mid-session to edit Registration.
-* See the instructions below.
+    * Finish the scan. Do not stop mid-session to edit Registration.
+    * See the instructions below.
 
-** If you have already finished the scan **
-1. Navigate to the Patient Browser by clicking on the “Person with magnifying glass” icon at the top of the computer screen
-2. Right-click on the subject ID you would like to correct and select ‘Correct’ from the option menu
-3. A Correction of Study window will appear
+  ** If you have already finished the scan **
+    1. Navigate to the Patient Browser by clicking on the “Person with magnifying glass” icon at the top of the computer screen
+    2. Right-click on the subject ID you would like to correct and select ‘Correct’ from the option menu
+    3. A Correction of Study window will appear
 
-.. image:: PtRegisterEdit.png
+    .. image:: PtRegisterEdit.png
 
-4. Make your changes and export the data again in its corrected form.
+    4. Make your changes and export the data again in its corrected form.
 
 
 Scan Failures
