@@ -226,9 +226,11 @@ CLI
 14. Line Block
 --------------
 
-| First line
-| Second line
-| Third line
+| Dr. Jane Smith
+|   Department of Computer Science
+|   University of Example
+|   jane@example.edu
+| Allows newlines without having to hit Return twice in the code to inject the line break
 
 15. Card (sphinx-design feature)
 --------------------------------
@@ -269,7 +271,7 @@ CLI
        class C,D,E,G action;
 
 .. mermaid::
-   :caption: Figure 2. With "YES" and "NO" as nodes to give them more space
+   :caption: Figure 2. With darker colors and "YES" and "NO" as nodes to give them more space
 
    flowchart TD
        A[User visits website] --> B{Logged in?}
