@@ -244,12 +244,27 @@ This is back to normal text.
 
    -- Damian Conway
 
-16. Card (sphinx-design feature)
+16. Cards (sphinx-design feature)
 --------------------------------
 
 .. card:: My Card
 
-   This is inside a card.
+   This is one card.
+
+.. grid:: 3
+   :gutter: 3
+
+   .. grid-item-card:: 📘 Guides
+
+      Tutorials and walkthroughs.
+
+   .. grid-item-card:: 🛠 Tools
+
+      Configuration and utilities.
+
+   .. grid-item-card:: 📚 Reference
+
+      Detailed documentation.
 
 17. Dropdown (sphinx-design feature)
 ------------------------------------
