@@ -255,18 +255,28 @@ Workflow Example
 
    flowchart TD
        A[User visits website] --> B{Logged in?}
-       B -->| Yes | C[Show dashboard]
-       B -->| No | D[Show login page]
+       B --> Y1[YES]
+       B --> N1[NO]
+
+       Y1 --> C[Show dashboard]
+       N1 --> D[Show login page]
+
        D --> E[User enters credentials]
        E --> F{Credentials valid?}
-       F -->| Yes | C
-       F -->| No | G[Display error message]
+
+       F --> Y2[YES]
+       F --> N2[NO]
+
+       Y2 --> C
+       N2 --> G[Display error message]
        G --> D
 
-       classDef start fill:#a9dfbf,stroke:#239b56,color:#000;
-       classDef decision fill:#f7dc6f,stroke:#d68910,color:#000;
-       classDef action fill:#85c1e9,stroke:#2471a3,color:#000;
+       classDef start fill:#a9dfbf,stroke:#239b56,color:#000,font-size:18px;
+       classDef decision fill:#f7dc6f,stroke:#d68910,color:#000,font-size:18px;
+       classDef action fill:#85c1e9,stroke:#2471a3,color:#000,font-size:18px;
+       classDef choice fill:#f2f2f2,stroke:#666,color:#000,font-size:16px;
 
        class A start;
        class B,F decision;
        class C,D,E,G action;
+       class Y1,N1,Y2,N2 choice;
