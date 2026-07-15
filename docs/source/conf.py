@@ -19,6 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz',
     'sphinx.ext.todo',
+    'sphinx-design',
 ]
 
 intersphinx_mapping = {
