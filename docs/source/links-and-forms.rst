@@ -303,30 +303,40 @@ CLI
 
 
 .. mermaid::
-   :caption: Figure 3. Using dark theme (see conf.py)
+   :caption: Figure 3. Using dark theme (see conf.py) and rounded pill shapes for yes/no nodes
 
    %%{init: {
        "theme": "dark",
        "themeVariables": {
-           "fontSize": "18px",
-           "edgeLabelBackground": "#333333"
+           "fontSize": "18px"
        }
    }}%%
 
    flowchart TD
-       A[User visits website] --> B{Logged in?}
-       B -->|  YES  | C[Show dashboard]
-       B -->|  NO  | D[Show login page]
+       A([User visits website]) --> B{Logged in?}
+
+       B --> Y1([YES])
+       B --> N1([NO])
+
+       Y1 --> C[Show dashboard]
+       N1 --> D[Show login page]
+
        D --> E[User enters credentials]
        E --> F{Credentials valid?}
-       F -->|  YES  | C
-       F -->|  NO  | G[Display error message]
+
+       F --> Y2([YES])
+       F --> N2([NO])
+
+       Y2 --> C
+       N2 --> G[Display error message]
        G --> D
 
        classDef start fill:#1e8449,stroke:#82e0aa,color:#fff,font-size:18px;
        classDef decision fill:#b7950b,stroke:#f7dc6f,color:#000,font-size:18px;
        classDef action fill:#2874a6,stroke:#85c1e9,color:#fff,font-size:18px;
+       classDef answer fill:#5d6d7e,stroke:#d5d8dc,color:#fff,font-size:18px;
 
        class A start;
        class B,F decision;
        class C,D,E,G action;
+       class Y1,N1,Y2,N2 answer;
