@@ -42,16 +42,16 @@ General Console Operations
 
   If you realize that the registration information is incorrect for your participant, you should correct it. This is especially important for the Last Name, Participant ID, and Referring Physician fields. Incorrect information will cause your data to be mislabelled or sent to the wrong folder on the DICOM server.
 
-  ** If you have progressed to the scan screen (but not yet started) **
+  **If you have progressed to the scan screen (but not yet started)**
 
     * Click the X in the Patient tab to close out the Participant window
 
-  ** If you are in the middle of scanning **
+  **If you are in the middle of scanning**
 
     * Finish the scan. Do not stop mid-session to edit Registration.
     * See the instructions below.
 
-  ** If you have already finished the scan **
+  **If you have already finished the scan**
     1. Navigate to the Patient Browser by clicking on the “Person with magnifying glass” icon at the top of the computer screen
     2. Right-click on the subject ID you would like to correct and select ‘Correct’ from the option menu
     3. A Correction of Study window will appear
