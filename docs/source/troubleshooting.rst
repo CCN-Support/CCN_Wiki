@@ -1,11 +1,8 @@
 Troubleshooting
 ===============
 
-Scanning & Console
-------------------
-
 General Console Operations
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------
 
 .. dropdown:: Stop a sequence that is running
 
@@ -75,7 +72,7 @@ General Console Operations
 
 
 Scan Failures
-~~~~~~~~~~~~~
+-------------
 
 Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
 
@@ -202,5 +199,5 @@ Scanner Room
 .. dropdown:: Fans
 
   - There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies, and the air isn't circulating well enough in the room, orient it toward the bed and turn it back on. Participants sometimes find it stuffy in the scanner and having this fan on can help.
-- If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the motor in the back contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
+  - If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the motor in the back contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
 
