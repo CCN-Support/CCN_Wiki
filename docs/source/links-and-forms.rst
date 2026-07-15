@@ -243,3 +243,22 @@ CLI
 .. dropdown:: More information
 
    Hidden content goes here.
+
+17. Flowchart (Mmermaid feature)
+--------------------------------
+
+Workflow Example
+================
+
+.. mermaid::
+   :caption: Figure 1. User authentication workflow
+
+   flowchart TD
+       A[User visits website] --> B{Logged in?}
+       B -->|Yes| C[Show dashboard]
+       B -->|No| D[Show login page]
+       D --> E[User enters credentials]
+       E --> F{Credentials valid?}
+       F -->|Yes| C
+       F -->|No| G[Display error message]
+       G --> D
