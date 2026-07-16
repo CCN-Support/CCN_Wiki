@@ -159,7 +159,7 @@ Peripherals
   - Make sure you have the correct password (message CCN admins if you can't remember).
   - Restart the computer. Sometimes the iMac will give you a "Welcome" message as though it's logging in, then kick you out anyway with an "incorrect password" warning. Rebooting seems to resolve this.
 
-.. dropdown:: Task Fails to Trigger
+.. dropdown:: Task is failing to trigger
 
   - Exit your task (and ideally its entire host program) completely.
   - Unplug the trigger cable.
@@ -167,13 +167,8 @@ Peripherals
   - Plug the trigger cable back in and start your task again.
   - This restart routine is usually sufficient to fix trigger problems because most of them arise from the task program not communicating with the task computer correctly. Matlab in particular can be finicky about this--for example, unplugging and re-plugging the trigger USB while Matlab is running will cause unreliable behaviors that often affect downstream functionality (such as the scan triggers and button box responses). If you are using the eyetracker, multiple calibration/validation attempts have also been observed to cause problems with task triggers.
 
-.. dropdown:: Troubleshooting Connection Issues
 
-  - When the USB labeled trigger/button box is plugged into a machine, the 'USB' light on the button box interface should be static; when not plugged into anything, it will flash.
-  - If you notice that the 'USB' light on the button box is flashing while the USB is plugged into your machine, test the USB on a different machine (like the iMac). Oftentimes the USB port may not be recognizing that there is an input being plugged in, and the machine may need to be restarted.
-
-
-.. dropdown:: Pulse Monitor Doesn't Work
+.. dropdown:: Pulse monitor isn't Working
   
   - Note that the HR monitor needs to be close enough to the scanner before the computer in the control room can detect it on the physiological display. The screen on the bore will also show the physio readings and relevant error messages when it senses that the monitor is nearby. If you try to test or check the monitor device from the control room, the waveform won't change and the battery icon will be red regardless of actual charge.
   - The small square lights on the top left of the device are the charging indicators. They will flash green when the device is successfully charging.
@@ -213,49 +208,46 @@ Peripherals
 Optoacoustics Headphones
 ------------------------
 
-Issues With Audio:
-
-Unit Won't Turn On
+.. dropdown:: Unit won't turn on
   This may happen if a group forgets to turn the system off at the end of their session and it stays on for a long time before finally being switched off. Turn the unit off and leave it off for some time, perhaps while you are setting up and registering your participant. Try pressing the switch again and repeat until it turns on. It may take a few cycles of switch flipping, but the unit has always come back on before long.
 
-No Task/Computer Audio Through Headphones:
+.. dropdown:: The task/computer audio isn't playing through headphones:
 
-1. If your participant reports no audio from the computer you are playing it from, but can hear your voice as you speak to them, check the cable connections at the back of the Optoacoustics box. The skinny black cable (labelled "Optoacoustics", connects the box to your computer) should be plugged into the "Line 1 In" port.
-2. Turn off the Optoacoustics box. Replug the skinny black cable (labelled "Optoacoustics") and the other, slightly thicker black cable to its left (the power cable).
-3. Check that the two round, silver buttons on the main face of the box are both pushed in.
-4. Check that your computer volume is turned up.
-5. Check that the volume knob on the box is turned up and the balance knob is in the middle.
+  1. If your participant reports no audio from the computer you are playing it from, but can hear your voice as you speak to them, check the cable connections at the back of the Optoacoustics box. The skinny black cable (labelled "Optoacoustics", connects the box to your computer) should be plugged into the "Line 1 In" port.
+  2. Turn off the Optoacoustics box. Replug the skinny black cable (labelled "Optoacoustics") and the other, slightly thicker black cable to its left (the power cable).
+  3. Check that the two round, silver buttons on the main face of the box are both pushed in.
+  4. Check that your computer volume is turned up.
+  5. Check that the volume knob on the box is turned up and the balance knob is in the middle.
 
-Audio Through One Side of Headphones Only:
+.. dropdown:: Audio plays through one side of headphones only:
 
-1. Check that the balance knob is not turned all the way to one side. Turn off the box and leave it off for a few minutes. While waiting, replug the Line 1 In cable. This is the skinny black cable labelled Optoacostics that connects the box to your computer.
-2. Replace the Line 1 In cable. Find a new aux cable in the control room cabinets (likely in the box labelled "AV Cables") and try using it.
+  1. Check that the balance knob is not turned all the way to one side. Turn off the box and leave it off for a few minutes. While waiting, replug the Line 1 In cable. This is the skinny black cable labelled Optoacostics that connects the box to your computer.
+  2. Replace the Line 1 In cable. Find a new aux cable in the control room cabinets (likely in the box labelled "AV Cables") and try using it.
 
-Users in Control Room Cannot Hear Task Audio:
+.. dropdown:: Audio Output is Unbalanced:
 
-1. If your participant can hear the audio playing from your computer, but you cannot, first check the speaker knob at the top-right side of the box. Turn it up if it is low.
-2. Press the circular button right below it. It should be lit green.
-3. Replace the Line 1 In cable. See the section directly previous, as these problems sometimes occur together and can both be resolved with a new cable.
+  Check the knob in the upper left corner of the back of the unit. Turn it until the dot at the top of the dial is lined up in the middle. The knob should always stay in this position, as it ensures that the audio will not be played in one ear more than the other.
 
-Issues With ANC:
+.. dropdown:: Users in control room cannot hear task audio:
 
-Noise Cancellation Stops:
-The most common reason that noise cancellation stops completely is because the stimulus presented is too loud and overshoots the safety threshold (111dB).
+  1. If your participant can hear the audio playing from your computer, but you cannot, first check the speaker knob at the top-right side of the box. Turn it up if it is low.
+  2. Press the circular button right below it. It should be lit green.
+  3. Replace the Line 1 In cable. See the section directly previous, as these problems sometimes occur together and can both be resolved with a new cable.
 
-1. This can be avoided by making sure the volume on your stimulus machine is at max and you can control/adjust the volume of the headphones using the 'Line 1' dial on the top of the unit.
-2. Doing a volume test before your scan starts can help.
-3. Start with the 'Line 1' volume dial in the middle (facing the top), and adjust as needed.
-Note: There is no need to adjust the 'Line 2' volume dial, it doesn't do anything to affect the sound unless you have two volume sources!
+.. dropdown:: Noise cancellation stopped on its own
+  The most common reason that noise cancellation stops completely is because the stimulus presented is too loud and overshoots the safety threshold (111dB).
+  
+  1. This can be avoided by making sure the volume on your stimulus machine is at max and you can control/adjust the volume of the headphones using the 'Line 1' dial on the top of the unit.
+  2. Doing a volume test before your scan starts can help.
+  3. Start with the 'Line 1' volume dial in the middle (facing the top), and adjust as needed.
+  Note: There is no need to adjust the 'Line 2' volume dial, it doesn't do anything to affect the sound unless you have two volume sources!
+  
+.. dropdown:: Noise cancelling is fading
+  Studies that run numerous functional tasks, or have sequences in between functional runs that don't use the ANC function, will notice that over time the algorithm used to produce the noise cancellation may fade and the quality of the noise cancellation will diminish.
+  
+  1. The most effective way to avoid this is adding another short learning sequence into your protocol.
+  2. Stopping the algorithm just before the end of your sequence and starting the algorithm again just after your next sequence starts up again has proven somewhat effective in keeping the ANC feature intact.
 
-Noise Cancellation Fading:
-Studies that run numerous functional tasks, or have sequences in between functional runs that don't use the ANC function, will notice that over time the algorithm used to produce the noise cancellation may fade and the quality of the noise cancellation will diminish.
-
-1. The most effective way to avoid this is adding another short learning sequence into your protocol.
-2. Stopping the algorithm just before the end of your sequence and starting the algorithm again just after your next sequence starts up again has proven somewhat effective in keeping the ANC feature intact.
-
-Audio Output is Unbalanced:
-
-1. Check the knob in the upper left corner of the back of the unit. Turn it until the dot at the top of the dial is lined up in the middle. The knob should always stay in this position, as it ensures that the audio will not be played in one ear more than the other.
 
 .. raw:: html
 
@@ -319,7 +311,7 @@ Task & Response Devices
 
 Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your device and you have set up the configuration box (silver, underneath the desk)!
 
-.. dropdown:: Button box is not working
+.. dropdown:: Button box isn't working
 
   **Redo the button box setup**
 
@@ -356,7 +348,7 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
     9. If nothing is working even with the new button box, contact CCN staff. The trigger or fiber optic cable may need replacing.
   
 
-.. dropdown:: Trigger is not working
+.. dropdown:: Trigger isn't working
 
   1. If your task also involves the button box, check the setup using the same steps in the previous section.
   2. Replug the button box cable in the scanner room. This connection causes a lot of downstream problems, including with the trigger signal, if it is not firmly established.
