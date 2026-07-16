@@ -377,14 +377,15 @@ Eyetracker
   3. If you still see nothing, restart the program. Quit Eyelink, check the cable connections on the tracker in the bore, then click the square button at the top left of the desktop screen to launch Eyelink again.
   4. If nothing works, contact CCN staff. There may be another cable that isn't plugged in or needs replacing.
 
-.. dropdown: Everything seems set up correctly, but there is a green "D" and green crosshairs (instead of white) during calibration
+.. dropdown:: Everything seems set up correctly, but there is a green "D" and green crosshairs (instead of white) during calibration
 
   1. The eyetracker thinks it is detecting the left eye. We usually track the right eye because that is where the camera is typically and stably positioned--over where the right eye is visible through the coil.
   2. To switch eyes, return to the main menu where you have the thresholding controls for pupil and CR. Look near the bottom of the screen--there are buttons for left and right eye in the "Eye Tracked" window. Click the "Right" button.
   3. Now click the pupil to direct Eyelink to the area you know it should focus on. The participant view window may flash light blue and refuse to keep the yellow box centered around the pupil. If this happens, it means the CR thresholding is way off (likely due to the left/right confusion). Increase or decrease it until it starts to look sensible again and allows you to focus the yellow box around the pupil. Now adjust the pupil thresholding as usual and try calibration again.
   
   If the Eyelink computer is alerting you to a filename error, check the ID you are using to identify your participant on your task laptop (or whichever computer you have connected to the Eyelink system). Make sure it is at most 8 characters long.
-    -Eyelink runs on an old DOS system, which limits filenames to 8 characters or less. You can still register the participant on the console using whatever naming convention you'd like, but any string that will end up being used by Eyelink to save files will need to adhere to the character limit.
+
+  Eyelink runs on an old DOS system, which limits filenames to 8 characters or less. You can still register the participant on the console using whatever naming convention you'd like, but any string that will end up being used by Eyelink to save files will need to adhere to the character limit.
 
 
 
