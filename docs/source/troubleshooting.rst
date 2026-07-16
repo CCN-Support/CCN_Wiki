@@ -1,6 +1,30 @@
 Troubleshooting
 ===============
 
+Scanner Room
+------------
+
+.. dropdown:: Cabinet out of blankets
+
+  - If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the back area of the suite. Many other spare supplies will be there, including scrubs and headphones mesh covers, in their respectively labelled cabinets.
+  - Put used blankets in the linens bin (either the white one in the scanner room or brown one in the testing hallway) at the end of your session.
+
+.. dropdown:: Linens basket is full
+
+  - When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall directly behind the sink.
+
+  - If you leave it anywhere else, even close by, Facilities will not pick it up.
+
+.. dropdown:: Fan is off or moved
+
+  - There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies, and the air isn't circulating well enough in the room, orient it toward the bed and turn it back on. Participants sometimes find it stuffy in the scanner and having this fan on can help.
+  - If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the motor in the back contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
+
+.. raw:: html
+
+   <hr>
+
+
 General Console Operations
 ------------------
 
@@ -177,27 +201,9 @@ Peripherals
   - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
 
 
-
 .. raw:: html
 
    <hr>
 
-Scanner Room
-------------
 
-.. dropdown:: Blankets
-
-  - If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the back area of the suite. Many other spare supplies will be there, including scrubs and headphones mesh covers, in their respectively labelled cabinets.
-  - Put used blankets in the linens bin (either the white one in the scanner room or brown one in the testing hallway) at the end of your session.
-
-.. dropdown:: Linens Basket
-
-  - When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall directly behind the sink.
-
-  - If you leave it anywhere else, even close by, Facilities will not pick it up.
-
-.. dropdown:: Fans
-
-  - There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies, and the air isn't circulating well enough in the room, orient it toward the bed and turn it back on. Participants sometimes find it stuffy in the scanner and having this fan on can help.
-  - If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the motor in the back contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
 
