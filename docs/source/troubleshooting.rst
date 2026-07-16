@@ -264,9 +264,9 @@ Audio Output is Unbalanced:
 BOLDscreen
 -----------
 
-Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! Add wiki photo below.
+Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! Add wiki photo here.
 
-.. dropdown:: BOLDscreen Not Displaying:
+.. dropdown:: BOLDscreen isn't displaying
 
   **First-pass Checks and Resets**
   
@@ -317,9 +317,9 @@ Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plug
 Task & Response Devices
 -----------------------
 
-Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your device and the configuration box (silver, underneath the desk)!
+Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your device and you have set up the configuration box (silver, underneath the desk)!
 
-.. dropdown:: Button Box Not Working:
+.. dropdown:: Button box is not working
 
   **Redo the button box setup**
 
@@ -352,12 +352,15 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
     .. warning::
 
       Do NOT bring the demo button box from the testing room into the scanner room. It is for practice only and NOT MR safe.
+
+    9. If nothing is working even with the new button box, contact CCN staff. The trigger or fiber optic cable may need replacing.
   
 
-.. dropdown:: Trigger Not Working
+.. dropdown:: Trigger is not working
 
-
-  - If one or more buttons are still not responding, ask the MR Tech for another box. 
+  1. If your task also involves the button box, check the setup using the same steps in the previous section.
+  2. Replug the button box cable in the scanner room. This connection causes a lot of downstream problems, including with the trigger signal, if it is not firmly established.
+  3. If nothing is working, contact CCN staff. The trigger cable may need replacing.
 
 .. raw:: html
 
