@@ -209,6 +209,7 @@ Optoacoustics Headphones
 ------------------------
 
 .. dropdown:: Unit won't turn on
+
   This may happen if a group forgets to turn the system off at the end of their session and it stays on for a long time before finally being switched off. Turn the unit off and leave it off for some time, perhaps while you are setting up and registering your participant. Try pressing the switch again and repeat until it turns on. It may take a few cycles of switch flipping, but the unit has always come back on before long.
 
 .. dropdown:: The task/computer audio isn't playing through headphones:
@@ -235,6 +236,7 @@ Optoacoustics Headphones
   3. Replace the Line 1 In cable. See the section directly previous, as these problems sometimes occur together and can both be resolved with a new cable.
 
 .. dropdown:: Noise cancellation stopped on its own
+
   The most common reason that noise cancellation stops completely is because the stimulus presented is too loud and overshoots the safety threshold (111dB).
   
   1. This can be avoided by making sure the volume on your stimulus machine is at max and you can control/adjust the volume of the headphones using the 'Line 1' dial on the top of the unit.
@@ -243,6 +245,7 @@ Optoacoustics Headphones
   Note: There is no need to adjust the 'Line 2' volume dial, it doesn't do anything to affect the sound unless you have two volume sources!
   
 .. dropdown:: Noise cancelling is fading
+
   Studies that run numerous functional tasks, or have sequences in between functional runs that don't use the ANC function, will notice that over time the algorithm used to produce the noise cancellation may fade and the quality of the noise cancellation will diminish.
   
   1. The most effective way to avoid this is adding another short learning sequence into your protocol.
@@ -361,20 +364,27 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
 Eyetracker
 ----------
 
-If everything seems set up correctly and you see nothing on the Eyelink windows:
+.. dropdown:: Nothing is showing on the Eyelink window
 
-1. Make sure the lens cap is off.
-2. Make sure your task computer is connected to the Eyelink computer. This is typically done with the ethernet cable, so check that it is firmly connected and your network settings are configured to use it.
-3. If you still see nothing, restart the program. Quit Eyelink, check the cable connections on the tracker in the bore, then click the square button at the top left of the desktop screen to launch Eyelink again.
+  1. Make sure the lens cap is off.
+  2. Make sure your task computer is connected to the Eyelink computer. This is typically done with the ethernet cable, so check that it is firmly connected and your network settings are configured to use it.
+  3. Check the tower under the eyetracker computer. The small, rectangular box on top of the tower should have the following cables connected to it:
 
-If everything seems set up correctly, but you notice a green "D" and green crosshairs (instead of white) during calibration:
+    * Transducer cable with yellow tag plugged into the round, yellow port that says 12V@2A
+    * Ethernet cable plugged into the rectangular port right next to transducer cable
+    * Orange fiber optic cable plugged into a port on the long side of the box
 
-1. The eyetracker thinks it is detecting the left eye. We usually track the right eye because that is where the camera is typically and stably positioned--over where the right eye is visible through the coil.
-2. To switch eyes, return to the main menu where you have the thresholding controls for pupil and CR. Look near the bottom of the screen--there are buttons for left and right eye in the "Eye Tracked" window. Click the "Right" button.
-3. Now click the pupil to direct Eyelink to the area you know it should focus on. The participant view window may flash light blue and refuse to keep the yellow box centered around the pupil. If this happens, it means the CR thresholding is way off (likely due to the left/right confusion). Increase or decrease it until it starts to look sensible again and allows you to focus the yellow box around the pupil. Now adjust the pupil thresholding as usual and try calibration again.
+  3. If you still see nothing, restart the program. Quit Eyelink, check the cable connections on the tracker in the bore, then click the square button at the top left of the desktop screen to launch Eyelink again.
+  4. If nothing works, contact CCN staff. There may be another cable that isn't plugged in or needs replacing.
 
-If the Eyelink computer is alerting you to a filename error, check the ID you are using to identify your participant on your task laptop (or whichever computer you have connected to the Eyelink system). Make sure it is at most 8 characters long.
-  -Eyelink runs on an old DOS system, which limits filenames to 8 characters or less. You can still register the participant on the console using whatever naming convention you'd like, but any string that will end up being used by Eyelink to save files will need to adhere to the character limit.
+.. dropdown: Everything seems set up correctly, but there is a green "D" and green crosshairs (instead of white) during calibration
+
+  1. The eyetracker thinks it is detecting the left eye. We usually track the right eye because that is where the camera is typically and stably positioned--over where the right eye is visible through the coil.
+  2. To switch eyes, return to the main menu where you have the thresholding controls for pupil and CR. Look near the bottom of the screen--there are buttons for left and right eye in the "Eye Tracked" window. Click the "Right" button.
+  3. Now click the pupil to direct Eyelink to the area you know it should focus on. The participant view window may flash light blue and refuse to keep the yellow box centered around the pupil. If this happens, it means the CR thresholding is way off (likely due to the left/right confusion). Increase or decrease it until it starts to look sensible again and allows you to focus the yellow box around the pupil. Now adjust the pupil thresholding as usual and try calibration again.
+  
+  If the Eyelink computer is alerting you to a filename error, check the ID you are using to identify your participant on your task laptop (or whichever computer you have connected to the Eyelink system). Make sure it is at most 8 characters long.
+    -Eyelink runs on an old DOS system, which limits filenames to 8 characters or less. You can still register the participant on the console using whatever naming convention you'd like, but any string that will end up being used by Eyelink to save files will need to adhere to the character limit.
 
 
 
