@@ -101,6 +101,8 @@ Checklist for New PIs
 
 Clicking on MRI on the left-hand sidebar and reading through the sub-sections will give you an idea of CCN's policies and the process of getting a scan project set up. The topics are broadly organized to mirror the order in which you will need to complete the setup steps: getting personnel certified, creating the project in CCN's scheduling system, familiarizing yourself with CCN's policies, and running scans.
 
+Actions within the same sections below can be completed concurrently.
+
 .. card::
   :class-card: sd-rounded-2
 
@@ -119,10 +121,11 @@ Clicking on MRI on the left-hand sidebar and reading through the sub-sections wi
 .. card::
   :class-card: sd-rounded-2
 
-  2. Send ccnsupport@g.ucla.edu your protocol or ask for help building one
+  2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
 
-    * The more information and documentation you can send us up front, the faster we can draft a protocol for you!
-    * If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
+  The more information and documentation you can send us up front, the faster we can draft a protocol for you!
+  
+  If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
 
 .. card::
   :class-card: sd-rounded-2
