@@ -173,23 +173,6 @@ Peripherals
   - If you notice that the 'USB' light on the button box is flashing while the USB is plugged into your machine, test the USB on a different machine (like the iMac). Oftentimes the USB port may not be recognizing that there is an input being plugged in, and the machine may need to be restarted.
 
 
-.. dropdown:: Screen(s) Fails to Display Task
-
-  - Make sure that the correct input option is selected on the AV box.
-  - Look at the front panel of the black box on the control room desk. Check that the light to the RIGHT of the input you want (DisplayPort, HDMI, etc.) is lit orange. If not, simply press the correct button.
-  - Try another cable. If you usually use DisplayPort, you can try HDMI, or vice versa.
-  - Try an(other) adapter. There are several in the box by the window (please return whatever you use to the box when you're done).
-  - If you usually duplicate displays, try extending. Certain laptops and/or programs are susceptible to crashing in mirror mode specifically.
-  - Reset the AV box. At the leftmost edge of the front panel of the box, there is a power button. Press it once to turn off, then again to turn back on.
-
-.. dropdown:: Button Box Fails to Respond
-
-  - Redo the settings on the controller box as outlined by the instructions taped directly above it. Remember that steps 3 and/or 5 will be different depending on whether you are using the 2-button box, 4-button box, or trackball mouse.
-  - Make sure the grey trigger cable is connected firmly.
-  - If you replug the cable, it is recommended that you also close out your task program. Plug the cable back in, then restart the program. Some software will run a check on all connected devices upon startup, so if you replug a cable while it's already running, it may not detect the connection.
-  - Make sure the cables in the scanner suite are connected firmly.
-  - If one or more buttons are still not responding, ask the MR Tech for another box. There are spares in the drawer beneath where the test magnet and thermometer are kept. Remember, do NOT bring the demo button box from the testing room into the scanner room--it is NOT MR safe.
-
 .. dropdown:: Pulse Monitor Doesn't Work
   
   - Note that the HR monitor needs to be close enough to the scanner before the computer in the control room can detect it on the physiological display. The screen on the bore will also show the physio readings and relevant error messages when it senses that the monitor is nearby. If you try to test or check the monitor device from the control room, the waveform won't change and the battery icon will be red regardless of actual charge.
@@ -278,68 +261,103 @@ Audio Output is Unbalanced:
 
    <hr>
 
-BOLD Screen
+BOLDscreen
 -----------
 
-Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)!
+Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! Add wiki photo below.
 
-BOLDscreen Not Displaying:
+.. dropdown:: BOLDscreen Not Displaying:
 
-First-pass Checks and Resets
+  **First-pass Checks and Resets**
+  
+  1. Make sure that the AV hub box is turned on. There should be a light on at the leftmost side of the box and a red/green light flashing from the back.
+  2. Make sure that the correct input is selected. An orange light should be illuminated on the front of the AV box, to the right of the input you are using. Press the corresponding button if not.
+  3. Do not plug in multiple inputs. There is no need to plug both the HDMI and DisplayPort cables into your laptop, for example, because the input selection button will determine which one is being used anyway.
+  4. Check that all the cables are plugged into the correct ports. See the picture and description above for reference.
+  5. Disconnect and reconnect the cables between the AV hub and your laptop. Check that all other cables are firmly plugged into their proper, labelled positions (see image above).
+  6. If you usually use HDMI, try DisplayPort instead (or vice versa). You may need to use an adapter to try the new connection method.
+  7. Try an(other) adapter. There are several in the box by the window (please return whatever you use to the box when you're done).
+  8. Do not use adapters unnecessarily. For example, the DisplayPort cable can connect directly to the iMac through a USB-C port. There is no need to introduce an adapter into this connection.
+  9. Only add "redundant" adapters if you test and see that they are necessary to get your display working.
+  10. Disconnect the clone. Unplug the cable labelled "MONITOR" from the "CLONE" port. This means you will not be able to see what the participant is seeing on the BOLDscreen, but if disconnecting the clone helps, it may mean that the external monitor was drawing too much power and causing issues with your display.
+  11. Restart the AV hub. Press the power button at the leftmost side of the front of the box. Wait a few seconds, then press it again to turn back on.
 
-1. Make sure that the AV hub box is turned on. There should be a light on at the leftmost side of the box and a red/green light flashing from the back.
-2. Make sure that the correct input is selected. An orange light should be illuminated on the front of the AV box, to the right of the input you are using. Press the corresponding button if not.
-3. Do not plug in multiple inputs. There is no need to plug both the HDMI and DisplayPort cables into your laptop, for example, because the input selection button will determine which one is being used anyway.
-4. Check that all the cables are plugged into the correct ports. See the picture and description above for reference.
-5. Disconnect and reconnect the cables between the AV hub and your laptop.
-6. If you usually use HDMI, try DisplayPort instead (or vice versa). You may need to use an adapter to try the new connection method.
-7. Do not use adapters unnecessarily. For example, the DisplayPort cable can connect directly to the iMac through a USB-C port. There is no need to introduce an adapter into this connection.
-8. Only add "redundant" adapters if you test and see that they are necessary to get your display working.
-9. Disconnect the clone. Unplug the cable labelled "MONITOR" from the "CLONE" port. This means you will not be able to see what the participant is seeing on the BOLDscreen, but if disconnecting the clone helps, it may mean that the external monitor was drawing too much power and causing issues with your display.
-10. Restart your laptop. Sometimes, even closing and reopening the lid will recover the connection.
-11. Restart the AV hub. Press the power button at the leftmost side of the front of the box. Wait a few seconds, then press it again.
+  **CCN iMac Test**
+  
+  1. If resetting the hub/cable inputs did not help, try plugging the display HDMI into the CCN iMac. This is often a reliable test as to whether it is a BOLDscreen/display issue or a specific laptop/machine issue.
+  2. If the BOLDscreen works when the display cable is plugged into the CCN iMac, the issue might be with your device's display settings. Check the settings like resolution, refresh rate, display mirroring vs. extended etc. on your task computer.
+  3. Check your adapter, if you are using one to connect the HDMI cable to your laptop. Make sure it is clean and completely plugged in. If the screen works via the iMac and resetting the hub didn't help, your adapter may not be working. Look for a spare adapter in the box on the window ledge. There are also more adapters in the labelled cabinet.
+  4. If the BOLDscreen doesn't work when the display cable is plugged into the CCN iMac and further testing with the adapter isn't an option (the correct spare isn't available, you know the original adapter is not the problem, etc.), notify CCN staff. There may be an issue with the BOLDscreen itself.
+  
+  **Task Laptop Checks**
+    * Restart your laptop. Sometimes, even closing and reopening the lid will recover the connection.
+    * If you usually duplicate displays, try extending. Certain laptops and/or programs are susceptible to crashing in mirror mode specifically.
 
-CCN iMac Test:
 
-1. If resetting the hub/cable inputs did not help, try plugging the display HDMI into the CCN iMac. This is often a reliable test as to whether it is a BOLDscreen/display issue or a specific laptop/machine issue.
-2. If the BOLDscreen works when the display cable is plugged into the CCN iMac, the issue might be with the display settings. Check the settings like resolution, refresh rate, display mirroring vs. extended etc. on your task computer.
-3. Check your adapter, if you are using one to connect the HDMI cable to your laptop. Make sure it is clean and completely plugged in. If the screen works via the iMac and resetting the hub didn't help, your adapter may not be working. Look for a spare adapter in the box on the window ledge. There are also more adapters in the labelled cabinet.
-4. If the BOLDscreen doesn't work when the display cable is plugged into the CCN iMac and further testing with the adapter isn't an option (the correct spare isn't available, you know the original adapter is not the problem, etc.), notify CCN staff. There may be an issue with the BOLDscreen itself.
+.. dropdown:: Archived: BOLDscreen 24 Display Issue
 
-Archived: BOLDscreen 24 Display Issue
-
-The old BOLDscreen used to encounter display problems due to interactions with the HDMI splitter and/or processing chip of the task laptop. The issues are documented here for archival purposes.
-
-BOLDscreen Coloration Issue
-
-- There is a known bug with newer MacBooks where the image has a pink tint. This is actually not an issue with the BOLDscreen, but with how the color settings on the Macbook interact with the HDMI splitter.
-- This is hopefully no longer a concern after the January 2024 upgrade (from the 24 to the 32 UHD BOLDscreen), but for documentation purposes, these were the two workarounds available:
-
-  i. Intel Based Chips: If the Macbook has an Intel processing chip (i5, i7 etc.), there is a script available which will correct the color settings to allow use with the external monitor. Please make sure to have Ruby downloaded onto your Macbook and download the patch from this GitHub site. If the user would like to attempt with assistance, please follow instructions from this Github site. Reach out to CCN Staff to coordinate patch if assistance is desired.
-  ii. Silicon Based Chips: If the Macbook has an Apple Silicon chip (M1/M2), then the current script doesn't work unfortunately. The workaround is to bypass the splitter altogether. This does mean forgoing the external monitor.
-    - Unplug the BOLDscreen HDMI from the back of the HDMI splitter (labeled BOLDscreen)
-    - Connect any adaptors necessary to the BOLDscreen HDMI and plug into Macbook
-    - The Macbook should be mirrored onto the BOLDscreen without any discoloration or tint
-    - Once the session is over, make sure to plug the BOLDscreen HDMI back into the splitter
+  The old BOLDscreen used to encounter display problems due to interactions with the HDMI splitter and/or processing chip of the task laptop. The issues are documented here for archival purposes.
+  
+  **BOLDscreen Coloration Issue**
+  
+  - There is a known bug with newer MacBooks where the image has a pink tint. This is actually not an issue with the BOLDscreen, but with how the color settings on the Macbook interact with the HDMI splitter.
+  - This is hopefully no longer a concern after the January 2024 upgrade (from the 24 to the 32 UHD BOLDscreen), but for documentation purposes, these were the two workarounds available:
+  
+    i. Intel Based Chips: If the Macbook has an Intel processing chip (i5, i7 etc.), there is a script available which will correct the color settings to allow use with the external monitor. Please make sure to have Ruby downloaded onto your Macbook and download the patch from this GitHub site. If the user would like to attempt with assistance, please follow instructions from this Github site. Reach out to CCN Staff to coordinate patch if assistance is desired.
+    ii. Silicon Based Chips: If the Macbook has an Apple Silicon chip (M1/M2), then the current script doesn't work unfortunately. The workaround is to bypass the splitter altogether. This does mean forgoing the external monitor.
+      - Unplug the BOLDscreen HDMI from the back of the HDMI splitter (labeled BOLDscreen)
+      - Connect any adaptors necessary to the BOLDscreen HDMI and plug into Macbook
+      - The Macbook should be mirrored onto the BOLDscreen without any discoloration or tint
+      - Once the session is over, make sure to plug the BOLDscreen HDMI back into the splitter
 
 .. raw:: html
 
    <hr>
 
-Response Devices
-----------------
+Task & Response Devices
+-----------------------
 
-Please make sure the USB Cable has been plugged into the correct device!
+Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your device and the configuration box (silver, underneath the desk)!
 
-Button Box Not Working:
+.. dropdown:: Button Box Not Working:
 
-1. Check to make sure the bottom row of lights on the button box interface light up when the corresponding buttons are pressed. Left-most light corresponds to the left most button (2BB) or the top button (4BB)
-2. If all the lights are flashing then the problem is most likely an issue with the connection to your computer:
-  - Check that the USB indicator on the button box interface is static (not blinking). A blinking USB status means the button box interface isn't registering that it's connected to a laptop/computer.
-  - If the USB status light is static (not blinking), open up a text document (word, pages, txt edit) and ask your participant to press the buttons; responses should be collected.
-  - If it works for a txt file but not your stimulus presentation program, keep the USB plugged in and restart your program (Matlab, PsychoPy etc.). Often what happens is these programs are started before the USB is connected, which doesn't allow the program to register the external device.
-  - If the button box itself appears not to be working (e.g., one button does not push through a response while the others do), there is one 2-button and one 4-button spare in the drawer by the sink, beneath where the thermometer and oxygenation clip are stored.
-Remember, do NOT bring the demo button box from the testing room into the scanner suite. It is for practice purposes only and NOT MR safe.
+  **Redo the button box setup**
+
+    1. Unplug the trigger cable. Close your task program.
+    2. Plug the trigger cable back in. Make sure it is firmly connected.
+    3. Redo the settings on the controller box as outlined by the instructions taped directly above it. Remember that steps 3 and/or 5 will be different depending on whether you are using the 2-button box, 4-button box, or trackball mouse.
+    4. Open a text editor (Notepad, txtedit, Word, Pages, etc.). Ask the participant to press buttons. The presses should appear in the text program as the numbers 1-4.
+    5. If the numbers do not appear, the signal is having trouble reaching your device. Skip to the next section.
+    6. If you do see the numbers coming through, the button box is working. Start your task program back up and try again.
+
+    .. caution::
+
+      It is important to follow this order. Often, software will run a check on all connected devices upon startup, so if you replug a cable while the program is already running, it may not detect the connection. Plug the trigger cable in first, then start up your task program.
+
+  **Test the signal**
+
+    1. Unplug the trigger cable from your device and connect it to the iMac instead.
+    2. Open a text editor and ask the participant to press buttons.
+    3. If the numbers appear, the problem is with your task laptop, not the trigger cable or button box setup. Try another port and/or another adapter with your laptop.
+    4. If the numbers do not comem through, the problem is with the trigger cable or button box setup.
+    5. Watch the configuration box under the desk as the participant presses buttons.
+
+      * Check to make sure the bottom row of lights on the button box interface light up when the corresponding buttons are pressed. Left-most light corresponds to the left most button (2BB) or the top button (4BB)
+      * Check that the USB indicator on the button box interface is static (not blinking). A blinking USB status means the button box interface isn't registering that it's connected to a laptop/computer.
+    
+    6. If the lights do not flash as buttons are pressed, something is wrong with the button box's communication with the interface. Disconnect the trigger cable, make sure your task program is still closed, enter the scanner room, and reconnect the button box cable firmly.
+    7. Redo the configuration on the box under the desk and try again.
+    8. If the interface still does not react to the button presses, try a backup button box. There are spares in the drawer by the sink, beneath where the test magnet and thermometer are kept.
+
+    .. warning::
+
+      Do NOT bring the demo button box from the testing room into the scanner room. It is for practice only and NOT MR safe.
+  
+
+.. dropdown:: Trigger Not Working
+
+
+  - If one or more buttons are still not responding, ask the MR Tech for another box. 
 
 .. raw:: html
 
