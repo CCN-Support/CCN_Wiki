@@ -206,15 +206,14 @@ Peripherals
    * Open the box and remove the components within (2).
    * Connect the largest piece to power using the black cable.
   
-     * The tool can also run on battery power. However, it seems to behave unreliably when both power sources are used, so we recommend leaving the batteries removed.
+     The tool can also run on battery power. However, it seems to behave unreliably when both power sources are used, so we recommend leaving the batteries removed.
   
    * Stand the largest piece upright and slot it into the divot on the outer shell of the box (3).
    * Squeeze the silver trigger on the back and hold the lens in position (5).
    * Look through the eyepiece and find the green starry shape that defines focus.
    * Read the small window on the left to see the corresponding prescription (6).
   
-   Reference Images
-   ^^^^^^^^^^^^^^^^
+   .. rubric:: Reference Images
 
    .. grid:: 3
       :gutter: 2
