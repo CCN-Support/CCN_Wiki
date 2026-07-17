@@ -201,40 +201,13 @@ Peripherals
    * Read the small window on the left to see the corresponding prescription (6).
   
 
-   **Lensometer**
-
-   A tool for measuring the prescription on an eyeglass lens.
-
-   * Step one
-   * Step two
-   * Step three
-
    .. rubric:: Reference Images
 
-   .. grid:: 3
-      :gutter: 2
-
-      .. grid-item-card:: 1. Lensometer storage
-
-         .. image:: images/lens_storage.jpg
-            :width: 200px
-            :align: center
-
-      .. grid-item-card:: Card 2
-
-         World
-
-      .. grid-item-card:: Card 3
-
-         World
-
-.. commenting this out
 
    .. grid:: 3
       :gutter: 2
   
       .. grid-item-card:: 1. Lensometer storage
-         :text-align: center:
   
          .. image:: images/lens_storage.jpg
             :width: 200px
@@ -243,7 +216,6 @@ Peripherals
          Stored in the MR glasses cabinet.
   
       .. grid-item-card:: 2. Open the case
-         :text-align: center:
   
          .. image:: images/lens_case.jpg
             :width: 200px
@@ -252,7 +224,6 @@ Peripherals
          Open the case to find the tools inside.
   
       .. grid-item-card:: 3. Mount the lensometer
-         :text-align: center:
   
          .. image:: images/lens_mounted.jpg
             :width: 200px
@@ -261,7 +232,6 @@ Peripherals
          Successfully mounted on the case.
   
       .. grid-item-card:: 4. Glasses stand
-         :text-align: center:
   
          .. image:: images/lens_stand.jpg
             :width: 200px
@@ -270,7 +240,6 @@ Peripherals
          Slide the glasses stand into place.
   
       .. grid-item-card:: 5. Grip the lens
-         :text-align: center:
   
          .. image:: images/lens_glasses.jpg
             :width: 200px
@@ -279,7 +248,6 @@ Peripherals
          Use the tool to grip the lens and rest the glasses.
   
       .. grid-item-card:: 6. Adjust focus
-         :text-align: center:
   
          .. image:: images/lens_dial.jpg
             :width: 200px
