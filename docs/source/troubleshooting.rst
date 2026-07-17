@@ -209,7 +209,7 @@ Peripherals
   
       .. grid-item-card:: 1. Lensometer storage
   
-         .. image:: images/lens_storage.jpg
+         .. figure:: images/lens_storage.jpg
             :width: 200px
             :align: center
   
@@ -217,7 +217,7 @@ Peripherals
   
       .. grid-item-card:: 2. Open the case
   
-         .. image:: images/lens_case.jpg
+         .. figure:: images/lens_case.jpg
             :width: 200px
             :align: center
   
@@ -225,7 +225,7 @@ Peripherals
   
       .. grid-item-card:: 3. Mount the lensometer
   
-         .. image:: images/lens_mounted.jpg
+         .. figure:: images/lens_mounted.jpg
             :width: 200px
             :align: center
   
@@ -233,7 +233,7 @@ Peripherals
   
       .. grid-item-card:: 4. Glasses stand
   
-         .. image:: images/lens_stand.jpg
+         .. figure:: images/lens_stand.jpg
             :width: 200px
             :align: center
   
@@ -241,7 +241,7 @@ Peripherals
   
       .. grid-item-card:: 5. Grip the lens
   
-         .. image:: images/lens_glasses.jpg
+         .. figure:: images/lens_glasses.jpg
             :width: 200px
             :align: center
   
@@ -249,7 +249,7 @@ Peripherals
   
       .. grid-item-card:: 6. Adjust focus
   
-         .. image:: images/lens_dial.jpg
+         .. figure:: images/lens_dial.jpg
             :width: 200px
             :align: center
   
