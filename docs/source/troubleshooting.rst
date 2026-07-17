@@ -4,10 +4,10 @@ Troubleshooting
 Scanner Room
 ------------
 
-.. dropdown:: Cabinet out of blankets
+.. dropdown:: Cabinet is out of blankets
 
   - If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the back area of the suite. Many other spare supplies will be there, including scrubs and headphones mesh covers, in their respectively labelled cabinets.
-  - Put used blankets in the linens bin (either the white one in the scanner room or brown one in the testing hallway) at the end of your session.
+  - Put used blankets in the linens bin (either the white one in the scanner room or brown, rectangular one by the phlebotomy room) at the end of your session.
 
 .. dropdown:: Linens basket is full
 
@@ -179,17 +179,17 @@ Peripherals
   - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
 
 
-.. dropdown:: MR-Safe Glasses
+.. dropdown:: MR-Safe glasses
 
    **Cleaning the glasses**
   
-   * There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
+   There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
   
    **Lensometer**
   
    A tool for measuring the prescription on an eyeglass lens.
 
-   It works, but is not the easiest tool to use, so is not generally recommended for helping you determine the prescription of a participant's glasses. Typically used by staff to check the prescription on the MR-safe lenses in the case when the labels have worn off.
+   It works, but is not the easiest tool to use, so is not generally recommended for helping you determine the prescription of a participant's glasses. Typically used by staff to check the prescription on the MR-safe lenses when the labels have worn off.
   
    1. The device is stored in a small, rectangular box in the cabinet with the MR glasses. Find the white box under the cleaning wipes.
 
@@ -223,67 +223,7 @@ Peripherals
          :width: 50%
 
    7. Read the small window on the left to see the corresponding prescription.
-  
 
-
-.. commenting this out
-   .. rubric:: Reference Images
-
-
-   .. grid:: 3
-      :gutter: 2
-  
-      .. grid-item-card:: 1. Find the device
-  
-         .. figure:: images/lens_storage.jpg
-            :width: 200px
-            :align: center
-
-            Lensometer is in the MR glasses cabinet.
-  
-      .. grid-item::
-
-         .. card:: 2. Open the case
-  
-            .. figure:: images/lens_case.jpg
-               :width: 200px
-               :align: center
-  
-            .. container:: sd-text-center
-
-               Open the case to find the tools inside.
-  
-      .. grid-item-card:: 3. Mount the lensometer
-  
-         .. figure:: images/lens_mounted.jpg
-            :width: 200px
-            :align: center
-  
-            Successfully mounted on the case.
-  
-      .. grid-item-card:: 4. Glasses stand
-  
-         .. figure:: images/lens_stand.jpg
-            :width: 200px
-            :align: center
-  
-            Slide the glasses stand into place.
-  
-      .. grid-item-card:: 5. Grip the lens
-  
-         .. figure:: images/lens_glasses.jpg
-            :width: 200px
-            :align: center
-  
-            Use the tool to grip the lens and rest the glasses.
-  
-      .. grid-item-card:: 6. Adjust focus
-  
-         .. figure:: images/lens_dial.jpg
-            :width: 200px
-            :align: center
-  
-            Turn the black dial until the star shape is focused.
 
 
 .. raw:: html
@@ -345,7 +285,7 @@ Optoacoustics Headphones
 BOLDscreen
 -----------
 
-Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places! Check against this reference:
+Always make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places! Check against this reference:
 
 .. grid:: 2
 
