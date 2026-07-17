@@ -184,7 +184,9 @@ Peripherals
 
       .. grid-item-card:: Card 1
 
-         Hello
+         .. image:: images/lens_storage.jpg
+            :width: 200px
+            :align: center
 
       .. grid-item-card:: Card 2
 
@@ -192,86 +194,86 @@ Peripherals
 
 .. dropdown:: MR-Safe Glasses
 
-  **Cleaning the glasses**
+   **Cleaning the glasses**
   
-  - There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
+   - There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
   
-  **Lensometer**
+   **Lensometer**
   
-  A tool for measuring the prescription on an eyeglass lens.
+   A tool for measuring the prescription on an eyeglass lens.
   
-  * This is stored in a small, rectangular box in the cabinet with the MR glasses.
+   * This is stored in a small, rectangular box in the cabinet with the MR glasses.
     It is the white box under the cleaning wipes (Image 1 below).
-  * Open the box and remove the components within (2).
-  * Connect the largest piece to power using the black cable.
+   * Open the box and remove the components within (2).
+   * Connect the largest piece to power using the black cable.
   
-    * The tool can also run on battery power. However, it seems to behave
+     * The tool can also run on battery power. However, it seems to behave
       unreliably when both power sources are used, so we recommend leaving the
       batteries removed.
   
-  * Stand the largest piece upright and slot it into the divot on the outer shell
+   * Stand the largest piece upright and slot it into the divot on the outer shell
     of the box (3).
-  * Squeeze the silver trigger on the back and hold the lens in position (5).
-  * Look through the eyepiece and find the green starry shape that defines focus.
-  * Read the small window on the left to see the corresponding prescription (6).
+   * Squeeze the silver trigger on the back and hold the lens in position (5).
+   * Look through the eyepiece and find the green starry shape that defines focus.
+   * Read the small window on the left to see the corresponding prescription (6).
   
   
-  .. grid:: 3
-     :gutter: 2
+   .. grid:: 3
+      :gutter: 2
   
-     .. grid-item-card:: 1. Lensometer storage
-        :text-align: center:
+      .. grid-item-card:: 1. Lensometer storage
+         :text-align: center:
   
-        .. image:: images/lens_storage.jpg
-           :width: 200px
-           :align: center
+         .. image:: images/lens_storage.jpg
+            :width: 200px
+            :align: center
   
-        Stored in the MR glasses cabinet.
+         Stored in the MR glasses cabinet.
   
-     .. grid-item-card:: 2. Open the case
-        :text-align: center:
+      .. grid-item-card:: 2. Open the case
+         :text-align: center:
   
-        .. image:: images/lens_case.jpg
-           :width: 200px
-           :align: center
+         .. image:: images/lens_case.jpg
+            :width: 200px
+            :align: center
   
-        Open the case to find the tools inside.
+         Open the case to find the tools inside.
   
-     .. grid-item-card:: 3. Mount the lensometer
-        :text-align: center:
+      .. grid-item-card:: 3. Mount the lensometer
+         :text-align: center:
   
-        .. image:: images/lens_mounted.jpg
-           :width: 200px
-           :align: center
+         .. image:: images/lens_mounted.jpg
+            :width: 200px
+            :align: center
   
-        Successfully mounted on the case.
+         Successfully mounted on the case.
   
-     .. grid-item-card:: 4. Glasses stand
-        :text-align: center:
+      .. grid-item-card:: 4. Glasses stand
+         :text-align: center:
   
-        .. image:: images/lens_stand.jpg
-           :width: 200px
-           :align: center
+         .. image:: images/lens_stand.jpg
+            :width: 200px
+            :align: center
   
-        Slide the glasses stand into place.
+         Slide the glasses stand into place.
   
-     .. grid-item-card:: 5. Grip the lens
-        :text-align: center:
+      .. grid-item-card:: 5. Grip the lens
+         :text-align: center:
   
-        .. image:: images/lens_glasses.jpg
-           :width: 200px
-           :align: center
+         .. image:: images/lens_glasses.jpg
+            :width: 200px
+            :align: center
   
-        Use the tool to grip the lens and rest the glasses.
+         Use the tool to grip the lens and rest the glasses.
   
-     .. grid-item-card:: 6. Adjust focus
-        :text-align: center:
+      .. grid-item-card:: 6. Adjust focus
+         :text-align: center:
   
-        .. image:: images/lens_dial.jpg
-           :width: 200px
-           :align: center
+         .. image:: images/lens_dial.jpg
+            :width: 200px
+            :align: center
   
-        Turn the black dial until the star shape is focused.
+         Turn the black dial until the star shape is focused.
 
 
 .. raw:: html
