@@ -212,8 +212,10 @@ Peripherals
          .. figure:: images/lens_storage.jpg
             :width: 200px
             :align: center
+
+         .. container:: image-caption
   
-         Stored in the MR glasses cabinet.
+            Stored in the MR glasses cabinet.
   
       .. grid-item-card:: 2. Open the case
   
