@@ -15,6 +15,7 @@ Contents
    links-and-forms
    troubleshooting
    future_content
+   testing
 
 Help Contacts
 -------
