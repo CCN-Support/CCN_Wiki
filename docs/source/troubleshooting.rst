@@ -215,7 +215,6 @@ Peripherals
       :gutter: 2
 
       .. grid-item-card:: 1. Lensometer storage
-         :text-align: center:
 
          .. image:: images/lens_storage.jpg
             :width: 200px
