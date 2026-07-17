@@ -1,6 +1,7 @@
 
 Testing Area
-------------
+============
+
 **Before scanning**
 
 #. Load protocol
