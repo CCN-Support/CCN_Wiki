@@ -213,9 +213,33 @@ Peripherals
    * Look through the eyepiece and find the green starry shape that defines focus.
    * Read the small window on the left to see the corresponding prescription (6).
   
+
+   **Lensometer**
+
+   A tool for measuring the prescription on an eyeglass lens.
+
+   * Step one
+   * Step two
+   * Step three
+
    .. rubric:: Reference Images
 
-   TEST TEST TEST
+   .. grid:: 3
+      :gutter: 2
+
+      .. grid-item-card:: Card 1
+
+         World
+
+      .. grid-item-card:: Card 2
+
+         World
+
+      .. grid-item-card:: Card 3
+
+         World
+
+.. commenting this out
 
    .. grid:: 3
       :gutter: 2
