@@ -212,8 +212,6 @@ Peripherals
          .. figure:: images/lens_storage.jpg
             :width: 200px
             :align: center
-
-         .. container:: image-caption
   
             Stored in the MR glasses cabinet.
   
@@ -223,7 +221,7 @@ Peripherals
             :width: 200px
             :align: center
   
-         Open the case to find the tools inside.
+            Open the case to find the tools inside.
   
       .. grid-item-card:: 3. Mount the lensometer
   
@@ -231,7 +229,7 @@ Peripherals
             :width: 200px
             :align: center
   
-         Successfully mounted on the case.
+            Successfully mounted on the case.
   
       .. grid-item-card:: 4. Glasses stand
   
@@ -239,7 +237,7 @@ Peripherals
             :width: 200px
             :align: center
   
-         Slide the glasses stand into place.
+            Slide the glasses stand into place.
   
       .. grid-item-card:: 5. Grip the lens
   
@@ -247,7 +245,7 @@ Peripherals
             :width: 200px
             :align: center
   
-         Use the tool to grip the lens and rest the glasses.
+            Use the tool to grip the lens and rest the glasses.
   
       .. grid-item-card:: 6. Adjust focus
   
@@ -255,7 +253,7 @@ Peripherals
             :width: 200px
             :align: center
   
-         Turn the black dial until the star shape is focused.
+            Turn the black dial until the star shape is focused.
 
 
 .. raw:: html
