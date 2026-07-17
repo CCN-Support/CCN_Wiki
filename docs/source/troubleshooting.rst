@@ -213,7 +213,7 @@ Peripherals
             :width: 200px
             :align: center
 
-            +++
+         .. card-footer::
 
             Stored in the MR glasses cabinet.
   
