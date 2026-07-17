@@ -213,11 +213,9 @@ Peripherals
             :width: 200px
             :align: center
 
-         .. raw:: html
+      .. container:: sd-text-center
 
-            <div class="sd-card-footer">
-            <em>Lensometer is in the white box in the MR glasses cabinet.</em>
-            </div>
+         Lensometer is in the MR glasses cabinet.
   
       .. grid-item-card:: 2. Open the case
   
