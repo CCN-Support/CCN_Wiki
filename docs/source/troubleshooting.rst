@@ -154,7 +154,7 @@ Restart the Scanner
 Peripherals
 -----------
 
-.. dropdown:: iMac Won't Accept Password
+.. dropdown:: iMac won't accept password
 
   - Make sure you have the correct password (message CCN admins if you can't remember).
   - Restart the computer. Sometimes the iMac will give you a "Welcome" message as though it's logging in, then kick you out anyway with an "incorrect password" warning. Rebooting seems to resolve this.
@@ -203,9 +203,6 @@ Peripherals
   * Look through the eyepiece and find the green starry shape that defines focus.
   * Read the small window on the left to see the corresponding prescription (6).
   
-  
-  Procedure Images
-  ----------------
   
   .. grid:: 3
      :gutter: 2
