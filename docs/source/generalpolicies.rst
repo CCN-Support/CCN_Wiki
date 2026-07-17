@@ -101,7 +101,7 @@ Checklist for New PIs
 
 Clicking on MRI on the left-hand sidebar and reading through the sub-sections will give you an idea of CCN's policies and the process of getting a scan project set up. The topics are broadly organized to mirror the order in which you will need to complete the setup steps: getting personnel certified, creating the project in CCN's scheduling system, familiarizing yourself with CCN's policies, and running scans.
 
-Actions within the same sections below can be completed concurrently.
+Actions within the same sections below can be completed concurrently. Each section needs to be completed before the next section can begin.
 
 .. card::
   :class-card: sd-rounded-2
