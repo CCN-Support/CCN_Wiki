@@ -178,6 +178,18 @@ Peripherals
   - If you do not see the red light at all, the sensor loop has gotten shifted around and is now positioned incorrectly within the clip. Remove the rubber finger attachment completely by gently pulling on it--it should slide off easily. Straighten out the sensor loop inside and replace the attachment so that the red light properly shines through one of the holes. Make sure the sensor is not blocked on the opposite side of the light, then try inserting a finger again.
   - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
 
+.. dropdown:: Test
+
+   .. grid:: 2
+
+      .. grid-item-card:: Card 1
+
+         Hello
+
+      .. grid-item-card:: Card 2
+
+         World
+
 .. dropdown:: MR-Safe Glasses
 
   **Cleaning the glasses**
