@@ -15,7 +15,7 @@ Testing Area
 #. Archive data
 
 Heading
-~~~~~~~
+-------
 
 Short intro paragraph.
 
@@ -24,7 +24,7 @@ Short intro paragraph.
    One key takeaway.
 
 Procedure
-~~~~~~~~~
+---------
 
 Numbered steps.
 
