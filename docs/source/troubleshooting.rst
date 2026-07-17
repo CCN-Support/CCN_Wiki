@@ -213,9 +213,11 @@ Peripherals
             :width: 200px
             :align: center
 
-         .. card-footer::
+         .. raw:: html
 
-            Stored in the MR glasses cabinet.
+            <div class="sd-card-footer">
+            <em>Lensometer is in the white box in the MR glasses cabinet.</em>
+            </div>
   
       .. grid-item-card:: 2. Open the case
   
