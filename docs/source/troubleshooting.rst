@@ -196,14 +196,13 @@ Peripherals
 
    **Cleaning the glasses**
   
-   - There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
+   * There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
   
    **Lensometer**
   
    A tool for measuring the prescription on an eyeglass lens.
   
-   * This is stored in a small, rectangular box in the cabinet with the MR glasses.
-    It is the white box under the cleaning wipes (Image 1 below).
+   * This is stored in a small, rectangular box in the cabinet with the MR glasses. It is the white box under the cleaning wipes (Image 1 below).
    * Open the box and remove the components within (2).
    * Connect the largest piece to power using the black cable.
   
@@ -211,13 +210,14 @@ Peripherals
       unreliably when both power sources are used, so we recommend leaving the
       batteries removed.
   
-   * Stand the largest piece upright and slot it into the divot on the outer shell
-    of the box (3).
+   * Stand the largest piece upright and slot it into the divot on the outer shell of the box (3).
    * Squeeze the silver trigger on the back and hold the lens in position (5).
    * Look through the eyepiece and find the green starry shape that defines focus.
    * Read the small window on the left to see the corresponding prescription (6).
   
-  
+   Reference Images
+   ^^^^^^^^^^^^^^^^
+
    .. grid:: 3
       :gutter: 2
   
