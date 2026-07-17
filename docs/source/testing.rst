@@ -23,8 +23,8 @@ Short intro paragraph.
 
    One key takeaway.
 
-Procedure
----------
+Procedure Test
+--------------
 
 Numbered steps.
 
@@ -79,7 +79,7 @@ Now I'm trying a table:
 The following section demonstrates several common reStructuredText elements.
 
 1. Grid Table
--------------
+~~~~~~~~~~~~~
 
 +------------+------------+
 | Column 1   | Column 2   |
@@ -90,7 +90,7 @@ The following section demonstrates several common reStructuredText elements.
 +------------+------------+
 
 2. Simple Table
----------------
+~~~~~~~~~~~~~
 
 ========== ==========
 Column 1   Column 2
@@ -100,7 +100,7 @@ Item B     Value B
 ========== ==========
 
 3. Code Block
--------------
+~~~~~~~~~~~~~
 
 .. code-block:: python
 
@@ -108,7 +108,7 @@ Item B     Value B
        print("Code block text!")
 
 4. Image
---------
+~~~~~~~~
 
 .. image:: images/example.png
    :width: 300px
@@ -116,7 +116,7 @@ Item B     Value B
    :alt: Example image
 
 5. Figure
----------
+~~~~~~~~~
 
 .. figure:: images/example.png
    :width: 50%
@@ -125,21 +125,21 @@ Item B     Value B
    Figure 1. This is an example figure caption.
 
 6. Topic
---------
+~~~~~~~~
 
 .. topic:: Background
 
    This is a topic box used to provide background information.
 
 7. Rubric
----------
+~~~~~~~~~
 
 .. rubric:: Before You Begin
 
 This paragraph follows a rubric.
 
 8. Horizontal Rule
-------------------
+~~~~~~~~~~~~~~~~~~
 
 This text appears above the rule.
 
@@ -148,7 +148,7 @@ This text appears above the rule.
 This text appears below the rule.
 
 9. Sidebar
-----------
+~~~~~~~~~~
 
 .. sidebar:: Tip
 
@@ -157,7 +157,7 @@ This text appears below the rule.
 Continue reading the main text here.
 
 10. Definition List
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 API
     Application Programming Interface.
@@ -169,14 +169,14 @@ CLI
     Command Line Interface.
 
 11. Field List
---------------
+~~~~~~~~~~~~~
 
 :Author: Jane Doe
 :Version: 1.0
 :Status: Draft
 
 12. Option List
----------------
+~~~~~~~~~~~~~
 
 -h, --help
     Show the help message.
@@ -188,7 +188,7 @@ CLI
     Write output to FILE.
 
 13. Block Quote
----------------
+~~~~~~~~~~~~~
 
 This is a normal paragraph introducing the quote.
 
@@ -199,7 +199,7 @@ This is a normal paragraph introducing the quote.
 This is back to normal text.
 
 14. Line Block
---------------
+~~~~~~~~~~~~~
 
 | Dr. Jane Smith
 |   Department of Computer Science
@@ -208,7 +208,7 @@ This is back to normal text.
 | Allows newlines without having to hit Return twice in the code to inject the line break
 
 15. Epigraph
-------------
+~~~~~~~~~~~~~
 .. epigraph::
 
    Documentation is a love letter that you write to your future self.
@@ -216,7 +216,7 @@ This is back to normal text.
    -- Damian Conway
 
 16. Cards (sphinx-design feature)
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. card:: My Card
 
@@ -238,14 +238,14 @@ This is back to normal text.
       Detailed documentation.
 
 17. Dropdown (sphinx-design feature)
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. dropdown:: More information
 
    Hidden content goes here.
 
 18. Badges (sphinx-design feature)
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. dropdown:: Documentation Status Examples
 
@@ -276,7 +276,7 @@ Using badges as compact labels in a list:
 * :bdg-info:`NOTE` Additional information available
 
 19. Flowchart (Mermaid feature)
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. mermaid::
    :caption: Figure 1. Colored nodes (default is black with white text)
