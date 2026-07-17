@@ -194,6 +194,7 @@ Peripherals
    1. The device is stored in a small, rectangular box in the cabinet with the MR glasses. Find the white box under the cleaning wipes.
 
       .. figure:: images/lens_storage.jpg
+         :width: 70%
 
    2. Open the box and remove the components within.
 
