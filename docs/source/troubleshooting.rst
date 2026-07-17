@@ -180,24 +180,89 @@ Peripherals
 
 .. dropdown:: MR-Safe Glasses
 
-  **Cleaning the Glasses**
+  **Cleaning the glasses**
   
   - There are supplies (glass-cleaning solution, wipes) for cleaning the MR-safe glasses in the same cabinet where the glasses are stored. Please use them, not the Lysol wipes, to clean the glasses without damaging them.
   
   **Lensometer**
   
-  *A tool for measuring the prescription on an eyeglass lens.* This is stored in a small, rectangular box in the cabinet with the MR glasses. It is a white box under the cleaning wipes.
+  A tool for measuring the prescription on an eyeglass lens.
   
-  1. Open the box and remove the components within (2).
-  2. Connect the largest piece to power using the black cable.
-  3. The tool can also run on battery power. However, it seems to behave unreliably when both power sources (batteries and cable) are used, so we have removed the batteries and recommend you do not place new ones in. The lensometer stays on by default, by the nature of its design, so the batteries will continue to drain even when it's not being used.
-  4. Stand the largest piece upright and slot it into the divot on the outer shell of the box (3). You may not be able to slide it all the way in because of the power cable. This is okay--just make sure the piece is upright and stable.
-  5. Slide the reflective rectangular piece horizontally into the small slats. This may take a bit of wiggling (4). If one end doesn't seem to want to slide in, turn it around and try inserting from the other end.
-  6. You can leave this piece aside unless you want to measure a pair of glasses. Its purpose is to provide a stand to stabilize the glasses on.
-  7. Once the stand piece is in, you can slide it up and down as needed to provide a stable resting place for your glasses.
-  8. Squeeze the silver trigger on the back and hold the lens in question in the resulting aperture space. Release the trigger and the lens will be held firmly in its position (5).
-  9. Look through the eyepiece and find the green, starry shape that will be defining the focus. If it's off-center or totally missing, adjust the position of the lens in its measurement position. Once you find it and it's centered, turn the black dial on the right until it becomes clear and focused.
-  10. Read the little window on the left of the tool to see what the corresponding prescription is (6). Red and black numbers correspond to positive and negative.
+  * This is stored in a small, rectangular box in the cabinet with the MR glasses.
+    It is the white box under the cleaning wipes (Image 1 below).
+  * Open the box and remove the components within (2).
+  * Connect the largest piece to power using the black cable.
+  
+    * The tool can also run on battery power. However, it seems to behave
+      unreliably when both power sources are used, so we recommend leaving the
+      batteries removed.
+  
+  * Stand the largest piece upright and slot it into the divot on the outer shell
+    of the box (3).
+  * Squeeze the silver trigger on the back and hold the lens in position (5).
+  * Look through the eyepiece and find the green starry shape that defines focus.
+  * Read the small window on the left to see the corresponding prescription (6).
+  
+  
+  Procedure Images
+  ----------------
+  
+  .. grid:: 3
+     :gutter: 2
+  
+     .. grid-item-card:: 1. Lensometer storage
+        :text-align: center:
+  
+        .. image:: images/lens_storage.jpg
+           :width: 200px
+           :align: center
+  
+        Stored in the MR glasses cabinet.
+  
+     .. grid-item-card:: 2. Open the case
+        :text-align: center:
+  
+        .. image:: images/lens_case.jpg
+           :width: 200px
+           :align: center
+  
+        Open the case to find the tools inside.
+  
+     .. grid-item-card:: 3. Mount the lensometer
+        :text-align: center:
+  
+        .. image:: images/lens_mounted.jpg
+           :width: 200px
+           :align: center
+  
+        Successfully mounted on the case.
+  
+     .. grid-item-card:: 4. Glasses stand
+        :text-align: center:
+  
+        .. image:: images/lens_stand.jpg
+           :width: 200px
+           :align: center
+  
+        Slide the glasses stand into place.
+  
+     .. grid-item-card:: 5. Grip the lens
+        :text-align: center:
+  
+        .. image:: images/lens_glasses.jpg
+           :width: 200px
+           :align: center
+  
+        Use the tool to grip the lens and rest the glasses.
+  
+     .. grid-item-card:: 6. Adjust focus
+        :text-align: center:
+  
+        .. image:: images/lens_dial.jpg
+           :width: 200px
+           :align: center
+  
+        Turn the black dial until the star shape is focused.
 
 
 .. raw:: html
@@ -266,8 +331,11 @@ Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plug
    .. grid-item-card:: Normal Configuration
 
       Review the labelled ports carefully.
+
       **CLONE:** Reproduces the BOLDscreen display on the control room monitor.
+
       **SCREEN (left):** DisplayPort - USB-C connection.
+      
       **SCREEN (right):** HDMI-HDMI connection.
 
 
