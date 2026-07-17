@@ -207,23 +207,25 @@ Peripherals
    .. grid:: 3
       :gutter: 2
   
-      .. grid-item-card:: 1. Lensometer storage
+      .. grid-item-card:: 1. Find the device
   
          .. figure:: images/lens_storage.jpg
             :width: 200px
             :align: center
 
-      .. container:: sd-text-center
+            Lensometer is in the MR glasses cabinet.
+  
+      .. grid-item::
 
-         Lensometer is in the MR glasses cabinet.
+         .. card:: 2. Open the case
   
-      .. grid-item-card:: 2. Open the case
+            .. figure:: images/lens_case.jpg
+               :width: 200px
+               :align: center
   
-         .. figure:: images/lens_case.jpg
-            :width: 200px
-            :align: center
-  
-            Open the case to find the tools inside.
+            .. container:: sd-text-center
+
+               Open the case to find the tools inside.
   
       .. grid-item-card:: 3. Mount the lensometer
   
