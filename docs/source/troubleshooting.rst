@@ -212,7 +212,7 @@ Optoacoustics Headphones
 
   This may happen if a group forgets to turn the system off at the end of their session and it stays on for a long time before finally being switched off. Turn the unit off and leave it off for some time, perhaps while you are setting up and registering your participant. Try pressing the switch again and repeat until it turns on. It may take a few cycles of switch flipping, but the unit has always come back on before long.
 
-.. dropdown:: The task/computer audio isn't playing through headphones:
+.. dropdown:: The task/computer audio isn't playing through headphones
 
   1. If your participant reports no audio from the computer you are playing it from, but can hear your voice as you speak to them, check the cable connections at the back of the Optoacoustics box. The skinny black cable (labelled "Optoacoustics", connects the box to your computer) should be plugged into the "Line 1 In" port.
   2. Turn off the Optoacoustics box. Replug the skinny black cable (labelled "Optoacoustics") and the other, slightly thicker black cable to its left (the power cable).
@@ -220,16 +220,16 @@ Optoacoustics Headphones
   4. Check that your computer volume is turned up.
   5. Check that the volume knob on the box is turned up and the balance knob is in the middle.
 
-.. dropdown:: Audio plays through one side of headphones only:
+.. dropdown:: Audio plays through one side of headphones only
 
   1. Check that the balance knob is not turned all the way to one side. Turn off the box and leave it off for a few minutes. While waiting, replug the Line 1 In cable. This is the skinny black cable labelled Optoacostics that connects the box to your computer.
   2. Replace the Line 1 In cable. Find a new aux cable in the control room cabinets (likely in the box labelled "AV Cables") and try using it.
 
-.. dropdown:: Audio Output is Unbalanced:
+.. dropdown:: Audio Output is unbalanced
 
   Check the knob in the upper left corner of the back of the unit. Turn it until the dot at the top of the dial is lined up in the middle. The knob should always stay in this position, as it ensures that the audio will not be played in one ear more than the other.
 
-.. dropdown:: Users in control room cannot hear task audio:
+.. dropdown:: Users in control room cannot hear task audio
 
   1. If your participant can hear the audio playing from your computer, but you cannot, first check the speaker knob at the top-right side of the box. Turn it up if it is low.
   2. Press the circular button right below it. It should be lit green.
@@ -259,7 +259,9 @@ Optoacoustics Headphones
 BOLDscreen
 -----------
 
-Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! Add wiki photo here.
+Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! The normal configuration should look like this:
+
+.. image:: images/AV_box.jpg
 
 .. dropdown:: BOLDscreen isn't displaying
 
