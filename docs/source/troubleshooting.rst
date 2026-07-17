@@ -168,7 +168,7 @@ Peripherals
   - This restart routine is usually sufficient to fix trigger problems because most of them arise from the task program not communicating with the task computer correctly. Matlab in particular can be finicky about this--for example, unplugging and re-plugging the trigger USB while Matlab is running will cause unreliable behaviors that often affect downstream functionality (such as the scan triggers and button box responses). If you are using the eyetracker, multiple calibration/validation attempts have also been observed to cause problems with task triggers.
 
 
-.. dropdown:: Pulse monitor isn't Working
+.. dropdown:: Pulse monitor isn't working
   
   - Note that the HR monitor needs to be close enough to the scanner before the computer in the control room can detect it on the physiological display. The screen on the bore will also show the physio readings and relevant error messages when it senses that the monitor is nearby. If you try to test or check the monitor device from the control room, the waveform won't change and the battery icon will be red regardless of actual charge.
   - The small square lights on the top left of the device are the charging indicators. They will flash green when the device is successfully charging.
@@ -259,19 +259,23 @@ Optoacoustics Headphones
 BOLDscreen
 -----------
 
-Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! The normal configuration should look like this:
+Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places! Check against this reference:
 
 .. grid:: 2
 
    .. grid-item-card:: Normal Configuration
 
-      Check the labels to make sure the cables haven't been moved around
+      Review the labelled ports carefully.
+      **CLONE:** Reproduces the BOLDscreen display on the control room monitor.
+      **SCREEN (left):** DisplayPort - USB-C connection.
+      **SCREEN (right):** HDMI-HDMI connection.
 
 
    .. grid-item-card:: 
 
       .. image:: images/AV_box.jpg
          :width: 250px
+         :align: center
 
 .. dropdown:: BOLDscreen isn't displaying
 
