@@ -225,7 +225,7 @@ Optoacoustics Headphones
   1. Check that the balance knob is not turned all the way to one side. Turn off the box and leave it off for a few minutes. While waiting, replug the Line 1 In cable. This is the skinny black cable labelled Optoacostics that connects the box to your computer.
   2. Replace the Line 1 In cable. Find a new aux cable in the control room cabinets (likely in the box labelled "AV Cables") and try using it.
 
-.. dropdown:: Audio Output is unbalanced
+.. dropdown:: Audio output is unbalanced
 
   Check the knob in the upper left corner of the back of the unit. Turn it until the dot at the top of the dial is lined up in the middle. The knob should always stay in this position, as it ensures that the audio will not be played in one ear more than the other.
 
@@ -261,7 +261,17 @@ BOLDscreen
 
 Make sure the power to the AV hub is on and the HDMI/DisplayPort cables are plugged into the correct places (see labels)! The normal configuration should look like this:
 
-.. image:: images/AV_box.jpg
+.. grid:: 2
+
+   .. grid-item-card:: Normal Configuration
+
+      Check the labels to make sure the cables haven't been moved around
+
+
+   .. grid-item-card:: 
+
+      .. image:: images/AV_box.jpg
+         :width: 250px
 
 .. dropdown:: BOLDscreen isn't displaying
 
