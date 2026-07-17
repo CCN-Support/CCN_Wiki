@@ -188,19 +188,40 @@ Peripherals
    **Lensometer**
   
    A tool for measuring the prescription on an eyeglass lens.
+
+   It works, but is not the easiest tool to use, so is not generally recommended for helping you determine the prescription of a participant's glasses. Typically used by staff to check the prescription on the MR-safe lenses in the case when the labels have worn off.
   
-   * This is stored in a small, rectangular box in the cabinet with the MR glasses. It is the white box under the cleaning wipes (Image 1 below).
-   * Open the box and remove the components within (2).
-   * Connect the largest piece to power using the black cable.
+   1. The device is stored in a small, rectangular box in the cabinet with the MR glasses. Find the white box under the cleaning wipes.
+
+      .. figure:: images/lens_storage.jpg
+
+   2. Open the box and remove the components within.
+
+      .. figure:: images/lens_case.jpg
+
+   3. Connect the largest piece to power using the black cable.
   
      The tool can also run on battery power. However, it seems to behave unreliably when both power sources are used, so we recommend leaving the batteries removed.
+
+      .. figure:: images/lens_mounted.jpg
   
-   * Stand the largest piece upright and slot it into the divot on the outer shell of the box (3).
-   * Squeeze the silver trigger on the back and hold the lens in position (5).
-   * Look through the eyepiece and find the green starry shape that defines focus.
-   * Read the small window on the left to see the corresponding prescription (6).
+   4. Stand the largest piece upright and slot it into the divot on the outer shell of the box.
+
+      .. figure:: images/lens_stand.jpg
+
+   5. Squeeze the silver trigger on the back and hold the lens in position.
+
+      .. figure:: images/lens_glasses.jpg
+
+   6. Look through the eyepiece and find the green starry shape that defines focus.
+
+      .. figure:: images/lens_dial.jpg
+
+   7. Read the small window on the left to see the corresponding prescription.
   
 
+
+.. commenting this out
    .. rubric:: Reference Images
 
 
