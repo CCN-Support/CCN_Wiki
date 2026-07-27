@@ -93,13 +93,44 @@ FIRMM
 
 FIRMM can track bold EPI, Diffusion, and volume navigator (vNav) T1 and T2 sequences.
 
-XA30
+**XA30**
+
 FIRMM on XA30 is seamlessly integrated and starts automatically via settings in the bold, diffusion, and vNav sequences. No user input is necessary.
-If your project would like to utilize FIRMM, please reach out to CCN techs.
-Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
-As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
+
+- If your project would like to utilize FIRMM, please reach out to CCN techs.
+- Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
+- As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
 
 .. image:: images/FirmmTablet.png
+
+**VE11C - ARCHIVED**
+
+- Register a subject on the scanner (normal procedure).
+- Check the threshold value on the tablet (the dotted lines above and below the 0 line) and change the value under the Settings tab if desired.
+- Open up the Windows start menu (CTRL+ESC).
+- Right click on the 'FIRMM start one patient' towards the top of the menu and click open.
+- A pop-up will appear asking whether this file is secure, select 'Run'.
+- A new pop-up will appear that has a large 'CONNECTED' message.
+- Start your scan and participant motion metrics will appear on the FMRI, DWI, or T1/T2 tabs (if using vNav structural).
+- Note that the percentage reflects the aggregate motion metrics up to the current moment. If you're looking for the percentage that corresponds to only a particular series, tap "Show Series" and make sure only the one you're interested in is checked.
+- No need to take any further action when your scan is complete. If the next group intends to collect FIRMM data, they will start the process again (register patient, right click "FIRMM start one patient", etc.) and the tablet will automatically sync with the new functionals as they are acquired.
+
+**Research FIRMM (decommissioned)**
+
+Make sure Advanced User mode is enabled - You will know it is if the MARS_SSH shortcut is visible on the start menu.
+
+FIRMM Instructions:
+
+- Press CTRL+ESC on console --> STOP FIRMM Session
+- Register your participant.
+- Press CTRL+ESC on console --> START FIRMM Session
+- Close out of terminal and X11 on the iMac.
+- Go to "XQuartz" or "Terminal" menu at the top left of the screen, then scroll down and click "Quit"
+- Double click "FIRMM.command" icon on desktop. This should open up the terminal.
+- Type FIRMM into command line and press Enter.
+- Terminal should start spitting out lines, X11 should open up and you should see a message on the terminal window that says "Waiting for DICOMs..."
+- Click on the Start button on the X11 FIRMM application window.
+- When your functional scan starts, volumes should start appearing after ~45sec delay.
 
 Eye Camera
 ==========
