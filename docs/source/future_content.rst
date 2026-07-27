@@ -99,6 +99,26 @@ If your project would like to utilize FIRMM, please reach out to CCN techs.
 Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
 As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
 
+.. image:: images/FirmmTablet.png
+
+Eye Camera
+==========
+**Setup**
+
+The camera feed adaptor should be located on the desk behind the console monitor.
+
+- Make sure the camera feed is plugged into the yellow component of the adaptor, and the USB is plugged into the CCN iMac.
+- Open up the ezcap VideoCapture software on the CCN iMac.
+- If the ezcap application is already open, quit and reopen before moving on. Sometimes the USB is not read properly if opened before connecting USB.
+- After opening the program two windows will popup, these are normal.
+- Navigate to the top of the screen and click on the Digitizers menu and select ezcap VideoGrabber. This should bring up a video feed in a separate window.
+  
+  - If this doesn’t work, restart the ezcap VideoCapture software and try again.
+  - If no video feed is present, please email the MR Tech.
+- CCN has a camera attached to the top of the bore in the instance research groups would like to monitor their subject's wakefulness but have no need for the eye tracking metrics.
+
+.. image:: images
+
 Eye Tracking
 ============
 MR Compatible EyeLink 1000
