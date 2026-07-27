@@ -121,7 +121,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   
     ☐ Follow the instructions in :ref:`safety_cert`
 
-.. card::
+.. card:: Prepare your Protocol
   :class-card: sd-rounded-2
 
   2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
