@@ -107,9 +107,9 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
 
   **Prepare your Project and Personnel**
-  --------------------------------------
+  ======================================
 
-  1a. Set up your project
+  1a. Set up your project - heading test
 
     ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
   
