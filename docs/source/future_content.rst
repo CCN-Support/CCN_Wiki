@@ -53,6 +53,15 @@ Specifications:
 - Luminance: 300 cd/m2
 - Distance from isocenter: 121 cm
 
+**Setup**
+
+If everything is working correctly, setup should be quite straight forward. The BOLDscreen connects via HDMI or DislpayPort cable. Both are labeled "SCREEN".
+
+- Plug in the display cable to the stimulus laptop or CCN iMac, and the BOLDscreen should mirror the display exactly.
+    - Often an adaptor is required. CCN offers all the usual adaptors needed (HDMI to USB-C, Mini Display, VGA).
+    - Please note the Mini Display adaptor only connects in one direction! This is important so you don't damage the display port on the iMac or other devices.
+- There is an external monitor located to the right of the console computer, which should mirror the BOLDscreen so users are able to see what the participant sees. To connect to this monitor, connect the cable labelled "MONITOR" to the port on the box labelled "CLONE".
+
 Eye Tracking
 ============
 MR Compatible EyeLink 1000
