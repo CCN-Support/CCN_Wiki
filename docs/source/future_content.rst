@@ -117,7 +117,7 @@ The camera feed adaptor should be located on the desk behind the console monitor
   - If no video feed is present, please email the MR Tech.
 - CCN has a camera attached to the top of the bore in the instance research groups would like to monitor their subject's wakefulness but have no need for the eye tracking metrics.
 
-.. image:: images
+.. image:: images/EyeCameraAdaptor.png
 
 Eye Tracking
 ============
