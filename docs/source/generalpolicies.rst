@@ -123,8 +123,8 @@ Actions within the same sections below can be completed concurrently. Each secti
     ☐ Follow the instructions in :ref:`safety_cert`
 
 .. card::
-  :class-card: sd-rounded-2
-  :class-header: sd-bg-muted sd-text-white
+  :class-card: sd-rounded-2 sd-border-dark
+  :class-header: sd-bg-primary sd-text-white
 
   Prepare your Protocol
   ^^^^^^^^^^^^^^^^^^^^^
@@ -136,8 +136,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
 
 .. card::
-  :class-card: sd-rounded-2
-  :class-header: sd-bg-light sd-text-black
+  :class-card: sd-rounded-2 sd-border-white
+  :class-header: sd-bg-primary sd-text-black
 
   Test your Scan
   ^^^^^^^^^^^^^^
