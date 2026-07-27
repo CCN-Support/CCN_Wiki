@@ -62,6 +62,43 @@ If everything is working correctly, setup should be quite straight forward. The 
     - Please note the Mini Display adaptor only connects in one direction! This is important so you don't damage the display port on the iMac or other devices.
 - There is an external monitor located to the right of the console computer, which should mirror the BOLDscreen so users are able to see what the participant sees. To connect to this monitor, connect the cable labelled "MONITOR" to the port on the box labelled "CLONE".
 
+.. image:: images/AV_box.jpg
+
+Current Designs Response Devices
+================================
+Current Designs: `Product Site <https://www.curdes.com/>`_
+
+- CCN is currently outfitted with four MR safe response devices: 2 Button Inline Box, 4 Button Inline Box, 4 Button Diamond Box, and a Track Ball
+- CCN is also equipped with a USB 4 button practice device for use in the testing room outside of the scanner: **This device is NOT MR safe and should not enter the scanner room at any time!**
+
+**Setup**
+
+Device Connection:
+
+1. The three response devices are located in a drawer inside the scanner room labeled "Button Boxes"
+2. Take one of the devices and remove the small rubber cap located on the connector
+3. Remove the top optical bundle from the wall, and remove the rubber cap from the bundle connector
+
+  - Carefully put the two caps somewhere they won't get lost. The ledge of the window between the scan suite and control room is a good option, because you will see them when you loop the optical cable back up at the end of the scan.
+4. Gently find the correct orientation for the two connectors to interlock
+
+  - Once the correct orientation is found, connect the button box to the fiber bundle
+5. Back in the control room, follow the instruction sheet attached to the desk above the silver button box interface in order to select the correct device and settings
+
+  - Steps 3 and 5 will be different for the trackball mouse. Choose HHSC-TRK2 and HID TRACK COMP for those steps, respectively.
+6. Once settings have been selected, please make sure your subject tests the buttons before continuing
+
+FIRMM
+=====
+
+FIRMM can track bold EPI, Diffusion, and volume navigator (vNav) T1 and T2 sequences.
+
+XA30
+FIRMM on XA30 is seamlessly integrated and starts automatically via settings in the bold, diffusion, and vNav sequences. No user input is necessary.
+If your project would like to utilize FIRMM, please reach out to CCN techs.
+Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
+As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
+
 Eye Tracking
 ============
 MR Compatible EyeLink 1000
