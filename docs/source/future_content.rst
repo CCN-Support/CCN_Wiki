@@ -63,3 +63,4 @@ Calibration
 
 - Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
 
+.. image:: EYELINK transducer.jpg
