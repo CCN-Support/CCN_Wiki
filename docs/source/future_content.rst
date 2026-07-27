@@ -2,16 +2,65 @@ Future Content
 --------------
 
 Peripheral Equipment
-====================
+~~~~~~~~~~~~~~~~~~~~
+
+**Opto Acoustic Noise Canceling Headphones**
+============================================
+
+`OptoACTIVE II <https://www.optoacoustics.com/medical/optoactive-slender>`_ slim, over-the-ear headphones with an active noise cancellation (ANC) feature.
+
+Setup
+
+Please use the sanitary headphone covers located in the middle cabinet inside the scanner room. Do not clean the headphones with the wipes. Commercial cleaning products will cause the material to degrade and crack over time. We will then have to repair the headphones with electrical tape or replace them.
+
+1. Turn on power (top-right button on the back of the unit) and the display should appear (image 1 below). 
+2. Make sure the audio cable isn't plugged into anything. Touch "Touch screen to continue" and then "Start" to move to the calibration screen (2).
+3. Firmly touch "Calibrate" to begin calibration. During this step, absolute silence is necessary--no scanner noise and no audio. If calibration is successful, a green checkmark will appear next to the Left and Right calibration boxes. (3)
+4. Once calibrated successfully, touch the ANC button in the upper right-hand corner of the screen.
+5. Touch "Learn" to begin the algorithm's learning phase. (4) This sequence should be run before the task sequence and allows the noise cancellation algorithm to learn the noise coming from the scanner. If the audio cable is plugged in, make sure no audio is being played or else the learning will fail. The learning sequence should be at least 30 seconds long and should be the same exact sequence type being used for your fMRI tasks. (5)
+6. Once the learning phase is complete, check that the yellow status box that said "Learn" is now green and says "Noise Cancellation". If it doesn't (e.g., it reads "Idle" or "Passive" instead), press the ANC button. The status should change and there should be a significant decrease in the scanner noise heard by the participant. (6) 
+  - This is signified by the decrease in the dB value and the dB waveform seen on the screen for each ear.
+  - Note that in Image 6, the red line is flat because the sequence had been stopped at the time the picture was taken. During your active scan with noise cancellation being performed, the red line should look similar to the blue line.
+7. The algorithm will remain active unless stopped by the user or the system (see Troubleshooting).
+8. Press STOP if you wish to pause the application of noise cancellation (e.g., to talk to the participant). Press ANC to start it again.
+9. Press the switch on the back of the box to turn everything back off at the end of your scan. Leaving the unit on for long periods of time may cause it to exhibit unusual behaviors, such as struggling to turn back on again.
+
++---------------------------------------+-------------------------------------+-----------------------------------------+
+| .. image:: images/opto_homescreen.jpg | .. image:: images/opto_start.jpg    | .. image:: images/opto_calibrate.jpg    |
+|    :width: 150px                      |  :width: 150px                      |  :width: 150px                          |
+|                                       |                                     |                                         |
+|**Figure 1.** Homescreen               |**Figure 2.** Press Start            |**Figure 3.** Calibration successful     |
++---------------------------------------+-------------------------------------+-----------------------------------------+
+| .. image:: images/opto_learn.jpg      | .. image:: images/opto_learning.jpg | .. image:: images/opto_ANC.jpg          |
+|    :width: 150px                      |  :width: 150px                      |  :width: 150px                          |
+|                                       |                                     |                                         |
+|**Figure 4.** System ready to learn    |**Figure 5.** 1.7 seconds until      |**Figure 6.** Cancellation active        |
+|                                       | learning complete                   |                                         |
++---------------------------------------+-------------------------------------+-----------------------------------------+
+
+BOLDscreen 32" UHD LCD Display
+==============================
+
+Product site: https://www.crsltd.com/tools-for-functional-imaging/mr-safe-displays/boldscreen-32-uhd/
+
+Specifications:
+
+- Active Area: 698.4 x 392.2 mm
+- Pixel Dimensions: 3840 x 2160
+- Refresh Rate: 60 Hz
+- Pixel Pitch: 0.181 mm
+- Contrast: 3000:1
+- Luminance: 300 cd/m2
+- Distance from isocenter: 121 cm
 
 Eye Tracking
-~~~~~~~~~~~~
+============
 MR Compatible EyeLink 1000
 CCN is equipped with an in-bore `EyeLink 1000 Plus - Long Range <https://www.sr-research.com/fmri-meg-systems/>`_.
 
-.. image:: Image-size-projector-screen.png
+.. image:: images/Image-size-projector-screen.png
 
-.. image:: Eyelink-in-scanner-eye-to-screen-distance.png
+.. image:: images/Eyelink-in-scanner-eye-to-screen-distance.png
 
 **Setup**
 
@@ -63,4 +112,4 @@ Calibration
 
 - Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
 
-.. image:: EYELINK transducer.jpg
+.. image:: images/EYELINK_transducer.jpg
