@@ -106,8 +106,8 @@ Actions within the same sections below can be completed concurrently. Each secti
 .. card::
   :class-card: sd-rounded-2
 
-  Prepare your Project and Personnel
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  **Prepare your Project and Personnel**
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   1a. Set up your project
 
