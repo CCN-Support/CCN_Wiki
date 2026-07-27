@@ -124,7 +124,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
 .. card::
   :class-card: sd-rounded-2
-  :class-header: sd-bg-secondary sd-text-white
+  :class-header: sd-bg-muted sd-text-white
 
   Prepare your Protocol
   ^^^^^^^^^^^^^^^^^^^^^
@@ -137,7 +137,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
 .. card::
   :class-card: sd-rounded-2
-  :class-header: sd-bg-dark sd-text-white
+  :class-header: sd-bg-light sd-text-black
 
   Test your Scan
   ^^^^^^^^^^^^^^
