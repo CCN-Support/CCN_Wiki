@@ -104,7 +104,7 @@ Clicking on MRI on the left-hand sidebar and reading through the sub-sections wi
 Actions within the same sections below can be completed concurrently. Each section needs to be completed before the next section can begin.
 
 .. card::
-  :class-card: sd-rounded-2
+  :class-card: sd-rounded-1
   :class-header: sd-bg-primary sd-text-white
 
   Prepare your Project and Personnel
@@ -136,7 +136,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
 
 .. card::
-  :class-card: sd-rounded-2 sd-border-4
+  :class-card: sd-rounded-2 sd-border-3
   :class-header: sd-bg-primary sd-text-white
 
   Test your Scan
