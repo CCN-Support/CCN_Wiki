@@ -124,8 +124,10 @@ Actions within the same sections below can be completed concurrently. Each secti
 
 .. card::
   :class-card: sd-rounded-2
+  :class-header: sd-bg-secondary sd-text-white
 
-  .. rubric:: Prepare your Protocol
+  Prepare your Protocol
+  ^^^^^^^^^^^^^^^^^^^^^
 
   2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
 
@@ -135,6 +137,10 @@ Actions within the same sections below can be completed concurrently. Each secti
 
 .. card::
   :class-card: sd-rounded-2
+  :class-header: sd-bg-dark sd-text-white
+
+  Test your Scan
+  ^^^^^^^^^^^^^^
 
   3a. Request testing time
 
