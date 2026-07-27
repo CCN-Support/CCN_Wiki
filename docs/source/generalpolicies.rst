@@ -110,7 +110,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   Prepare your Project and Personnel
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  1a. Set up your project - heading test
+  1a. Set up your project
 
     ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
   
@@ -123,7 +123,7 @@ Actions within the same sections below can be completed concurrently. Each secti
     ☐ Follow the instructions in :ref:`safety_cert`
 
 .. card::
-  :class-card: sd-rounded-2 sd-border-2
+  :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
   Prepare your Protocol
@@ -136,7 +136,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
 
 .. card::
-  :class-card: sd-rounded-2 sd-border-3
+  :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
   Test your Scan
@@ -145,7 +145,6 @@ Actions within the same sections below can be completed concurrently. Each secti
   3a. Request testing time
 
   3b. Request a DICOM account
-
 
 
 IT, Trainings, & Resources
