@@ -219,18 +219,18 @@ This is back to normal text.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. card:: My Card
+   :align: center
 
    This card has the title in the designated spot.
 
 .. card::
    :class-card: sd-rounded-2 sd-border-3
    :class-header: sd-bg-primary sd-text-white
-
-   Cards have parameters that can change the rounding of the corners, border thickness, and font/background theme of the title if you use it as a heading. Other available themes are primary, secondary, success, warning, danger, info, light, dark, muted, black, and white.
-
+   :align: center
 
    Card Parameters
    ^^^^^^^^^^^^^^^
+   Cards have parameters that can change the rounding of the corners, border thickness, and font/background theme of the title if you use it as a heading. Other available themes are primary, secondary, success, warning, danger, info, light, dark, muted, black, and white.
 
 .. grid:: 3
    :gutter: 3
