@@ -196,7 +196,6 @@ Peripherals
       .. figure:: images/lens_storage.jpg
          :width: 50%
          :align: center
-         Is this centered?
 
    2. Open the box and remove the components within.
 
@@ -218,6 +217,7 @@ Peripherals
    5. Squeeze the silver trigger on the back and hold the lens in position.
 
       .. figure:: images/lens_glasses.jpg
+        :width: 50%
 
    6. Look through the eyepiece and find the green starry shape that defines focus.
 
