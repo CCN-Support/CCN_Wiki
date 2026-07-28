@@ -195,6 +195,8 @@ Peripherals
 
       .. figure:: images/lens_storage.jpg
          :width: 50%
+         :align: center
+         Is this centered?
 
    2. Open the box and remove the components within.
 
