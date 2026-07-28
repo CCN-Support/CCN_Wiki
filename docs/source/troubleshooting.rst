@@ -201,6 +201,7 @@ Peripherals
 
       .. figure:: images/lens_case.jpg
          :width: 50%
+         :align: center
 
    3. Connect the largest piece to power using the black cable.
   
@@ -208,21 +209,25 @@ Peripherals
 
       .. figure:: images/lens_mounted.jpg
          :width: 50%
+         :align: center
 
    4. Stand the largest piece upright and slot it into the divot on the outer shell of the box.
 
       .. figure:: images/lens_stand.jpg
          :width: 50%
+         :align: center
 
    5. Squeeze the silver trigger on the back and hold the lens in position.
 
       .. figure:: images/lens_glasses.jpg
         :width: 50%
+         :align: center
 
    6. Look through the eyepiece and find the green starry shape that defines focus.
 
       .. figure:: images/lens_dial.jpg
          :width: 50%
+         :align: center
 
    7. Read the small window on the left to see the corresponding prescription.
 
