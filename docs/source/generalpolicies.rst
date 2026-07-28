@@ -119,7 +119,9 @@ Actions within the same sections below can be completed concurrently. Each secti
       - PI name and full contact information (email, phone, address, department)
       - Name of your lab's fund manager
 
-  .. divider::
+   .. raw:: html
+
+      <hr>
 
   :bdg-warning:`SIStat` **Set up your project**
 
@@ -173,7 +175,9 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-secondary:`Email` **Request testing time**
 
-  .. divider::
+  .. raw:: html
+
+      <hr>
 
   :bdg-secondary:`Email` **Request a DICOM account**
 
