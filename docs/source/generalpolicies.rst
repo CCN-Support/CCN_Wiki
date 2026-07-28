@@ -129,7 +129,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   PROTOCOL
   ^^^^^^^^
 
-  2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
+  :bdg-secondary:`Email` Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
 
   The more information and documentation you can send us up front, the faster we can draft a protocol for you!
   
@@ -142,9 +142,9 @@ Actions within the same sections below can be completed concurrently. Each secti
   TEST SCAN
   ^^^^^^^^^
 
-  3a. Request testing time
+  :bdg-secondary:`Email` **Request testing time**
 
-  3b. Request a DICOM account
+  :bdg-secondary:`Email` **Request a DICOM account**
 
 
 IT, Trainings, & Resources
