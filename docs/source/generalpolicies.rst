@@ -139,7 +139,9 @@ Actions within the same sections below can be completed concurrently. Each secti
       - Add your study coordinators and schedulers
       - Add your scan team members
 
-  .. divider::
+   .. raw:: html
+
+      <hr>
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
