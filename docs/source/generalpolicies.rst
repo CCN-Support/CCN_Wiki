@@ -107,16 +107,18 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-1
   :class-header: sd-bg-primary sd-text-white
 
-  Prepare your Project and Personnel
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1. Prepare your Project and Personnel
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  1a. Set up your project
+  Set up your project
+  """""""""""""""""""
 
     ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
   
     ☐ Link funds
 
-  1b. Get your scan team safety certified
+  Get your scan team safety certified
+  """""""""""""""""""""""""""""""""""
 
     ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
   
@@ -126,8 +128,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  Prepare your Protocol
-  ^^^^^^^^^^^^^^^^^^^^^
+  2. Prepare your Protocol
+  ^^^^^^^^^^^^^^^^^^^^^^^^
 
   2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
 
@@ -139,8 +141,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  Test your Scan
-  ^^^^^^^^^^^^^^
+  3. Test your Scan
+  ^^^^^^^^^^^^^^^^^
 
   3a. Request testing time
 
