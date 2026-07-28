@@ -110,9 +110,9 @@ Actions within the same sections below can be completed concurrently. Each secti
   PROJECT *and* PERSONNEL
   ^^^^^^^^^^^^^^^^^^^^^
 
-  :bdg-secondary:`Email` **Send CCN info to create your lab on SIStat**
+  :bdg-secondary:`Email` **Send CCN information to create your lab on SIStat**
 
-    - Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with the following information:
+  Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with the following information:
 
       - Full lab name
       - Lab nickname
@@ -149,9 +149,9 @@ Actions within the same sections below can be completed concurrently. Each secti
 
     `BruinLearn <bruinlearn.ucla.edu>`_ is our platform (hosted by Canvas, through UCLA) for certifying users to safely operate scans. Every lab member who plans to participate in running scans needs an active safety certification.
 
-    ☐ Make sure the user can log in to `BruinLearn <bruinlearn.ucla.edu>`_ using their UCLA credentials.
+    - Make sure the user can log in to `BruinLearn <bruinlearn.ucla.edu>`_ using their UCLA credentials.
   
-    ☐ Follow the instructions in :ref:`safety_cert`.
+    - Follow the instructions in :ref:`safety_cert`.
 
 .. card::
   :class-card: sd-rounded-2
