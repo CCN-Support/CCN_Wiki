@@ -110,13 +110,13 @@ Actions within the same sections below can be completed concurrently. Each secti
   1. Prepare your Project and Personnel
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. rubric:: Set up your project
+   **Set up your project**
 
     ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
   
     ☐ Link funds
 
-   .. rubric:: Get your scan team safety certified
+   **Get your scan team safety certified**
 
     ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
   
