@@ -112,9 +112,14 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-warning:`SIStat` **Set up your project**
 
-    ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
-  
-    ☐ Link funds
+    - [ ] Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with the following information:
+
+      - Full lab name
+      - Lab nickname
+
+    - [ ] Link funds
+
+      - Go to Financial > Add Fund
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
@@ -145,6 +150,10 @@ Actions within the same sections below can be completed concurrently. Each secti
   :bdg-secondary:`Email` **Request testing time**
 
   :bdg-secondary:`Email` **Request a DICOM account**
+
+.. card::
+  :class-card: sd-rounded-2
+  :class-header: sd-bg-primary sd-text-white
 
   SCHEDULE SCAN
   ^^^^^^^^^^^^^
