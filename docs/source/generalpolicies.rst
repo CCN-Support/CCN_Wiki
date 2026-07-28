@@ -160,11 +160,13 @@ Actions within the same sections below can be completed concurrently. Each secti
   PROTOCOL
   ^^^^^^^^
 
-  :bdg-secondary:`Email` Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
+  :bdg-secondary:`Email` Request help to build your study protocol
 
-  The more information and documentation you can send us up front, the faster we can draft a protocol for you!
-  
-  If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
+  Send ccnsupport@g.ucla.edu your protocol and/or ask for help creating one.
+
+  The more information and documentation you can send us up front, the faster we can draft a protocol for you! If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
+
+  Most groups request assistance with building their protocols, but this is not mandatory. If you know exactly what you need, are safety certified, and can confidently navigate the XA30 interface, you may be permitted to create your protocol on your own. Still, email ccnsupport@g.ucla.edu so admins can grant you free development time to work on the console and stay appraised of your plans.
 
 .. card::
   :class-card: sd-rounded-2
