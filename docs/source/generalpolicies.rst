@@ -107,8 +107,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-1
   :class-header: sd-bg-primary sd-text-white
 
-  PREPARE YOUR PROJECT AND PERSONNEL
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  PROJECT AND PERSONNEL
+  ^^^^^^^^^^^^^^^^^^^^^
 
    **Set up your project**
 
@@ -126,8 +126,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  2. Prepare your Protocol
-  ^^^^^^^^^^^^^^^^^^^^^^^^
+  PROTOCOL
+  ^^^^^^^^
 
   2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
 
@@ -139,8 +139,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  3. Test your Scan
-  ^^^^^^^^^^^^^^^^^
+  TEST SCAN
+  ^^^^^^^^^
 
   3a. Request testing time
 
