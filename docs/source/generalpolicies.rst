@@ -110,9 +110,9 @@ Actions within the same sections below can be completed concurrently. Each secti
   PROJECT *and* PERSONNEL
   ^^^^^^^^^^^^^^^^^^^^^
 
-  :bdg-warning:`Email` **Send CCN info to create your lab on SIStat**
+  :bdg-secondary:`Email` **Send CCN info to create your lab on SIStat**
 
-    ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with the following information:
+    - Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with the following information:
 
       - Full lab name
       - Lab nickname
@@ -121,15 +121,25 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-warning:`SIStat` **Set up your project**
 
-    ☐ Link funds
+    `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRB, scheduling scans, assigning scan team members to scans, and so on.
+
+    - Link funds
 
       - Go to Financial > Add Fund
 
-    ☐ Link IRB
+    - Link IRB
 
       - Go to IRB > IRB Approvals
 
+    - Add Personnel
+
+      - Check your fund manager's name
+      - Add your study coordinators and schedulers
+      - Add your scan team members
+
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
+
+    BruinLearn is our platform (Canvas, through UCLA) for certifying users to safely run scans.
 
     ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
   
