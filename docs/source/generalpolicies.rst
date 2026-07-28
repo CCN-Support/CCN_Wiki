@@ -110,13 +110,13 @@ Actions within the same sections below can be completed concurrently. Each secti
   PROJECT *and* PERSONNEL
   ^^^^^^^^^^^^^^^^^^^^^
 
-   :bdg-warning: `SIStat` **Set up your project**
+   :bdg-warning:`SIStat` **Set up your project**
 
     ☐ Email ccnsupport@g.ucla.edu and cc mdduran@mednet.ucla.edu with all the information in Getting a SIStat Account
   
     ☐ Link funds
 
-   :bdg-success: `BruinLearn` **Get your scan team safety certified**
+   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
     ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
   
