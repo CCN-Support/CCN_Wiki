@@ -119,6 +119,8 @@ Actions within the same sections below can be completed concurrently. Each secti
       - PI name and full contact information (email, phone, address, department)
       - Name of your lab's fund manager
 
+  .. divider::
+
   :bdg-warning:`SIStat` **Set up your project**
 
     `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRB, scheduling scans, assigning scan team members to scans, and so on.
@@ -136,6 +138,8 @@ Actions within the same sections below can be completed concurrently. Each secti
       - Check your fund manager's name
       - Add your study coordinators and schedulers
       - Add your scan team members
+
+  .. divider::
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
@@ -166,6 +170,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   ^^^^^^^^^
 
   :bdg-secondary:`Email` **Request testing time**
+
+  .. divider::
 
   :bdg-secondary:`Email` **Request a DICOM account**
 
