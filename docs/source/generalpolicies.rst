@@ -107,7 +107,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-1
   :class-header: sd-bg-primary sd-text-white
 
-  PROJECT AND PERSONNEL
+  PROJECT *and* PERSONNEL
   ^^^^^^^^^^^^^^^^^^^^^
 
    **Set up your project**
@@ -126,8 +126,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  PROTOCOL
-  ^^^^^^^^
+  **PROTOCOL**
+  ^^^^^^^^^^^^
 
   2. Send ccnsupport@g.ucla.edu your protocol and/or ask for help building one
 
