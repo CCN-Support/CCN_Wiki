@@ -107,8 +107,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-1
   :class-header: sd-bg-primary sd-text-white
 
-  1. Prepare your Project and Personnel
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  PREPARE YOUR PROJECT AND PERSONNEL
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    **Set up your project**
 
