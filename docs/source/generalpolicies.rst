@@ -139,11 +139,11 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
-    BruinLearn is our platform (Canvas, through UCLA) for certifying users to safely run scans.
+    `BruinLearn <bruinlearn.ucla.edu>`_ is our platform (hosted by Canvas, through UCLA) for certifying users to safely operate scans. Every lab member who plans to participate in running scans needs an active safety certification.
 
-    ☐ Make sure everyone can log in to `BruinLearn <bruinlearn.ucla.edu>`_
+    ☐ Make sure the user can log in to `BruinLearn <bruinlearn.ucla.edu>`_ using their UCLA credentials.
   
-    ☐ Follow the instructions in :ref:`safety_cert`
+    ☐ Follow the instructions in :ref:`safety_cert`.
 
 .. card::
   :class-card: sd-rounded-2
