@@ -219,14 +219,13 @@ This is back to normal text.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. card:: My Card
-   :align: center
+   .. centered:: Does this work?
 
    This card has the title in the designated spot.
 
 .. card::
    :class-card: sd-rounded-2 sd-border-3
    :class-header: sd-bg-primary sd-text-white
-   :align: center
 
    Card Parameters
    ^^^^^^^^^^^^^^^
