@@ -105,8 +105,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-1
   :class-header: sd-bg-primary sd-text-white
 
-  PROJECT *and* PERSONNEL
-  ^^^^^^^^^^^^^^^^^^^^^
+  SET UP PROJECT *and* PERSONNEL
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   :bdg-secondary:`Email` **Send CCN information to create your lab on SIStat**
 
@@ -159,8 +159,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  PROTOCOL
-  ^^^^^^^^
+  DEVELOP PROTOCOL
+  ^^^^^^^^^^^^^^^^
 
   :bdg-secondary:`Email` **Request help to build your study protocol**
 
@@ -174,8 +174,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  TEST SCAN
-  ^^^^^^^^^
+  TEST THE SCAN
+  ^^^^^^^^^^^^^
 
   :bdg-secondary:`Email` **Request testing time**
 
@@ -205,8 +205,8 @@ Actions within the same sections below can be completed concurrently. Each secti
   :class-card: sd-rounded-2
   :class-header: sd-bg-primary sd-text-white
 
-  SCHEDULE SCAN
-  ^^^^^^^^^^^^^
+  START SCHEDULING SCANS
+  ^^^^^^^^^^^^^^^^^^^^^^
 
   :bdg-warning:`SIStat` **Request an encumbrance**
 
