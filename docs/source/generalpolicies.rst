@@ -177,13 +177,18 @@ Actions within the same sections below can be completed concurrently. Each secti
   TEST SCAN
   ^^^^^^^^^
 
-  :bdg-secondary:`Email` **Request testing time**
+  .. dropdown::
+
+     :bdg-secondary:`Email` **Request testing time**
+     Test text.
 
   .. raw:: html
 
       <hr>
 
-  :bdg-secondary:`Email` **Request a DICOM account**
+  .. dropdown::
+
+     :bdg-secondary:`Email` **Request a DICOM account**
 
 .. card::
   :class-card: sd-rounded-2
