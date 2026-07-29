@@ -125,21 +125,21 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-warning:`SIStat` **Set up your project**
 
-    `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRB, scheduling scans, assigning scan team members to scans, and so on.
+    `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRBs, scheduling scans, assigning team members to scans, and more.
 
     - Link funds
 
-      - Go to Financial > Add Fund
+      - Go to Financial > Add Fund. Carefully fill in the requested information. You will need your FAU.
 
     - Link IRB
 
-      - Go to IRB > IRB Approvals
+      - Go to IRB > IRB Approvals. Carefully fill in the requested information. You will need your IRB number and supporting documents (consent form, etc.) for upload.
 
     - Add Personnel
 
       - Check your fund manager's name
-      - Add your study coordinators and schedulers
-      - Add your scan team members
+      - Add your study coordinators and schedulers. Even if they will not be scanning, they will need accounts in order to access the scheduling system.
+      - Add your certified scan team members
 
    .. raw:: html
 
