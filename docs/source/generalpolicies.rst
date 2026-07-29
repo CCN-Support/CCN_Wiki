@@ -1,7 +1,7 @@
 General Policies and Getting Started
 ====================================
 
-Overview: CCN Space & Use Policies
+Overview - CCN Space & Use Policies
 ----------------------------------
 
 .. dropdown:: Lobby
@@ -38,10 +38,6 @@ Overview: CCN Space & Use Policies
    An MRI simulator or "mock scanner" that gives subjects a realistic sensory experience. Features a real table fitted with a wooden bore (no magnetic field or metal concerns). Includes a dedicated laptop for playing recorded scanner noise and running Mo-Track software, for the purpose of giving the participant live feedback on how much they are moving.
 
    The mock scanner is available as a resource for any research group who would find it useful. It may help young participants practice holding still, reassure parents who are unsure what to expect for their child's scan, and offer a trial experience for anyone who anticipates difficulty tolerating the experience (e.g., an adult with claustrophobia). Email ccnsupport@g.ucla.edu if you would like to be added to the calendar for scheduling time on the mock scanner.
-
-.. dropdown:: Workshop
-
-   CCN has some tools for making basic repairs and adjustments to equipment. These are stored in a locked office/workshop space to make sure they are not accidentally carried into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
 
 .. dropdown:: Testing Room
 
@@ -90,6 +86,10 @@ Overview: CCN Space & Use Policies
    - BrainSight Neuronavigation camera
    - 55mm, 65mm, and 80mm ultrasound transducers
 
+.. dropdown:: Workshop
+
+   CCN has some tools for making basic repairs and adjustments to equipment. These are stored in a locked office/workshop space to make sure they are not accidentally carried into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
+
 Getting Started at CCN
 ----------------------
 
@@ -97,7 +97,7 @@ Getting Started at CCN
 Checklist for New PIs
 ~~~~~~~~~~~~~~~~~~~~~
 
-Clicking on MRI on the left-hand sidebar and reading through the sub-sections will give you an idea of CCN's policies and the process of getting a scan project set up. The topics are broadly organized to mirror the order in which you will need to complete the setup steps: getting personnel certified, creating the project in CCN's scheduling system, familiarizing yourself with CCN's policies, and running scans.
+The following workflow summarizes the steps required to start a project at CCN. More details regarding every topic can be found within the MRI page (see left-hand sidebar).
 
 Actions within the same sections below can be completed concurrently. Each section needs to be completed before the next section can begin.
 
@@ -210,7 +210,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-warning:`SIStat` **Request an encumbrance**
 
-     Encumbrance text.
+  Go to Financial > Request Encumbrances. This will earmark money in the linked funding source to be reserved for scanning. You can request as many encumbrances as needed as your project progresses.
 
 
 IT, Trainings, & Resources
