@@ -141,6 +141,8 @@ Actions within the same sections below can be completed concurrently. Each secti
       - Add your study coordinators and schedulers. Even if they will not be scanning, they will need accounts in order to access the scheduling system.
       - Add your certified scan team members
 
+    - See :ref:`project-management` for more details about these steps and additional information (scan costs, FAQ, etc.)
+
    .. raw:: html
 
       <hr>
@@ -181,7 +183,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
      Once your protocol is ready, you will want to test it before starting to schedule participants.
 
-       - Read Protocol Testing for CCN's policies regarding protocol testing.
+       - Read :ref:`protocol-testing` for CCN's policies regarding protocol testing.
        - If you have a task and/or stimuli you will want to present during the scan, make sure all the necessary hardware and software (video, sound, triggers, etc. work on your task laptop) is ready for testing.
        - Email ccnsupport@g.ucla.edu to request a sufficient amount of time to test everything.
 
