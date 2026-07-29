@@ -1,8 +1,8 @@
 General Policies and Getting Started
 ====================================
 
-CCN Space Overview
-------------------
+Overview: CCN Space & Use Policies
+----------------------------------
 
 .. dropdown:: Lobby
 
@@ -177,7 +177,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   TEST SCAN
   ^^^^^^^^^
 
-  .. dropdown:: :bdg-secondary:`Email` **Request testing time**
+  :bdg-secondary:`Email` **Request testing time**
 
      Once your protocol is ready, you will want to test it before starting to schedule participants.
 
@@ -189,7 +189,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
       <hr>
 
-  .. dropdown:: :bdg-secondary:`Email` **Request a DICOM account**
+  :bdg-secondary:`Email` **Request a DICOM account**
 
      More text.
 
@@ -201,7 +201,7 @@ Actions within the same sections below can be completed concurrently. Each secti
   SCHEDULE SCAN
   ^^^^^^^^^^^^^
 
-  .. dropdown:: :bdg-warning:`SIStat` **Request an encumbrance**
+  :bdg-warning:`SIStat` **Request an encumbrance**
 
      Encumbrance text.
 
