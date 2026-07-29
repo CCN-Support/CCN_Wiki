@@ -179,11 +179,11 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-secondary:`Email` **Request testing time**
 
-     Once your protocol is ready, you will want to test it before starting to schedule participants.
+  Once your protocol is ready, you will want to test it before starting to schedule participants.
 
-       - Read :ref:`protocol-testing` for CCN's policies regarding protocol testing.
-       - If you have a task and/or stimuli you will want to present during the scan, make sure all the necessary hardware and software (video, sound, triggers, etc. work on your task laptop) is ready for testing.
-       - Email ccnsupport@g.ucla.edu to request a sufficient amount of time to test everything.
+   - Read :ref:`protocol-testing` for CCN's policies regarding protocol testing.
+   - If you have a task and/or stimuli you will want to present during the scan, make sure all the necessary hardware and software (video, sound, triggers, etc. work on your task laptop) is ready for testing.
+   - Email ccnsupport@g.ucla.edu to request a sufficient amount of time to test everything.
 
   .. raw:: html
 
@@ -220,7 +220,7 @@ The following is a list of various trainings and services that may or may not be
 
 1. Google Apps for UCLA: https://g.ucla.edu/
 
-If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmail and related apps (e.g., Drive) from here.
+   If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmail and related apps (e.g., Drive) from here.
 
 2. Forms for requesting access to Mednet accounts or other Semel-releated features: https://it.semel.ucla.edu/forms/
 3. Configuring VPN on your personal computer: https://it.ucla.edu/it-support-center/services/virtual-private-network-vpn-clients
@@ -242,11 +242,11 @@ If you have @g.ucla.edu credentials, you should be able to access your UCLA Gmai
 
 6. UC Learning Center: http://lms.ucla.edu/
 
-You will almost certainly have trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
+   You will almost certainly have trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
 
 7. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
 
-You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
+   You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
 
 8. UCLA Employee Discounts: Check for deals on supplies and services as you get set up at UCLA! https://campusservices.ucla.edu/discounts
 
@@ -261,49 +261,49 @@ For up-to-date information, please check the `UCLA Digital Toolkit <https://dts.
 
 **Google Apps for UCLA**
 
-`g.ucla.edu <https://g.ucla.edu/>`_
-
-- Generally required for access to UCLA licensed software.
-- Includes Unlimited Cloud Storage with Google Drive.
+   `g.ucla.edu <https://g.ucla.edu/>`_
+   
+   - Generally required for access to UCLA licensed software.
+   - Includes Unlimited Cloud Storage with Google Drive.
 
 **Professional Tools**
 
-`Digital & Technology Solutions - Software Downloads <https://dts.ucla.edu/products-services/software-downloads>`_
-
-- Microsoft Office ProPlus: Currently only available for students
-- Adobe Pro
-- `FrontDoorSoftware <https://frontdoorsoftware.com/UCLA/>`_ : Loss, Recovery and Personal Safety Software. Available for up to four years
+   `Digital & Technology Solutions - Software Downloads <https://dts.ucla.edu/products-services/software-downloads>`_
+   
+   - Microsoft Office ProPlus: Currently only available for students
+   - Adobe Pro
+   - `FrontDoorSoftware <https://frontdoorsoftware.com/UCLA/>`_ : Loss, Recovery and Personal Safety Software. Available for up to four years
 
 **Box**
 
-`Box - Unlimited Cloud Storage Solution <https://ucla.service-now.com/support?id=its_browse_service&sys_id=cb31ebb01b9c885038cec8415b4bcb9a>`_
-
-- General Purpose (g.ucla.edu): https://ucla.account.box.com/
-- HIPAA-compliant (mednet): https://uclahs.account.box.com/
+   `Box - Unlimited Cloud Storage Solution <https://ucla.service-now.com/support?id=its_browse_service&sys_id=cb31ebb01b9c885038cec8415b4bcb9a>`_
+   
+   - General Purpose (g.ucla.edu): https://ucla.account.box.com/
+   - HIPAA-compliant (mednet): https://uclahs.account.box.com/
 
 **MATLAB**
 
-Academic Licenses
-
-- https://softwarecentral.ucla.edu/matlab-getmatlab
-- https://www.mathworks.com/academia/tah-portal/ucla-31454052.html
+   Academic Licenses
+   
+   - https://softwarecentral.ucla.edu/matlab-getmatlab
+   - https://www.mathworks.com/academia/tah-portal/ucla-31454052.html
 
 
 **Collaboration Tools**
 
-- Slack: http://ucla.slack.com
-- Zoom:
-
-  - General Purpose (g.ucla.edu): https://ucla.zoom.us/
-  - HIPAA-compliant (mednet): https://ucla-hipaa.zoom.us
-
-- Overleaf: https://overleaf.com/edu/ucla
+   - Slack: http://ucla.slack.com
+   - Zoom:
+   
+     - General Purpose (g.ucla.edu): https://ucla.zoom.us/
+     - HIPAA-compliant (mednet): https://ucla-hipaa.zoom.us
+   
+   - Overleaf: https://overleaf.com/edu/ucla
 
 
 
 **References:**
 
-- https://softwarecentral.ucla.edu/
-- https://www.it.ucla.edu/it-support-center
-- https://www.it.ucla.edu/connect-at-home
+   - https://softwarecentral.ucla.edu/
+   - https://www.it.ucla.edu/it-support-center
+   - https://www.it.ucla.edu/connect-at-home
 
