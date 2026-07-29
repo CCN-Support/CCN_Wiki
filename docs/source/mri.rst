@@ -189,6 +189,10 @@ Cancelled Scans: See Section :ref:`cancel_policy` below.
 
 - Yes. In cases of IRBs that were approved without need for continuing review, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes to the protocol, consent form, or administrative details.
 
+**How will my fund be billed?**
+
+- CCN billing is processed through recharge (not through a system like Epic).  Recharges are submitted the month following the completed scan, which allows 1) the MR Operations Manager to confirm the scan session was completed, and 2) the Finance Administrator to prepare the recharge documents for submission to the fund manager for general ledger posting.
+
 .. raw:: html
 
    <hr>
