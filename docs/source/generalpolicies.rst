@@ -191,7 +191,14 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-secondary:`Email` **Request a DICOM account**
 
-     More text.
+  The DICOM server (or "DICOM") is the remote server were all scan data is automatically transferred as it is acquired. Each lab that collects data at CCN will need a folder to receive their images and set up accounts for all users who need access for preprocessing and analysis.
+
+  Email ccnsupport@g.ucla.edu and cc HaiyanWang@mednet.ucla.edu with the following information:
+
+   - PI name
+   - Lab name. By convention, each lab's folder is named LABGROUP on the DICOM server. If you have a preference for the name of this folder (e.g., using a lab nickname instead of the PI's last name), please relay it, but adhere to convention as much as possible.
+   - Names and email addresses of all personnel you would like to have access to this folder.
+   - Hoffman2 usernames for everyone who has one.
 
 
 .. card::
