@@ -93,7 +93,7 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
    <hr>
 
-
+.. _project-management:
 Project Management
 ------------------
 SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is the platform CCN uses to manage all scan-related activities. It is hosted by the Semel Institute Biostatistics Core and will serve as your hub for:
@@ -305,8 +305,8 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 Scheduling Policies
 -------------------
 
-4.1  Booking Rules and Policies
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.1 Rules and Policies
+~~~~~~~~~~~~~~~~~~~~~~
 
 The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
 
@@ -472,6 +472,7 @@ CCN will grant your SIStat account uncharged time that you can use to schedule d
 
 If you do not need assistance from CCN to build your protocol, still reach out to ccnsupport@g.ucla.edu to keep staff appraised of the situation. You will need an actively certified Primary User who is familiar with the XA30 software and comfortable with responsibly navigating the MR environment. CCN staff will also need to grant you time for reserving a development session on the calendar. Please make every effort to prioritize off-hours (evenings and weekends).
 
+.. _protocol-testing:
 Protocol Testing
 ^^^^^^^^^^^^^^^^
 Once you have a workable protocol, you will need to run through it in its entirety. CCN has phantoms available for this purpose. Please reach out to CCN staff for phantom scanning with tech assistance. Even if scanning independently with an experienced team, please still keep CCN notified (especially if you will be needing a phantom other than the standard Siemens bottle).
