@@ -125,9 +125,9 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-warning:`SIStat` **Set up your project**
 
-    `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRBs, scheduling scans, assigning team members to scans, and more.
+  `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRBs, scheduling scans, assigning team members to scans, and more.
 
-    - Link funds
+    - Link funding source
 
       - Go to Financial > Add Fund. Carefully fill in the requested information. You will need your FAU.
 
@@ -147,11 +147,13 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
-    `BruinLearn <bruinlearn.ucla.edu>`_ is our platform (hosted by Canvas, through UCLA) for certifying users to safely operate scans. Every lab member who plans to participate in running scans needs an active safety certification.
+  `BruinLearn <bruinlearn.ucla.edu>`_ is our platform (hosted by Canvas, through UCLA) for certifying users to safely operate scans. Every lab member who plans to participate in running scans needs an active safety certification.
 
     - Make sure the user can log in to `BruinLearn <bruinlearn.ucla.edu>`_ using their UCLA credentials.
-  
-    - Follow the instructions in :ref:`safety_cert`.
+
+      - UCLA credentials that were granted very recently to new students and employees take some time to propagate through the system. Trying to access BruinLearn within 24-48 hours of receiving UCLA logins may not work.
+      - Users can access BruinLearn with Mednet credentials. Click "Sign in with Mednet username" on the login screen.
+    - See :ref:`safety_cert` for detailed instructions on safety certification.
 
 .. card::
   :class-card: sd-rounded-2
