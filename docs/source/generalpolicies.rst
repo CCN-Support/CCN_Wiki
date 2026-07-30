@@ -212,11 +212,22 @@ Actions within the same sections below can be completed concurrently. Each secti
 
   Go to Financial > Request Encumbrances. This will earmark money in the linked funding source to be reserved for scanning. You can request as many encumbrances as needed as your project progresses.
 
+Recruitment Resources
+~~~~~~~~~~~~~~~~~~~~~
 
-IT, Trainings, & Resources
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+DGSOM digest: https://uclahs.az1.qualtrics.com/jfe/form/SV_aWYVh6QvPHsUZRr
 
-The following is a list of various trainings and services that may or may not be required for your particular situation. Check with your PI and lab admins for information about what is most applicable to you.
+Recruitment tools and services from CTSI: https://ctsi.ucla.edu/new-research-recruitment-tools-and-services-available
+
+Registrar emails: https://registrar.ucla.edu/faculty-staff/registrar-data-and-systems-access/reports-and-data-requests
+
+   - Authorized personnel can send mass emails to all active students
+   - May be useful if your study can include UCLA undergraduates
+
+IT and Required Trainings
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following is a list of trainings and services that may or may not be required for your particular situation. Check with your PI and lab admins for information about what is most applicable to you.
 
 1. Google Apps for UCLA: https://g.ucla.edu/
 
@@ -242,7 +253,7 @@ The following is a list of various trainings and services that may or may not be
 
 6. UC Learning Center: http://lms.ucla.edu/
 
-   You will almost certainly have trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
+   You will almost certainly have UCLA-mandated trainings regarding cybersecurity, workplace violence prevention, and so on that must be completed in this portal.
 
 7. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
 
