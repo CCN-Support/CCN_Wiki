@@ -222,7 +222,7 @@ Recruitment Resources
 **Recruitment tools and services from CTSI:** https://ctsi.ucla.edu/new-research-recruitment-tools-and-services-available
 
    - The Clinical & Translational Science Institute offers support for improving recruitment workflows and reducing costs.
-   - Request a consultation using the `form <https://uclahs.az1.qualtrics.com/jfe/form/SV_8G7lHnOQEbYONaS>`_form linked on their page!
+   - Request a consultation using the `form <https://uclahs.az1.qualtrics.com/jfe/form/SV_8G7lHnOQEbYONaS>`_ linked on their page!
 
 **Registrar emails:** https://registrar.ucla.edu/faculty-staff/registrar-data-and-systems-access/reports-and-data-requests
 
