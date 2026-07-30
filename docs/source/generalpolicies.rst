@@ -215,11 +215,16 @@ Actions within the same sections below can be completed concurrently. Each secti
 Recruitment Resources
 ~~~~~~~~~~~~~~~~~~~~~
 
-DGSOM digest: https://uclahs.az1.qualtrics.com/jfe/form/SV_aWYVh6QvPHsUZRr
+**DGSOM digest:** https://uclahs.az1.qualtrics.com/jfe/form/SV_aWYVh6QvPHsUZRr
 
-Recruitment tools and services from CTSI: https://ctsi.ucla.edu/new-research-recruitment-tools-and-services-available
+   - Submit the form to request your post be circulated through official David Geffen School of Medicine channels.
 
-Registrar emails: https://registrar.ucla.edu/faculty-staff/registrar-data-and-systems-access/reports-and-data-requests
+**Recruitment tools and services from CTSI:** https://ctsi.ucla.edu/new-research-recruitment-tools-and-services-available
+
+   - The Clinical & Translational Science Institute offers support for improving recruitment workflows and reducing costs.
+   - Request a consultation using the `form <https://uclahs.az1.qualtrics.com/jfe/form/SV_8G7lHnOQEbYONaS>`_form linked on their page!
+
+**Registrar emails:** https://registrar.ucla.edu/faculty-staff/registrar-data-and-systems-access/reports-and-data-requests
 
    - Authorized personnel can send mass emails to all active students
    - May be useful if your study can include UCLA undergraduates
