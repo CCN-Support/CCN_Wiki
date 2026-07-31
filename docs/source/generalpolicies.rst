@@ -119,7 +119,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
    .. raw:: html
 
-      <hr>
+       <hr>
 
   :bdg-warning:`SIStat` **Set up your project**
 
@@ -143,7 +143,7 @@ Actions within the same sections below can be completed concurrently. Each secti
 
    .. raw:: html
 
-      <hr>
+       <hr>
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
