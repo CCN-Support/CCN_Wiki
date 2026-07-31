@@ -435,11 +435,16 @@ If you need to install new software or images on the iMac, please contact ccnsup
 Opto Acoustic Noise Canceling Headphones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Overview
+^^^^^^^^
+
 `OptoACTIVE II <https://www.optoacoustics.com/medical/optoactive-slender>`_ slim, over-the-ear headphones with an active noise cancellation (ANC) feature.
 
-Setup
 
 Please use the sanitary headphone covers located in the middle cabinet inside the scanner room. Do not clean the headphones with the wipes. Commercial cleaning products will cause the material to degrade and crack over time. We will then have to repair the headphones with electrical tape or replace them.
+
+Noise Cancellation Setup
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Turn on power (top-right button on the back of the unit) and the display should appear (image 1 below). 
 2. Make sure the audio cable isn't plugged into anything. Touch "Touch screen to continue" and then "Start" to move to the calibration screen (2).
@@ -466,8 +471,16 @@ Please use the sanitary headphone covers located in the middle cabinet inside th
 |                                       | learning complete                   |                                         |
 +---------------------------------------+-------------------------------------+-----------------------------------------+
 
+Troubleshooting
+^^^^^^^^^^^^^^^
+
+See :ref:`trouble-opto` on the Troubleshooting page.
+
 BOLDscreen 32" UHD LCD Display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Overview
+^^^^^^^^
 
 Product site: https://www.crsltd.com/tools-for-functional-imaging/mr-safe-displays/boldscreen-32-uhd/
 
@@ -481,7 +494,8 @@ Specifications:
 - Luminance: 300 cd/m2
 - Distance from isocenter: 121 cm
 
-**Setup**
+Setup
+^^^^^
 
 If everything is working correctly, setup should be quite straight forward. The BOLDscreen connects via HDMI or DislpayPort cable. Both are labeled "SCREEN".
 
@@ -491,17 +505,26 @@ If everything is working correctly, setup should be quite straight forward. The 
 - There is an external monitor located to the right of the console computer, which should mirror the BOLDscreen so users are able to see what the participant sees. To connect to this monitor, connect the cable labelled "MONITOR" to the port on the box labelled "CLONE".
 
 .. image:: images/AV_box.jpg
+   :scale: 50%
+
+Troubleshooting
+^^^^^^^^^^^^^^^
+
+See :ref:`trouble-screen` on the Troubleshooting page.
 
 Current Designs Response Devices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Overview
+^^^^^^^^
+
 Current Designs: `Product Site <https://www.curdes.com/>`_
 
-- CCN is currently outfitted with four MR safe response devices: 2 Button Inline Box, 4 Button Inline Box, 4 Button Diamond Box, and a Track Ball
+- CCN is currently outfitted with five types of MR safe response devices: 2 Button Inline Box, 4 Button Inline Box, 4 Button Diamond Box, 4 Button Curved Box, and a Track Ball
 - CCN is also equipped with a USB 4 button practice device for use in the testing room outside of the scanner: **This device is NOT MR safe and should not enter the scanner room at any time!**
 
-**Setup**
-
-Device Connection:
+Setup
+^^^^^
 
 1. The three response devices are located in a drawer inside the scanner room labeled "Button Boxes"
 2. Take one of the devices and remove the small rubber cap located on the connector
@@ -515,6 +538,10 @@ Device Connection:
 
   - Steps 3 and 5 will be different for the trackball mouse. Choose HHSC-TRK2 and HID TRACK COMP for those steps, respectively.
 6. Once settings have been selected, please make sure your subject tests the buttons before continuing
+
+Troubleshooting
+^^^^^^^^^^^^^^^
+See :ref:`trouble-buttons` on the Troubleshooting page.
 
 FIRMM
 ~~~~~
