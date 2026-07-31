@@ -368,7 +368,7 @@ Each funded project starts with two free cancellations and accrues another after
 
    <hr>
 
-Scan Facility & Procedures
+Scan Facility & Equipment
 --------------------------
 
 Facility Equipment
@@ -397,7 +397,9 @@ Peripherals
 
 On-Site Computer
 ^^^^^^^^^^^^^
-The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra with a dual-boot Windows 10 partition for the purpose of:
+The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra for the purpose of:
+
+..  Coment: We used to have a dual-boot Windows 10 partition on the control room iMac, but retired it since no one uses it.
 
 **Visual presentation:**
 
@@ -429,6 +431,10 @@ If you need to install new software or images on the iMac, please contact ccnsup
    -AcqKnowledge 4 (for BioPac MP150)
 .. The old wiki also says "To start up the dual-boot and access Windows, restart the iMac while holding down the Option key. You will need a password--contact CCN staff for it."
    What is this password? I don't have it in my Ops sheet.
+
+
+Scanning Procedures
+-------------------
 
 Pilot Program
 ~~~~~~~~~~~~~
