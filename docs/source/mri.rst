@@ -153,7 +153,7 @@ All currently active projects should have this form completed. If your project a
 
 
 2.4  Funding & Costs
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 **Scan Costs**
 
@@ -183,7 +183,7 @@ Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) o
 Cancelled Scans: See Section :ref:`cancel_policy` below.
 
 2.5  FAQ: Project Management 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
 
@@ -201,7 +201,7 @@ Personnel Policies
 ------------------
 
 3.1  User Rights
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
 
 3.2  Scan User Roles & Definitions
@@ -335,11 +335,11 @@ Scans cannot be scheduled for a time that would leave a 15-minute gap before or 
 The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
 
 **4.1.5**  Subject ID
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
 
 **4.1.6**  Protocol ID
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
 
 **4.1.7**  Special Accommodations
@@ -371,8 +371,8 @@ Each funded project starts with two free cancellations and accrues another after
 Scan Facility & Equipment
 --------------------------
 
-Facility Equipment
-~~~~~~~~~~~~~~~~~~
+5.1 Facility Equipment
+~~~~~~~~~~~~~~~~~~~~~~
 
 CCN maintains the following equipment to support scan activities:
 
@@ -432,8 +432,8 @@ If you need to install new software or images on the iMac, please contact ccnsup
 .. The old wiki also says "To start up the dual-boot and access Windows, restart the iMac while holding down the Option key. You will need a password--contact CCN staff for it."
    What is this password? I don't have it in my Ops sheet.
 
-Opto Acoustic Noise Canceling Headphones
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.2 Opto Acoustic Noise Canceling Headphones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Overview
 ^^^^^^^^
@@ -476,8 +476,8 @@ Troubleshooting
 
 See :ref:`trouble-opto` on the Troubleshooting page.
 
-BOLDscreen 32" UHD LCD Display
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.3 BOLDscreen 32" UHD LCD Display
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Overview
 ^^^^^^^^
@@ -505,15 +505,15 @@ If everything is working correctly, setup should be quite straight forward. The 
 - There is an external monitor located to the right of the console computer, which should mirror the BOLDscreen so users are able to see what the participant sees. To connect to this monitor, connect the cable labelled "MONITOR" to the port on the box labelled "CLONE".
 
 .. image:: images/AV_box.jpg
-   :scale: 50%
+   :width: 50%
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
 See :ref:`trouble-screen` on the Troubleshooting page.
 
-Current Designs Response Devices
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.4 Current Designs Response Devices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Overview
 ^^^^^^^^
@@ -543,8 +543,8 @@ Troubleshooting
 ^^^^^^^^^^^^^^^
 See :ref:`trouble-buttons` on the Troubleshooting page.
 
-FIRMM
-~~~~~
+5.5 FIRMM
+~~~~~~~~~
 
 FIRMM can track bold EPI, Diffusion, and volume navigator (vNav) T1 and T2 sequences.
 
@@ -591,8 +591,8 @@ FIRMM Instructions:
 - Click on the Start button on the X11 FIRMM application window.
 - When your functional scan starts, volumes should start appearing after ~45sec delay.
 
-Eye Camera
-~~~~~~~~~~
+5.6 Eye Camera
+~~~~~~~~~~~~~~
 
 The camera feed adaptor should be located on the desk behind the console monitor.
 
@@ -608,8 +608,8 @@ The camera feed adaptor should be located on the desk behind the console monitor
 
 .. image:: images/EyeCameraAdaptor.png
 
-Eye Tracking
-~~~~~~~~~~~~
+5.7 Eye Tracker
+~~~~~~~~~~~~~~~
 
 MR Compatible EyeLink 1000
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
