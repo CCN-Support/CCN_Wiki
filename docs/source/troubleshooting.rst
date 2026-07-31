@@ -237,7 +237,7 @@ Peripherals
 
    <hr>
 
-
+.. _trouble-opto:
 Optoacoustics Headphones
 ------------------------
 
@@ -289,6 +289,7 @@ Optoacoustics Headphones
 
    <hr>
 
+.. _trouble-screen:
 BOLDscreen
 -----------
 
@@ -361,6 +362,7 @@ Always make sure the power to the AV hub is on and the HDMI/DisplayPort cables a
 
    <hr>
 
+.. _trouble-buttons:
 Task & Response Devices
 -----------------------
 
@@ -413,6 +415,7 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
 
    <hr>
 
+.. _trouble-eyetracker:
 Eyetracker
 ----------
 
