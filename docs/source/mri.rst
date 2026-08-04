@@ -392,7 +392,13 @@ Peripherals
 .. Retired:
    -VisuaStim digital system by RTC: Includes goggles/headphone/controller unit
    -These were the Restech goggles hanging off the side of the scanner until we disconnected and returned them 2026.
-   -The rainbow box they connect to (I think?) is still in the control room and the cables that run through the ceiling to the equipment room are still there
+   -The rainbow box they connect to (I think?) was in the control room and the cables that run through the ceiling to the equipment room are still there. Robert, Agatha, Jillian, Patrick, and Melodie performed a CCN space cleanup on 7/29/26 and marked many unused items for storage, including the rainbow box, which we unscrewed from its old position under the cabinet.
+
+Equipment Information for Grants
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- `Equipment List: <https://docs.google.com/document/d/1rVe6qlZc-OJyAQfnNBocZkbyBLlWMp5w/edit?usp=sharing&ouid=109365023269690384239&rtpof=true&sd=true>`_ See this document for a list of CCN's computing, imaging, and EEG resources.
+- `Facilities and Budgeting: <https://docs.google.com/document/d/1h6KWkRL9wecYk9ib0Ok7jFTRw3bkeiCG/edit?usp=sharing&ouid=109365023269690384239&rtpof=true&sd=true>`_ See this document for sample language and useful information for writing grant applications.
 
 
 On-Site Computer
@@ -462,7 +468,7 @@ Noise Cancellation Setup
 | .. image:: images/opto_homescreen.jpg | .. image:: images/opto_start.jpg    | .. image:: images/opto_calibrate.jpg    |
 |    :width: 150px                      |  :width: 150px                      |  :width: 150px                          |
 |                                       |                                     |                                         |
-|**Figure 1.** Homescreen               |**Figure 2.** Press Start            |**Figure 3.** Calibration successful     |
+|**Figure 1.** Home screen               |**Figure 2.** Press Start            |**Figure 3.** Calibration successful     |
 +---------------------------------------+-------------------------------------+-----------------------------------------+
 | .. image:: images/opto_learn.jpg      | .. image:: images/opto_learning.jpg | .. image:: images/opto_ANC.jpg          |
 |    :width: 150px                      |  :width: 150px                      |  :width: 150px                          |
@@ -641,7 +647,7 @@ There are three cables that need to be attached when you begin an eyetracking se
   - Wheel close to base: Aperture wheel.
   - Large knob near the base: Adjust eyetracker positioning in all directions.
 
-**In Control Room**
+**In Control Room:**
 
 At the Eyelink station on the right side of the room, there is a cable with a yellow tag on it and is attached to a battery box labelled EYELINK (pictured below). This is the transducer cable--plug it into the rightmost port (labelled with "12V") on the box on top of the tower unit.
 
@@ -739,20 +745,20 @@ Running a Participant Scan
 
 Please make sure the participant completes the `Pre-Appointment Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ before arriving at UCLA. You should administer this form either the night before or the morning of their scan appointment. Many other researchers, staff, research subjects, and family members come through CCN, meaning we need to minimize the potential for unknown infections floating around the Center. If your participant fails to clear the illness screening, please reschedule their appointment.
 
-Past guidance for infection control policies can be found `here <https://drive.google.com/file/d/18CiRxYb4VmBn4z3tE7jADcGV5wBg4-xb/view?usp=sharing>_. This is archived to document the policy changes that were implemented to safely navigate the COVID-19 restrictions. Most policies described within no longer apply, but some (e.g., handwashing upon arrival at the Center) were retained.
+Past guidance for infection control policies can be found `here <https://drive.google.com/file/d/18CiRxYb4VmBn4z3tE7jADcGV5wBg4-xb/view?usp=sharing>`_. This is archived to document the policy changes that were implemented to safely navigate the COVID-19 restrictions. Most policies described within no longer apply, but some (e.g., handwashing upon arrival at the Center) were retained.
 
 **5.5.2**  Participant Arrival
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please make sure that your study participants have a direct contact readily on hand and that lab personnel will be available to take calls and/or respond promptly to texts/emails as the time of the scan approaches.
+Please make sure that your study participants have a direct contact readily on hand and that lab personnel will be available to respond promptly to calls, texts, and emails as the scheduled appointement time approaches.
 
-If a participant arrives early and you are part of their research team, make sure someone is available to communicate with the person and help give directions if they are having trouble finding the suite. Once they are at C7-439, direct them to wait on the bench right outside CCN until lab personnel meets them and brings them inside. Generally, study participants should not be sitting in the CCN lobby unattended. This increases the risk of their wandering into restricted spaces while other lab staff are working in the area or seeing information they should not be privy to.
+If a participant arrives early and you are part of their research team, make sure someone is available to communicate with the person and help give directions in case they are having trouble finding the suite. Once they are at C7-439, direct them to wait on the bench right outside CCN until lab personnel meets them and brings them inside. Generally, study participants should not be sitting in the CCN lobby unattended. This increases the risk of their wandering into restricted spaces or seeing information from other labs working in the area that they should not be privy to.
 
 If you are in CCN and someone unexpectedly rings the doorbell saying they are here for a scan, it is up to you if you have the time to ask questions and help them get in touch with their research contact. Regardless, you should still ask them to wait on the bench outside CCN.
 
 Do NOT let someone in just because they claim to be here for research. The presence of the powerful magnet means that access should be highly controlled. You should only let in participants you are expecting, your certified labmates that you recognize, and people explicitly permitted by CCN (e.g., helium refill tech).
 
-Do NOT rely on CCN staff to let your participant in if they arrive early. CCN admins are in and out of the suite, scanner room, and equipment room all day and may not hear the doorbell. Moreover, they are not responsible for standing at the door with a participant and figuring out who they are supposed to be meeting. 
+Do NOT rely on CCN staff to let your participant in if they arrive early. CCN admins are in and out of the suite, scanner room, and equipment room all day and may not hear the doorbell. Moreover, they are not responsible for standing at the door with your participant and investing time to figure out who they are supposed to be meeting. 
 
 
 **5.5.3**  Scan Start & End Time
