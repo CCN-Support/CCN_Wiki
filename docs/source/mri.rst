@@ -106,7 +106,7 @@ SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is the platform CCN uses t
 The diagram below provides an overview of the steps required to set up a project on SIStat, from the perspective of a completely new lab with new users. Keep this workflow in mind as you read through the following sections.
 For any questions (and Step 1B, referring to the CCN Administrator), please contact ccnsupport@g.ucla.edu and cc Marlo Duran at mdduran@mednet.ucla.edu. 
 
-.. image:: project-workflow.png
+.. image:: images/project-workflow.png
 
 2.1  Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -155,15 +155,18 @@ All currently active projects should have this form completed. If your project a
 2.4  Funding & Costs
 ~~~~~~~~~~~~~~~~~~~~
 
-**Scan Costs**
+**2.4.1** Scan Costs
+^^^^^^^^^^^^^^^^^^^^
 
 - Current pricing for the scanner is set at $600 per hour (incremented at $150 every 15 minutes) during "Prime Time" hours. Please note this is expected to increase to $650 per hour after our Sales and Service contract is reviewed.
 - Scanning is priced at a reduced rate for "Off-Peak Hours" and Weekends
-Full list of pricing:
+
+See the following table for a full list of pricing:
 
 .. image:: Staglin_MRI_Scanner_Costs.png
 
-**Adding funds**
+**2.4.2** Adding Funds
+^^^^^^^^^^^^^^^^^^^^^^
 
 Funding sources can be added under "Financial" → "Add Fund". You will need the following information:
    1. Funding agency
@@ -174,9 +177,10 @@ Funding sources can be added under "Financial" → "Add Fund". You will need the
 New projects must be linked with Active funds.
 
 
-**Billing and Refunds**
+**2.4.3** Billing and Refunds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see previous section: Scan Procedures > Pilot Program), but all others are paid for by labs via linked funds. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN.
+Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see :ref:`pilot`), but all others are paid for by labs via linked funds. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN.
 
 Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
 
@@ -315,21 +319,21 @@ Scheduling Policies
 The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
 
 **4.1.1**  No slot-holding
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
 
 **4.1.2**  Prime time scan limits
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The scan limit is 3 scans maximum per project, per week, during prime hours (Mon-Fri, 8am - 6pm). This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
 
 **4.1.3**  Appointment reminders
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment at that time so other groups may be able to fill the opening. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste.
 
 We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
 
 **4.1.4**  15-Minute Gaps 
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours.
 
 The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
@@ -682,6 +686,7 @@ Transducer cable plugged into the Eyelink box.
 Scanning Procedures
 -------------------
 
+.. _pilot:
 Pilot Program
 ~~~~~~~~~~~~~
 
