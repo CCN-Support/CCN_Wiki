@@ -107,6 +107,7 @@ The diagram below provides an overview of the steps required to set up a project
 For any questions (and Step 1B, referring to the CCN Administrator), please contact ccnsupport@g.ucla.edu and cc Marlo Duran at mdduran@mednet.ucla.edu. 
 
 .. image:: images/project-workflow.png
+   :target: _images/project-workflow.png
 
 2.1  Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
