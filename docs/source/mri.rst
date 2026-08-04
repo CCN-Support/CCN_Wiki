@@ -106,7 +106,7 @@ SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is the platform CCN uses t
 The diagram below provides an overview of the steps required to set up a project on SIStat, from the perspective of a completely new lab with new users. Keep this workflow in mind as you read through the following sections.
 For any questions (and Step 1B, referring to the CCN Administrator), please contact ccnsupport@g.ucla.edu and cc Marlo Duran at mdduran@mednet.ucla.edu. 
 
-.. image:: CCN_pmFlowChart.png
+.. image:: project-workflow.png
 
 2.1  Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -559,37 +559,36 @@ FIRMM on XA30 is seamlessly integrated and starts automatically via settings in 
   - As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
 
 .. image:: images/FirmmTablet.png
+   :width: 50%
 
-VE11C - ARCHIVED
-^^^^^^^^^^^^^^^^
+.. dropdown:: **VE11C - ARCHIVED**
 
-- Register a subject on the scanner (normal procedure).
-- Check the threshold value on the tablet (the dotted lines above and below the 0 line) and change the value under the Settings tab if desired.
-- Open up the Windows start menu (CTRL+ESC).
-- Right click on the 'FIRMM start one patient' towards the top of the menu and click open.
-- A pop-up will appear asking whether this file is secure, select 'Run'.
-- A new pop-up will appear that has a large 'CONNECTED' message.
-- Start your scan and participant motion metrics will appear on the FMRI, DWI, or T1/T2 tabs (if using vNav structural).
-- Note that the percentage reflects the aggregate motion metrics up to the current moment. If you're looking for the percentage that corresponds to only a particular series, tap "Show Series" and make sure only the one you're interested in is checked.
-- No need to take any further action when your scan is complete. If the next group intends to collect FIRMM data, they will start the process again (register patient, right click "FIRMM start one patient", etc.) and the tablet will automatically sync with the new functionals as they are acquired.
+   - Register a subject on the scanner (normal procedure).
+   - Check the threshold value on the tablet (the dotted lines above and below the 0 line) and change the value under the Settings tab if desired.
+   - Open up the Windows start menu (CTRL+ESC).
+   - Right click on the 'FIRMM start one patient' towards the top of the menu and click open.
+   - A pop-up will appear asking whether this file is secure, select 'Run'.
+   - A new pop-up will appear that has a large 'CONNECTED' message.
+   - Start your scan and participant motion metrics will appear on the FMRI, DWI, or T1/T2 tabs (if using vNav structural).
+   - Note that the percentage reflects the aggregate motion metrics up to the current moment. If you're looking for the percentage that corresponds to only a particular series, tap "Show Series" and make sure only the one you're interested in is checked.
+   - No need to take any further action when your scan is complete. If the next group intends to collect FIRMM data, they will start the process again (register patient, right click "FIRMM start one patient", etc.) and the tablet will automatically sync with the new functionals as they are acquired.
 
-Research FIRMM (decommissioned)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. dropdown:: **Research FIRMM (decommissioned)**
 
-Make sure Advanced User mode is enabled - You will know it is if the MARS_SSH shortcut is visible on the start menu.
-
-FIRMM Instructions:
-
-- Press CTRL+ESC on console --> STOP FIRMM Session
-- Register your participant.
-- Press CTRL+ESC on console --> START FIRMM Session
-- Close out of terminal and X11 on the iMac.
-- Go to "XQuartz" or "Terminal" menu at the top left of the screen, then scroll down and click "Quit"
-- Double click "FIRMM.command" icon on desktop. This should open up the terminal.
-- Type FIRMM into command line and press Enter.
-- Terminal should start spitting out lines, X11 should open up and you should see a message on the terminal window that says "Waiting for DICOMs..."
-- Click on the Start button on the X11 FIRMM application window.
-- When your functional scan starts, volumes should start appearing after ~45sec delay.
+   Make sure Advanced User mode is enabled - You will know it is if the MARS_SSH shortcut is visible on the start menu.
+   
+   To begin FIRMM:
+   
+   - Press CTRL+ESC on console --> STOP FIRMM Session
+   - Register your participant.
+   - Press CTRL+ESC on console --> START FIRMM Session
+   - Close out of terminal and X11 on the iMac.
+   - Go to "XQuartz" or "Terminal" menu at the top left of the screen, then scroll down and click "Quit"
+   - Double click "FIRMM.command" icon on desktop. This should open up the terminal.
+   - Type FIRMM into command line and press Enter.
+   - Terminal should start spitting out lines, X11 should open up and you should see a message on the terminal window that says "Waiting for DICOMs..."
+   - Click on the Start button on the X11 FIRMM application window.
+   - When your functional scan starts, volumes should start appearing after ~45sec delay.
 
 5.6 Eye Camera
 ~~~~~~~~~~~~~~
