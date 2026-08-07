@@ -179,7 +179,7 @@ Peripherals
   - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
 
 
-.. dropdown:: MR-Safe glasses
+.. dropdown:: MR-safe glasses
 
    **Cleaning the glasses**
   
@@ -414,6 +414,11 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
 .. raw:: html
 
    <hr>
+
+.. _trouble-FIRMM:
+FIRMM
+-----
+Work in progress. Currently, one group uses FIRMM and the license is paid for by HBCD-Cedars, so permission is required if other groups are interested in using. Can fill this out as we work on FIRMM-pix.
 
 .. _trouble-eyetracker:
 Eyetracker
