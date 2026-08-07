@@ -261,9 +261,9 @@ In the event that this cannot be achieved, please make every effort to pull in b
 ~~~~~~~~~~~~~~~
 All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full onboarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_.
 
-Their duties and responsibilites are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. 
+Their duties and responsibilites are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. In short: 
 
-- In short, volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
+- Volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
 
 - All volunteers must still complete CCN's full safety certification process in order to serve as a Secondary User during scans at CCN. This is because, as Secondary Users, they must still be aware of CCN's protocols and prepared to respond in an emergency situation. In the event that urgent, life-saving action is needed, they must already be knowledgeable about emergency equipment and familiar with basic console operation (e.g., "which button stops a scan?"), even if they are not permitted to use it under normal circumstances. 
 
@@ -443,7 +443,7 @@ If you need to install new software or images on the iMac, please contact ccnsup
 .. The old wiki also says "To start up the dual-boot and access Windows, restart the iMac while holding down the Option key. You will need a password--contact CCN staff for it."
    What is this password? I don't have it in my Ops sheet.
 
-5.2 Opto Acoustic Noise Canceling Headphones
+5.2 Optoacoustics Noise Canceling Headphones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Overview
@@ -493,7 +493,7 @@ See :ref:`trouble-opto` on the Troubleshooting page.
 Overview
 ^^^^^^^^
 
-Product site: https://www.crsltd.com/tools-for-functional-imaging/mr-safe-displays/boldscreen-32-uhd/
+Product site from Cambridge Research Systems: https://www.crsltd.com/tools-for-functional-imaging/mr-safe-displays/boldscreen-32-uhd/
 
 Specifications:
 
@@ -529,7 +529,7 @@ See :ref:`trouble-screen` on the Troubleshooting page.
 Overview
 ^^^^^^^^
 
-Current Designs: `Product Site <https://www.curdes.com/>`_
+Product site from Current Designs: https://www.curdes.com/
 
 - CCN is currently outfitted with five types of MR safe response devices: 2 Button Inline Box, 4 Button Inline Box, 4 Button Diamond Box, 4 Button Curved Box, and a Track Ball
 - CCN is also equipped with a USB 4 button practice device for use in the testing room outside of the scanner: **This device is NOT MR safe and should not enter the scanner room at any time!**
@@ -557,12 +557,12 @@ See :ref:`trouble-buttons` on the Troubleshooting page.
 5.5 FIRMM
 ~~~~~~~~~
 
-FIRMM can track bold EPI, Diffusion, and volume navigator (vNav) T1 and T2 sequences.
+FIRMM can track BOLD EPI, diffusion, and volume navigator (vNav) T1 and T2 sequences.
 
 XA30
 ^^^^
 
-FIRMM on XA30 is seamlessly integrated and starts automatically via settings in the bold, diffusion, and vNav sequences. No user input is necessary.
+FIRMM on XA30 is seamlessly integrated and starts automatically via settings in the BOLD, diffusion, and vNav sequences. No user input is necessary.
 
 - If your project would like to utilize FIRMM, please reach out to CCN techs.
 - Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
