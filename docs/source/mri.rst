@@ -572,6 +572,10 @@ FIRMM on XA30 is seamlessly integrated and starts automatically via settings in 
 .. image:: images/FirmmTablet.png
    :width: 50%
 
+Troubleshooting
+^^^^^^^^^^^^^^^
+See :ref:`trouble-FIRMM` on the Troubleshooting page.
+
 .. dropdown:: **VE11C - ARCHIVED**
 
    - Register a subject on the scanner (normal procedure).
@@ -656,14 +660,16 @@ There are three cables that need to be attached when you begin an eyetracking se
 
 At the Eyelink station on the right side of the room, there is a cable with a yellow tag on it and is attached to a battery box labelled EYELINK (pictured below). This is the transducer cable--plug it into the rightmost port (labelled with "12V") on the box on top of the tower unit.
 
-Transducer cable plugged into the Eyelink box.
+.. figure:: images/EYELINK_transducer.jpg
+
+   Transducer cable plugged into the Eyelink box.
 
 - Plug the eyetracker ethernet cable into your task computer. This will be the blue cable labelled EYELINK.
 - Make sure your computer network is set to use this connection. This will be how your computer communicates with the Eyelink station to run calibration and record fixations when your scan starts.
 - Once the cables are connected to the eyetracker in the bore, turn on the tower unit. You will likely get errors if you try to power on before those cables are connected.
 - The main Eyelink menu screen should appear, now that all the cables are connected and the computer is powered on.
 
-**Calibration**
+**Calibration:**
 
 - Click on the center of the eye to put the red circle around the pupil.
     - Set the thresholds so that the cross locks on to the center of the pupil and maintains as stable a tracking as possible:
@@ -680,8 +686,6 @@ Transducer cable plugged into the Eyelink box.
     - During calibration, the crosses look like they appear at the edges of the screen while the fixations do not. This is normal--the fixations will look clustered around the center of the screen, but as long as they make a generally rectangular shape, calibration is working correctly.
 
 - Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
-
-.. image:: images/EYELINK_transducer.jpg
 
 
 Scanning Procedures
