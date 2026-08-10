@@ -99,7 +99,7 @@ Checklist for New PIs
 
 The following workflow summarizes the steps required to start a project at CCN. More details regarding every topic can be found within the MRI page (see left-hand sidebar).
 
-Actions within the same sections below can be completed concurrently. Each section needs to be completed before the next section can begin.
+Actions within the same card (section with blue heading) below can be completed concurrently. Each section needs to be completed before the next section can begin.
 
 .. card::
   :class-card: sd-rounded-1
