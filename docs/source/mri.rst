@@ -414,7 +414,7 @@ The MR suite is equipped with a dedicated iMac computer running Mac OS High Sier
 
 **Visual presentation:**
 
-- PsychoPy (versions __ ) for basic tasks
+- PsychoPy (2 and 3) for basic tasks
 - Netflix
 - PowerPoint
 - Crosshairs of various dimensions
