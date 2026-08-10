@@ -473,7 +473,7 @@ Noise Cancellation Setup
 | .. image:: images/opto_homescreen.jpg | .. image:: images/opto_start.jpg    | .. image:: images/opto_calibrate.jpg    |
 |    :width: 150px                      |  :width: 150px                      |  :width: 150px                          |
 |                                       |                                     |                                         |
-|**Figure 1.** Home screen               |**Figure 2.** Press Start            |**Figure 3.** Calibration successful     |
+|**Figure 1.** Home screen              |**Figure 2.** Press Start            |**Figure 3.** Calibration successful     |
 +---------------------------------------+-------------------------------------+-----------------------------------------+
 | .. image:: images/opto_learn.jpg      | .. image:: images/opto_learning.jpg | .. image:: images/opto_ANC.jpg          |
 |    :width: 150px                      |  :width: 150px                      |  :width: 150px                          |
