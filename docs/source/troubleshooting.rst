@@ -418,7 +418,17 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
 .. _trouble-FIRMM:
 FIRMM
 -----
-Work in progress. Currently, one group uses FIRMM and the license is paid for by HBCD-Cedars, so permission is required if other groups are interested in using. Can fill this out as we work on FIRMM-pix.
+
+.. dropdown:: No movement data is coming in
+
+  1. Make sure what you're noticing is not the typical lag time between the scan running and the movement data appearing on the tablet.
+  2. Double-click on the sequence on the console and check that "Dot Add-In" appears under General. This is required for your sequence to communicate with FIRMM.
+
+.. dropdown:: I am trying to use FIRMMpix and the video isn't playing
+
+  1. Make sure the HDMI cable is plugged into HDMI 2 on the AV box and the light to its right is turned on. The other end should be plugged into the HDMI port on the right side of the FIRMM tablet.
+  2. Press the Windows key and check the resolution: 1920 x 1080 at 60 Hz.
+
 
 .. _trouble-eyetracker:
 Eyetracker
