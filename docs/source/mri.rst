@@ -580,7 +580,7 @@ FIRMM on XA30 is seamlessly integrated and starts automatically via settings in 
 
 
 .. image:: images/FIRMM_HBCD_settings.png
-   : width: 50%
+   :width: 50%
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
