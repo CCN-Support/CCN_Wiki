@@ -564,9 +564,9 @@ XA30
 
 FIRMM on XA30 is seamlessly integrated and starts automatically via settings in the BOLD, diffusion, and vNav sequences. No user input is necessary.
 
-- If your project would like to utilize FIRMM, please reach out to CCN techs.
-- Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
-
+- If your project would like to utilize FIRMM, please reach out to CCN techs. The system is owned by a specific project and you will need permission to use it.
+- A sequence must have the Dot Add-in applied to connect it to FIRMM.
+   - Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
   - As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
 
 .. image:: images/FirmmTablet.png
