@@ -422,7 +422,7 @@ FIRMM
 .. dropdown:: No movement data is coming in
 
   1. Make sure what you're noticing is not the typical lag time between the scan running and the movement data appearing on the tablet.
-  2. Double-click on the sequence on the console and check that "Dot Add-In" appears under General. This is required for your sequence to communicate with FIRMM.
+  2. Double-click on the sequence on the console, click the "General" tab on the left of the window that pops up, and check that "+ BOLD" appears next to "Dot AddIn" at the bottom. This is required for your sequence to communicate with FIRMM.
 
 .. dropdown:: I am trying to use FIRMMpix and the video isn't playing
 
