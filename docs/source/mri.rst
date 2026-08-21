@@ -579,7 +579,7 @@ FIRMM on XA30 is seamlessly integrated and starts automatically via settings in 
 - If you made any changes to the FIRMM settings as part of your scan, restore them to the settings in the below screenshot. These are the settings used by the project that pays for the FIRMM license, so please respect their needs.
 
 
-.. image:: images/FIRMM-HBCD-settings.png
+.. image:: images/FIRMM_HBCD_settings.png
    : width: 50%
 
 Troubleshooting
