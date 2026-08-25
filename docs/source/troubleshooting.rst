@@ -1,24 +1,57 @@
 Troubleshooting
 ===============
 
-Scanner Room
-------------
+Scan Failures
+-------------
 
-.. dropdown:: Cabinet is out of blankets
+Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
 
-  - If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the back area of the suite. Many other spare supplies will be there, including scrubs and headphones mesh covers, in their respectively labelled cabinets.
-  - Put used blankets in the linens bin (either the white one in the scanner room or brown, rectangular one by the phlebotomy room) at the end of your session.
+In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
 
-.. dropdown:: Linens basket is full
+Try each of the following steps in the escalating order described. The more drastic the action, the more time it will take to resume your scan, so generally it is worth trying the simpler solutions before moving on to full restarts.
 
-  - When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall directly behind the sink.
+Retry the Failed Series
+^^^^^^^^^^^^^^^^^^^^^^^
 
-  - If you leave it anywhere else, even close by, Facilities will not pick it up.
+- Right-click > Rerun From Here on the sequence that acquisition failed on. Start-stop if necessary.
+- See "Adding/Deleting a Sequences During a Scan" further above on this page for help with this.
 
-.. dropdown:: Fan is off or moved
+Re-plug the Coils
+^^^^^^^^^^^^^^^^^
 
-  - There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies, and the air isn't circulating well enough in the room, orient it toward the bed and turn it back on. Participants sometimes find it stuffy in the scanner and having this fan on can help.
-  - If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the motor in the back contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
+- This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "failed to converge".
+- Move the bed back to home.
+- Remove the participant or at least have them sit up.
+- Unplug the coils. Make sure the posterior coil is flush with the back of the bed and not sitting crookedly in the square space. Plug the coil back in.
+- The 32ch coil is sensitive to positioning inconsistencies. Be aware that just being able to push the plug into the port isn't enough--make sure the posterior coil is completely flush with the back of the bed and everything is lined up straight. When the posterior is plugged in and ready, you should be able to push it (in the direction of the bore) and feel no movement at all.
+- Confirm there are no coil file errors on the bore screen and no System Check errors on the console.
+- Re-align and send the participant back to isocenter. 
+
+Reset the Bed Alignment
+^^^^^^^^^^^^^^^^^^^^^^^
+
+- Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
+- Move the bed back to home.
+- Unplug and re-plug the coil connections.
+- Lower the bed down (as if you were preparing to have a participant climb up or step down).
+- Move the bed back to home. Re-align and try moving to isocenter again.
+
+Completely Redo the Patient Setup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Close out the subject.
+- Redo the prep as if you were just beginning a new scan:
+- Move the bed back to the home position. Unplug and re-plug the coils. Re-navigate the bed to isocenter.
+- Re-register the participant. You can use the same Subject ID if you'd like--everything is timestamped, so the console will allow you to do this. You will just get multiple subdirectories under that ID's folder in the DICOM server, differentiated by timestamp. If you'd rather have the new attempt saved under an entirely new folder at the Subject ID level, use a different ID.
+- Try running your protocol again.
+
+Restart the Scanner
+^^^^^^^^^^^^^^^^^^^
+
+- If nothing is working, a reboot may be in order. Open the Staglin Operating Manual on the iMac computer to refer to the instructions for Standard Shutdown and Reboot Procedures.
+- If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
+- This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
+- Inform CCN personnel about any persisting errors.
 
 .. raw:: html
 
@@ -94,62 +127,6 @@ General Console Operations
      Make sure to un-check all servers you don't need. If you do not de-select them, your data will be sent to other sites and this will cause confusion.
   6. Click "OK"
 
-
-Scan Failures
--------------
-
-Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
-
-In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
-
-Try each of the following steps in the escalating order described. The more drastic the action, the more time it will take to resume your scan, so generally it is worth trying the simpler solutions before moving on to full restarts.
-
-Retry the Failed Series
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- Right-click > Rerun From Here on the sequence that acquisition failed on. Start-stop if necessary.
-- See "Adding/Deleting a Sequences During a Scan" further above on this page for help with this.
-
-Re-plug the Coils
-^^^^^^^^^^^^^^^^^
-
-- This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "failed to converge".
-- Move the bed back to home.
-- Remove the participant or at least have them sit up.
-- Unplug the coils. Make sure the posterior coil is flush with the back of the bed and not sitting crookedly in the square space. Plug the coil back in.
-- The 32ch coil is sensitive to positioning inconsistencies. Be aware that just being able to push the plug into the port isn't enough--make sure the posterior coil is completely flush with the back of the bed and everything is lined up straight. When the posterior is plugged in and ready, you should be able to push it (in the direction of the bore) and feel no movement at all.
-- Confirm there are no coil file errors on the bore screen and no System Check errors on the console.
-- Re-align and send the participant back to isocenter. 
-
-Reset the Bed Alignment
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
-- Move the bed back to home.
-- Unplug and re-plug the coil connections.
-- Lower the bed down (as if you were preparing to have a participant climb up or step down).
-- Move the bed back to home. Re-align and try moving to isocenter again.
-
-Completely Redo the Patient Setup
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Close out the subject.
-- Redo the prep as if you were just beginning a new scan:
-- Move the bed back to the home position. Unplug and re-plug the coils. Re-navigate the bed to isocenter.
-- Re-register the participant. You can use the same Subject ID if you'd like--everything is timestamped, so the console will allow you to do this. You will just get multiple subdirectories under that ID's folder in the DICOM server, differentiated by timestamp. If you'd rather have the new attempt saved under an entirely new folder at the Subject ID level, use a different ID.
-- Try running your protocol again.
-
-Restart the Scanner
-^^^^^^^^^^^^^^^^^^^
-
-- If nothing is working, a reboot may be in order. Open the Staglin Operating Manual on the iMac computer to refer to the instructions for Standard Shutdown and Reboot Procedures.
-- If you have never rebooted before or have questions about the process, contact CCN staff to help walk you through the reboot steps.
-- This will take about 15 minutes from beginning to end, so make a decision appropriate to your participant's and the users' availability.
-- Inform CCN personnel about any persisting errors.
-
-.. raw:: html
-
-   <hr>
 
 Peripherals
 -----------
@@ -458,5 +435,26 @@ Eyetracker
   Eyelink runs on an old DOS system, which limits filenames to 8 characters or less. You can still register the participant on the console using whatever naming convention you'd like, but any string that will end up being used by Eyelink to save files will need to adhere to the character limit.
 
 
+Scanner Room
+------------
 
+.. dropdown:: Cabinet is out of blankets
+
+  - If there are no more blankets in the cabinet, spare linens are in the tall cabinet marked "Linens" by the corner desk in the back area of the suite. Many other spare supplies will be there, including scrubs and headphones mesh covers, in their respectively labelled cabinets.
+  - Put used blankets in the linens bin (either the white one in the scanner room or brown, rectangular one by the phlebotomy room) at the end of your session.
+
+.. dropdown:: Linens basket is full
+
+  - When the linens basket is full, tie up the bag containing all the used linens and take it out into the main room. Leave it against the wall directly behind the sink.
+
+  - If you leave it anywhere else, even close by, Facilities will not pick it up.
+
+.. dropdown:: Fan is off or moved
+
+  - There is a small fan that runs continuously in the room, on the floor between the coil rack and the counter. It is turned off for concurrent EEG-fMRI data collection. If you are not running one of those studies, and the air isn't circulating well enough in the room, orient it toward the bed and turn it back on. Participants sometimes find it stuffy in the scanner and having this fan on can help.
+  - If you notice that the fan has been significantly moved from its usual spot, notify CCN staff. Because the motor in the back contains weakly ferrous components, the fan is tied to the coil rack and weighed down with sandbags. It should never be far away from its usual position on the floor, so alert CCN if it is.
+
+.. raw:: html
+
+   <hr>
 
