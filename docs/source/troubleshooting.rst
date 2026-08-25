@@ -128,6 +128,11 @@ General Console Operations
   6. Click "OK"
 
 
+.. raw:: html
+
+   <hr>
+
+
 Peripherals
 -----------
 
@@ -433,6 +438,11 @@ Eyetracker
   If the Eyelink computer is alerting you to a filename error, check the ID you are using to identify your participant on your task laptop (or whichever computer you have connected to the Eyelink system). Make sure it is at most 8 characters long.
 
   Eyelink runs on an old DOS system, which limits filenames to 8 characters or less. You can still register the participant on the console using whatever naming convention you'd like, but any string that will end up being used by Eyelink to save files will need to adhere to the character limit.
+
+
+.. raw:: html
+
+   <hr>
 
 
 Scanner Room
