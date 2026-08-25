@@ -296,11 +296,11 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 
 **Why am I not in the user dropdown list when scheduling a scan?**
 
-- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email a few weeks before expiration.
+- The most likely reason is that your safety certification has expired. You can see certification expiration dates in the My Profile > My Personnel page on SIStat. Users also receive an email reminder a month before expiration.
 
 **Can an uncertified person shadow my scan?**
 
-- As per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
+- Per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
 
 **Can I be a primary user?**
 
