@@ -259,13 +259,16 @@ In the event that this cannot be achieved, please make every effort to pull in b
 
 3.3  Volunteers
 ~~~~~~~~~~~~~~~
-All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full onboarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_.
+All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full onboarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Go through the Clinical UCLA Health Sciences Volunteer Program even if your project does not involve clinical interventions or procedures. Anyone working with human subjects is considered Clinical where the Volunteer Office is concerned.
 
-Their duties and responsibilites are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. In short: 
+The PI/lab admin creates the "Opportunity" with the Volunteer Office, which will then handle the forms and required signatures as part of the onboarding. The duties and responsibilites of the Volunteer are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. In short: 
 
 - Volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
 
 - All volunteers must still complete CCN's full safety certification process in order to serve as a Secondary User during scans at CCN. This is because, as Secondary Users, they must still be aware of CCN's protocols and prepared to respond in an emergency situation. In the event that urgent, life-saving action is needed, they must already be knowledgeable about emergency equipment and familiar with basic console operation (e.g., "which button stops a scan?"), even if they are not permitted to use it under normal circumstances. 
+
+- Note that the copy of the Addendum linked above contains outdated contact information regarding the MRI tech. CCN has submitted updated information to the Volunteer Office and the documents they provide Volunteer applicants should be accurate.
+
 
 .. note::
 
