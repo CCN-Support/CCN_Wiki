@@ -39,6 +39,13 @@ CCN safety certification is achieved using a combination of in-person sessions a
 1.3  FAQ: Safety Certification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**My lab has no solid plan regarding whether or not I will be scanning. Should I still get certified just in case?**
+
+- CCN discourages the practice of having lab members get certified "just in case" when there is no real expectation that they will scan. Safety certification should not be treated like a membership or subscription that can be "re-upped" easily at any time. 
+- Only get certified if you are realistically going to start scanning soon and maintain a level of scan activity throughout the year. The reason is that time is a crucial factor when it comes to maintaining a safe MR environment. The more time passes between certification and regular scanning, the less confident CCN can be that you remain prepared to adequately respond in an emergency situation.
+- That being said, CCN understands--and supports--building a robust scan team, such that the lab has multiple certified members who can step in when scheduled users are unexpectedly unavailable. Please be judicious in deciding which and how many lab members pursue safety certification.
+- Once certified, make an effort to stay active and do not allow months to pass with no scan activity. If you do not scan much or at all after becoming certified, CCN will ask that you repeat some or all of the certification process when it comes time for you to renew your status (see "Warning" box above). Do not get certified, scan once, then expect to become recertified again next year by simply taking the online Recertification Exam.
+
 **I've been safety certified with CCN before. How do I get recertified?**
 
 - See the previous section: :ref:`renew_cert`. To summarize:
@@ -80,6 +87,11 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 - Yes. Attending the Operations Training is required as part of the safety certification process, but established users may also attend if they need to re-familiarize themselves with the system (e.g., after a significant time away).
 - Please check the BruinLearn calendar for available sessions and contact CCN staff for permission to attend. Do not just sign up without notifying CCN staff. Because new users must attend a Walkthrough and Operations Training as a pair, there are the same number of available spots in both. If you sign up for an Operations Training without the corresponding Walkthrough, you will take up a spot that a Walkthrough attendee needs. Communicate with CCN so staff can help accommodate your extra slot.
+
+**I am a certified Secondary User and want to become a Primary User, but my lab is currently not scanning (much) and has no solid timeline on when we will start again. Can I get Primary status now just so I'll have it when we do get back to scanning?**
+
+- See the first question in this FAQ section above. A aimilar principle applies--CCN generally discourages pursuing certification status on a "just in case" basis. Time is always a critical factor. If you are currently a Secondary User who does not scan much, CCN is unlikely to grant you Primary status on the assumption that you will still be fully familiar with the duties specific to Primary Users at an unknown future date.
+- Reach out to ccnsupport@g.ucla.edu when you have an honest idea of when you expect to start needing to serve in the Primary role. CCN admins will assess your suitability for Primary status at that time.
 
 **I am BMC certified. Will I need to get re-certified to be allowed in the CCN scanner and/or to access the CCN server?**
 
