@@ -8,6 +8,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :caption: Test Sidebar Heading
 
    generalpolicies
    links-and-forms
