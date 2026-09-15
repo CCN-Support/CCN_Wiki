@@ -6,7 +6,7 @@ Getting Started
 ~~~~~~~~~~~~~~~~
 What is Hoffman?
 ^^^^^^^^^^^^^^^^
-The Hoffman2 Cluster is a campus computing resource at UCLA and is named for Paul Hoffman (1947-2003). It is maintained by the `IDRE <https://idre.ucla.edu/>`_ at UCLA and the main official webage is `here <https://www.hoffman2.idre.ucla.edu/>`_. With many high end processor, data storage, and backup technologies, it is a useful tool for executing research computations especially when working with large datasets. More than 1000 users are currently registered and the cluster sees tremendous usage. Click here to find out how to join. In September 2014 alone, there were more than 5.5 million compute hours logged. See more usage statistics `here <https://www.hoffman2.idre.ucla.edu/status/>`_.
+The Hoffman2 Cluster is a campus computing resource at UCLA and is named for Paul Hoffman (1947-2003). It is maintained by the `IDRE <https://idre.ucla.edu/>`_ at UCLA and the main official webage is `here <https://www.hoffman2.idre.ucla.edu/>`_. With many high end processor, data storage, and backup technologies, it is a useful tool for executing research computations especially when working with large datasets. More than 1000 users are currently registered and the cluster sees tremendous usage. Click here [will link to Getting an Account] to find out how to join. In September 2014 alone, there were more than 5.5 million compute hours logged. See more usage statistics `here <https://www.hoffman2.idre.ucla.edu/status/>`_.
 
 Anatomy of the Computing Cluster
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -20,8 +20,7 @@ What does Hoffman2 consist of?
 
 .. image :: images/Hoffman_anatomy.jpg
 
-Login Nodes
-^^^^^^^^^^^
+**Login Nodes**
 
 There are four login nodes which allow you to access and interact with the Hoffman2 Cluster. These are essentially four dedicated computers that you can SSH into and use to look at and edit your files or submit computing jobs to the queue (more on what the queue is in a bit). It is important to remember that these are four computers being shared by ALL the Hoffman2 users. Doing ANY type of heavy computing on these nodes is frowned upon. If you are:
 
@@ -31,8 +30,7 @@ There are four login nodes which allow you to access and interact with the Hoffm
 
 You should NOT be doing this on a login node. If the sysadmins at ATS find any process that is taking up too many resources on the login nodes, they reserve the right to terminate the process immediately.
 
-Computing Nodes
-^^^^^^^^^^^^^^^
+**Computing Nodes**
 
 As of April 2014, Hoffman2 is made up of more than 12,000 processors across three data centers and this number continues to grow as the cluster is expanded. The individual cores of the processors are where your programs gets executed when you submit a job to the cluster. There are ways to request different amount of resources, such as how much RAM or CPU cores your program/job needs.
 
