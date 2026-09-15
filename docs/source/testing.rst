@@ -28,7 +28,7 @@ Section jumps
 ~~~~~~~~~~~~~
 label section with .. _section-name:
 
-jump with :ref:`section-name`
+jump with ``:ref:`section-name```
 
 Images
 ~~~~~~
@@ -40,12 +40,15 @@ Images
 
 Code Font
 ~~~~~~~~~
-``Use double backticks``
-.. code-block:: bash
+``Use double backticks for code font``
 
-   ssh username@hostname
-   cd my_directory
-   ls
+::
+
+   Use double colons to make a code block
+
+      ssh username@hostname
+      cd my_directory
+      ls
 
 **Before scanning**
 
