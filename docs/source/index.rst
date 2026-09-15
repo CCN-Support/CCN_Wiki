@@ -10,9 +10,10 @@ Contents
    :maxdepth: 1
 
    generalpolicies
+   links-and-forms
    mri
    eeg
-   links-and-forms
+   hoffman
    troubleshooting
    future_content
    testing
