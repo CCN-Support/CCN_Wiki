@@ -1,1 +1,3 @@
-==HOFFMAN2 Computing Cluster==
+HOFFMAN2 Computing Cluster
+--------------------------
+
