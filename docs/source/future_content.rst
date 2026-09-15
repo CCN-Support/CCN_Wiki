@@ -18,3 +18,33 @@ What does Hoffman2 consist of?
 - Storage Space
 - Univa Grid Engine
 
+.. image :: images/CCN_Hoffman2_Workshop.jpg
+
+Login Nodes
+~~~~~~~~~~~
+
+There are four login nodes which allow you to access and interact with the Hoffman2 Cluster. These are essentially four dedicated computers that you can SSH into and use to look at and edit your files or submit computing jobs to the queue (more on what the queue is in a bit). It is important to remember that these are four computers being shared by ALL the Hoffman2 users. Doing ANY type of heavy computing on these nodes is frowned upon. If you are:
+
+- moving lots of files
+- calculating the inverse solution to an EEG signal, or
+- running a bunch of python scripts to extract tractography of a brain
+
+You should NOT be doing this on a login node. If the sysadmins at ATS find any process that is taking up too many resources on the login nodes, they reserve the right to terminate the process immediately.
+
+Computing Nodes
+~~~~~~~~~~~~~~~
+
+As of April 2014, Hoffman2 is made up of more than 12,000 processors across three data centers and this number continues to grow as the cluster is expanded. The individual cores of the processors are where your programs gets executed when you submit a job to the cluster. There are ways to request different amount of resources, such as how much RAM or CPU cores your program/job needs.
+
+There is also a GPU cluster that has more than 300 nodes, but access to this must be requested separately from a normal Hoffman2 account.
+
+The reason the number of computing cores continues to grow is because more resource groups (like individual research labs) join Hoffman2 and buy nodes to be integrated into the cluster. Nodes contributed by a resource group are guaranteed to that resource group and can be used to run longer jobs (up to 14 days). As of June 2013, the Cohen and Bookheimer groups on Hoffman2 have 96 cores:
+
+6 nodes (installed pre 2010) each with
+  - 8 cores
+  - 8GB RAM
+3 nodes (installed Fall 2012) each with
+  - 16 cores
+  - 48GB RAM
+
+Use the command mygroup to see what resources you have available.
