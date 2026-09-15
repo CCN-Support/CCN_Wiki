@@ -6,27 +6,37 @@ References
 ----------
 Heading order
 ~~~~~~~~~~~~~
-==
---
-~~
-^^
+
+::
+
+   ==
+   --
+   ~~
+   ^^
 
 Line break
 ~~~~~~~~~~
-.. raw:: html
 
-   <hr>
+::
+
+   .. raw:: html
+
+      <hr>
 
 
 Section jumps
 ~~~~~~~~~~~~~
 label section with .. _section-name:
+
 jump with :ref:`section-name`
 
 Images
 ~~~~~~
-.. image:: images/project-workflow.png
-   :target: _images/project-workflow.png
+
+::
+
+   .. image:: images/project-workflow.png
+      :target: _images/project-workflow.png
 
 Code Font
 ~~~~~~~~~
