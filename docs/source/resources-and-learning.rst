@@ -28,6 +28,7 @@ EEG Data Analysis
 
 Table Attempt
 -------------
+
 .. list-table::
    :header-rows: 1
    :widths: 30 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
