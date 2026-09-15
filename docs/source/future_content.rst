@@ -4,7 +4,7 @@ Future Content
 Hoffman 2 Introduction
 ======================
 
-Hoffman2:Getting an Account
+Hoffman2: Getting an Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Requesting Hoffman2 Account**
@@ -54,3 +54,68 @@ SSH stands for Secure Shell and is a method of remotely logging into a computer 
 Simple SSH
 
 Use the ssh command from a terminal:
+
+.. code-block:: python
+
+  ssh login_id@hoffman2.idre.ucla.edu
+
+where login_id is replaced by your cluster user name.
+
+**GUI-Enabled SSH**
+
+Macs (post - Snow Leopard 10.6.x) no longer come with an X Window System Server pre-installed.
+
+Before doing the following steps, please install `XQuartz <http://xquartz.macosforge.org/>`_ and restart your computer. Note: From Xquartz 2.7.9, indirect GLX is disabled by default, so you'll need to run this command followed by a reboot
+
+.. code-block:: python
+
+  ssh login_id@hoffman2.idre.ucla.edu
+
+For M-series Macs use the following instead with XQuartz 2.8.2:
+
+.. code-block:: python
+
+  defaults write org.xquartz.X11 enable_iglx -bool true
+
+1. Open up your Terminal. It's under Applications > Utilities on Macs.
+2. Type the command,
+
+.. code-block:: python
+
+  $ ssh -Y login_id@hoffman2.idre.ucla.edu
+
+replacing login_id with your Hoffman2 username.
+The -Y is for X11 Forwarding so that any graphics that are rendered on Hoffman2 get forwarded to the screen of your computer.
+
+3. Press enter and type in your password when it asks for it. No characters or asterisks will show up while you type.
+4. Provided your typing was good, you will be greeted by the Hoffman2 login message and have successfully SSH into a login node.
+
+**Windows**
+
+1. Go `here <https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html>`_ and follow the instructions under Windows. We recommend PuTTY or Cgywin.
+2. If you use putty, please install `xming <http://sourceforge.net/projects/xming/>`_ for GUI access.
+Once you have that setup, the process is the same as if you were on a Mac or Linux/Unix machine
+
+**Remote Desktop [Recommended]**
+
+Currently, Hoffman supports connecting to the cluster via the X2Go client and the NoMachine client.
+
+**NX Client - GUI**
+
+The NX Client program allows you to set up a Virtual Network Computing (VNC)-like session with Hoffman2. This session will keep running even if your Internet connection drops in and out (much like `screen <https://www.ccn.ucla.edu/wiki/index.php/Using_Screen>`_ on the command line).
+
+**X2Go - GUI**
+
+X2Go provides a desktop-like GUI for accessing the Hoffman server. Please see here to find out more about setup details.
+
+
+
+Change Passwords
+Once you've logged on and made sure its works, you can change your password to something more rememberable To change passwords, logon and type:
+
+.. code-block:: python
+
+  passwd
+
+It should ask you for your old password and then new ones.
+
