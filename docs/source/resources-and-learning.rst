@@ -31,6 +31,7 @@ Test table
 
 .. list-table::
    :header-rows: 1
+   :widths: 40 5 5 5
 
    * - Resource
      - MRI
