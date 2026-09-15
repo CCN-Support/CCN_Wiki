@@ -26,7 +26,7 @@ MRI Data Analysis
 EEG Data Analysis
 -----------------
 
-Test table
+Test mini table
 ----------
 
 .. list-table::
@@ -42,3 +42,46 @@ Test table
      - X
      - X
      - X
+
+Test big table
+--------------
+
+.. list-table::
+   :header-rows: 1
+   :widths: 35 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+
+   * - Resource
+     - MRI Data Acq.
+     - MRI Data PreProc
+     - MRI Data Analysis
+     - EEG Data Acq.
+     - EEG Data PreProc
+     - EEG Data Analysis
+     - Other (anatomy etc.)
+     - HPC
+     - Unix/Bash
+     - Python
+     - R
+     - Matlab
+     - Other Computing
+     - Online Course
+     - UCLA Workshop
+     - UCLA Course
+
+   * - Institute for Quantitative & Computational Biosciences
+     -
+     -
+     -
+     -
+     -
+     -
+     -
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     -
+     -
+     -
