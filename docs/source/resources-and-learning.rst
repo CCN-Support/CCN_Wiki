@@ -26,69 +26,18 @@ MRI Data Analysis
 EEG Data Analysis
 -----------------
 
-Table Attempt
--------------
+Test table
+----------
 
 .. list-table::
    :header-rows: 1
-   :widths: 30 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
 
    * - Resource
-     - MRI Data Acq.
-     - MRI Data PreProc
-     - MRI Data Analysis
-     - EEG Data Acq.
-     - EEG Data PreProc
-     - EEG Data Analysis
-     - Other (anatomy etc)
+     - MRI
+     - EEG
      - HPC
-     - Unix/Bash
-     - Python
-     - R
-     - Matlab
-     - Other Computing
 
-   * - `Institute for Quantitative & Computational Biosciences <URL-HERE>`_
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+   * - Example resource
      - X
-     - X
-     - X
-     - X
-     - X
-     - X
-
-   * - `IDRE Office Advanced Research Computing Events <URL-HERE>`_
-     -
-     -
-     -
-     -
-     -
-     -
-     -
-     - X
-     - X
-     - X
-     - X
-     - X
-     - X
-
-   * - `Mike X Cohen, Matlab, Python, Signal Processing in Neuroscience <URL-HERE>`_
-     -
-     -
-     -
-     -
-     - X
-     - X
-     -
-     -
-     -
-     - X
-     -
      - X
      - X
