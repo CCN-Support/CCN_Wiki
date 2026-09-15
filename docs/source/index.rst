@@ -15,6 +15,7 @@ Contents
    eeg
    hoffman
    troubleshooting
+   resources-and-learning
    future_content
    testing
 
