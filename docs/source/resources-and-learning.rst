@@ -93,6 +93,7 @@ Test column header breaks
 
 .. list-table::
    :header-rows: 1
+   :class: resource-table
    :widths: 30 5 5 5 5 5 5 6 4 5 5 3 5 6 5 5 5
 
    * - **Resource**
