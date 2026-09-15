@@ -4,47 +4,53 @@ Future Content
 Hoffman 2 Introduction
 ======================
 
-What is Hoffman?
-~~~~~~~~~~~~~~~~
-The Hoffman2 Cluster is a campus computing resource at UCLA and is named for Paul Hoffman (1947-2003). It is maintained by the `IDRE <https://idre.ucla.edu/>`_ at UCLA and the main official webage is `here <https://www.hoffman2.idre.ucla.edu/>`_. With many high end processor, data storage, and backup technologies, it is a useful tool for executing research computations especially when working with large datasets. More than 1000 users are currently registered and the cluster sees tremendous usage. Click here to find out how to join. In September 2014 alone, there were more than 5.5 million compute hours logged. See more usage statistics `here <https://www.hoffman2.idre.ucla.edu/status/>`_.
+Hoffman2:Getting an Account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Anatomy of the Computing Cluster
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Requesting Hoffman2 Account**
 
-What does Hoffman2 consist of?
+What You Need: A UCLA Logon ID, available for free to any UCLA staff, student, or faculty member. If you do not have a UCLA Logon ID, head to the `UCLA Logon services page <https://accounts.iam.ucla.edu/#/>`_. Click on "Create UCLA Logon ID".
 
-- Login Nodes
-- Computing Nodes
-- Storage Space
-- Univa Grid Engine
+**Applying for the Account**
 
-.. image :: images/CCN_Hoffman2_Workshop.jpg
+ATTENTION: If you are a PI interested in Hoffman2, please see the section **Becoming a Faculty Sponsor** below.
 
-Login Nodes
-~~~~~~~~~~~
+1. Navigate to the `Requesting an account page <https://www.hoffman2.idre.ucla.edu/Accounts/Requesting-an-account.html>`_.
+2. Read over the application summary.
+3. Click "New User Registration".
+4. Log in using your UCLA Logon ID and password.
+5. Fill out the form with appropriate information. For Hoffman2, your Faculty Sponsor should be Mark Cohen, Alison Burggren (for Susan Bookheimer's lab), or your respective PI if they are a Faculty Sponsor on Hoffman.
 
-There are four login nodes which allow you to access and interact with the Hoffman2 Cluster. These are essentially four dedicated computers that you can SSH into and use to look at and edit your files or submit computing jobs to the queue (more on what the queue is in a bit). It is important to remember that these are four computers being shared by ALL the Hoffman2 users. Doing ANY type of heavy computing on these nodes is frowned upon. If you are:
+**Proposed UserName**
+  This will be the username you use to sign into the cluster with.
 
-- moving lots of files
-- calculating the inverse solution to an EEG signal, or
-- running a bunch of python scripts to extract tractography of a brain
+**Select a Resource**
 
-You should NOT be doing this on a login node. If the sysadmins at ATS find any process that is taking up too many resources on the login nodes, they reserve the right to terminate the process immediately.
+For the Mark Cohen/Susan Bookheimer labs, choose "Hoffman2". However, you can request access to any cluster that is a member of the Grid Portal.
 
-Computing Nodes
-~~~~~~~~~~~~~~~
+Click Submit. You will receive an email with a link to a temporary password. **PLEASE WRITE IT DOWN.** The link expires after 72 hours. If you missed the link or it expired, go back to the `Application Page <https://www.hoffman2.idre.ucla.edu/Accounts/Users-managing-your-account.html#password-processes>`_ and click Forgot Your Cluster Password? It will take about a day for the cluster to resend you a new password.
 
-As of April 2014, Hoffman2 is made up of more than 12,000 processors across three data centers and this number continues to grow as the cluster is expanded. The individual cores of the processors are where your programs gets executed when you submit a job to the cluster. There are ways to request different amount of resources, such as how much RAM or CPU cores your program/job needs.
+You can change your password once you've logged in by using passwd.
 
-There is also a GPU cluster that has more than 300 nodes, but access to this must be requested separately from a normal Hoffman2 account.
+**Becoming A Faculty Sponsor**
 
-The reason the number of computing cores continues to grow is because more resource groups (like individual research labs) join Hoffman2 and buy nodes to be integrated into the cluster. Nodes contributed by a resource group are guaranteed to that resource group and can be used to run longer jobs (up to 14 days). As of June 2013, the Cohen and Bookheimer groups on Hoffman2 have 96 cores:
+If you are a PI or Lab Manager interested in the Hoffman2 Cluster, you will want to create a Faculty Sponsor account first. Also, if you are a member of another lab collaborating with the Cohen or Bookheimer labs, you may want to forward this information to your PI or Lab Manager. Faculty Sponsors can approve (or deny) applications for membership to their group. They also receive a group folder and a unique group id so their users can work and share data easily with each other.
 
-6 nodes (installed pre 2010) each with
-  - 8 cores
-  - 8GB RAM
-3 nodes (installed Fall 2012) each with
-  - 16 cores
-  - 48GB RAM
+1. Navigate to the `register as a sponsor page <https://www.hoffman2.idre.ucla.edu/Accounts/Requesting-an-account.html#register-as-a-sponsor>`_.
+2. Click "New Sponsor Registration" (on the bottom of the page).
+3. Log in using your UCLA Logon ID and password.
+4. Fill out the form with appropriate information.
 
-Use the command mygroup to see what resources you have available.
+Under 'Reason', any reason is appropriate for faculty members. For example: "To perform fMRI analysis."
+
+**Hoffman2:Accessing the Cluster**
+
+SSH - Command Line
+
+SSH stands for Secure Shell and is a method of remotely logging into a computer using an encrypted connection. It is a command-line tool and is available on most *nix-based operating systems with ports available for Windows.
+
+**Mac/Linux/Unix**
+
+Simple SSH
+
+Use the ssh command from a terminal:
