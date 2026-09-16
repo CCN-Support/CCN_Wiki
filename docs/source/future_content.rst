@@ -1832,7 +1832,7 @@ To make ⌘+V work normally, issue the following command in terminal:
 
 .. code-block:: python
 
-   echo "*VT100.translations: #override Meta <KeyPress> V: insert-selection(PRIMARY, CUT_BUFFER0) \n" > ~/.Xdefaults
+  echo "*VT100.translations: #override Meta <KeyPress> V: insert-selection(PRIMARY, CUT_BUFFER0) \n" > ~/.Xdefaults
 
 **Connect**
 
