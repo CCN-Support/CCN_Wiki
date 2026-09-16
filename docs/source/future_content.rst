@@ -401,6 +401,8 @@ Below is a list of the available software tools. We will do our best to update i
 ANFI
 ~~~~
 
+`Official Website <http://afni.nimh.nih.gov/afni/>`_
+
 .. list-table::
    :header-rows: 1
 
@@ -423,3 +425,134 @@ ANFI
      - 2012.03.19
      - 
 
+ANTS
+~~~~
+
+`Official Website <http://stnava.github.io/ANTs/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - ants-2.3.1
+     - 
+     - New
+   * - ants-2.2.0
+     - 2019.03.25
+     - 
+   * - ants-2.1.0-redhat
+     - 2015.01.23
+     - Default
+
+ASHS
+~~~~
+
+`Official Website <https://www.nitrc.org/projects/ashs%7C>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20180720
+     - 2018.07.20
+     - New
+   * - 2017-02
+     - 2017.06.08
+     - 
+   * - Rev-103
+     - 2016.02.24
+     - Default
+
+Brainsuite
+~~~~~~~~~~
+
+`Official Website <http://brainsuite.org/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20180720
+     - 2018.07.20
+     - New
+   * - 2017-02
+     - 2017.06.08
+     - 
+   * - Rev-103
+     - 2016.02.24
+     - Default
+
+BrainAgeR
+
+
+`Official Website <https://github.com/james-cole/brainageR>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 19a
+     - 2019.02.19
+     - Default
+   * - 18a
+     - 
+     - 
+   * - 17a
+     - 
+     - 
+   * - 15c
+     - 
+     - No longer supported
+
+brms
+
+R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.17.0
+     - 2022.06.10
+     - Default
+
+Caret
+
+`Official Website <http://brainvis.wustl.edu/wiki/index.php/Caret:About>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 5.65 (2012.01.27)
+     - 2013.07.15
+     - Default, not folded into the main profile
+
+ccn_py37
+
+Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, scipy
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.0
+     - 2021.05.24
+     - CentOS 7 with Conda
+
+
+  
