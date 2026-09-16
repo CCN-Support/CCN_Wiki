@@ -29,6 +29,22 @@ Resource List - Table
 Resource List - Directory 
 -------------------------
 
+The directory below allows you to easily see which topics each resource addresses and filter by one or more topics.
+
+.. raw:: html
+
+   <iframe
+      src="_static/resources_directory_with_links.html"
+      title="Resources Directory"
+      style="width: 100%; height: 1100px; border: 0;"
+      loading="lazy">
+   </iframe>
+
+
+
+TESTING BELOW
+-------------
+
 This directory preserves the full topic-by-resource mapping from the source matrix. Each resource is listed with tags underneath to mark the topics it covers.
 
 Topic Key
