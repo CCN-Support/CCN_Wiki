@@ -1706,6 +1706,112 @@ GUI Commands/Tools [Make sure to have X11 forwarding on]
    * - `fslview <http://www.fmrib.ox.ac.uk/fsl/fslview/index.html>`_
      - Interactive display tool for 3D and 4D data.
 
+**Cluster**
+
+Scripts that self-submit:
+
+- `fdt <http://www.fmrib.ox.ac.uk/fsl/fdt/index.html>`_
+- `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+- `first <http://www.fmrib.ox.ac.uk/fsl/first/index.html>`_
+- `fslval <http://www.fmrib.ox.ac.uk/fsl/fslvbm/index.html>`_
+- `possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
+- `randomise <http://www.fmrib.ox.ac.uk/fsl/randomise/index.html>`_
+- `tbss <http://www.fmrib.ox.ac.uk/fsl/tbss/index.html>`_
+
+GUIs that self-submit:
+
+- `Fdt <http://www.fmrib.ox.ac.uk/fsl/fdt/index.html>`_
+- `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+- `flirt <http://www.fmrib.ox.ac.uk/fsl/flirt/index.html>`_
+- `Possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
+
+**NO_FSL_JOBS**
+
+Sometimes FSL doesn't know how to allocate enough resources for its jobs properly. Specifically we have found the FEAT tool often unable to do this for group analyses or other complex tasks. So we did some tinkering with FSL to allow you to override its job submission on Hoffman2 and run it like it was just on your laptop. **The trick is to set ``NO_FSL_JOBS=true`` in your environment and FSL will not submit jobs.**
+
+**Interactive Session**
+
+If you want to watch FEAT run (kinda like paint drying, but to each their own), you can do the following
+
+1. SSH into the cluster
+2. Check out an interactive node with the necessary time and memory ``qrsh -l h_rt=3:00:00,h_data=4G``
+3. Set the environment variable ``export NO_FSL_JOBS=true``
+4. Run your FSL commands. This means not using qsub, or command files, but simply executing the FSL command
+The commands will just run and not submit any jobs.
+
+**Submitting a Job**
+
+If you don't want to watch FEAT run (why would you?), you can do the following
+
+Create a shell script (e.g. myshellscript.sh) with the following contents
+
+.. code-block:: python
+
+  #!/bin/bash
+  export NO_FSL_JOBS=true
+  feat design.fsf
+  # any other FSL commands you want
+
+And make sure to run ``chmod 750`` to make the script executable
+
+.. code-block:: python
+
+  chmod 750 myshellscript.sh
+
+Submit the shell script as a job but with the adequate time and memory allocations
+
+.. code-block:: python
+
+  qsub -l h_rt=23:00:00,h_data=4G -V -m bea -cwd /path/to/myshellscript.sh
+
+And the FSL commands will be sent into the queue to run with your time and memory constraints rather than FSL's. This may take some playing with to get the time and memory allocations correct, but at least you have the ability to tweak them.
+
+**FSL GPU**
+
+Some FSL tools, like eddy and bedpostx, can utilize Hofmman's GPU architecture to speed up their processing times. Below is an example of how to request a CUDA 9.1-enabled GPU node.
+
+.. code-block:: python
+
+  # request Tesla P4 GPU node
+  qrsh -l gpu,P4,h_rt=5:00:00
+
+  module load cuda/9.1
+  module load fsl/6.0.4
+  export NO_FSL_JOBS=true
+
+  # now run eddy_cuda9.1 or bedpostx_gpu
+
+**Known Issue in Hoffman**
+
+When using noMachine with newer version (6.0.7.x) of FSL, user might get errors as the following
+
+.. code-block:: python
+
+  "Unable to contact" settings server : Failed to connect to socket /tmp/dbus-xxxxx: Connection refused
+
+This is because these versions of FSL overwrite the path to the dbus and noMachine cannot find the dbus in Hoffman.
+
+Normally dbus-launch should be under /usr/bin. If it's not, then it won't work. By checking the dbu-launch path, it can be decided if it's the same issue or not.
+
+.. code-block:: python
+
+  which dbus-launch
+  /usr/bin/dbus-launch
+
+Solution:
+
+.. code-block:: python
+
+  1. check your ~/.bashrc or ~/.bash_profile, if there's any "module load FSL", comment them out.
+
+  2. Start noMachine
+
+  3. In noMachine terminal, input "module load fsl/versionxxx". Then it should avoid the same error this time.
+
+
+
+
+
 
 
 
