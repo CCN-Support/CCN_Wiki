@@ -5,14 +5,11 @@ Resources and Learning
 Resource List - Table
 ---------------------
 
-The directory above provides a more readable view of the resources and topics.
-For the complete matrix showing every resource against every individual topic:
-
 .. raw:: html
 
 
    <p>
-      Search the matrix, scroll horizontally through all topics, or click a
+      Search the table, scroll horizontally through all topics, or click a
       topic heading to show only resources covering that topic.
    </p>
 
