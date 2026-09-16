@@ -34,11 +34,31 @@ The directory below allows you to easily see which topics each resource addresse
 .. raw:: html
 
    <iframe
+      id="resources-directory"
       src="_static/resources_directory_with_links.html"
       title="Resources Directory"
-      style="width: 100%; height: 1100px; border: 0;"
-      loading="lazy">
+      style="width: 100%; min-height: 200px; border: 0; overflow: hidden;"
+      scrolling="no">
    </iframe>
+
+   <script>
+   (function () {
+       const frame = document.getElementById('resources-directory');
+
+       window.addEventListener('message', function (event) {
+           if (event.origin !== window.location.origin) {
+               return;
+           }
+
+           if (!event.data || event.data.type !== 'resources-directory-height') {
+               return;
+           }
+
+           frame.style.height = event.data.height + 'px';
+       });
+   })();
+   </script>
+
 
 
 
