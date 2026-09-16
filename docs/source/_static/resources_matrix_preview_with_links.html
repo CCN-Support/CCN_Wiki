@@ -40,7 +40,9 @@ tbody tr:nth-child(even) td {background-color: #f5f7f9;}
 thead th {
         background-color: #d9e0e7;
         font-weight: 600;
+        border-right: 1px solid #c8d0d8;
         border-bottom: 2px solid #aeb8c2;}
+thead th:first-child {background-color: #d9e0e7;} 
 th:last-child,td:last-child {border-right:0}
 tr:last-child td {border-bottom:0}
 .mark {font-weight:700;font-size:15px;color:var(--accent)}
@@ -63,15 +65,13 @@ th.active {background:#dfe7f2;color:#334155}
       <tbody></tbody>
     </table>
   </div>
-  <div id="matrix-note" class="note">All rows and all 17 columns from the source spreadsheet are included. Resource titles become clickable when a URL is supplied in the <code>RESOURCE_URLS</code> object in this file.</div>
+  <div id="matrix-note" class="note">Click the Resource name to follow the link to its corresponding webpage.
 </div>
 <script>
 // ============================================================
-// ADD RESOURCE LINKS HERE
+// TABLE CONTENTS DEFINED HERE
 // ============================================================
-// Replace the empty string for a resource with its URL, e.g.:
-// "MRI Questions": "https://example.org/mri-questions",
-// You can add/edit URLs without changing the table data below.
+
 const RESOURCE_URLS = {"Institute for Quantitative & Computational Biosciences":"https://qcb.ucla.edu/collaboratory/workshops/",
                        "IDRE Office Advanced Research Computing Events":"https://oarc.ucla.edu/events",
                        "Mike X Cohen, Matlab, Python, Signal Processing in Neuroscience":"https://www.mikexcohen.com/#home",
