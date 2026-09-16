@@ -1841,10 +1841,74 @@ To setup new sessions for hoffman2, open X2Go client and input either of the fol
 - x2go1.hoffman2.idre.ucla.edu
 - x2go2.hoffman2.idre.ucla.edu
 
+.. image:: images/X2go.png
 
+Users can set up multiple sessions connection to different servers with X2Go client.
 
+To Add new sessions, click this  icon on the top bar. Then a window pops up as "Session Management".
 
+.. image:: images/X2go_new_session.png
 
+After login, the desktop Window of your Hoffman2 environment will look like this:
+
+.. image:: images/X2go_desk_top.png
+
+Read more on `IDRE website <https://www.hoffman2.idre.ucla.edu/x2go/>`_
+
+**Desktop Environment Compatibility**
+
+The following desktop environments (session type) seem to be compatible with Hoffman:
+
+- KDE
+- MATE
+- XFCE
+
+If you run into issues using KDE, switch to MATE or XFCE since they are considered lightweight GUIs (use less memory and CPU).
+
+**CentOS7 UPDATE:** GNOME and UNITY are not supported at this time and may show a black screen after the connection starts.
+
+For KDE, if fullscreen mode is switched on by default which prevents the menu bar on the bottom to show up, try to delete the following folders before reconnecting to X2Go:
+
+.. code-block:: python
+
+  ~/.x2go
+  ~/.x2goclient
+
+from your laptop/desktop (in MacOS)
+
+.. code-block:: python
+
+  ~/.x2go
+  ~/.kde
+
+from your Hoffman2 home directory.
+
+**Known issues**
+
+When using additional commands in ~/.bashrc or ~/.bash_profile, X2Go mistakes the output from certain commands as error messages and will crash or hang when starting a new connection.
+
+**module load**
+
+When using "module load" to load modules in ~/.bashrc or ~/.bash_profile, the output from "module load" can be misinterpreted as an error.
+
+Solution:
+
+For example with fsl module, edit your "module load" command in your .bashrc or .bash_profile as following
+
+.. code-block:: python
+
+  module load fsl > /dev/null 2>&1
+
+This will redirect the output from "module load" to /dev/null
+
+**fix_perms.sh**
+
+When using fix_perms.sh or other commands to resolve permission issues when starting new shells, X2Go can freeze due to any "permission denied" messages that occur.
+
+Solution:
+
+Place fix_perms.sh or any other commands in ~/.bash_logout
+Commands in ~/.bash_logout are issued when a bash login shell exits. This should resolve issues with X2Go and also allow users to continue using these commands.
 
 
 
