@@ -211,6 +211,40 @@ Resources
 
 
 
+Original Full Resource Matrix
+----------------------------
+
+The directory above provides a more readable view of the resources and topics.
+For the complete matrix showing every resource against every individual topic:
+
+.. raw:: html
+
+   <details class="original-resource-matrix">
+   <summary>
+      <strong>▶ Explore the complete 17-topic matrix</strong>
+   </summary>
+
+   <p>
+      Search the matrix, scroll horizontally through all topics, or click a
+      topic heading to show only resources covering that topic.
+   </p>
+
+   <iframe
+      src="_static/resources_matrix_preview.html"
+      title="Complete 17-topic resource matrix"
+      style="width: 100%; height: 720px; border: 1px solid #d9dee7; border-radius: 8px;"
+      loading="lazy">
+   </iframe>
+
+   <p style="margin-top: 1em;">
+      <a href="_static/Resources%20Table.xlsx" download>
+         Download the original Excel spreadsheet
+      </a>
+   </p>
+
+   </details>
+
+
 
 WORK IN PROGRESS BELOW
 ----------------------
