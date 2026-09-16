@@ -119,3 +119,20 @@ Once you've logged on and made sure its works, you can change your password to s
 
 It should ask you for your old password and then new ones.
 
+Working in a Linux Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Hoffman2: Linux Tutorial**
+
+A tutorial from Hoffman2 support
+
+`Here <https://www.hoffman2.idre.ucla.edu/Using-H2/Command-line/Unix-command-line.html>`_ is a simple tutorial from Hoffman2's support page
+
+**Permissions**
+
+Permissions determine who and to what degree users can access a file.
+
+The key terminology and function of the permission system is found here:
+
+[insert unix permissions page]
+
