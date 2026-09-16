@@ -454,6 +454,1229 @@ Computing
 ---------
 2.1 Software Tools
 ~~~~~~~~~~~~~~~~~~
+
+There is a CCN usergroup on Hoffman2 which is maintained for groups doing Neuroimaging work at UCLA. Tools like FSL, FreeSurfer, AFNI and Nibabel are maintained for this group separate from normal Hoffman2 programs. In order to take advantage of these tools, you need to load the modules into the interactive mode or listed in your batch mode scripts.
+
+.. code-block:: python
+
+  module load appname/version
+
+Below is a list of the available software tools. We will do our best to update it as changes are made.
+
+  - Do not load matlab and freesurfer or matlab and RStudio as it will cause errors.
+
+AFNI
+~~~~
+
+`Official Website <http://afni.nimh.nih.gov/afni/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20.1.00
+     - 
+     - New
+   * - 19.0.15
+     - 2019.02.20
+     - 
+   * - 17.2.07
+     - 2017.02.07
+     - Default
+   * - 16.3.1
+     - 2016.11.20
+     - 
+   * - 2011.12.21.1014
+     - 2012.03.19
+     - 
+
+**ANTS**
+
+`Official Website <http://stnava.github.io/ANTs/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - ants-2.3.1
+     - 
+     - New
+   * - ants-2.2.0
+     - 2019.03.25
+     - 
+   * - ants-2.1.0-redhat
+     - 2015.01.23
+     - Default
+
+**ASHS**
+
+`Official Website <https://www.nitrc.org/projects/ashs%7C>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20180720
+     - 2018.07.20
+     - New
+   * - 2017-02
+     - 2017.06.08
+     - 
+   * - Rev-103
+     - 2016.02.24
+     - Default
+
+**Brainsuite**
+
+`Official Website <http://brainsuite.org/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20180720
+     - 2018.07.20
+     - New
+   * - 2017-02
+     - 2017.06.08
+     - 
+   * - Rev-103
+     - 2016.02.24
+     - Default
+
+**BrainAgeR**
+
+`Official Website <https://github.com/james-cole/brainageR>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 19a
+     - 2019.02.19
+     - Default
+   * - 18a
+     - 
+     - 
+   * - 17a
+     - 
+     - 
+   * - 15c
+     - 
+     - No longer supported
+
+**brms**
+
+R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.17.0
+     - 2022.06.10
+     - Default
+
+**Caret**
+
+`Official Website <http://brainvis.wustl.edu/wiki/index.php/Caret:About>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 5.65 (2012.01.27)
+     - 2013.07.15
+     - Default, not folded into the main profile
+
+**ccn_py37**
+
+Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, scipy
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.0
+     - 2021.05.24
+     - CentOS 7 with Conda
+
+**Chronux**
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.1
+     - 2013.02.26
+     - Current
+
+**CONN**
+
+`Official Website <https://web.conn-toolbox.org/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 19.b
+     - 2013.02.26
+     - New
+   * - 18.b
+     - 
+     - 
+   * - 17.f
+     - 
+     - Default
+
+**dcm2nii**
+
+`Official Website <http://www.mccauslandcenter.sc.edu/mricro/mricron/dcm2nii.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2013.06.06
+     - 2014.03.06
+     - 
+   * - 2011.11.11
+     - circa 2011
+     - Current
+
+**dmctk**
+
+`Official Website <https://dicom.offis.de/dcmtk.php.en>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.6.0
+     - 2017.05.17
+     - Current
+   * - 3.6.6
+     - 2021.02.16
+     - 
+
+**DTIprep**
+
+`Official Website <https://www.nitrc.org/projects/dtiprep/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.2.4
+     - 2017.12.21
+     - 
+   * - 1.2.9
+     - 2018.03.20
+     - Current
+
+**DSI Studio**
+
+`Official Website <https://dsi-studio.labsolver.org/>`_
+
+**Please note DSI studio only works with NoMachine**
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - "Chen" Release
+     - 2023.07.06
+     - Current
+
+**dmriprep**
+
+`Official Website: <https://github.com/nipreps/dmriprep>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.4.0
+     - 2020.12.10
+     - Current
+
+**EEGLAB**
+
+`Official Website <http://sccn.ucsd.edu/eeglab/>`_
+
+`Release Notes <http://sccn.ucsd.edu/wiki/EEGLAB_revision_history>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 13.1.1b
+     - 2014.01.29
+     - 
+   * - 12.0.2.5b
+     - 2013.11.14
+     - 
+   * - 11.0.5.4b
+     - 2013.11.14
+     - 
+   * - 12.0.0.0b
+     - 2012.12.10
+     - 
+   * - 11.0.0.0b
+     - 2012.02.21
+     - 
+   * - 10.2.5.8b
+     - 2012.02.21
+     - 
+
+**ENIGMA**
+
+`Official Website <https://www.nitrc.org/projects/dtiprep/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20210422
+     - 2021.04.22
+     - Current
+
+**ENIGMA HALFpipe**
+
+`Official Website <https://github.com/HALFpipe/HALFpipe>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.1.1
+     - 2021.08.27
+     - Current
+
+**FastSurfer**
+
+`Official Website <https://github.com/Deep-MI/FastSurfer/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 202102
+     - 2021.03.01
+     - Current
+
+**FIT**
+
+`Official Website <https://trendscenter.org/software/fit/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - FITv2.0d
+     - 2021.03.01
+     - 
+   * - FITv2.0e
+     - 2021.01.13
+     - 
+
+**FIX**
+
+`Official Website <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FIX/UserGuide>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.06.15
+     - 2021.12.01
+     - 
+
+**FMRIprep**
+
+`Official Website <https://fmriprep.readthedocs.io/en/stable/usage.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 25.1.3
+     - 2025.07.27
+     - In Apptainer
+   * - 24.1.1
+     - 2024.11.01
+     - In Apptainer 
+   * - 23.2.0
+     - 2024.03.12
+     - In Apptainer 
+   * - 23.1.3
+     - 2023.08.22
+     - Use Apptainer module
+   * - 20.2.1
+     - 2021.05.13
+     - In Singularity
+   * - 20.2.0rc0
+     - 
+     -  
+   * - 20.1.1
+     - 
+     - * known Issue
+   * - 1.4.0
+     - 2019.01.11
+     - Default * known Issue
+   * - 1.3.2
+     - 2019.01.11
+     - * known Issue
+
+**Free Surfer**
+
+`Official Website <http://surfer.nmr.mgh.harvard.edu/>`_
+
+`Release Notes <http://freesurfer.net/fswiki/ReleaseNotes>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 7.2.0
+     - 2021.11.29
+     - 
+   * - 7.1.1
+     - 2021.02.26
+     -  
+   * - 6.0.0
+     - 2017.01.18
+     - CentOS 6 only
+
+**FSL**
+
+`Official Website <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/>`_
+
+`Revision History <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/WhatsNew>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 6.0.4
+     - 2021.01.25
+     - new
+   * - 6.0.3
+     - 2021.09.30
+     - 
+   * - 6.0.1
+     - 2019.03.01
+     - 
+   * - 6.0.0
+     - 2018.10.23
+     - 
+   * - 5.0.11
+     - 2018.03.19
+     - 
+   * - 5.0.10
+     - 2017.04.24
+     -  * Known Issue
+   * - 5.0.9
+     - 2015.10.02
+     - Default
+   * - 5.0.8
+     - 2014.12.03
+     - 
+   * - 5.0.7
+     - 2013.10.17
+     - 
+   * - 5.0.6
+     - 2013.12.18
+     - (2013.12.18-2014.10.10)
+   * - 4.1.9
+     - 2011.12.01
+     - 
+   * - 4.0.4
+     - circa 2008
+     - 
+
+Known issue: 5.0.10 fsleyes crash on x2go
+
+**FSL_MRS**
+
+`Official Website <https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/index.html#>`_
+
+`Revision History <https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/changelog.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.1.12
+     - 2023.08.22
+     - new
+
+**ggseg**
+
+`Official Website <https://github.com/ggseg/ggseg>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - v1.6.5.9000
+     - 2023.03.1
+     - 
+
+*Note: ggsegExtra and ggseg3d are also available under these libraries
+
+**gift**
+
+`Official Website <https://trendscenter.org/software/gift/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - GroupICATv4.0b
+     - 2017.11.14
+     -  
+   * - GroupICATv4.0c
+     - 2021.01.04
+     - 
+
+**gradunwarp**
+
+`Official Website <https://github.com/Washington-University/gradunwarp>`_
+
+.. list-table::
+   :header-rows: 1
+
+  *  - Version
+     - Install Date
+     - Notes
+   * - 1.1.0
+     - 2019.06.04
+     -  
+
+**HCP Benchwork**
+
+`Official Website <https://www.humanconnectome.org/software/connectome-workbench>`_
+
+- Note: module name: hcp
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.3.2
+     - 2019.05.22
+     - New
+   * - 1.2.3
+     - 2018.02.13
+     - 
+   * - 1.1.1
+     - 2016.02.18
+     - Default
+   * - 1.0
+     - 
+     - 
+   * - 0.84
+     - 
+     - 
+
+**ICA-AROMA**
+
+- Note: Python 2.7 available for v0.4.5, module name: ica-aroma_py27
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.4.5
+     - 
+     - New
+   * - 0.4.1-beta
+     - 
+     - Default
+
+**ITK Gray**
+
+`Official Website <http://vistalab.stanford.edu/newlm/index.php/ItkGray>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 080803
+     - 2009.11.19
+     - Default
+   * - 080128
+     - 2009.11.13
+     - 
+
+**ITKSnap**
+
+`Official Website <http://www.itksnap.org/pmwiki/pmwiki.php>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.4.0.QT4
+     - 2016.02.24
+     - Default
+   * - 3.6.0.QT4
+     - 2021.03.02
+     - 
+   * - 3.8.0.QT4
+     - 2021.03.02
+     - Default
+
+**kwave**
+
+`Official Website <http://www.k-wave.org/doxygen/index.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.3
+     - 2020.07.20
+     - Current
+
+**MANGO**
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20190905
+     - 
+     - Current
+
+**MRIQC**
+
+`Official Website <https://mriqc.readthedocs.io/en/latest/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.16.1
+     - 2021.03.08
+     - Current
+
+**NDATools**
+
+`Official Website <https://github.com/NDAR/nda-tools>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.2.3
+     - 2021.03.04
+     - Current
+
+**OpenSmile**
+
+`Official Website <https://www.audeering.com/opensmile/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.0.0
+     - 2021.03.23
+     - Current
+
+**Osprey**
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.9.6
+     - 2025.03.13
+     - Current
+
+**Profumo**
+
+`Official Website <https://git.fmrib.ox.ac.uk/samh/profumo>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.11.3
+     - 2021.06.22
+     - Current
+
+**RATS**
+
+`Official Website <https://www.iibi.uiowa.edu/rats-rodent-brain-mri/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 060419
+     - 2019.06.04
+     - Current
+
+**Simnibs**
+
+`Official Website <https://simnibs.github.io/simnibs/build/html/installation/simnibs_installer.html/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 060419
+     - 2019.06.04
+     - Current
+
+**RStan**
+
+`Official Website <https://mc-stan.org/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 4.1.2
+     - 2022.04.11
+     - Current
+
+**SPM**
+
+`Official Website <http://www.fil.ion.ucl.ac.uk/spm/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Last Patch Applied
+     - Last Checked Date
+     - Notes
+   * - SPM12-standalone
+     - 
+     -
+     - Current
+   * - SPM12
+     - 
+     -
+     - 
+   * - SPM8
+     - 5236
+     - 2014.01
+     - 
+   * - SPM5
+     - Unknown
+     - N/A
+     - No longer supported
+
+**TrackVis/Diffusion Toolkit**
+
+`Official Website 1 <http://trackvis.org/>`_
+`Official Website 2 <http://trackvis.org/dtk/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Version Number
+     - Last Checked Date
+     - Notes
+   * - TrackVis
+     - 0.5.2.2
+     - 2014.03.06
+     - 
+   * - Diffusion Toolkit
+     - 0.6.2.2
+     - 204.03.06
+     - 
+
+**WEKA**
+
+`Official Website <http://www.cs.waikato.ac.nz/ml/weka/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.8.1
+     - 
+     - 
+   * - 3.7.10
+     - 2014.03.03
+     - 
+   * - 3.6.5
+     - circa 2011.08
+     - 
+
+2.2 Run Your Jobs
+-----------------
+
+**2.2.1 Hoffman 2: Interactive Sessions**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Interactive sessions on Hoffman2 let you have access to a computing node for up to 24 hours. This is ideal for:
+
+- running a intensive program like MATLAB (in fact that's how it works), WEKA, R or FSLView
+- debugging a script you will be submitting to the queue later
+- moving/tar'ing/untar'ing lots of files
+- any other computing or graphics intensive operations since you aren't supposed to use the login nodes for such heavy lifting.
+
+**Basic Command**
+
+To get one, just use the ``qrsh`` command.
+
+For example:
+
+.. code-block:: python
+
+  $ qrsh 
+
+will try to get you an interactive node with 1 core 1 GB memory, for two hours.
+
+If you successfully get a node, your prompt will change from something like
+
+.. code-block:: python
+
+  [joebruin@login4 ~] $
+
+to something like
+
+.. code-block:: python
+
+  [joebruin@n1234 ~] $
+
+indicating you are on node 1234.
+
+**Longer Time**
+
+If you wanted to specify a a time limit for your interactive session (anything less than 24 hours), use the resource flag again and specify time in the HH:MM:SS format.
+
+For example:
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=4:00:00
+
+will try securing an interactive node for four hours with the default amount of RAM, but if they are all taken you will be kindly told you are out of luck.
+
+**Use highp for 24+ hours job**
+
+If you need to run a very long job over 24 hours, and you are a CCN member, you can use "highp" flag to choose CCN dedicated nodes.
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=48:00:00,highp
+
+will reserve an interactive job for 48 hours in CCN's dedicated nodes (without "highp", the job will never start). Since CCN has limited nodes (12 for now), the waiting time for getting the resource might take some time when the nodes are all busy. It may take less time to start a job which requires less than 24 hour in the regular Hoffman pool. So please use highp for jobs longer than 24 hours only.
+
+**More memory**
+
+Doing something memory intensive? Like working with a lot of visualizations or multiple datasets? Use the resource flag again and specify a data request.
+
+For example
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=4:00:00,h_data=4G
+
+will try securing an interactive node for four hours with four gigabytes of RAM, but if no such node is available the cluster will deny your request.
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=48:00:00,highp,h_data=4G
+
+specify memory usage with highp
+
+**More computing power**
+
+You can add more processor cores to power up your computing intensive jobs
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=4:00:00,h_data=4G -pe shared 2
+
+This will reserve 2 processor cores for the interactive mode session. Be aware that the memory reserved here will be 2 x 4G = 8G.
+
+**Request node with specific processor architect**
+
+You can choose processor architect, for example request a work node with intel chip only
+
+.. code-block:: python
+
+  $ qrsh -l arch=intel*,h_rt=4:00:00,h_data=8G 
+
+**Tips**
+
+Sometimes inactivity on your computer will result in Hoffman2 connection break [ Broken Pipe ] (even while computing).
+
+To prevent this from happening: For Macs - in your /etc/ssh/ssh_config -add this line to the bottom
+
+.. code-block:: python
+
+  ServerAliveInterval 180
+
+This will tell your ssh to ping the server every 180 seconds to prevent it from timing out.
+
+**2.2.2 Hoffman2: Batch Mode**
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here we show how you can submit your job with batch mode.
+
+To use a batch job, you need to create a batch file with bash or tcsh. This file should have three parts:
+
+- Part 1: List all the resources you want to reserve for your job
+- Part 2: Load your modules, export the Linux environment that is needed for your script to run
+- Part 3: Call your job script
+
+Once you have your batch file, you can submit it using the qsub command. For example (if your batch file is named as myjob.sh)
+
+.. code-block:: python
+
+  qsub myjob.sh
+
+**Job Submission Templates**
+
+Here are some batch file templates you can start with: Job Submission Templates [insert link]
+
+**Part 1: Request Computing Resource**
+
+This example is based on code from the Submit Job template.
+
+The first part of the batch script file should let the Hoffman job scheduler know what resources you want to reserve for your job:
+
+.. code-block:: python
+
+  #!/bin/bash
+  #$ -cwd
+  #$ -o joblog.$JOB_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  #$ -M $USER@mail
+  #$ -m bea
+
+Here's the meaning of each line:
+
+.. code-block:: python
+
+  #$ -cwd
+
+Use the current directory for the job
+
+.. code-block:: python
+
+  #$ -o joblog.$JOB_ID
+
+Write standard output to file joblog.$JOB_ID. $JOB_ID will be replaced by your job ID which is assigned once you submit your job.
+
+.. code-block:: python
+
+  #$ -j y
+
+Merge error log with standard output (in file joblog.$JOB_ID)
+
+.. code-block:: python
+
+  #$ -pe shared 2
+
+Request 2 processor cores
+
+.. code-block:: python
+
+  #$ -l h_rt=8:00:00,h_data=4G
+
+Use -l option to specify job running time length and reserve memory
+``h_rt=8:00:00 :`` reserve 8 hours for your job running time
+``h_data=4G:`` reserve 4G per-core (since -pe 2 is used above, it will reserve 2 core x 4G memory = 8G total memory)
+
+.. code-block:: python
+
+  #$ -M $USER@mail
+
+Send notification to your user email address
+
+.. code-block:: python
+
+   #$ -m bea
+
+Specify the timing of the notification email to be sent out:
+
+- b - when the job begins
+- e - when the job ends
+- a - when the job is aborted (ends in an error state)
+
+**Part 2: Setup the Environment**
+
+In the second part of the batch script, you should setup your Unix environment for your code to run, which includes loading modules and export paths for libraries.
+
+To use any module provided by Hoffman and CCN, you'll need the following two lines
+
+.. code-block:: python
+
+  # load the job environment:
+  . /u/local/Modules/default/init/modules.sh
+  module use /u/project/CCN/apps/modulefiles
+
+For example, load FSL
+
+.. code-block:: python
+
+  # Load the FSL module
+  module load fsl
+
+Another example, export a FSL variable
+
+.. code-block:: python
+  
+  # This is optional
+  # More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
+  export NO_FSL_JOBS=true
+
+Or export an additional PATH for a custom installed library under your .local/ directory
+
+.. code-block:: python
+
+  export PATH=$HOME/.local/bin:$PATH
+
+**Part 3: Call your job script**
+
+The third part of the batch script should call commands or other scrip for analysis.
+
+For example, if you run feat
+
+.. code-block:: python
+
+  feat /my/path/to/design.fsf
+
+Or if you have a script named as mycode.sh containing all the commands for your analysis,
+
+Make sure your job script has executive privileges by using chmod command
+
+.. code-block:: python
+
+  chmod ug+x mycode.sh
+
+call your script at the last part of your batch script
+
+For example:
+
+.. code-block:: python
+
+  /bin/bash mycode.sh
+
+Once the batch script is ready, you can submit it with qsub
+
+.. code-block:: python
+
+   qsub myjob.sh
+
+To confirm the status of the submitted job, use command "myjob"
+
+.. code-block:: python
+
+   myjob
+
+This will show the status of your jobs.
+
+**Other methods**
+
+Use an interactive way to create your batch job file in Hoffman, read more about job.q
+Use qsub in one line command: examples
+
+**2.2.3 Job Array**
+
+Job array is a type of batch mode. It makes it possible to process different subjects using the same script on multiple Hoffman2 working nodes at the same time.
+
+Here, we use the this template code to show how it can be done:
+
+.. code-block:: python
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  #$ -o joblog.$JOB_ID.$TASK_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  # Email address to notify
+  #$ -M $USER@mail
+  # Notify when
+  #$ -m a
+  #  Job array indexes
+  #$ -t 1-5:1
+
+The only differences comparing with the single subject version are:
+
+.. code-block:: python
+
+  #$ -o joblog.$JOB_ID.$TASK_ID
+  #$ -t 1-5:1
+
+``-o joblog.$JOB_ID.$TASK_ID`` is for splitting logs into separate files for each subject with file name ``joblog.$JOB_ID.$TASK_ID.``
+``-t 1-5:1`` is giving numbers [1 2 3 4 5] to step through.
+This ``-t`` option should be followed by a lower number and a higher number range together with the step interval in the following format:
+
+.. code-block:: python
+
+  -t lower-upper:interval
+
+where 
+
+``lower`` is replaced with the starting number
+
+``upper`` is replaced with the ending number
+
+``interval`` is replaced with the step interval
+
+So adding the argument
+
+``-t 10-100:5``
+
+will step through the numbers 10, 15, 20, 25, ..., 100 submitting a job for each one.
+
+There will be an environment variable called ``SGE_TASK_ID`` whose value will be incremented over the range you specified. Hoffman2 job scheduler will submit one job for each SGE_TASK_ID, so your work will be parallelized.
+
+**When to use it?**
+
+Let's see how job array can replace a loop which is limited to run only in one computing node.
+
+.. code-block:: python
+
+  #!/bin/bash
+  # myFuncSlowWrapper.sh
+  for i in {1..100};
+  do
+      myFunc.sh $i;
+  done
+
+With job arrays, the work load will be split among many processors and can finish much faster. Here's how you rewrite it using job array in myFuncFastWrapper.sh as
+
+.. code-block:: python
+
+  #!/bin/bash
+  # myFuncFastWrapper.sh
+  echo $SGE_TASK_ID
+  myFunc.sh $SGE_TASK_ID
+
+**Example**
+
+In this sample code, each SGE_TASK_ID is the index of the array of subjects, so each job in different node knows which subject it should process.
+
+.. code-block:: python
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  ...
+  ...
+  # Set up the subjects list
+  declare -a subjects
+
+  subjects[1]="su3v3hkaykw2"
+  subjects[2]="wxg5mk5u5xbz"
+  subjects[3]="6q2bgkqu5grp"
+  subjects[4]="whjue68jmwyh"
+  subjects[5]="pfx3ju9wz8rr"
+
+  echo "This is sub-job $SGE_TASK_ID"
+  echo "This is subject ${subjects[$SGE_TASK_ID]}"
+
+At the end, call your script to process the subject
+
+.. code-block:: python
+
+  # Your script content goes here...
+  myFunc.sh  ${subjects[$SGE_TASK_ID]}
+
+
+
 2.2 Run Your Jobs
 ~~~~~~~~~~~~~~~~~
 2.2.1 Interactive Sessions
