@@ -319,12 +319,11 @@ function renderResources() {
 }
 
 function notifyParentHeight() {
-  const height = Math.max(
-    document.documentElement.scrollHeight,
-    document.body.scrollHeight
-  );
+  const content = document.querySelector('.wrap');
+  const height = content.getBoundingClientRect().height;
+
   window.parent.postMessage(
-    { type: 'resources-directory-height', height },
+    { type: 'resources-directory-height', height: Math.ceil(height) },
     window.location.origin
   );
 }
