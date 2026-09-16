@@ -1230,9 +1230,10 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 
 
 2.2 Run Your Jobs
-~~~~~~~~~~~~~~~~~
+-----------------
 
 **Hoffman 2: Interactive Sessions**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Interactive sessions on Hoffman2 let you have access to a computing node for up to 24 hours. This is ideal for:
 
@@ -1336,6 +1337,182 @@ To prevent this from happening: For Macs - in your /etc/ssh/ssh_config -add this
   ServerAliveInterval 180
 
 This will tell your ssh to ping the server every 180 seconds to prevent it from timing out.
+
+**Hoffman2: Batch Mode**
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here we show how you can submit your job with batch mode.
+
+To use a batch job, you need to create a batch file with bash or tcsh. This file should have three parts:
+
+- Part 1: List all the resources you want to reserve for your job
+- Part 2: Load your modules, export the Linux environment that is needed for your script to run
+- Part 3: Call your job script
+
+Once you have your batch file, you can submit it using the qsub command. For example (if your batch file is named as myjob.sh)
+
+..code-block:: python
+
+  qsub myjob.sh
+
+**Job Submission Templates**
+
+Here are some batch file templates you can start with: Job Submission Templates [insert link]
+
+**Part 1: Request Computing Resource**
+
+This example is based on code from the Submit Job template.
+
+The first part of the batch script file should let the Hoffman job scheduler know what resources you want to reserve for your job:
+
+..code-block:: python
+
+  #!/bin/bash
+  #$ -cwd
+  #$ -o joblog.$JOB_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  #$ -M $USER@mail
+  #$ -m bea
+
+Here's the meaning of each line:
+
+..code-block:: python
+
+  #$ -cwd
+
+Use the current directory for the job
+
+..code-block:: python
+
+  #$ -o joblog.$JOB_ID
+
+Write standard output to file joblog.$JOB_ID. $JOB_ID will be replaced by your job ID which is assigned once you submit your job.
+
+..code-block:: python
+
+  #$ -j y
+
+Merge error log with standard output (in file joblog.$JOB_ID)
+
+..code-block:: python
+
+  #$ -pe shared 2
+
+Request 2 processor cores
+
+..code-block:: python
+
+  #$ -l h_rt=8:00:00,h_data=4G
+
+Use -l option to specify job running time length and reserve memory
+``h_rt=8:00:00 :`` reserve 8 hours for your job running time
+``h_data=4G:`` reserve 4G per-core (since -pe 2 is used above, it will reserve 2 core x 4G memory = 8G total memory)
+
+..code-block:: python
+
+  #$ -M $USER@mail
+
+Send notification to your user email address
+
+..code-block:: python
+
+   #$ -m bea
+
+Specify the timing of the notification email to be sent out:
+
+- b - when the job begins
+- e - when the job ends
+- a - when the job is aborted (ends in an error state)
+
+**Part 2: Setup the Environment**
+
+In the second part of the batch script, you should setup your Unix environment for your code to run, which includes loading modules and export paths for libraries.
+
+To use any module provided by Hoffman and CCN, you'll need the following two lines
+
+..code-block:: python
+
+  # load the job environment:
+  . /u/local/Modules/default/init/modules.sh
+  module use /u/project/CCN/apps/modulefiles
+
+For example, load FSL
+
+..code-block:: python
+
+  # Load the FSL module
+  module load fsl
+
+Another example, export a FSL variable
+
+..code-block:: python
+  
+  # This is optional
+  # More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
+  export NO_FSL_JOBS=true
+
+Or export an additional PATH for a custom installed library under your .local/ directory
+
+..code-block:: python
+
+  export PATH=$HOME/.local/bin:$PATH
+
+**Part 3: Call your job script**
+
+The third part of the batch script should call commands or other scrip for analysis.
+
+For example, if you run feat
+
+..code-block:: python
+
+  feat /my/path/to/design.fsf
+
+Or if you have a script named as mycode.sh containing all the commands for your analysis,
+
+Make sure your job script has executive privileges by using chmod command
+
+..code-block:: python
+
+  chmod ug+x mycode.sh
+
+call your script at the last part of your batch script
+
+For example:
+
+..code-block:: python
+
+  /bin/bash mycode.sh
+
+Once the batch script is ready, you can submit it with qsub
+
+..code-block:: python
+
+   qsub myjob.sh
+
+To confirm the status of the submitted job, use command "myjob"
+
+..code-block:: python
+
+   myjob
+
+This will show the status of your jobs.
+
+**Other methods**
+
+Use an interactive way to create your batch job file in Hoffman, read more about job.q
+Use qsub in one line command: examples
+
+**Job Array**
+
+Job Array is a type of batch mode. It is used to run the same processing job towards a large number of subjects on separate nodes in parallel. More about Job Array
+
+
+
+
+
+
 
 
 
