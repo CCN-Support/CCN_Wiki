@@ -1,0 +1,43 @@
+/* Resource/topic badges for resources_table_full_topics.rst */
+.resource-topic-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.resource-topic {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  margin: 0.15rem 0.2rem 0.15rem 0;
+  border-radius: 0.45rem;
+  font-size: 0.85em;
+  line-height: 1.35;
+  font-weight: 600;
+  color: #fff;
+  white-space: normal;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.resource-topic-key .resource-topic {
+  margin-right: 0;
+}
+.topic-01 { background: #2563eb; }
+.topic-02 { background: #4f46e5; }
+.topic-03 { background: #7c3aed; }
+.topic-04 { background: #db2777; }
+.topic-05 { background: #be123c; }
+.topic-06 { background: #c2410c; }
+.topic-07 { background: #b45309; }
+.topic-08 { background: #15803d; }
+.topic-09 { background: #047857; }
+.topic-10 { background: #0f766e; }
+.topic-11 { background: #0369a1; }
+.topic-12 { background: #0284c7; }
+.topic-13 { background: #4338ca; }
+.topic-14 { background: #7e22ce; }
+.topic-15 { background: #9d174d; }
+.topic-16 { background: #475569; }
+.topic-17 { background: #334155; }
+
+/* Keep the resource list compact without collapsing individual topics. */
+.resource-topic-key + * { margin-top: 0.5rem; }
