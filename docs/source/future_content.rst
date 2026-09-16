@@ -1908,7 +1908,96 @@ When using fix_perms.sh or other commands to resolve permission issues when star
 Solution:
 
 Place fix_perms.sh or any other commands in ~/.bash_logout
+
 Commands in ~/.bash_logout are issued when a bash login shell exits. This should resolve issues with X2Go and also allow users to continue using these commands.
+
+Productivity
+^^^^^^^^^^^^
+
+**4.3 Sharing File Systems**
+
+There are apps for linking filesystems so that you can access data across machines. It's like mounting a shared drive. Here we present a GUI and a command line way of accomplishing this.
+
+**MacFusion**
+
+MacFusion is no longer working as of macOS 10.12 (Sierra). Please use the command line instructions below.
+
+
+**sshfs**
+
+**Installation**
+
+**macOS**
+
+Download and install the two packages on this website: https://osxfuse.github.io/
+
+- FUSE for macOS
+- SSHFS
+
+**Linux**
+
+Red Hat
+
+.. code-block:: python
+  
+  yum install sshfs
+
+Debian
+
+.. code-block:: python
+
+  apt install sshfs
+
+**Usage**
+
+Let's say you want to mount Hoffman2 locally. In your Mac terminal, using the command line, execute:
+
+.. code-block:: python
+
+  $ id
+  uid=1010(joebruinuser) gid=20(bruingroup1),23(bruingroup2),...
+  $ mkdir ~/MOUNTPOINT
+  $ sshfs -o idmap=user -o uid=1010 -o gid=20 USERNAME@hoffman2.idre.ucla.edu:/path/to/mount ~/MOUNTPOINT
+
+Where, ``id`` Gets information about your local user, including your numerical ID and group ID(s)
+
+``-o idmap=user -o uid=1010 -o gid=20`` Translates your local user and group IDs to that of the remote user so you can read and write files as if you were on the remote machine. Make sure to put the correct user and group IDs that were returned by the ``id`` command.
+
+``USERNAME`` Is your username at the remote computer
+
+``hoffman2.idre.ucla.edu`` Is the address of the remote computer you are connecting to.
+
+``/path/to/mount`` Could be left blank to mount your home directory from the remote computer, or it could specify any point in the remote filesystem.
+
+``MOUNTPOINT`` Is the name of the directory where the remote filesystem will be mounted.
+
+To unmount:
+
+Use the command:
+
+.. code-block:: python
+
+  umount ~/MOUNTPOINT
+
+or
+
+Right click on the desktop icon that appears and select "Eject."
+
+Permission Error
+
+SSHFS has two permission checks, one performed by the macOS and one performed by the remote filesystem. In certain cases, the remote host will allow access to the directory but the macOS encounters issues translating the filesystem permissions. This will result in a permission denied error.
+
+If you run into this permission denied error:
+
+- Double check that you are using the correct user and group IDs that were returned by the ``id`` command.
+- Include the option ``defer_permissions``
+
+Where,
+
+``-o defer_permissions``
+
+Disables local permission checks and defers all permission requests to the remote server.
+
 
 
 
