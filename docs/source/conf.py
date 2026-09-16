@@ -42,6 +42,7 @@ html_static_path = ['_static']
 
 html_css_files = [
     'custom.css',
+    'resources_table_badges.css',
 ]
 
 # -- Options for EPUB output
