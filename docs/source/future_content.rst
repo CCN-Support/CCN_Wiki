@@ -387,6 +387,7 @@ Computing
 ---------
 
 2.1 Software Tools
+~~~~~~~~~~~~~~~~~~
 
 There is a CCN usergroup on Hoffman2 which is maintained for groups doing Neuroimaging work at UCLA. Tools like FSL, FreeSurfer, AFNI and Nibabel are maintained for this group separate from normal Hoffman2 programs. In order to take advantage of these tools, you need to load the modules into the interactive mode or listed in your batch mode scripts.
 
@@ -1227,3 +1228,115 @@ Known issue: 5.0.10 fsleyes crash on x2go
    * - 3.6.5
      - circa 2011.08
      - 
+
+2.2 Run Your Jobs
+~~~~~~~~~~~~~~~~~
+
+**Hoffman 2: Interactive Sessions**
+
+Interactive sessions on Hoffman2 let you have access to a computing node for up to 24 hours. This is ideal for:
+
+- running a intensive program like MATLAB (in fact that's how it works), WEKA, R or FSLView
+- debugging a script you will be submitting to the queue later
+- moving/tar'ing/untar'ing lots of files
+- any other computing or graphics intensive operations since you aren't supposed to use the login nodes for such heavy lifting.
+
+**Basic Command**
+
+To get one, just use the ``qrsh`` command.
+
+For example:
+
+.. code-block:: python
+
+  $ qrsh 
+
+will try to get you an interactive node with 1 core 1 GB memory, for two hours.
+
+If you successfully get a node, your prompt will change from something like
+
+.. code-block:: python
+
+  [joebruin@login4 ~] $
+
+to something like
+
+.. code-block:: python
+
+  [joebruin@n1234 ~] $
+
+indicating you are on node 1234.
+
+**Longer Time**
+
+If you wanted to specify a a time limit for your interactive session (anything less than 24 hours), use the resource flag again and specify time in the HH:MM:SS format.
+
+For example:
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=4:00:00
+
+will try securing an interactive node for four hours with the default amount of RAM, but if they are all taken you will be kindly told you are out of luck.
+
+**Use highp for 24+ hours job**
+
+If you need to run a very long job over 24 hours, and you are a CCN member, you can use "highp" flag to choose CCN dedicated nodes.
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=48:00:00,highp
+
+will reserve an interactive job for 48 hours in CCN's dedicated nodes (without "highp", the job will never start). Since CCN has limited nodes (12 for now), the waiting time for getting the resource might take some time when the nodes are all busy. It may take less time to start a job which requires less than 24 hour in the regular Hoffman pool. So please use highp for jobs longer than 24 hours only.
+
+**More memory**
+
+Doing something memory intensive? Like working with a lot of visualizations or multiple datasets? Use the resource flag again and specify a data request.
+
+For example
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=4:00:00,h_data=4G
+
+will try securing an interactive node for four hours with four gigabytes of RAM, but if no such node is available the cluster will deny your request.
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=48:00:00,highp,h_data=4G
+
+specify memory usage with highp
+
+**More computing power**
+
+You can add more processor cores to power up your computing intensive jobs
+
+.. code-block:: python
+
+  $ qrsh -l h_rt=4:00:00,h_data=4G -pe shared 2
+
+This will reserve 2 processor cores for the interactive mode session. Be aware that the memory reserved here will be 2 x 4G = 8G.
+
+**Request node with specific processor architect**
+
+You can choose processor architect, for example request a work node with intel chip only
+
+.. code-block:: python
+
+  $ qrsh -l arch=intel*,h_rt=4:00:00,h_data=8G 
+
+**Tips**
+
+Sometimes inactivity on your computer will result in Hoffman2 connection break [ Broken Pipe ] (even while computing).
+
+To prevent this from happening: For Macs - in your /etc/ssh/ssh_config -add this line to the bottom
+
+.. code-block:: python
+
+  ServerAliveInterval 180
+
+This will tell your ssh to ping the server every 180 seconds to prevent it from timing out.
+
+
+
+
