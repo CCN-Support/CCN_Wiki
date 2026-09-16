@@ -1648,6 +1648,18 @@ A complete list of tools can be found `here <http://www.fmrib.ox.ac.uk/fsl/fsl/l
 
 Functional MRI (command line only)
 
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Explanation
+   * - `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+     - Model-based FMRI analysis: data preprocessing (including MCFLIRT motion correction); first-level FILM GLM timeseries analysis; higher-level FLAME Bayesian mixed effects analysis.
+   * - `melodic <http://www.fmrib.ox.ac.uk/fsl/melodic/index.html>`_
+     - Model-free FMRI analysis using Probabilistic Independent Component Analysis (PICA). MELODIC automatically estimates the number of interesting noise and signal sources in the data and because of the associated "noise model", is able to assign significance ("p-values") to the output spatial maps. MELODIC can also analyse multiple subjects or sessions simultaneously using Tensor-ICA.
+   * - `fabber <http://www.fmrib.ox.ac.uk/fsl/fabber/index.html>`_
+     - Fast ASL & BOLD Bayesian Estimation Routine. Efficient nonlinear modelling and estimation of BOLD and CBF from dual-echo ASL data, using Variational Bayes.
+
 
 
 
