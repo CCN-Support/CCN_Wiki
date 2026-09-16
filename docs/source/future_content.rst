@@ -805,5 +805,77 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2019.01.11
      - * known Issue
 
+**Free Surfer**
+
+`Official Website <http://surfer.nmr.mgh.harvard.edu/>`_
+
+`Release Notes <http://freesurfer.net/fswiki/ReleaseNotes>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 7.2.0
+     - 2021.11.29
+     - 
+   * - 7.1.1
+     - 2021.02.26
+     -  
+   * - 6.0.0
+     - 2017.01.18
+     - CentOS 6 only
+
+**FSL**
+
+`Official Website <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/>`_
+
+`Revision History <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/WhatsNew>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 6.0.4
+     - 2021.01.25
+     - new
+   * - 6.0.3
+     - 2021.09.30
+     - 
+   * - 6.0.1
+     - 2019.03.01
+     - 
+   * - 6.0.0
+     - 2018.10.23
+     - 
+   * - 5.0.11
+     - 2018.03.19
+     - 
+   * - 5.0.10
+     - 2017.04.24
+     -  * Known Issue
+   * - 5.0.9
+     - 2015.10.02
+     - Default
+   * - 5.0.8
+     - 2014.12.03
+     - 
+   * - 5.0.7
+     - 2013.10.17
+     - 
+   * - 5.0.6
+     - 2013.12.18
+     - (2013.12.18-2014.10.10)
+   * - 4.1.9
+     - 2011.12.01
+     - 
+   * - 4.0.4
+     - circa 2008
+     - 
+
+Known issue: 5.0.10 fsleyes crash on x2go
 
 
