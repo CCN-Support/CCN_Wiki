@@ -1808,6 +1808,43 @@ Solution:
 
   3. In noMachine terminal, input "module load fsl/versionxxx". Then it should avoid the same error this time.
 
+**3.9 X2Go**
+
+X2Go provides a desktop GUI for users connecting to a Linux server
+
+**Download X2Go client at:** https://wiki.x2go.org/doku.php/doc:installation:x2goclient
+
+**OS X**
+
+- For Mac OS X users, X2Go might get blocked since it's a third-party application. Go to "Security & Privacy" in your Mac to allow open X2Go client.
+- Also, XQuartz is required by X2Go. Additional information can be found `here <https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html#opening-gui-applications>`_ under the "MAC" tag.
+- Note: From XQuartz 2.7.9, indirect GLX is disabled by default, so you'll need to run this command followed by a reboot:
+
+.. code-block:: python
+
+  defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
+
+To enable a true full-screen view in x2go,
+
+- Open XQuartz > Preferences > and enable Full-screen mode.
+
+To make ⌘+V work normally, issue the following command in terminal:
+
+.. code-block:: python
+
+   echo "*VT100.translations: #override Meta <KeyPress> V: insert-selection(PRIMARY, CUT_BUFFER0) \n" > ~/.Xdefaults
+
+**Connect**
+
+To setup new sessions for hoffman2, open X2Go client and input either of the following into the "Host" form.
+
+- x2go1.hoffman2.idre.ucla.edu
+- x2go2.hoffman2.idre.ucla.edu
+
+
+
+
+
 
 
 
