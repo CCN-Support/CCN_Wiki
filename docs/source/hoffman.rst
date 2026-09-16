@@ -1405,7 +1405,7 @@ To prevent this from happening: For Macs - in your /etc/ssh/ssh_config -add this
 This will tell your ssh to ping the server every 180 seconds to prevent it from timing out.
 
 **2.2.2 Hoffman2: Batch Mode**
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here we show how you can submit your job with batch mode.
 
@@ -1571,6 +1571,7 @@ Use an interactive way to create your batch job file in Hoffman, read more about
 Use qsub in one line command: examples
 
 **2.2.3 Job Array**
+^^^^^^^^^^^^^^^^^^^
 
 Job array is a type of batch mode. It makes it possible to process different subjects using the same script on multiple Hoffman2 working nodes at the same time.
 
@@ -1676,15 +1677,6 @@ At the end, call your script to process the subject
   myFunc.sh  ${subjects[$SGE_TASK_ID]}
 
 
-
-2.2 Run Your Jobs
-~~~~~~~~~~~~~~~~~
-2.2.1 Interactive Sessions
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-2.2.2 Batch Mode
-^^^^^^^^^^^^^^^^
-2.2.3 Job Array
-^^^^^^^^^^^^^^^
 2.3 Monitoring Jobs
 ~~~~~~~~~~~~~~~~~~~
 
