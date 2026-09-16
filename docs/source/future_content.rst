@@ -1232,7 +1232,7 @@ Known issue: 5.0.10 fsleyes crash on x2go
 2.2 Run Your Jobs
 -----------------
 
-**Hoffman 2: Interactive Sessions**
+**2.2.1 Hoffman 2: Interactive Sessions**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Interactive sessions on Hoffman2 let you have access to a computing node for up to 24 hours. This is ideal for:
@@ -1338,7 +1338,7 @@ To prevent this from happening: For Macs - in your /etc/ssh/ssh_config -add this
 
 This will tell your ssh to ping the server every 180 seconds to prevent it from timing out.
 
-**Hoffman2: Batch Mode**
+**2.2.2 Hoffman2: Batch Mode**
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here we show how you can submit your job with batch mode.
@@ -1351,7 +1351,7 @@ To use a batch job, you need to create a batch file with bash or tcsh. This file
 
 Once you have your batch file, you can submit it using the qsub command. For example (if your batch file is named as myjob.sh)
 
-..code-block:: python
+.. code-block:: python
 
   qsub myjob.sh
 
@@ -1365,7 +1365,7 @@ This example is based on code from the Submit Job template.
 
 The first part of the batch script file should let the Hoffman job scheduler know what resources you want to reserve for your job:
 
-..code-block:: python
+.. code-block:: python
 
   #!/bin/bash
   #$ -cwd
@@ -1378,31 +1378,31 @@ The first part of the batch script file should let the Hoffman job scheduler kno
 
 Here's the meaning of each line:
 
-..code-block:: python
+.. code-block:: python
 
   #$ -cwd
 
 Use the current directory for the job
 
-..code-block:: python
+.. code-block:: python
 
   #$ -o joblog.$JOB_ID
 
 Write standard output to file joblog.$JOB_ID. $JOB_ID will be replaced by your job ID which is assigned once you submit your job.
 
-..code-block:: python
+.. code-block:: python
 
   #$ -j y
 
 Merge error log with standard output (in file joblog.$JOB_ID)
 
-..code-block:: python
+.. code-block:: python
 
   #$ -pe shared 2
 
 Request 2 processor cores
 
-..code-block:: python
+.. code-block:: python
 
   #$ -l h_rt=8:00:00,h_data=4G
 
@@ -1410,13 +1410,13 @@ Use -l option to specify job running time length and reserve memory
 ``h_rt=8:00:00 :`` reserve 8 hours for your job running time
 ``h_data=4G:`` reserve 4G per-core (since -pe 2 is used above, it will reserve 2 core x 4G memory = 8G total memory)
 
-..code-block:: python
+.. code-block:: python
 
   #$ -M $USER@mail
 
 Send notification to your user email address
 
-..code-block:: python
+.. code-block:: python
 
    #$ -m bea
 
@@ -1432,7 +1432,7 @@ In the second part of the batch script, you should setup your Unix environment f
 
 To use any module provided by Hoffman and CCN, you'll need the following two lines
 
-..code-block:: python
+.. code-block:: python
 
   # load the job environment:
   . /u/local/Modules/default/init/modules.sh
@@ -1440,14 +1440,14 @@ To use any module provided by Hoffman and CCN, you'll need the following two lin
 
 For example, load FSL
 
-..code-block:: python
+.. code-block:: python
 
   # Load the FSL module
   module load fsl
 
 Another example, export a FSL variable
 
-..code-block:: python
+.. code-block:: python
   
   # This is optional
   # More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
@@ -1455,7 +1455,7 @@ Another example, export a FSL variable
 
 Or export an additional PATH for a custom installed library under your .local/ directory
 
-..code-block:: python
+.. code-block:: python
 
   export PATH=$HOME/.local/bin:$PATH
 
@@ -1465,7 +1465,7 @@ The third part of the batch script should call commands or other scrip for analy
 
 For example, if you run feat
 
-..code-block:: python
+.. code-block:: python
 
   feat /my/path/to/design.fsf
 
@@ -1473,7 +1473,7 @@ Or if you have a script named as mycode.sh containing all the commands for your 
 
 Make sure your job script has executive privileges by using chmod command
 
-..code-block:: python
+.. code-block:: python
 
   chmod ug+x mycode.sh
 
@@ -1481,19 +1481,19 @@ call your script at the last part of your batch script
 
 For example:
 
-..code-block:: python
+.. code-block:: python
 
   /bin/bash mycode.sh
 
 Once the batch script is ready, you can submit it with qsub
 
-..code-block:: python
+.. code-block:: python
 
    qsub myjob.sh
 
 To confirm the status of the submitted job, use command "myjob"
 
-..code-block:: python
+.. code-block:: python
 
    myjob
 
@@ -1504,12 +1504,149 @@ This will show the status of your jobs.
 Use an interactive way to create your batch job file in Hoffman, read more about job.q
 Use qsub in one line command: examples
 
-**Job Array**
+**2.2.3 Job Array**
 
-Job Array is a type of batch mode. It is used to run the same processing job towards a large number of subjects on separate nodes in parallel. More about Job Array
+Job array is a type of batch mode. It makes it possible to process different subjects using the same script on multiple Hoffman2 working nodes at the same time.
+
+Here, we use the this template code to show how it can be done:
+
+.. code-block:: python
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  #$ -o joblog.$JOB_ID.$TASK_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  # Email address to notify
+  #$ -M $USER@mail
+  # Notify when
+  #$ -m a
+  #  Job array indexes
+  #$ -t 1-5:1
+
+The only differences comparing with the single subject version are:
+
+.. code-block:: python
+
+  #$ -o joblog.$JOB_ID.$TASK_ID
+  #$ -t 1-5:1
+
+``-o joblog.$JOB_ID.$TASK_ID`` is for splitting logs into separate files for each subject with file name ``joblog.$JOB_ID.$TASK_ID.``
+``-t 1-5:1`` is giving numbers [1 2 3 4 5] to step through.
+This ``-t`` option should be followed by a lower number and a higher number range together with the step interval in the following format:
+
+.. code-block:: python
+
+  -t lower-upper:interval
+
+where 
+
+``lower`` is replaced with the starting number
+
+``upper`` is replaced with the ending number
+
+``interval`` is replaced with the step interval
+
+So adding the argument
+
+``-t 10-100:5``
+
+will step through the numbers 10, 15, 20, 25, ..., 100 submitting a job for each one.
+
+There will be an environment variable called ``SGE_TASK_ID`` whose value will be incremented over the range you specified. Hoffman2 job scheduler will submit one job for each SGE_TASK_ID, so your work will be parallelized.
+
+**When to use it?**
+
+Let's see how job array can replace a loop which is limited to run only in one computing node.
+
+.. code-block:: python
+
+  #!/bin/bash
+  # myFuncSlowWrapper.sh
+  for i in {1..100};
+  do
+      myFunc.sh $i;
+  done
+
+With job arrays, the work load will be split among many processors and can finish much faster. Here's how you rewrite it using job array in myFuncFastWrapper.sh as
+
+.. code-block:: python
+
+  #!/bin/bash
+  # myFuncFastWrapper.sh
+  echo $SGE_TASK_ID
+  myFunc.sh $SGE_TASK_ID
+
+**Example**
+
+In this sample code, each SGE_TASK_ID is the index of the array of subjects, so each job in different node knows which subject it should process.
+
+.. code-block:: python
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  ...
+  ...
+  # Set up the subjects list
+  declare -a subjects
+
+  subjects[1]="su3v3hkaykw2"
+  subjects[2]="wxg5mk5u5xbz"
+  subjects[3]="6q2bgkqu5grp"
+  subjects[4]="whjue68jmwyh"
+  subjects[5]="pfx3ju9wz8rr"
+
+  echo "This is sub-job $SGE_TASK_ID"
+  echo "This is subject ${subjects[$SGE_TASK_ID]}"
+
+At the end, call your script to process the subject
+
+.. code-block:: python
+
+  # Your script content goes here...
+  myFunc.sh  ${subjects[$SGE_TASK_ID]}
+
+Software
+--------
+
+**3.4 FSL**
+
+FSL is a comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data. FSL is written mainly by members of the Analysis Group, FMRIB, Oxford, UK.
 
 
+Multiple versions are maintained on the Hoffman2 cluster to allow researchers to be consistent in using the same version for data analysis within a single study. You can either:
 
+- do nothing, and always use the "current" version of FSL on the cluster
+- actively choose which version of FSL you would like to run
+
+We recommend the latter for data integrity and reproducibility.
+
+**FSL GUI**
+
+Make sure you source the FMRI Path in your Profile before doing anything, or else you won't be able to access FSL.
+
+To run FSL using a GUI on hoffman2, use the following command:
+
+.. code-block:: python
+
+  $ fsl &
+
+If you received this message while opening FSL
+
+.. code-block:: python
+
+   DISPLAY is not set. Please set your DISPLAY environment variable!
+
+It means you did not open X11 along with your ssh connection. See here for more information. [insert link]
+
+**FSL Tools**
+
+A complete list of tools can be found `here <http://www.fmrib.ox.ac.uk/fsl/fsl/list.html>`_
+
+Functional MRI (command line only)
 
 
 
