@@ -67,7 +67,7 @@ ATTENTION: If you are a PI interested in Hoffman2, please see the section **Beco
 4. Log in using your UCLA Logon ID and password.
 5. Fill out the form with appropriate information. For Hoffman2, your Faculty Sponsor should be Mark Cohen, Alison Burggren (for Susan Bookheimer's lab), or your respective PI if they are a Faculty Sponsor on Hoffman.
 
-**Proposed UserName**
+**Proposed Username**
   This will be the username you use to sign into the cluster with.
 
 **Select a Resource**
@@ -101,7 +101,7 @@ SSH stands for Secure Shell and is a method of remotely logging into a computer 
 
 **Mac/Linux/Unix**
 
-Simple SSH
+*Simple SSH*
 
 Use the ssh command from a terminal:
 
@@ -111,7 +111,7 @@ Use the ssh command from a terminal:
 
 where login_id is replaced by your cluster user name.
 
-**GUI-Enabled SSH**
+*GUI-Enabled SSH*
 
 Macs (post - Snow Leopard 10.6.x) no longer come with an X Window System Server pre-installed.
 
@@ -176,13 +176,13 @@ It should ask you for your old password and then new ones.
 1.4 Working in a Linux Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Hoffman2: Linux Tutorial**
-
 A tutorial from Hoffman2 support
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Here <https://www.hoffman2.idre.ucla.edu/Using-H2/Command-line/Unix-command-line.html>`_ is a simple tutorial from Hoffman2's support page
 
-**Permissions**
+Permissions
+^^^^^^^^^^^
 
 Permissions determine who and to what degree users can access a file.
 
@@ -201,7 +201,7 @@ The key terminology and function of the permission system is found here:
 - newgrp
 
 File System Navigation
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
 
 The following series of tutorials provide a very basic introduction to file system navigation on unix like systems without any assumptions of prior knowledge on the topics.
 
@@ -211,8 +211,7 @@ The following series of tutorials provide a very basic introduction to file syst
 -Copying files, moving files, removing files and directories, displaying the contents of a file, searching the contents of a file
     - `Tutorial Two <http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html>`_
 
-List of Utilities Covered
-~~~~~~~~~~~~~~~~~~~~~~~~~
+**List of Utilities Covered**
 
 - ls
 - mkdir
@@ -227,7 +226,7 @@ List of Utilities Covered
 - grep
 
 File & Shell Management
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
 
 This is where your career on a UNIX type system can be made or crippled. Sure you know how to move around, list files, find out where you are, and display the contents of files. But now you have to do something with those files. And let's face it, there are a whole lot of files.
 
@@ -304,7 +303,7 @@ Find all files owned by user 'foo' and change their permissions
  $ find . -type f -user foo -exec chmod -R ug+rwX {} \; 
 
 Environment Variables
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 UNIX uses environment variables to pass information to various tools during a session. These variables are named in all capitals by convention. You can see all of the environment variables and their values by using the command
 
@@ -434,9 +433,9 @@ If something seems weird or script isn't working, a good starting point is to ch
 
 **Man Pages**
 
-The man pages (for manual) are the be all end all reference on UNIX systems.
+The man pages (for "manual") are the be all end all reference on UNIX systems.
 
-A `Beginners Guide to man Pages <http://www.tfug.org/helpdesk/general/man.html>`_ is an excellent introduction into how to move around a man page easily and understand what it's telling you.
+A `Beginners' Guide to man Pages <http://www.tfug.org/helpdesk/general/man.html>`_ is an excellent introduction into how to move around a man page easily and understand what it's telling you.
 
 
 
