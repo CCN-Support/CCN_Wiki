@@ -400,3 +400,26 @@ Below is a list of the available software tools. We will do our best to update i
 
 ANFI
 ~~~~
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20.1.00
+     - 
+     - New
+   * - 19.0.15
+     - 2019.02.20
+     - 
+   * - 17.2.07
+     - 2017.02.07
+     - Default
+   * - 16.3.1
+     - 2016.11.20
+     - 
+   * - 2011.12.21.1014
+     - 2012.03.19
+     - 
+
