@@ -1,3 +1,56 @@
+/* Soft pastel resource/topic badges for resources_table_full_topics.rst */
+.resource-topic-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.resource-topic {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  margin: 0.15rem 0.2rem 0.15rem 0;
+  border: 1px solid;
+  border-radius: 0.45rem;
+  font-size: 0.85em;
+  line-height: 1.35;
+  font-weight: 600;
+  white-space: normal;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.resource-topic-key .resource-topic {
+  margin-right: 0;
+}
+
+/* Each topic retains its own color, but uses a pale background,
+   muted border, and dark text for a calmer documentation page. */
+.topic-01 { background: #eaf2ff; border-color: #c7daf8; color: #284f7a; }
+.topic-02 { background: #eeeeff; border-color: #d1d1f5; color: #46467a; }
+.topic-03 { background: #f3edff; border-color: #ddcff5; color: #5b467a; }
+.topic-04 { background: #fceef5; border-color: #f0ccdd; color: #79475f; }
+.topic-05 { background: #fbeff1; border-color: #edcfd4; color: #784951; }
+.topic-06 { background: #fff1e9; border-color: #efd3c2; color: #7a503a; }
+.topic-07 { background: #fff5df; border-color: #ead9ad; color: #705a2e; }
+.topic-08 { background: #edf8ef; border-color: #cce5d0; color: #3f6947; }
+.topic-09 { background: #eaf7f2; border-color: #c7e3d7; color: #38675a; }
+.topic-10 { background: #eaf7f6; border-color: #c6e2df; color: #386865; }
+.topic-11 { background: #eaf5fb; border-color: #c8dfec; color: #3d6278; }
+.topic-12 { background: #edf7fc; border-color: #cce4ef; color: #3d6679; }
+.topic-13 { background: #efeffc; border-color: #d2d2ed; color: #4c4c75; }
+.topic-14 { background: #f6effb; border-color: #dfcfea; color: #664b73; }
+.topic-15 { background: #faeff5; border-color: #e8cfdd; color: #704b60; }
+.topic-16 { background: #f1f4f6; border-color: #d7dde2; color: #53606b; }
+.topic-17 { background: #edf1f4; border-color: #d2d9df; color: #4b5964; }
+
+/* Keep the resource list compact without collapsing individual topics. */
+.resource-topic-key + * { margin-top: 0.5rem; }
+
+
+
+/* Below is the first-pass attempt at badge colors for the Resources table. Restore if pastel theme doesn't work out
+
 /* Resource/topic badges for resources_table_full_topics.rst */
 .resource-topic-key {
   display: flex;
@@ -41,3 +94,5 @@
 
 /* Keep the resource list compact without collapsing individual topics. */
 .resource-topic-key + * { margin-top: 0.5rem; }
+
+*/
