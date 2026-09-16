@@ -41,7 +41,7 @@ Resources
 
      <span class="resource-topic topic-08">HPC</span> <span class="resource-topic topic-09">Unix/Bash</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-11">R</span> <span class="resource-topic topic-12">Matlab</span> <span class="resource-topic topic-13">Other Computing</span> <span class="resource-topic topic-14">Online course</span>
 
-* IDRE Office Advanced Research Computing Events
+* `IDRE Office of Advanced Research Computing <https://oarc.ucla.edu/events>`_
 
   .. raw:: html
 
