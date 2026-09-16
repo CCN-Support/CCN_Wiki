@@ -6,52 +6,32 @@
   margin: 0.5rem 0 1.5rem 0;
 }
 
-/* Soft pastel resource/topic badges for resources_table_full_topics.rst */
-.resource-topic-key {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 0.5rem 0 1.5rem 0;
-}
-
+/* Medium-soft resource topic badge palette */
 .resource-topic {
-  display: inline-block;
-  padding: 0.18rem 0.55rem;
-  margin: 0.15rem 0.2rem 0.15rem 0;
-  border: 1px solid;
-  border-radius: 0.45rem;
-  font-size: 0.85em;
-  line-height: 1.35;
-  font-weight: 600;
-  white-space: normal;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+    display: inline-block;
+    padding: 0.22em 0.58em;
+    margin: 0.12em 0.08em;
+    border-radius: 0.35em;
+    border: 1px solid;
+    font-size: 0.9em;
+    line-height: 1.35;
+    white-space: nowrap;
 }
 
-.resource-topic-key .resource-topic {
-  margin-right: 0;
-}
-
-/* Each topic retains its own color, but uses a pale background,
-   muted border, and dark text for a calmer documentation page. */
-.topic-01 { background: #eaf2ff; border-color: #c7daf8; color: #284f7a; }
-.topic-02 { background: #eeeeff; border-color: #d1d1f5; color: #46467a; }
-.topic-03 { background: #f3edff; border-color: #ddcff5; color: #5b467a; }
-.topic-04 { background: #fceef5; border-color: #f0ccdd; color: #79475f; }
-.topic-05 { background: #fbeff1; border-color: #edcfd4; color: #784951; }
-.topic-06 { background: #fff1e9; border-color: #efd3c2; color: #7a503a; }
-.topic-07 { background: #fff5df; border-color: #ead9ad; color: #705a2e; }
-.topic-08 { background: #edf8ef; border-color: #cce5d0; color: #3f6947; }
-.topic-09 { background: #eaf7f2; border-color: #c7e3d7; color: #38675a; }
-.topic-10 { background: #eaf7f6; border-color: #c6e2df; color: #386865; }
-.topic-11 { background: #eaf5fb; border-color: #c8dfec; color: #3d6278; }
-.topic-12 { background: #edf7fc; border-color: #cce4ef; color: #3d6679; }
-.topic-13 { background: #efeffc; border-color: #d2d2ed; color: #4c4c75; }
-.topic-14 { background: #f6effb; border-color: #dfcfea; color: #664b73; }
-.topic-15 { background: #faeff5; border-color: #e8cfdd; color: #704b60; }
-.topic-16 { background: #f1f4f6; border-color: #d7dde2; color: #53606b; }
-.topic-17 { background: #edf1f4; border-color: #d2d9df; color: #4b5964; }
-
-/* Keep the resource list compact without collapsing individual topics. */
-.resource-topic-key + * { margin-top: 0.5rem; }
+.topic-01 { background-color: #c9d9ee; color: #294866; border-color: #9db9d8; }
+.topic-02 { background-color: #c9e3df; color: #28554f; border-color: #9bc8c1; }
+.topic-03 { background-color: #d4e5c5; color: #405a31; border-color: #abc995; }
+.topic-04 { background-color: #eee0b8; color: #655328; border-color: #d4bd79; }
+.topic-05 { background-color: #ecd1b9; color: #68472e; border-color: #d3a77f; }
+.topic-06 { background-color: #e8c8c8; color: #673d3d; border-color: #cf9999; }
+.topic-07 { background-color: #dfcbe7; color: #594064; border-color: #bd9aca; }
+.topic-08 { background-color: #cfcbea; color: #454267; border-color: #aaa4d2; }
+.topic-09 { background-color: #c5d8e7; color: #354f63; border-color: #96b6ce; }
+.topic-10 { background-color: #bfe0e5; color: #31565c; border-color: #8fc3ca; }
+.topic-11 { background-color: #c6e2cf; color: #355a42; border-color: #96c5a6; }
+.topic-12 { background-color: #d9e2bd; color: #505a32; border-color: #b7c686; }
+.topic-13 { background-color: #ead9b9; color: #62502d; border-color: #d0b37a; }
+.topic-14 { background-color: #e8cbbd; color: #654438; border-color: #cf9f89; }
+.topic-15 { background-color: #e4c8d7; color: #613e50; border-color: #c795ad; }
+.topic-16 { background-color: #d6cbe6; color: #504263; border-color: #b19dcc; }
 
