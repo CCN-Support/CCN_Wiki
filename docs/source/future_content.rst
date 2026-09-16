@@ -1091,5 +1091,139 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.03.23
      - Current
 
+**Osprey**
 
+.. list-table::
+   :header-rows: 1
 
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.9.6
+     - 2025.03.13
+     - Current
+
+**Profumo**
+
+`Official Website <https://git.fmrib.ox.ac.uk/samh/profumo>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.11.3
+     - 2021.06.22
+     - Current
+
+**RATS**
+
+`Official Website <https://www.iibi.uiowa.edu/rats-rodent-brain-mri/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 060419
+     - 2019.06.04
+     - Current
+
+**Simnibs**
+
+`Official Website <https://simnibs.github.io/simnibs/build/html/installation/simnibs_installer.html/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 060419
+     - 2019.06.04
+     - Current
+
+**RStan**
+
+`Official Website <https://mc-stan.org/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 4.1.2
+     - 2022.04.11
+     - Current
+
+**SPM**
+
+`Official Website <http://www.fil.ion.ucl.ac.uk/spm/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Last Patch Applied
+     - Last Checked Date
+     - Notes
+   * - SPM12-standalone
+     - 
+     -
+     - Current
+   * - SPM12
+     - 
+     -
+     - 
+   * - SPM8
+     - 5236
+     - 2014.01
+     - 
+   * - SPM5
+     - Unknown
+     - N/A
+     - No longer supported
+
+**TrackVis/Diffusion Toolkit**
+
+`Official Website 1 <http://trackvis.org/>`_
+`Official Website 2 <http://trackvis.org/dtk/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Version Number
+     - Last Checked Date
+     - Notes
+   * - TrackVis
+     - 0.5.2.2
+     - 2014.03.06
+     - 
+   * - Diffusion Toolkit
+     - 0.6.2.2
+     - 204.03.06
+     - 
+
+**WEKA**
+
+`Official Website <http://www.cs.waikato.ac.nz/ml/weka/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.8.1
+     - 
+     - 
+   * - 3.7.10
+     - 2014.03.03
+     - 
+   * - 3.6.5
+     - circa 2011.08
+     - 
