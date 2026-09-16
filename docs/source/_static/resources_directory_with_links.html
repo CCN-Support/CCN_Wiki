@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resources Directory</title>
+<style>
+  :root {
+    --border: #d6dce3;
+    --muted: #5f6b76;
+    --link: #2166ad;
+    --selected: #244b70;
+    --panel: #f8fafc;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    color: #26333f;
+    background: #fff;
+    line-height: 1.45;
+  }
+
+  .wrap { max-width: 1500px; margin: 0 auto; padding: 8px 14px 24px; }
+
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin: 0 0 12px;
+  }
+
+  .search {
+    flex: 1 1 300px;
+    min-width: 220px;
+    padding: 9px 11px;
+    border: 1px solid #cfd7df;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .btn {
+    border: 1px solid #bcc7d2;
+    background: #fff;
+    color: #304050;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .btn:hover { background: #f2f5f8; }
+  .btn.active {
+    background: #e6edf4;
+    border-color: #91a5b8;
+    font-weight: 600;
+  }
+
+  .status {
+    color: var(--muted);
+    font-size: 14px;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  .topic-key {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    border-radius: 8px;
+    padding: 12px 14px 13px;
+    margin-bottom: 18px;
+  }
+
+  .topic-key-title {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .topic {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 13px;
+    line-height: 1.25;
+    cursor: pointer;
+    transition: border-color .12s ease, box-shadow .12s ease, filter .12s ease;
+    user-select: none;
+  }
+
+  .topic:hover { filter: brightness(.97); }
+  .topic.selected {
+    border-color: var(--selected) !important;
+    box-shadow: 0 0 0 2px rgba(36, 75, 112, .16);
+  }
+
+  /* Soft-medium topic colors, aligned with the existing directory palette. */
+  .topic-01 { background:#dce8f3; border-color:#a9c2da; color:#29465d; }
+  .topic-02 { background:#cfe3ef; border-color:#9abfd5; color:#29485c; }
+  .topic-03 { background:#d5e8f0; border-color:#a7c9d8; color:#2b4b5b; }
+  .topic-04 { background:#d8edd8; border-color:#a9cfa9; color:#2f5134; }
+  .topic-05 { background:#f1dcdc; border-color:#d7b0b0; color:#613c3c; }
+  .topic-06 { background:#f2dfdf; border-color:#d8b8b8; color:#633c3c; }
+  .topic-07 { background:#efe5d2; border-color:#d4bf95; color:#5f4b2a; }
+  .topic-08 { background:#dedcf2; border-color:#b8b2d9; color:#46406c; }
+  .topic-09 { background:#d3e4f2; border-color:#aac8df; color:#35516a; }
+  .topic-10 { background:#d3e9ee; border-color:#a6ccd4; color:#31535a; }
+  .topic-11 { background:#d9eadf; border-color:#accdb7; color:#35523e; }
+  .topic-12 { background:#e3ebce; border-color:#becb94; color:#4e5b2e; }
+  .topic-13 { background:#efe0bf; border-color:#d4b984; color:#654d23; }
+  .topic-14 { background:#ecd8cf; border-color:#d0aa99; color:#68473a; }
+  .topic-15 { background:#dfddd3; border-color:#bdb7a7; color:#4f4b3f; }
+  .topic-16 { background:#e7d9ea; border-color:#c7afd0; color:#594062; }
+
+  .resource-list { display: flex; flex-direction: column; gap: 9px; }
+
+  .resource {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 9px 10px;
+    border-bottom: 1px solid #e4e8ec;
+    min-width: 0;
+  }
+
+  .resource:nth-child(even) { background: #fafbfc; }
+
+  .resource-title {
+    flex: 0 0 auto;
+    min-width: 260px;
+    font-size: 15px;
+    line-height: 1.35;
+  }
+
+  .resource-title a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  .resource-title a:hover { text-decoration: underline; }
+
+  .resource-topics {
+    flex: 1 1 auto;
+    min-width: 0;
+    position: relative;
+    padding-left: 18px;
+    margin-left: 14px;
+  }
+
+  /* Short divider between the resource title and its topic badges */
+  .resource-topics::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 70%;
+    width: 2px;
+    background-color: #c8cdd3;
+    border-radius: 2px;
+  }
+
+  .resource.hidden { display: none; }
+
+  .no-results {
+    padding: 18px 4px;
+    color: var(--muted);
+    display: none;
+  }
+  .no-results.visible { display: block; }
+
+  @media (max-width: 800px) {
+    .resource { align-items: flex-start; flex-direction: column; gap: 7px; }
+    .resource-title { min-width: 0; width: 100%; }
+    .resource-topics { margin-left: 0; padding-left: 0; }
+    .resource-topics::before { display: none; }
+    .status { width: 100%; margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="toolbar">
+    <input id="search" class="search" type="search" placeholder="Search resources or topics..." aria-label="Search resources or topics">
+    <button id="andBtn" class="btn active" type="button">AND</button>
+    <button id="orBtn" class="btn" type="button">OR</button>
+    <button id="clearBtn" class="btn" type="button">CLEAR</button>
+    <span id="status" class="status">29 of 29 resources returned</span>
+  </div>
+
+  <div class="topic-key">
+    <div class="topic-key-title">Select one or more topics. AND shows resources covering every selected topic; OR shows resources covering at least one selected topic.</div>
+    <div id="topicKey" class="badges"></div>
+  </div>
+
+  <div id="resourceList" class="resource-list"></div>
+  <div id="noResults" class="no-results">No resources match the current filters.</div>
+</div>
+
+<script>
+const TOPICS = [
+  ["topic-01", "MRI Data Acq."],
+  ["topic-02", "MRI Data PreProc"],
+  ["topic-03", "MRI Data Analysis"],
+  ["topic-04", "EEG Data Acq."],
+  ["topic-05", "EEG Data PreProc"],
+  ["topic-06", "EEG Data Analysis"],
+  ["topic-07", "Other (anatomy etc)"],
+  ["topic-08", "HPC"],
+  ["topic-09", "Unix/Bash"],
+  ["topic-10", "Python"],
+  ["topic-11", "R"],
+  ["topic-12", "Matlab"],
+  ["topic-13", "Other Computing"],
+  ["topic-14", "Online course"],
+  ["topic-15", "UCLA workshop"],
+  ["topic-16", "UCLA course"]
+];
+
+const RESOURCES = [
+  {name:"Institute for Quantitative & Computational Biosciences", url:"https://qcb.ucla.edu/collaboratory/workshops/", topics:["topic-08","topic-09","topic-10","topic-11","topic-12","topic-13","topic-14"]},
+  {name:"IDRE Office of Advanced Research Computing", url:"https://oarc.ucla.edu/events", topics:["topic-08","topic-09","topic-10","topic-11","topic-12","topic-13"]},
+  {name:"Mike X Cohen, Matlab, Python, Signal Processing in Neuroscience", url:"https://www.mikexcohen.com/#home", topics:["topic-05","topic-06","topic-10","topic-12","topic-13"]},
+  {name:"Andy's Brain Book", url:"https://andysbrainbook.readthedocs.io/en/latest/index.html", topics:["topic-02","topic-03","topic-08","topic-09","topic-10","topic-12"]},
+  {name:"Better Code, Better Science", url:"https://bettercodebetterscience.github.io/book/index.html", topics:["topic-10","topic-13"]},
+  {name:"Cohen Matlab for Neuroscience (YouTube)", url:"https://www.youtube.com/watch?v=GwcJqv6XsEg", topics:["topic-12"]},
+  {name:"INCF Matlab for Neuroscience", url:"https://training.incf.org/collection/essentials-neuroscience-matlab", topics:["topic-12"]},
+  {name:"IDRE Sagger Topological Analysis (fMRI)", url:"https://idre.ucla.edu/calendar-event/topological-data-analysis-march-8-2024", topics:["topic-03","topic-15"]},
+  {name:"IDRE Spreng PLS & FC (fMRI)", url:"https://idre.ucla.edu/calendar-event/jason-nomi-9-18-2023", topics:["topic-03","topic-15"]},
+  {name:"ABCD ReproNim", url:"https://www.abcd-repronim.org/", topics:["topic-13","topic-14"]},
+  {name:"NIH fMRIF Summer Course", url:"https://fmrif.nimh.nih.gov/SummerCourse", topics:["topic-01","topic-03","topic-14"]},
+  {name:"MRI Questions", url:"https://www.mriquestions.com/index.html", topics:["topic-01"]},
+  {name:"John Hopkins Principles of fMRI Coursera", url:"https://www.coursera.org/learn/functional-mri", topics:["topic-01","topic-02","topic-03","topic-14"]},
+  {name:"UMichigan Training in fMRI", url:"https://courses.lsa.umich.edu/fmri-training-course/", topics:["topic-01","topic-02","topic-03"]},
+  {name:"OHBM 2025 Education", url:"https://www.youtube.com/playlist?list=PLEJ899jsgdRpAe1o_9nwvmroUYo4kRVSc", topics:["topic-02","topic-03"]},
+  {name:"Martin Monti Course Slides", url:"https://www.youtube.com/@braintalk9664/playlists", topics:["topic-02","topic-03","topic-16"]},
+  {name:"UCLA CCN Prior Workshops", url:"https://staglincenterforcogneuro.semel.ucla.edu/data-analysis-workshops", topics:["topic-02","topic-03"]},
+  {name:"Mumford Brain Stats (YouTube)", url:"https://www.youtube.com/@mumfordbrainstats", topics:["topic-03","topic-10","topic-13"]},
+  {name:"Mumford Brain Stats (tumblr)", url:"https://mumfordbrainstats.tumblr.com/", topics:["topic-03"]},
+  {name:"FSL course (YouTube)", url:"https://www.youtube.com/c/FSLCourse", topics:["topic-01","topic-02","topic-03"]},
+  {name:"FSL course website", url:"https://open.oxcin.ox.ac.uk/pages/fslcourse/website/index.html", topics:["topic-01","topic-02","topic-03"]},
+  {name:"SPM course website", url:"https://www.fil.ion.ucl.ac.uk/spm/course/", topics:["topic-01","topic-02","topic-03"]},
+  {name:"AFNI course videos (YouTube)", url:"https://www.youtube.com/c/afnibootcamp", topics:["topic-01","topic-02","topic-03"]},
+  {name:"Clinical Neuroanatomy Seminars (YouTube)", url:"https://www.youtube.com/@CNSeminars", topics:["topic-07"]},
+  {name:"Online EEGLAB workshop", url:"https://eeglab.org/workshops/Online_EEGLAB_Workshop.html", topics:["topic-04","topic-05","topic-06"]},
+  {name:"Online Fieldtrip workshop videos", url:"https://www.fieldtriptoolbox.org/video/", topics:["topic-04","topic-05","topic-06"]},
+  {name:"Online Brainstorm EEG tutorial", url:"https://neuroimage.usc.edu/brainstorm/", topics:["topic-04","topic-05","topic-06"]},
+  {name:"Online MNE EEG/MEG tutorial", url:"https://mne.tools/stable/auto_tutorials/intro/10_overview.html", topics:["topic-04","topic-05","topic-06"]},
+  {name:"CuttingEEG EEG/MEG workshops & community", url:"https://cuttingeeg.org/", topics:["topic-05","topic-06","topic-14"]}
+];
+
+let mode = 'AND';
+let selected = new Set();
+const topicKey = document.getElementById('topicKey');
+const resourceList = document.getElementById('resourceList');
+const search = document.getElementById('search');
+const status = document.getElementById('status');
+const noResults = document.getElementById('noResults');
+
+function renderTopicKey() {
+  topicKey.innerHTML = '';
+  for (const [cls, label] of TOPICS) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `topic ${cls}${selected.has(cls) ? ' selected' : ''}`;
+    btn.textContent = label;
+    btn.addEventListener('click', () => {
+      if (selected.has(cls)) selected.delete(cls);
+      else selected.add(cls);
+      renderTopicKey();
+      applyFilters();
+    });
+    topicKey.appendChild(btn);
+  }
+}
+
+function renderResources() {
+  resourceList.innerHTML = '';
+  for (const r of RESOURCES) {
+    const row = document.createElement('div');
+    row.className = 'resource';
+    row.dataset.name = r.name.toLowerCase();
+    row.dataset.topics = r.topics.join(' ').toLowerCase();
+
+    const title = document.createElement('div');
+    title.className = 'resource-title';
+    const link = document.createElement('a');
+    link.href = r.url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = r.name;
+    title.appendChild(link);
+
+    const topicBox = document.createElement('div');
+    topicBox.className = 'resource-topics badges';
+    for (const cls of r.topics) {
+      const topic = TOPICS.find(t => t[0] === cls);
+      const badge = document.createElement('button');
+      badge.type = 'button';
+      badge.className = `topic ${cls}`;
+      badge.textContent = topic ? topic[1] : cls;
+      badge.addEventListener('click', () => {
+        if (selected.has(cls)) selected.delete(cls);
+        else selected.add(cls);
+        renderTopicKey();
+        applyFilters();
+      });
+      topicBox.appendChild(badge);
+    }
+
+    row.appendChild(title);
+    row.appendChild(topicBox);
+    resourceList.appendChild(row);
+  }
+}
+
+function applyFilters() {
+  const q = search.value.trim().toLowerCase();
+  let shown = 0;
+
+  for (const row of resourceList.children) {
+    const topics = row.dataset.topics.split(' ');
+    let topicMatch = true;
+    if (selected.size > 0) {
+      const chosen = Array.from(selected).map(x => x.toLowerCase());
+      topicMatch = mode === 'AND'
+        ? chosen.every(x => topics.includes(x))
+        : chosen.some(x => topics.includes(x));
+    }
+    const searchMatch = !q || row.dataset.name.includes(q) || row.dataset.topics.includes(q);
+    const visible = topicMatch && searchMatch;
+    row.classList.toggle('hidden', !visible);
+    if (visible) shown++;
+  }
+
+  status.textContent = `${shown} of ${RESOURCES.length} resources returned`;
+  noResults.classList.toggle('visible', shown === 0);
+}
+
+document.getElementById('andBtn').addEventListener('click', () => {
+  mode = 'AND';
+  document.getElementById('andBtn').classList.add('active');
+  document.getElementById('orBtn').classList.remove('active');
+  applyFilters();
+});
+
+document.getElementById('orBtn').addEventListener('click', () => {
+  mode = 'OR';
+  document.getElementById('orBtn').classList.add('active');
+  document.getElementById('andBtn').classList.remove('active');
+  applyFilters();
+});
+
+document.getElementById('clearBtn').addEventListener('click', () => {
+  selected.clear();
+  search.value = '';
+  renderTopicKey();
+  applyFilters();
+});
+
+search.addEventListener('input', applyFilters);
+
+renderTopicKey();
+renderResources();
+applyFilters();
+</script>
+</body>
+</html>
