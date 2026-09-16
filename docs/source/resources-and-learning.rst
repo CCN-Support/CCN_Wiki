@@ -221,7 +221,7 @@ For the complete matrix showing every resource against every individual topic:
 
    <details class="original-resource-matrix">
    <summary>
-      <strong>▶ Explore the complete 17-topic matrix</strong>
+      <strong>▶ Explore the full resource list in table form</strong>
    </summary>
 
    <p>
@@ -230,7 +230,7 @@ For the complete matrix showing every resource against every individual topic:
    </p>
 
    <iframe
-      src="_static/resources_matrix_preview.html"
+      src="_static/resources_matrix_preview_with_links.html"
       title="Complete 17-topic resource matrix"
       style="width: 100%; height: 720px; border: 1px solid #d9dee7; border-radius: 8px;"
       loading="lazy">
