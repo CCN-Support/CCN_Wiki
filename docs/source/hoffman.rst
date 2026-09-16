@@ -1296,7 +1296,7 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 
 
 2.2 Run Your Jobs
------------------
+~~~~~~~~~~~~~~~~~
 
 **2.2.1 Hoffman 2: Interactive Sessions**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
