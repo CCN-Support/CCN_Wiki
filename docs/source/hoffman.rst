@@ -252,17 +252,17 @@ This command looks at all files in /path/to/directory and in all directories the
     Specifies the type of file we're looking for. e.g. text file, directory, link, etc.
 :option:`-name`
     Specifies the name of the file. Case Sensitive
-``-iname``
+:option:`-iname`
     Specifies the name of the file. Case Insensitive
-``-or``
+:option:`-or`
     Joins the precedeing and following terms by the boolean OR
-``-and``
+:option:`-and`
     Joins the preceding and following terms by the boolean AND
-``-not``
+:option:`-not`
     negates the next term. e.g. -not -empty means "is not empty"
-``-exec``
+:option:`-exec`
     excutes a shell command for each file found. The only 'trick' is to replace the actual file name with {} and end the command with a \;. This should become clear when reviewing the examples below.
-``-empty``
+:option:`-empty`
     The file or directory is empty.
 
 
