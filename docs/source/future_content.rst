@@ -878,4 +878,54 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
 
 Known issue: 5.0.10 fsleyes crash on x2go
 
+**FSL_MRS**
+
+`Official Website <https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/index.html#>`_
+
+`Revision History <https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/changelog.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.1.12
+     - 2023.08.22
+     - new
+
+**ggseg**
+
+`Official Website <https://github.com/ggseg/ggseg>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - v1.6.5.9000
+     - 2023.03.1
+     - 
+
+*Note: ggsegExtra and ggseg3d are also available under these libraries
+
+**gift**
+
+`Official Website <https://trendscenter.org/software/gift/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - GroupICATv4.0b
+     - 2017.11.14
+     -  
+   * - GroupICATv4.0c
+     - 2021.01.04
+     - 
+
+
 
