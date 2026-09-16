@@ -425,8 +425,7 @@ ANFI
      - 2012.03.19
      - 
 
-ANTS
-~~~~
+**ANTS**
 
 `Official Website <http://stnava.github.io/ANTs/>`_
 
@@ -446,8 +445,7 @@ ANTS
      - 2015.01.23
      - Default
 
-ASHS
-~~~~
+**ASHS**
 
 `Official Website <https://www.nitrc.org/projects/ashs%7C>`_
 
@@ -467,8 +465,7 @@ ASHS
      - 2016.02.24
      - Default
 
-Brainsuite
-~~~~~~~~~~
+**Brainsuite**
 
 `Official Website <http://brainsuite.org/>`_
 
@@ -488,8 +485,7 @@ Brainsuite
      - 2016.02.24
      - Default
 
-BrainAgeR
-
+**BrainAgeR**
 
 `Official Website <https://github.com/james-cole/brainageR>`_
 
@@ -512,7 +508,7 @@ BrainAgeR
      - 
      - No longer supported
 
-brms
+**brms**
 
 R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
 
@@ -526,7 +522,7 @@ R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
      - 2022.06.10
      - Default
 
-Caret
+**Caret**
 
 `Official Website <http://brainvis.wustl.edu/wiki/index.php/Caret:About>`_
 
@@ -540,7 +536,7 @@ Caret
      - 2013.07.15
      - Default, not folded into the main profile
 
-ccn_py37
+**ccn_py37**
 
 Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, scipy
 
@@ -554,5 +550,260 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.05.24
      - CentOS 7 with Conda
 
+**Chronux**
 
-  
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2.1
+     - 2013.02.26
+     - Current
+
+**CONN**
+
+`Official Website <https://web.conn-toolbox.org/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 19.b
+     - 2013.02.26
+     - New
+   * - 18.b
+     - 
+     - 
+   * - 17.f
+     - 
+     - Default
+
+**dcm2nii**
+
+`Official Website <http://www.mccauslandcenter.sc.edu/mricro/mricron/dcm2nii.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 2013.06.06
+     - 2014.03.06
+     - 
+   * - 2011.11.11
+     - circa 2011
+     - Current
+
+**dmctk**
+
+`Official Website <https://dicom.offis.de/dcmtk.php.en>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.6.0
+     - 2017.05.17
+     - Current
+   * - 3.6.6
+     - 2021.02.16
+     - 
+
+**DTIprep**
+
+`Official Website <https://www.nitrc.org/projects/dtiprep/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.2.4
+     - 2017.12.21
+     - 
+   * - 1.2.9
+     - 2018.03.20
+     - Current
+
+**DSI Studio**
+
+`Official Website <https://dsi-studio.labsolver.org/>`_
+
+**Please note DSI studio only works with NoMachine**
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - "Chen" Release
+     - 2023.07.06
+     - Current
+
+**dmriprep**
+
+`Official Website: <https://github.com/nipreps/dmriprep>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.4.0
+     - 2020.12.10
+     - Current
+
+**EEGLAB**
+
+`Official Website <http://sccn.ucsd.edu/eeglab/>`_
+
+`Release Notes <http://sccn.ucsd.edu/wiki/EEGLAB_revision_history>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 13.1.1b
+     - 2014.01.29
+     - 
+   * - 12.0.2.5b
+     - 2013.11.14
+     - 
+   * - 11.0.5.4b
+     - 2013.11.14
+     - 
+   * - 12.0.0.0b
+     - 2012.12.10
+     - 
+   * - 11.0.0.0b
+     - 2012.02.21
+     - 
+   * - 10.2.5.8b
+     - 2012.02.21
+     - 
+
+**ENIGMA**
+
+`Official Website <https://www.nitrc.org/projects/dtiprep/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20210422
+     - 2021.04.22
+     - Current
+
+**ENIGMA HALFpipe**
+
+`Official Website <https://github.com/HALFpipe/HALFpipe>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.1.1
+     - 2021.08.27
+     - Current
+
+**FastSurfer**
+
+`Official Website <https://github.com/Deep-MI/FastSurfer/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 202102
+     - 2021.03.01
+     - Current
+
+**FIT**
+
+`Official Website <https://trendscenter.org/software/fit/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - FITv2.0d
+     - 2021.03.01
+     - 
+   * - FITv2.0e
+     - 2021.01.13
+     - 
+
+**FIX**
+
+`Official Website <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FIX/UserGuide>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.06.15
+     - 2021.12.01
+     - 
+
+**FMRIprep**
+
+`Official Website <https://fmriprep.readthedocs.io/en/stable/usage.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 25.1.3
+     - 2025.07.27
+     - In Apptainer
+   * - 24.1.1
+     - 2024.11.01
+     - In Apptainer 
+   * - 23.2.0
+     - 2024.03.12
+     - In Apptainer 
+   * - 23.1.3
+     - 2023.08.22
+     - Use Apptainer module
+   * - 20.2.1
+     - 2021.05.13
+     - In Singularity
+   * - 20.2.0rc0
+     - 
+     -  
+   * - 20.1.1
+     - 
+     - * known Issue
+   * - 1.4.0
+     - 2019.01.11
+     - Default * known Issue
+   * - 1.3.2
+     - 2019.01.11
+     - * known Issue
+
+
+
