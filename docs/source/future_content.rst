@@ -927,5 +927,169 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.01.04
      - 
 
+**gradunwarp**
+
+`Official Website <https://github.com/Washington-University/gradunwarp>`_
+
+.. list-table::
+   :header-rows: 1
+
+  *  - Version
+     - Install Date
+     - Notes
+   * - 1.1.0
+     - 2019.06.04
+     -  
+
+**HCP Benchwork**
+
+`Official Website <https://www.humanconnectome.org/software/connectome-workbench>`_
+
+- Note: module name: hcp
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.3.2
+     - 2019.05.22
+     - New
+   * - 1.2.3
+     - 2018.02.13
+     - 
+   * - 1.1.1
+     - 2016.02.18
+     - Default
+   * - 1.0
+     - 
+     - 
+   * - 0.84
+     - 
+     - 
+
+**ICA-AROMA**
+
+- Note: Python 2.7 available for v0.4.5, module name: ica-aroma_py27
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.4.5
+     - 
+     - New
+   * - 0.4.1-beta
+     - 
+     - Default
+
+**ITK Gray**
+
+`Official Website <http://vistalab.stanford.edu/newlm/index.php/ItkGray>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 080803
+     - 2009.11.19
+     - Default
+   * - 080128
+     - 2009.11.13
+     - 
+
+**ITKSnap**
+
+`Official Website <http://www.itksnap.org/pmwiki/pmwiki.php>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.4.0.QT4
+     - 2016.02.24
+     - Default
+   * - 3.6.0.QT4
+     - 2021.03.02
+     - 
+   * - 3.8.0.QT4
+     - 2021.03.02
+     - Default
+
+**kwave**
+
+`Official Website <http://www.k-wave.org/doxygen/index.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 1.3
+     - 2020.07.20
+     - Current
+
+**MANGO**
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 20190905
+     - 
+     - Current
+
+**MRIQC**
+
+`Official Website <https://mriqc.readthedocs.io/en/latest/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.16.1
+     - 2021.03.08
+     - Current
+
+**NDATools**
+
+`Official Website <https://github.com/NDAR/nda-tools>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 0.2.3
+     - 2021.03.04
+     - Current
+
+**OpenSmile**
+
+`Official Website <https://www.audeering.com/opensmile/>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Version
+     - Install Date
+     - Notes
+   * - 3.0.0
+     - 2021.03.23
+     - Current
+
 
 
