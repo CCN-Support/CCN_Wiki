@@ -24,9 +24,9 @@ For the complete matrix showing every resource against every individual topic:
    </iframe>
 
    <p style="margin-top: 1em;">
-      <a href="_static/Resources%20Table.xlsx" download>
-         Download the original Excel spreadsheet
-      </a>
+      [<a href="_static/Resources%20Table.xlsx" download>
+         Click to download this table as an Excel spreadsheet
+      </a>]
    </p>
 
 Resource List - Directory 
