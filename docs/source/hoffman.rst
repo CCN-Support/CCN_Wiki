@@ -68,7 +68,7 @@ ATTENTION: If you are a PI interested in Hoffman2, please see the section **Beco
 5. Fill out the form with appropriate information. For Hoffman2, your Faculty Sponsor should be Mark Cohen, Alison Burggren (for Susan Bookheimer's lab), or your respective PI if they are a Faculty Sponsor on Hoffman.
 
 **Proposed Username**
-  This will be the username you use to sign into the cluster with.
+This will be the username you use to sign into the cluster with.
 
 **Select a Resource**
 
@@ -157,7 +157,7 @@ The NX Client program allows you to set up a Virtual Network Computing (VNC)-lik
 
 **X2Go - GUI**
 
-X2Go provides a desktop-like GUI for accessing the Hoffman server. Please see here to find out more about setup details.
+X2Go provides a desktop-like GUI for accessing the Hoffman server. Please see here [insert X2Go section] to find out more about setup details.
 
 
 
