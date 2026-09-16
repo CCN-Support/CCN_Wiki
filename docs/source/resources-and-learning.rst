@@ -1,6 +1,8 @@
 Resources and Learning
 ======================
 
+CCN has compiled a list of useful resources for learning about data analysis, coding, and research science. These resources are provided below in both Table and filterable Direcotry formats, to allow the user to easily discern which items cover which topics.
+
 
 Resource List - Table
 ---------------------
@@ -26,10 +28,13 @@ Resource List - Table
       </a>]
    </p>
 
+
 Resource List - Directory 
 -------------------------
 
 The directory below allows you to easily see which topics each resource addresses and filter by one or more topics.
+
+If you are on mobile, it will be easier than the table above to navigate.
 
 .. raw:: html
 
@@ -58,213 +63,4 @@ The directory below allows you to easily see which topics each resource addresse
        });
    })();
    </script>
-
-
-
-
-TESTING BELOW
--------------
-
-This directory preserves the full topic-by-resource mapping from the source matrix. Each resource is listed with tags underneath to mark the topics it covers.
-
-Topic Key
----------
-
-.. raw:: html
-
-   <div class="resource-topic-key">
-     <span class="resource-topic topic-01">MRI Data Acq.</span>
-     <span class="resource-topic topic-02">MRI Data PreProc</span>
-     <span class="resource-topic topic-03">MRI Data Analysis</span>
-     <span class="resource-topic topic-04">EEG Data Acq.</span>
-     <span class="resource-topic topic-05">EEG Data PreProc</span>
-     <span class="resource-topic topic-06">EEG Data Analysis</span>
-     <span class="resource-topic topic-07">Other (anatomy etc)</span>
-     <span class="resource-topic topic-08">HPC</span>
-     <span class="resource-topic topic-09">Unix/Bash</span>
-     <span class="resource-topic topic-10">Python</span>
-     <span class="resource-topic topic-11">R</span>
-     <span class="resource-topic topic-12">Matlab</span>
-     <span class="resource-topic topic-13">Other Computing</span>
-     <span class="resource-topic topic-14">Online course</span>
-     <span class="resource-topic topic-15">UCLA workshop</span>
-     <span class="resource-topic topic-16">UCLA course</span>
-   </div>
-
-Resources
----------
-
-* `Institute for Quantitative & Computational Biosciences <https://qcb.ucla.edu/collaboratory/workshops/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-08">HPC</span> <span class="resource-topic topic-09">Unix/Bash</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-11">R</span> <span class="resource-topic topic-12">Matlab</span> <span class="resource-topic topic-13">Other Computing</span> <span class="resource-topic topic-14">Online course</span>
-
-* `IDRE Office of Advanced Research Computing <https://oarc.ucla.edu/events>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-08">HPC</span> <span class="resource-topic topic-09">Unix/Bash</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-11">R</span> <span class="resource-topic topic-12">Matlab</span> <span class="resource-topic topic-13">Other Computing</span>
-
-* `Mike X Cohen, Matlab, Python, Signal Processing in Neuroscience <https://www.mikexcohen.com/#home>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-05">EEG Data PreProc</span> <span class="resource-topic topic-06">EEG Data Analysis</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-12">Matlab</span> <span class="resource-topic topic-13">Other Computing</span>
-
-* `Andy's Brain Book <https://andysbrainbook.readthedocs.io/en/latest/index.html>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-08">HPC</span> <span class="resource-topic topic-09">Unix/Bash</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-12">Matlab</span>
-
-* `Better Code, Better Science <https://bettercodebetterscience.github.io/book/index.html>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-13">Other Computing</span>
-
-* `Cohen Matlab for Neuroscience (YouTube) <https://www.youtube.com/watch?v=GwcJqv6XsEg>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-12">Matlab</span>
-
-* `INCF Matlab for Neuroscience <https://training.incf.org/collection/essentials-neuroscience-matlab>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-12">Matlab</span>
-
-* `IDRE Sagger Topological Analysis (fMRI) <https://idre.ucla.edu/calendar-event/topological-data-analysis-march-8-2024>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-15">UCLA workshop</span>
-
-* `IDRE Spreng PLS & FC (fMRI) <https://idre.ucla.edu/calendar-event/jason-nomi-9-18-2023>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-15">UCLA workshop</span>
-
-* `ABCD ReproNim <https://www.abcd-repronim.org/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-13">Other Computing</span> <span class="resource-topic topic-14">Online course</span>
-
-* `NIH fMRIF Summer Course <https://fmrif.nimh.nih.gov/SummerCourse>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-14">Online course</span>
-
-* `MRI Questions <https://www.mriquestions.com/index.html>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span>
-
-* `John Hopkins Principles of fMRI Coursera <https://www.coursera.org/learn/functional-mri>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-14">Online course</span>
-
-* `UMichigan Training in fMRI <https://courses.lsa.umich.edu/fmri-training-course/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `OHBM 2025 Education <https://www.youtube.com/playlist?list=PLEJ899jsgdRpAe1o_9nwvmroUYo4kRVSc>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `Martin Monti Course Slides <https://www.youtube.com/@braintalk9664/playlists>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-16">UCLA course</span>
-
-* `UCLA CCN Prior Workshops <https://staglincenterforcogneuro.semel.ucla.edu/data-analysis-workshops>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `Mumford Brain Stats (YouTube) <https://www.youtube.com/@mumfordbrainstats>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-03">MRI Data Analysis</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-13">Other Computing</span>
-
-* `Mumford Brain Stats (tumblr) <https://mumfordbrainstats.tumblr.com/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `FSL course (YouTube) <https://www.youtube.com/c/FSLCourse>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `FSL course website <https://open.oxcin.ox.ac.uk/pages/fslcourse/website/index.html>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `SPM course website <https://www.fil.ion.ucl.ac.uk/spm/course/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `AFNI course videos (YouTube) <https://www.youtube.com/c/afnibootcamp>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-01">MRI Data Acq.</span> <span class="resource-topic topic-02">MRI Data PreProc</span> <span class="resource-topic topic-03">MRI Data Analysis</span>
-
-* `Clinical Neuroanatomy Seminars (YouTube) <https://www.youtube.com/@CNSeminars>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-07">Other (anatomy etc)</span>
-
-* `Online EEGLAB workshop <https://eeglab.org/workshops/Online_EEGLAB_Workshop.html>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-04">EEG Data Acq.</span> <span class="resource-topic topic-05">EEG Data PreProc</span> <span class="resource-topic topic-06">EEG Data Analysis</span>
-
-* `Online Fieldtrip workshop videos <https://www.fieldtriptoolbox.org/video/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-04">EEG Data Acq.</span> <span class="resource-topic topic-05">EEG Data PreProc</span> <span class="resource-topic topic-06">EEG Data Analysis</span>
-
-* `Online Brainstorm EEG tutorial <https://neuroimage.usc.edu/brainstorm/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-04">EEG Data Acq.</span> <span class="resource-topic topic-05">EEG Data PreProc</span> <span class="resource-topic topic-06">EEG Data Analysis</span>
-
-* `Online MNE EEG/MEG tutorial <https://mne.tools/stable/auto_tutorials/intro/10_overview.html>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-04">EEG Data Acq.</span> <span class="resource-topic topic-05">EEG Data PreProc</span> <span class="resource-topic topic-06">EEG Data Analysis</span>
-
-* `CuttingEEG EEG/MEG workshops & community <https://cuttingeeg.org/>`_
-
-  .. raw:: html
-
-     <span class="resource-topic topic-05">EEG Data PreProc</span> <span class="resource-topic topic-06">EEG Data Analysis</span> <span class="resource-topic topic-14">Online course</span>
 
