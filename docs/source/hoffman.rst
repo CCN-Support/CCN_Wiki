@@ -206,9 +206,11 @@ File System Navigation
 The following series of tutorials provide a very basic introduction to file system navigation on unix like systems without any assumptions of prior knowledge on the topics.
 
 - Listing files & directories, making directories, changing directories, the . and .. directories, pathnames, the "home" directories
+
     - `Tutorial One <http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html>`_
 
--Copying files, moving files, removing files and directories, displaying the contents of a file, searching the contents of a file
+- Copying files, moving files, removing files and directories, displaying the contents of a file, searching the contents of a file
+
     - `Tutorial Two <http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html>`_
 
 **List of Utilities Covered**
@@ -246,21 +248,21 @@ This command looks at all files in /path/to/directory and in all directories the
 
 **Common Options**
 
--type
+:option:`-type`
     Specifies the type of file we're looking for. e.g. text file, directory, link, etc.
--name
+:option:`-name`
     Specifies the name of the file. Case Sensitive
--iname
+``-iname``
     Specifies the name of the file. Case Insensitive
--or
+``-or``
     Joins the precedeing and following terms by the boolean OR
--and
+``-and``
     Joins the preceding and following terms by the boolean AND
--not
+``-not``
     negates the next term. e.g. -not -empty means "is not empty"
--exec
+``-exec``
     excutes a shell command for each file found. The only 'trick' is to replace the actual file name with {} and end the command with a \;. This should become clear when reviewing the examples below.
--empty
+``-empty``
     The file or directory is empty.
 
 
