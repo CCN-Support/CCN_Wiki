@@ -1998,7 +1998,19 @@ Where,
 
 Disables local permission checks and defers all permission requests to the remote server.
 
+**4.5 Hoffman Mailing List**
 
+The CCN-Hoffman mailing list is used to send announcements to CCN users of the Hoffman2 cluster.
+
+Join the mailing list:
+
+To join the mailing list (subscribe), send a blank email to ccn-hoffman+subscribe@lists.ucla.edu.
+
+Subscription requests will need to be approved by the list moderator.
+
+Leave the mailing listL
+
+To leave the mailing list (unsubscribe), send a blank email to ccn-hoffman+unsubscribe@lists.ucla.edu
 
 
 
