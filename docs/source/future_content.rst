@@ -1660,7 +1660,51 @@ Functional MRI (command line only)
    * - `fabber <http://www.fmrib.ox.ac.uk/fsl/fabber/index.html>`_
      - Fast ASL & BOLD Bayesian Estimation Routine. Efficient nonlinear modelling and estimation of BOLD and CBF from dual-echo ASL data, using Variational Bayes.
 
+Structural MRI (command line only)
 
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Explanation
+   * - `bet <http://www.fmrib.ox.ac.uk/fsl/bet2/index.html>`_
+     - Brain Extraction Tool - segments brain from non-brain in structural and functional data, and models skull and scalp surfaces.
+   * - `fast <http://www.fmrib.ox.ac.uk/fsl/fast4/index.html>`_
+     - FMRIB's Automated Segmentation Tool - brain segmentation (into different tissue types) and bias field correction.
+   * - `first <http://www.fmrib.ox.ac.uk/fsl/first/index.html>`_
+     - first	FMRIB's Integrated Registration and Segmentation Tool. FIRST uses mesh models trained with a large amount of rich hand-segmented training data to segment subcortical brain structures.
+
+GUI Commands/Tools [Make sure to have X11 forwarding on]
+
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Explanation
+   * - fsl
+     - Bring you to the FSL menu where you can choose what type of analysis.
+   * - `fdt <http://www.fmrib.ox.ac.uk/fsl/fdt/index.html>`_
+     - FMRIB's Diffusion Toolbox - tools for low-level diffusion parameter reconstruction and probabilistic tractography, including crossing-fibre modelling.
+   * - `flirt <http://www.fmrib.ox.ac.uk/fsl/flirt/index.html>`_
+     - FMRIB's Linear Image Registration Tool - linear inter- and intra-modal registration.
+   * - `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+     - Model-based FMRI analysis: data preprocessing (including MCFLIRT motion correction); first-level FILM GLM timeseries analysis; higher-level FLAME Bayesian mixed effects analysis.
+   * - `featquery <http://www.fmrib.ox.ac.uk/fsl/feat5/featquery.html>`_
+     - A program which allows you to interrogate FEAT results by defining a mask or set of co-ordinates (in standard-space, highres-space or loweres-space) and get mean stats values and time-series.
+   * - Glm
+     - A GUI for setting up just the design matrix and contrasts, in the same way as in FEAT, for use with other modelling/inference programs such as randomise.
+   * - `Melodic <http://www.fmrib.ox.ac.uk/fsl/melodic/index.html>`_
+     - Model-free FMRI analysis using Probabilistic Independent Component Analysis (PICA). MELODIC automatically estimates the number of interesting noise and signal sources in the data and because of the associated "noise model", is able to assign significance ("p-values") to the output spatial maps. MELODIC can also analyse multiple subjects or sessions simultaneously using Tensor-ICA.
+   * - `Possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
+     - Physics-Oriented Simulated Scanner for Understanding MRI. An FMRI data simulator that produces realistic simulated images and FMRI time series given a gradient echo pulse sequence, a segmented object with known tissue parameters, and a motion sequence.
+   * - Renderhighres
+     - Transforms all thresholded stats images in a FEAT directory into high resolution or standard space and overlays these onto the high resolution or standard space images. This then produces PNG format pictures of the overlays and, by default, deletes the 3D AVW colour overlay images.
+   * - `Renderstats <http://www.fmrib.ox.ac.uk/fsl/miscvis/index.html>`_
+     - This tool allows you to combine a background image (raw FMRI or high resolution MRI) image with one or two statistics images. The statistics image(s) must be in registration with the background image.
+   * - `Susan <http://www.fmrib.ox.ac.uk/fsl/susan/index.html>`_
+     - Nonlinear noise reduction.
+   * - `fslview <http://www.fmrib.ox.ac.uk/fsl/fslview/index.html>`_
+     - Interactive display tool for 3D and 4D data.
 
 
 
