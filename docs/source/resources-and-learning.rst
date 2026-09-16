@@ -35,19 +35,19 @@ Topic Key
 Resources
 ---------
 
-* **Institute for Quantitative & Computational Biosciences**
+* `Institute for Quantitative & Computational Biosciences <https://qcb.ucla.edu/collaboratory/workshops/>`_
 
   .. raw:: html
 
      <span class="resource-topic topic-08">HPC</span> <span class="resource-topic topic-09">Unix/Bash</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-11">R</span> <span class="resource-topic topic-12">Matlab</span> <span class="resource-topic topic-13">Other Computing</span> <span class="resource-topic topic-14">Online course</span>
 
-* **IDRE Office Advanced Research Computing Events**
+* IDRE Office Advanced Research Computing Events
 
   .. raw:: html
 
      <span class="resource-topic topic-08">HPC</span> <span class="resource-topic topic-09">Unix/Bash</span> <span class="resource-topic topic-10">Python</span> <span class="resource-topic topic-11">R</span> <span class="resource-topic topic-12">Matlab</span> <span class="resource-topic topic-13">Other Computing</span>
 
-* **Mike X Cohen, Matlab, Python, Signal Processing in Neuroscience**
+* Mike X Cohen, Matlab, Python, Signal Processing in Neuroscience
 
   .. raw:: html
 
