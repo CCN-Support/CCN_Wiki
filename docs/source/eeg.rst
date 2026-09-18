@@ -1,23 +1,58 @@
 EEG
 ===
 
+Safety Certification and Training
+---------------------------------
+
+The first step to booking EEG suite time at the CCN is certification and training. The certification for use of EEG equipment follows a protocol analogous to that for MRI certification (see MRI section 1.1). It can be accessed through the same Bruinlearn link and is available as its own module (EEG certification), which includes study materials and online test, followed by a walkthrough needed for operation of the EGI equipment.
+
+Project Management
+------------------
+
+2.1 Setting up a project.
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Scheduling EEG time can be done using the same platform as is used for the MRI suite (https://www.sistat.ucla.edu/ccnsas/login.asp). You will need to have an active project to access the scanner and book time (see MRI section 2.1-2.3). 
+
+2.2 Costs
+~~~~~~~~~
+
+EEG Data Collection			$100/hr
+
+EEG (with fMRI) Data Collection 	$75/hr
+
+Personnel Policies 
+~~~~~~~~~~~~~~~~~~
+
+The same policies apply to the EEG suite as to the MRI suite. Please be familiar with sections 3.1-3.7 of the MRI guide.
+
+Scheduling Policies
+~~~~~~~~~~~~~~~~~~~
+
+The same policies apply to the EEG suite as to the MRI suite. Please be familiar with sections 4.1-4.2 of the MRI guide.
+
 Facilities & Equipment
 ----------------------
-The EEG Suite contains two fully shielded EEG suites and a prep room. There is a Google Calendar for reserving the Staglin EEG Suite. Request access to this calendar by emailing Agatha (alenarto@ucla.edu). When you are ready to take EEG data, make a reservation on this calendar ahead of time.
+The EEG Suite contains two fully shielded EEG suites and a prep room. There is a `SiStat booking system <https://www.sistat.ucla.edu/ccnsas/login.asp>`_  to reserve the Staglin EEG Suite. Request access to SiStat by emailing CCN support (ccnsupport@g.ucla.edu). When you are ready to collect EEG data, make a reservation on SiStat ahead of time.
 
-**The Left EEG Suite:**
+**5.1 The Left EEG Suite:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - `EGI Net Amps 300 <https://www.egi.com/images/stories/manuals/GES_300/GES_300_tman_8103003-51_20150304_hires.pdf>`_
 - `Polygraph Input Box (PIB) for Net Amps 300 <https://www.egi.com/images/stories/placards/legacy/PIB_instructions_plac_8404162-51_20100427.pdf>`_
 - `MR-safe EGI Net Amps 400 <https://www.egi.com/images/stories/company/documents/net_amps_400_flyer_oct_2015_MM_421.pdf>`_
 - `EGI HydroCel EEG Nets - S/M/L of MR and non-MR compatible versions <https://www.egi.com/research-division/geodesic-sensor-net>`_
 
-**The Right EEG Suite:**
+**5.2 The Right EEG Suite:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Bio-Semi 64 channel EEG system using active electrodes
 
-EEG Testing Setup
------------------
+6.1 EEG Procedures
+--------------
+
+6.1 Default Setup
+~~~~~~~~~~~~~~~~~
 
 The default set up includes:
 
@@ -35,12 +70,9 @@ For the addition of other peripherals, please contact the suite administrators.
 
 **Procedure for routine net tests:** https://www.egi.com/images/stories/manuals/Printed%20IFUs%20with%20New%20Notified%20Body/HC_GSN_RM_sponged_appl_uins_8403481-53_20181210.pdf
 
+6.2 Equipment and Supplies
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EEG Procedures
---------------
-
-Equipment and Supplies
-~~~~~~~~~~~~~~~~~~~~~~
 Most of the supplies needed for EEG testing is located in the EEG net room in the wooden cabinet by the sink. If you open the left cabinet, on the main top shelf, most of the supplies you will need for testing will be located in the plastic bin labeled with EEG supplies. You will find the following in that bin:
 
 - scissors
@@ -56,7 +88,7 @@ In the EEG Suite's left testing room, you will find remaining supplies in the ca
 - disinfectant
 - pipettes
 - medical tape
-- EEG salt
+- EEG solution salt
 
 If you see that something has run out, check the following places to see if extras are stored:
 
@@ -78,8 +110,8 @@ We have had success ordering supplies from the following places. The ones ordere
 - Self-Adhesive Bandage (Item 2082, 2-inch x 5 yards, latex-free) - `Vitality Medical Self-Adhesive Wrap <https://www.vitalitymedical.com/caring-latex-self-adherent-cohesive-wrap-non-sterile.html>`_
 
 
-EEG Net Prep and Application
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6.3 EEG Net Prep and Application
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All the supplies you will need can be found in/on the wooden cabinet in the prep room. Inside the cabinet, there is a box marked "EEG Prep Supply" which contains smaller items such as the measuring tape, the red pencil, and scissors.
 
@@ -129,8 +161,8 @@ Plug the net into the amp by first positioning the plug in the amp and then turn
 You will want to bring the bucket of electrolyte solution with you into the testing suite as you will need it to lower impedance. However, place it under a chair or in a corner where it is far from the equipment on the floor and will not be tripped on and spilled!
 It is also suggested that you leave the towel over your subject's shoulders for the entire task to catch any drips that may occur later on.
 
-Impedance Check
-~~~~~~~~~~~~~~~
+6.4 Impedance Check
+~~~~~~~~~~~~~~~~~~~
 
 **Mirror EGI Display**
 
@@ -160,7 +192,7 @@ To lower impedance, we're going to add more electrolyte solution to the electrod
 
 1. Noting the numbers of the red electrodes in the Impedance panel, locate these electrodes on your subject's net.
 
-2. With a pipette full of electrolyte solution in hand, one by one, lift (and slighlty twist) an electrode to pipette a few drops of solution into the sponge of the electrode. Wiggle the electrode back into place through the hair for better contact with the scalp. We are really aiming for the sponge of the electrode to be in contact with the skin of the scalp rather than sitting on the hair. Apart from creating a better channel between the electrode and scalp via solution, this direct contact with the skin is key to gaining better connection.
+2. With a pipette full of electrolyte solution in hand, one by one, lift (and slightly twist) an electrode to pipette a few drops of solution into the sponge of the electrode. Wiggle the electrode back into place through the hair for better contact with the scalp. We are really aiming for the sponge of the electrode to be in contact with the skin of the scalp rather than sitting on the hair. Apart from creating a better channel between the electrode and scalp via solution, this direct contact with the skin is key to gaining better connection.
 
 3. Repeat this process until you are satisfied with the number of green electrodes. This process may take 5-10 minutes. Be mindful that as time passes, solution is absorbed into the hair, electrode sponges dry, and impedance will naturally increase. SO, do not waste a large amount of time at this stage. You want to move to your task as quickly as possible. We have one more trick to help lower impedance if the pipetting isn't doing the job.
 
@@ -170,8 +202,8 @@ To lower impedance, we're going to add more electrolyte solution to the electrod
 
 EGI User instructions can be found here: https://www.egi.com/images/stories/manuals/Second%20Batch%20of%20IFUs%20with%20new%20Notified%20Body%20Jan%202019/HC_GSN_MR_uins_8402110-01_20181221.pdf
 
-Data Storage
-~~~~~~~~~~~~
+6.4 Data Storage
+~~~~~~~~~~~~~~~~
 
 **Creating your Directory**
 
@@ -189,15 +221,15 @@ Before you start collecting data in Net Station, you'll want to save it to a loc
 3. Name your file and save it to the desired folder.
 4. Repeat steps 1-3 before every separate recording (block, trial,etc.) .
 
-With any additional questions concerning your data storage, contact Edward at eplau @ ucla.edu.
+With any additional questions concerning your data storage, contact CCN Support at ccnsupport@g.ucla.edu.
 
 Exporting Data
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 After data collection, many decide to export their data onto the Hoffman2 server; however, NetStation files are cumbersome to work with because of their size and format. Therefore, here are some data export instructions to convert and export files in your desired format:
 
-**Feedback Form**
-~~~~~~~~~~~~~~~~~
+**6.5 Feedback Form**
+~~~~~~~~~~~~~~~~~~~~~
 
 For quality control, we devised a feedback form that we ask researchers to fill out each time they collect data in the Staglin EEG Suite. Access to the form is located on the desktop of the Netstation computer, labeled steps 1 and 2:
 
@@ -206,40 +238,42 @@ For quality control, we devised a feedback form that we ask researchers to fill 
 
 The identification names of each net can be found on the plug.
 
-Clean Up
-~~~~~~~~
+**6.6 Clean Up**
+~~~~~~~~~~~~~~~~
 
 After removing the net and unplugging it from the amp, wrap a dry towel around the plug. Remember, this plug must stay DRY, especially during the following process which involves a lot of water!
 
 1. Rinse the Electrolyte Solution Out of the Net
-  1. In the prep room, dump the bucket full of electrolyte solution, rinse it with water once or twice, and fill it with warm water in the sink.
-  2. Place the towel-wrapped plug on a chair near the sink and submerge the electrode net (turned inside out, sponges out) into the bucket of water.
-  3. Rinse out the net by gently lifting it up and down and waving it back and forth in the water, allowing water to flow through the sponges.
-  4. Lift the net fully out of the bucket and dump the rinsing water.
-  5. Fill the bucket with warm water once again and repeat the rinsing process until you have rinsed the net a total of four times.
-  6. Once you see no more suds in the water and the net has been rinsed thoroughly , gently pat the excess water out of the net with a towel.
+  a. In the prep room, dump the bucket full of electrolyte solution, rinse it with water once or twice, and fill it with warm water in the sink.
+  b. Place the towel-wrapped plug on a chair near the sink and submerge the electrode net (turned inside out, sponges out) into the bucket of water.
+  c. Rinse out the net by gently lifting it up and down and waving it back and forth in the water, allowing water to flow through the sponges.
+  d. Lift the net fully out of the bucket and dump the rinsing water.
+  e. Fill the bucket with warm water once again and repeat the rinsing process until you have rinsed the net a total of four times.
+  f. Once you see no more suds in the water and the net has been rinsed thoroughly , gently pat the excess water out of the net with a towel.
 
 2. Disinfect the Net
-  1. Leaving the towel-wrapped plug on the chair, place the plastic bucket of premade disinfectant on the floor right in front of the chair. The disinfectant can be found on the floor of the prep room. It is the plastic bucket with the yellow top.
-  2. Submerge the electrode sensors in the disinfectant.
-  3. Gently plunge the net up and down allowing the disinfectant to move through the sponges for 1-2 minutes.
-  4. Leave the net to soak for 10 minutes. Set a timer! Soaking the net for a longer time may damage the net!
-  5. Mark a tally on the lid of the disinfectant. The suite administrator will monitor when it is time for new disinfectant to be made and prepare new disinfectant accordingly.
+  a. Leaving the towel-wrapped plug on the chair, place the plastic bucket of premade disinfectant on the floor right in front of the chair. The disinfectant can be found on the floor of the prep room. It is the plastic bucket with the yellow top.
+  b. Submerge the electrode sensors in the disinfectant.
+  c. Gently plunge the net up and down allowing the disinfectant to move through the sponges for 1-2 minutes.
+  d. Leave the net to soak for 10 minutes. Set a timer! Soaking the net for a longer time may damage the net!
+  e. Mark a tally on the lid of the disinfectant. The suite administrator will monitor when it is time for new disinfectant to be made and prepare new disinfectant accordingly.
 
-If you haven't already, now would be a great time to fill out the **Step 4: Feedback Form** by following the directions on the display of the desktop! It'l will only take a few minutes while you are waiting for the net to soak!
+If you haven't already, now would be a great time to fill out the **Step d: Feedback Form** by following the directions on the display of the desktop! It'l will only take a few minutes while you are waiting for the net to soak!
 
 3. Rinse the Disinfectant Out of the Net
   1. Follow steps 2-6 from Rinse the Electrolyte Solution Out of the Net above.
   2. Hang the net by its connector to dry and place the empty rinsing bucket underneath to catch any drips.
 
+4.	Switch off the EGI Amp and lights, make the suite look tidy, and close the door when you leave the EEG suite.
 
 References:
 
 **EGI Rinsing and Disinfecting Instructions**
 The EGI instructions can be found in the black binder in the cabinet in the prep room.
 
-EKG
----
+6.7 EKG
+-------
+
 A good tutorial (visual) for EKG application (we typically work with v2 and v4 in the eeg-fmri set up): https://www.adinstruments.com/blog/correctly-place-electrodes-12-lead-ecg
 
 But here's a quick step-by-step:
