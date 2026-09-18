@@ -1,7 +1,7 @@
 Resources and Learning
 ======================
 
-CCN has compiled a list of useful resources for learning about data analysis, coding, and research science. These resources are provided below in both Table and filterable Direcotry formats, to allow the user to easily discern which items cover which topics.
+CCN has compiled a list of useful resources for learning about data analysis, coding, and research science. These resources are provided below in both Table and filterable Directory formats, to allow the user to easily discern which items cover which topics.
 
 
 Resource List - Table
@@ -18,7 +18,7 @@ Resource List - Table
    <iframe
       src="_static/resources_matrix_preview_with_links.html"
       title="Complete 17-topic resource matrix"
-      style="width: 100%; height: 720px; border: 1px solid #d9dee7; border-radius: 8px;"
+      style="width: 100%; height: 750px; border: 1px solid #d9dee7; border-radius: 8px;"
       loading="lazy">
    </iframe>
 
