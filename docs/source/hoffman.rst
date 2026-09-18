@@ -443,10 +443,47 @@ A `Beginners' Guide to man Pages <http://www.tfug.org/helpdesk/general/man.html>
 
 1.5 Quotas
 ~~~~~~~~~~
+
+Users and groups of users on Hoffman2 only have access to a predefined amount of disk space and number of files. Keep yourself apprised of how much data you are using with these tools.
+
+**Personal Quotas**
+
+.. code-block::
+
+  $ myquota
+
+Returns information about how much disk space you are using and how many files you have.
+
+.. code-block::
+
+  $ myquota -u [USERNAME]
+
+Returns information about how much disk space another user is using.
+
+**Group Quotas**
+
+.. code-block::
+
+  $ myquota -g [GROUPNAME]
+
+Returns information about how much space you and everyone in your group are using on Hoffman2.
+
+
 1.6 Modules
 ~~~~~~~~~~~
+
 1.7 Changing Passwords
 ~~~~~~~~~~~~~~~~~~~~~~
+
+Use the passwd command to change password. It will prompt you for your old password, and then the new password.
+
+.. code-block::
+
+  $ passwd
+  Changing password for user joebruin.
+  Please enter your current password:
+  Please enter your new password:
+
 1.8 Password-less ssh Login
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
