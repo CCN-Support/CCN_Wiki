@@ -48,7 +48,7 @@ The EEG Suite contains two fully shielded EEG suites and a prep room. There is a
 
 - Bio-Semi 64 channel EEG system using active electrodes
 
-6.1 EEG Procedures
+EEG Procedures
 --------------
 
 6.1 Default Setup
