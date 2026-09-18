@@ -1743,11 +1743,12 @@ FSL is a comprehensive library of analysis tools for FMRI, MRI and DTI brain ima
 Multiple versions are maintained on the Hoffman2 cluster to allow researchers to be consistent in using the same version for data analysis within a single study. You can either:
 
 - do nothing, and always use the "current" version of FSL on the cluster
-- actively choose which version of FSL you would like to run
+- `actively choose <https://ccn-wiki.readthedocs.io/en/latest/hoffman.html#fsl>`_ which version of FSL you would like to run
 
 We recommend the latter for data integrity and reproducibility.
 
-**FSL GUI**
+3.4.1 FSL GUI
+^^^^^^^^^^^^^
 
 Make sure you source the FMRI Path in your Profile before doing anything, or else you won't be able to access FSL.
 
@@ -1763,11 +1764,12 @@ If you received this message while opening FSL
 
    DISPLAY is not set. Please set your DISPLAY environment variable!
 
-It means you did not open X11 along with your ssh connection. See here for more information. [insert link]
+It means you did not open X11 along with your ssh connection. See `Accessing the Cluster <https://ccn-wiki.readthedocs.io/en/latest/hoffman.html#accessing-the-cluster>`_ for more information.
 
-**FSL Tools**
+3.4.2 FSL Tools
+^^^^^^^^^^^^^^^
 
-A complete list of tools can be found `here <http://www.fmrib.ox.ac.uk/fsl/fsl/list.html>`_
+A complete list of tools can be found `here <http://www.fmrib.ox.ac.uk/fsl/fsl/list.html>`_.
 
 Functional MRI (command line only)
 
@@ -1829,7 +1831,8 @@ GUI Commands/Tools [Make sure to have X11 forwarding on]
    * - `fslview <http://www.fmrib.ox.ac.uk/fsl/fslview/index.html>`_
      - Interactive display tool for 3D and 4D data.
 
-**Cluster**
+3.4.3 Cluster
+^^^^^^^^^^^^^
 
 Scripts that self-submit:
 
@@ -1848,7 +1851,8 @@ GUIs that self-submit:
 - `flirt <http://www.fmrib.ox.ac.uk/fsl/flirt/index.html>`_
 - `Possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
 
-**NO_FSL_JOBS**
+3.4.4 NO_FSL_JOBS
+^^^^^^^^^^^^^^^^^
 
 Sometimes FSL doesn't know how to allocate enough resources for its jobs properly. Specifically we have found the FEAT tool often unable to do this for group analyses or other complex tasks. So we did some tinkering with FSL to allow you to override its job submission on Hoffman2 and run it like it was just on your laptop. **The trick is to set ``NO_FSL_JOBS=true`` in your environment and FSL will not submit jobs.**
 
@@ -1889,7 +1893,8 @@ Submit the shell script as a job but with the adequate time and memory allocatio
 
 And the FSL commands will be sent into the queue to run with your time and memory constraints rather than FSL's. This may take some playing with to get the time and memory allocations correct, but at least you have the ability to tweak them.
 
-**FSL GPU**
+3.4.5 FSL GPU
+^^^^^^^^^^^^^
 
 Some FSL tools, like eddy and bedpostx, can utilize Hofmman's GPU architecture to speed up their processing times. Below is an example of how to request a CUDA 9.1-enabled GPU node.
 
@@ -1904,9 +1909,10 @@ Some FSL tools, like eddy and bedpostx, can utilize Hofmman's GPU architecture t
 
   # now run eddy_cuda9.1 or bedpostx_gpu
 
-**Known Issue in Hoffman**
+3.4.6 Known Issue in Hoffman
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When using noMachine with newer version (6.0.7.x) of FSL, user might get errors as the following
+When using NoMachine with newer version (6.0.7.x) of FSL, user might get errors such as the following:
 
 .. code-block:: python
 
