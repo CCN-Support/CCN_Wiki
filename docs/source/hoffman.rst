@@ -465,8 +465,8 @@ Below is a list of the available software tools. We will do our best to update i
 
   - Do not load matlab and freesurfer or matlab and RStudio as it will cause errors.
 
-AFNI
-~~~~
+2.1.1 AFNI
+^^^^^^^^^^
 
 `Official Website <http://afni.nimh.nih.gov/afni/>`_
 
@@ -492,7 +492,8 @@ AFNI
      - 2012.03.19
      - 
 
-**ANTS**
+2.1.2 ANTS
+^^^^^^^^^^
 
 `Official Website <http://stnava.github.io/ANTs/>`_
 
@@ -512,7 +513,8 @@ AFNI
      - 2015.01.23
      - Default
 
-**ASHS**
+2.1.3 ASHS
+^^^^^^^^^^
 
 `Official Website <https://www.nitrc.org/projects/ashs%7C>`_
 
@@ -532,7 +534,8 @@ AFNI
      - 2016.02.24
      - Default
 
-**Brainsuite**
+2.1.4 Brainsuite
+^^^^^^^^^^^^^^^^
 
 `Official Website <http://brainsuite.org/>`_
 
@@ -552,7 +555,8 @@ AFNI
      - 2016.02.24
      - Default
 
-**BrainAgeR**
+2.1.5 BrainAgeR
+^^^^^^^^^^^^^^^
 
 `Official Website <https://github.com/james-cole/brainageR>`_
 
@@ -575,7 +579,8 @@ AFNI
      - 
      - No longer supported
 
-**brms**
+2.1.6 brms
+^^^^^^^^^^
 
 R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
 
@@ -589,7 +594,8 @@ R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
      - 2022.06.10
      - Default
 
-**Caret**
+2.1.7 Caret
+^^^^^^^^^^^
 
 `Official Website <http://brainvis.wustl.edu/wiki/index.php/Caret:About>`_
 
@@ -603,7 +609,8 @@ R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
      - 2013.07.15
      - Default, not folded into the main profile
 
-**ccn_py37**
+2.1.8 ccn_py37
+^^^^^^^^^^^^^^
 
 Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, scipy
 
@@ -617,7 +624,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.05.24
      - CentOS 7 with Conda
 
-**Chronux**
+2.1.9 Chronux
+^^^^^^^^^^^^^^
 
 .. list-table::
    :header-rows: 1
@@ -629,7 +637,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2013.02.26
      - Current
 
-**CONN**
+2.1.10 CONN
+^^^^^^^^^^^
 
 `Official Website <https://web.conn-toolbox.org/>`_
 
@@ -649,7 +658,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 
      - Default
 
-**dcm2nii**
+2.1.11 dcm2nii
+^^^^^^^^^^^^^^
 
 `Official Website <http://www.mccauslandcenter.sc.edu/mricro/mricron/dcm2nii.html>`_
 
@@ -666,7 +676,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - circa 2011
      - Current
 
-**dmctk**
+2.1.12 dmctk
+^^^^^^^^^^^^
 
 `Official Website <https://dicom.offis.de/dcmtk.php.en>`_
 
@@ -683,7 +694,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.02.16
      - 
 
-**DTIprep**
+2.1.13 DTIprep
+^^^^^^^^^^^^^^
 
 `Official Website <https://www.nitrc.org/projects/dtiprep/>`_
 
@@ -700,7 +712,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2018.03.20
      - Current
 
-**DSI Studio**
+2.1.14 DSI Studio
+^^^^^^^^^^^^^^^^^
 
 `Official Website <https://dsi-studio.labsolver.org/>`_
 
@@ -716,7 +729,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2023.07.06
      - Current
 
-**dmriprep**
+2.1.15 dmriprep
+^^^^^^^^^^^^^^^
 
 `Official Website: <https://github.com/nipreps/dmriprep>`_
 
@@ -730,7 +744,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2020.12.10
      - Current
 
-**EEGLAB**
+2.1.16 EEGLAB
+^^^^^^^^^^^^^
 
 `Official Website <http://sccn.ucsd.edu/eeglab/>`_
 
@@ -761,7 +776,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2012.02.21
      - 
 
-**ENIGMA**
+2.1.17 ENIGMA
+^^^^^^^^^^^^^
 
 `Official Website <https://www.nitrc.org/projects/dtiprep/>`_
 
@@ -775,7 +791,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.04.22
      - Current
 
-**ENIGMA HALFpipe**
+2.1.18 ENIGMA HALFpipe
+^^^^^^^^^^^^^^^^^^^^^^
 
 `Official Website <https://github.com/HALFpipe/HALFpipe>`_
 
@@ -789,7 +806,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.08.27
      - Current
 
-**FastSurfer**
+2.1.19 FastSurfer
+^^^^^^^^^^^^^^^^^
 
 `Official Website <https://github.com/Deep-MI/FastSurfer/>`_
 
@@ -803,7 +821,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.03.01
      - Current
 
-**FIT**
+2.1.20 FIT
+^^^^^^^^^^
 
 `Official Website <https://trendscenter.org/software/fit/>`_
 
@@ -820,7 +839,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.01.13
      - 
 
-**FIX**
+2.1.21 FIX
+^^^^^^^^^^
 
 `Official Website <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FIX/UserGuide>`_
 
@@ -834,7 +854,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2021.12.01
      - 
 
-**FMRIprep**
+2.1.22 FMRIprep
+^^^^^^^^^^^^^^^
 
 `Official Website <https://fmriprep.readthedocs.io/en/stable/usage.html>`_
 
@@ -872,7 +893,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2019.01.11
      - * known Issue
 
-**Free Surfer**
+2.1.23 FreeSurfer
+^^^^^^^^^^^^^^^^^
 
 `Official Website <http://surfer.nmr.mgh.harvard.edu/>`_
 
@@ -894,7 +916,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
      - 2017.01.18
      - CentOS 6 only
 
-**FSL**
+2.1.24 FSL
+^^^^^^^^^^
 
 `Official Website <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/>`_
 
@@ -945,7 +968,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
 
 Known issue: 5.0.10 fsleyes crash on x2go
 
-**FSL_MRS**
+2.1.25 FSL_MRS
+^^^^^^^^^^^^^^
 
 `Official Website <https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/index.html#>`_
 
@@ -961,7 +985,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2023.08.22
      - new
 
-**ggseg**
+2.1.26 ggseg
+^^^^^^^^^^^^
 
 `Official Website <https://github.com/ggseg/ggseg>`_
 
@@ -977,7 +1002,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
 
 *Note: ggsegExtra and ggseg3d are also available under these libraries
 
-**gift**
+2.1.27 gift
+^^^^^^^^^^^
 
 `Official Website <https://trendscenter.org/software/gift/>`_
 
@@ -994,7 +1020,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.01.04
      - 
 
-**gradunwarp**
+2.1.28 gradunwarp
+^^^^^^^^^^^^^^^^^
 
 `Official Website <https://github.com/Washington-University/gradunwarp>`_
 
@@ -1008,7 +1035,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2019.06.04
      -  
 
-**HCP Benchwork**
+2.1.29 HCP Benchwork
+^^^^^^^^^^^^^^^^^^^^
 
 `Official Website <https://www.humanconnectome.org/software/connectome-workbench>`_
 
@@ -1036,7 +1064,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 
      - 
 
-**ICA-AROMA**
+2.1.30 ICA-AROMA
+^^^^^^^^^^^^^^^^
 
 - Note: Python 2.7 available for v0.4.5, module name: ica-aroma_py27
 
@@ -1053,7 +1082,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 
      - Default
 
-**ITK Gray**
+2.1.31 ITK Gray
+^^^^^^^^^^^^^^^
 
 `Official Website <http://vistalab.stanford.edu/newlm/index.php/ItkGray>`_
 
@@ -1070,7 +1100,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2009.11.13
      - 
 
-**ITKSnap**
+2.1.32 ITKSnap
+^^^^^^^^^^^^^^
 
 `Official Website <http://www.itksnap.org/pmwiki/pmwiki.php>`_
 
@@ -1090,7 +1121,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.03.02
      - Default
 
-**kwave**
+2.1.33 kwave
+^^^^^^^^^^^^
 
 `Official Website <http://www.k-wave.org/doxygen/index.html>`_
 
@@ -1104,7 +1136,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2020.07.20
      - Current
 
-**MANGO**
+2.1.34 MANGO
+^^^^^^^^^^^^
 
 .. list-table::
    :header-rows: 1
@@ -1116,7 +1149,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 
      - Current
 
-**MRIQC**
+2.1.35 MRIQC
+^^^^^^^^^^^^
 
 `Official Website <https://mriqc.readthedocs.io/en/latest/>`_
 
@@ -1130,7 +1164,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.03.08
      - Current
 
-**NDATools**
+2.1.36 NDATools
+^^^^^^^^^^^^^^^
 
 `Official Website <https://github.com/NDAR/nda-tools>`_
 
@@ -1144,7 +1179,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.03.04
      - Current
 
-**OpenSmile**
+2.1.37 OpenSmile
+^^^^^^^^^^^^^^^^
 
 `Official Website <https://www.audeering.com/opensmile/>`_
 
@@ -1158,7 +1194,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.03.23
      - Current
 
-**Osprey**
+2.1.38 Osprey
+^^^^^^^^^^^^^
 
 .. list-table::
    :header-rows: 1
@@ -1170,7 +1207,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2025.03.13
      - Current
 
-**Profumo**
+2.1.39 Profumo
+^^^^^^^^^^^^^^
 
 `Official Website <https://git.fmrib.ox.ac.uk/samh/profumo>`_
 
@@ -1184,7 +1222,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2021.06.22
      - Current
 
-**RATS**
+2.1.40 RATS
+^^^^^^^^^^^
 
 `Official Website <https://www.iibi.uiowa.edu/rats-rodent-brain-mri/>`_
 
@@ -1198,7 +1237,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2019.06.04
      - Current
 
-**Simnibs**
+2.1.41 Simnibs
+^^^^^^^^^^^^^^
 
 `Official Website <https://simnibs.github.io/simnibs/build/html/installation/simnibs_installer.html/>`_
 
@@ -1212,7 +1252,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2019.06.04
      - Current
 
-**RStan**
+2.1.42 RStan
+^^^^^^^^^^^^
 
 `Official Website <https://mc-stan.org/>`_
 
@@ -1226,7 +1267,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2022.04.11
      - Current
 
-**SPM**
+2.1.43 SPM
+^^^^^^^^^^
 
 `Official Website <http://www.fil.ion.ucl.ac.uk/spm/>`_
 
@@ -1254,7 +1296,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - N/A
      - No longer supported
 
-**TrackVis/Diffusion Toolkit**
+2.1.44 TrackVis/Diffusion Toolkit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `Official Website 1 <http://trackvis.org/>`_
 `Official Website 2 <http://trackvis.org/dtk/>`_
@@ -1275,7 +1318,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 204.03.06
      - 
 
-**WEKA**
+2.1.45 WEKA
+^^^^^^^^^^^
 
 `Official Website <http://www.cs.waikato.ac.nz/ml/weka/>`_
 
@@ -1299,7 +1343,7 @@ Known issue: 5.0.10 fsleyes crash on x2go
 ~~~~~~~~~~~~~~~~~
 
 **2.2.1 Hoffman 2: Interactive Sessions**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Interactive sessions on Hoffman2 let you have access to a computing node for up to 24 hours. This is ideal for:
 
@@ -1405,7 +1449,7 @@ To prevent this from happening: For Macs - in your /etc/ssh/ssh_config -add this
 This will tell your ssh to ping the server every 180 seconds to prevent it from timing out.
 
 **2.2.2 Hoffman2: Batch Mode**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here we show how you can submit your job with batch mode.
 
@@ -1682,6 +1726,8 @@ At the end, call your script to process the subject
 
 Software
 --------
+
+
 3.1 MATLAB
 ~~~~~~~~~~
 3.2 R
@@ -1690,6 +1736,201 @@ Software
 ~~~~~~~~
 3.4 FSL
 ~~~~~~~
+
+FSL is a comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data. FSL is written mainly by members of the Analysis Group, FMRIB, Oxford, UK.
+
+
+Multiple versions are maintained on the Hoffman2 cluster to allow researchers to be consistent in using the same version for data analysis within a single study. You can either:
+
+- do nothing, and always use the "current" version of FSL on the cluster
+- actively choose which version of FSL you would like to run
+
+We recommend the latter for data integrity and reproducibility.
+
+**FSL GUI**
+
+Make sure you source the FMRI Path in your Profile before doing anything, or else you won't be able to access FSL.
+
+To run FSL using a GUI on hoffman2, use the following command:
+
+.. code-block:: python
+
+  $ fsl &
+
+If you received this message while opening FSL
+
+.. code-block:: python
+
+   DISPLAY is not set. Please set your DISPLAY environment variable!
+
+It means you did not open X11 along with your ssh connection. See here for more information. [insert link]
+
+**FSL Tools**
+
+A complete list of tools can be found `here <http://www.fmrib.ox.ac.uk/fsl/fsl/list.html>`_
+
+Functional MRI (command line only)
+
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Explanation
+   * - `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+     - Model-based FMRI analysis: data preprocessing (including MCFLIRT motion correction); first-level FILM GLM timeseries analysis; higher-level FLAME Bayesian mixed effects analysis.
+   * - `melodic <http://www.fmrib.ox.ac.uk/fsl/melodic/index.html>`_
+     - Model-free FMRI analysis using Probabilistic Independent Component Analysis (PICA). MELODIC automatically estimates the number of interesting noise and signal sources in the data and because of the associated "noise model", is able to assign significance ("p-values") to the output spatial maps. MELODIC can also analyse multiple subjects or sessions simultaneously using Tensor-ICA.
+   * - `fabber <http://www.fmrib.ox.ac.uk/fsl/fabber/index.html>`_
+     - Fast ASL & BOLD Bayesian Estimation Routine. Efficient nonlinear modelling and estimation of BOLD and CBF from dual-echo ASL data, using Variational Bayes.
+
+Structural MRI (command line only)
+
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Explanation
+   * - `bet <http://www.fmrib.ox.ac.uk/fsl/bet2/index.html>`_
+     - Brain Extraction Tool - segments brain from non-brain in structural and functional data, and models skull and scalp surfaces.
+   * - `fast <http://www.fmrib.ox.ac.uk/fsl/fast4/index.html>`_
+     - FMRIB's Automated Segmentation Tool - brain segmentation (into different tissue types) and bias field correction.
+   * - `first <http://www.fmrib.ox.ac.uk/fsl/first/index.html>`_
+     - first	FMRIB's Integrated Registration and Segmentation Tool. FIRST uses mesh models trained with a large amount of rich hand-segmented training data to segment subcortical brain structures.
+
+GUI Commands/Tools [Make sure to have X11 forwarding on]
+
+.. list-table::
+   :header-rows: 1
+
+   * - Tool
+     - Explanation
+   * - fsl
+     - Bring you to the FSL menu where you can choose what type of analysis.
+   * - `fdt <http://www.fmrib.ox.ac.uk/fsl/fdt/index.html>`_
+     - FMRIB's Diffusion Toolbox - tools for low-level diffusion parameter reconstruction and probabilistic tractography, including crossing-fibre modelling.
+   * - `flirt <http://www.fmrib.ox.ac.uk/fsl/flirt/index.html>`_
+     - FMRIB's Linear Image Registration Tool - linear inter- and intra-modal registration.
+   * - `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+     - Model-based FMRI analysis: data preprocessing (including MCFLIRT motion correction); first-level FILM GLM timeseries analysis; higher-level FLAME Bayesian mixed effects analysis.
+   * - `featquery <http://www.fmrib.ox.ac.uk/fsl/feat5/featquery.html>`_
+     - A program which allows you to interrogate FEAT results by defining a mask or set of co-ordinates (in standard-space, highres-space or loweres-space) and get mean stats values and time-series.
+   * - Glm
+     - A GUI for setting up just the design matrix and contrasts, in the same way as in FEAT, for use with other modelling/inference programs such as randomise.
+   * - `Melodic <http://www.fmrib.ox.ac.uk/fsl/melodic/index.html>`_
+     - Model-free FMRI analysis using Probabilistic Independent Component Analysis (PICA). MELODIC automatically estimates the number of interesting noise and signal sources in the data and because of the associated "noise model", is able to assign significance ("p-values") to the output spatial maps. MELODIC can also analyse multiple subjects or sessions simultaneously using Tensor-ICA.
+   * - `Possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
+     - Physics-Oriented Simulated Scanner for Understanding MRI. An FMRI data simulator that produces realistic simulated images and FMRI time series given a gradient echo pulse sequence, a segmented object with known tissue parameters, and a motion sequence.
+   * - Renderhighres
+     - Transforms all thresholded stats images in a FEAT directory into high resolution or standard space and overlays these onto the high resolution or standard space images. This then produces PNG format pictures of the overlays and, by default, deletes the 3D AVW colour overlay images.
+   * - `Renderstats <http://www.fmrib.ox.ac.uk/fsl/miscvis/index.html>`_
+     - This tool allows you to combine a background image (raw FMRI or high resolution MRI) image with one or two statistics images. The statistics image(s) must be in registration with the background image.
+   * - `Susan <http://www.fmrib.ox.ac.uk/fsl/susan/index.html>`_
+     - Nonlinear noise reduction.
+   * - `fslview <http://www.fmrib.ox.ac.uk/fsl/fslview/index.html>`_
+     - Interactive display tool for 3D and 4D data.
+
+**Cluster**
+
+Scripts that self-submit:
+
+- `fdt <http://www.fmrib.ox.ac.uk/fsl/fdt/index.html>`_
+- `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+- `first <http://www.fmrib.ox.ac.uk/fsl/first/index.html>`_
+- `fslval <http://www.fmrib.ox.ac.uk/fsl/fslvbm/index.html>`_
+- `possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
+- `randomise <http://www.fmrib.ox.ac.uk/fsl/randomise/index.html>`_
+- `tbss <http://www.fmrib.ox.ac.uk/fsl/tbss/index.html>`_
+
+GUIs that self-submit:
+
+- `Fdt <http://www.fmrib.ox.ac.uk/fsl/fdt/index.html>`_
+- `feat <http://www.fmrib.ox.ac.uk/fsl/feat5/index.html>`_
+- `flirt <http://www.fmrib.ox.ac.uk/fsl/flirt/index.html>`_
+- `Possum <http://www.fmrib.ox.ac.uk/fsl/possum/index.html>`_
+
+**NO_FSL_JOBS**
+
+Sometimes FSL doesn't know how to allocate enough resources for its jobs properly. Specifically we have found the FEAT tool often unable to do this for group analyses or other complex tasks. So we did some tinkering with FSL to allow you to override its job submission on Hoffman2 and run it like it was just on your laptop. **The trick is to set ``NO_FSL_JOBS=true`` in your environment and FSL will not submit jobs.**
+
+**Interactive Session**
+
+If you want to watch FEAT run (kinda like paint drying, but to each their own), you can do the following
+
+1. SSH into the cluster
+2. Check out an interactive node with the necessary time and memory ``qrsh -l h_rt=3:00:00,h_data=4G``
+3. Set the environment variable ``export NO_FSL_JOBS=true``
+4. Run your FSL commands. This means not using qsub, or command files, but simply executing the FSL command
+The commands will just run and not submit any jobs.
+
+**Submitting a Job**
+
+If you don't want to watch FEAT run (why would you?), you can do the following
+
+Create a shell script (e.g. myshellscript.sh) with the following contents
+
+.. code-block:: python
+
+  #!/bin/bash
+  export NO_FSL_JOBS=true
+  feat design.fsf
+  # any other FSL commands you want
+
+And make sure to run ``chmod 750`` to make the script executable
+
+.. code-block:: python
+
+  chmod 750 myshellscript.sh
+
+Submit the shell script as a job but with the adequate time and memory allocations
+
+.. code-block:: python
+
+  qsub -l h_rt=23:00:00,h_data=4G -V -m bea -cwd /path/to/myshellscript.sh
+
+And the FSL commands will be sent into the queue to run with your time and memory constraints rather than FSL's. This may take some playing with to get the time and memory allocations correct, but at least you have the ability to tweak them.
+
+**FSL GPU**
+
+Some FSL tools, like eddy and bedpostx, can utilize Hofmman's GPU architecture to speed up their processing times. Below is an example of how to request a CUDA 9.1-enabled GPU node.
+
+.. code-block:: python
+
+  # request Tesla P4 GPU node
+  qrsh -l gpu,P4,h_rt=5:00:00
+
+  module load cuda/9.1
+  module load fsl/6.0.4
+  export NO_FSL_JOBS=true
+
+  # now run eddy_cuda9.1 or bedpostx_gpu
+
+**Known Issue in Hoffman**
+
+When using noMachine with newer version (6.0.7.x) of FSL, user might get errors as the following
+
+.. code-block:: python
+
+  "Unable to contact" settings server : Failed to connect to socket /tmp/dbus-xxxxx: Connection refused
+
+This is because these versions of FSL overwrite the path to the dbus and noMachine cannot find the dbus in Hoffman.
+
+Normally dbus-launch should be under /usr/bin. If it's not, then it won't work. By checking the dbu-launch path, it can be decided if it's the same issue or not.
+
+.. code-block:: python
+
+  which dbus-launch
+  /usr/bin/dbus-launch
+
+Solution:
+
+.. code-block:: python
+
+  1. check your ~/.bashrc or ~/.bash_profile, if there's any "module load FSL", comment them out.
+
+  2. Start noMachine
+
+  3. In noMachine terminal, input "module load fsl/versionxxx". Then it should avoid the same error this time.
+
 3.5 Python
 ~~~~~~~~~~
 3.6 Jupyter Notebook
@@ -1701,6 +1942,108 @@ Software
 3.9 X2Go
 ~~~~~~~~
 
+X2Go provides a desktop GUI for users connecting to a Linux server
+
+**Download X2Go client at:** https://wiki.x2go.org/doku.php/doc:installation:x2goclient
+
+**OS X**
+
+- For Mac OS X users, X2Go might get blocked since it's a third-party application. Go to "Security & Privacy" in your Mac to allow open X2Go client.
+- Also, XQuartz is required by X2Go. Additional information can be found `here <https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html#opening-gui-applications>`_ under the "MAC" tag.
+- Note: From XQuartz 2.7.9, indirect GLX is disabled by default, so you'll need to run this command followed by a reboot:
+
+.. code-block:: python
+
+  defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
+
+To enable a true full-screen view in x2go,
+
+- Open XQuartz > Preferences > and enable Full-screen mode.
+
+To make ⌘+V work normally, issue the following command in terminal:
+
+.. code-block:: python
+
+  echo "*VT100.translations: #override Meta <KeyPress> V: insert-selection(PRIMARY, CUT_BUFFER0) \n" > ~/.Xdefaults
+
+**Connect**
+
+To setup new sessions for hoffman2, open X2Go client and input either of the following into the "Host" form.
+
+- x2go1.hoffman2.idre.ucla.edu
+- x2go2.hoffman2.idre.ucla.edu
+
+.. image:: images/X2go.png
+
+Users can set up multiple sessions connection to different servers with X2Go client.
+
+To Add new sessions, click this  icon on the top bar. Then a window pops up as "Session Management".
+
+.. image:: images/X2go_new_session.png
+
+After login, the desktop Window of your Hoffman2 environment will look like this:
+
+.. image:: images/X2go_desk_top.png
+
+Read more on `IDRE website <https://www.hoffman2.idre.ucla.edu/x2go/>`_
+
+**Desktop Environment Compatibility**
+
+The following desktop environments (session type) seem to be compatible with Hoffman:
+
+- KDE
+- MATE
+- XFCE
+
+If you run into issues using KDE, switch to MATE or XFCE since they are considered lightweight GUIs (use less memory and CPU).
+
+**CentOS7 UPDATE:** GNOME and UNITY are not supported at this time and may show a black screen after the connection starts.
+
+For KDE, if fullscreen mode is switched on by default which prevents the menu bar on the bottom to show up, try to delete the following folders before reconnecting to X2Go:
+
+.. code-block:: python
+
+  ~/.x2go
+  ~/.x2goclient
+
+from your laptop/desktop (in MacOS)
+
+.. code-block:: python
+
+  ~/.x2go
+  ~/.kde
+
+from your Hoffman2 home directory.
+
+**Known issues**
+
+When using additional commands in ~/.bashrc or ~/.bash_profile, X2Go mistakes the output from certain commands as error messages and will crash or hang when starting a new connection.
+
+**module load**
+
+When using "module load" to load modules in ~/.bashrc or ~/.bash_profile, the output from "module load" can be misinterpreted as an error.
+
+Solution:
+
+For example with fsl module, edit your "module load" command in your .bashrc or .bash_profile as following
+
+.. code-block:: python
+
+  module load fsl > /dev/null 2>&1
+
+This will redirect the output from "module load" to /dev/null
+
+**fix_perms.sh**
+
+When using fix_perms.sh or other commands to resolve permission issues when starting new shells, X2Go can freeze due to any "permission denied" messages that occur.
+
+Solution:
+
+Place fix_perms.sh or any other commands in ~/.bash_logout
+
+Commands in ~/.bash_logout are issued when a bash login shell exits. This should resolve issues with X2Go and also allow users to continue using these commands.
+
+
 Productivity
 ------------
 4.1 Scripts
@@ -1709,10 +2052,105 @@ Productivity
 ~~~~~~~~~~~~~~~~~
 4.3 Sharing Filesystems
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+There are apps for linking filesystems so that you can access data across machines. It's like mounting a shared drive. Here we present a GUI and a command line way of accomplishing this.
+
+**MacFusion**
+
+MacFusion is no longer working as of macOS 10.12 (Sierra). Please use the command line instructions below.
+
+
+**sshfs**
+
+**Installation**
+
+**macOS**
+
+Download and install the two packages on this website: https://osxfuse.github.io/
+
+- FUSE for macOS
+- SSHFS
+
+**Linux**
+
+Red Hat
+
+.. code-block:: python
+  
+  yum install sshfs
+
+Debian
+
+.. code-block:: python
+
+  apt install sshfs
+
+**Usage**
+
+Let's say you want to mount Hoffman2 locally. In your Mac terminal, using the command line, execute:
+
+.. code-block:: python
+
+  $ id
+  uid=1010(joebruinuser) gid=20(bruingroup1),23(bruingroup2),...
+  $ mkdir ~/MOUNTPOINT
+  $ sshfs -o idmap=user -o uid=1010 -o gid=20 USERNAME@hoffman2.idre.ucla.edu:/path/to/mount ~/MOUNTPOINT
+
+Where, ``id`` Gets information about your local user, including your numerical ID and group ID(s)
+
+``-o idmap=user -o uid=1010 -o gid=20`` Translates your local user and group IDs to that of the remote user so you can read and write files as if you were on the remote machine. Make sure to put the correct user and group IDs that were returned by the ``id`` command.
+
+``USERNAME`` Is your username at the remote computer
+
+``hoffman2.idre.ucla.edu`` Is the address of the remote computer you are connecting to.
+
+``/path/to/mount`` Could be left blank to mount your home directory from the remote computer, or it could specify any point in the remote filesystem.
+
+``MOUNTPOINT`` Is the name of the directory where the remote filesystem will be mounted.
+
+To unmount:
+
+Use the command:
+
+.. code-block:: python
+
+  umount ~/MOUNTPOINT
+
+or
+
+Right click on the desktop icon that appears and select "Eject."
+
+Permission Error
+
+SSHFS has two permission checks, one performed by the macOS and one performed by the remote filesystem. In certain cases, the remote host will allow access to the directory but the macOS encounters issues translating the filesystem permissions. This will result in a permission denied error.
+
+If you run into this permission denied error:
+
+- Double check that you are using the correct user and group IDs that were returned by the ``id`` command.
+- Include the option ``defer_permissions``
+
+Where,
+
+``-o defer_permissions``
+
+Disables local permission checks and defers all permission requests to the remote server.
+
 4.4 Tools
 ~~~~~~~~~
 4.5 Mailing List
 ~~~~~~~~~~~~~~~~
+
+The CCN-Hoffman mailing list is used to send announcements to CCN users of the Hoffman2 cluster.
+
+Join the mailing list:
+
+To join the mailing list (subscribe), send a blank email to ccn-hoffman+subscribe@lists.ucla.edu.
+
+Subscription requests will need to be approved by the list moderator.
+
+Leave the mailing listL
+
+To leave the mailing list (unsubscribe), send a blank email to ccn-hoffman+unsubscribe@lists.ucla.edu
 
 ^^^
 
