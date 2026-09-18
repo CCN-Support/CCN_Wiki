@@ -199,7 +199,89 @@ Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) o
 
 Cancelled Scans: See Section :ref:`cancel_policy` below.
 
-2.5  FAQ: Project Management 
+
+2.5 DICOM
+~~~~~~~~~
+
+To apply for a DICOM server account, send an email with the following information CCN's Programmer Analyst (JonHernandez@mednet.ucla.edu) and cc IT Administrator (HaiyanWang@mednet.ucla.edu):
+
+   #. The name of your lab
+   #. The name of the DICOM directory your lab owns and you need access to (typically, this will have the format of LASTNAMEGROUP)
+   #. Your Hoffman2 account ID if you have one
+   #. cc your request to the PI whoses group directory you need access to (the PI will need to confirm approval)
+
+2.5.1 Storage Policy
+^^^^^^^^^^^^^^^^^^^^
+
+Data is stored on the DICOM server for 5 years, then deleted. Data collected in the past calendar year or older may be moved to archive folders for space management. Please email ccnsupport@g.ucla.edu for help if you are having trouble finding data from the last calendar year (and up to 5 years old).
+
+2.5.2 Accessing DICOM Using SSH - Command Line
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Mac/Linux/Unix**
+
+Use the ssh command from a terminal:
+
+.. code-block::
+
+   ssh login_id@dicomservername
+
+where login_id is replaced by your user account ID. The server host name will be sent by email when you receive your account. For CCN, it should be dcm.semel.ucla.edu. You will then need to enter your dicom server password.
+
+After login, you will be under your home directory, /user/userid/
+
+To access the group directory, use
+
+.. code-block::
+
+   cd /path/to/group_directory
+
+(/path/to/group_directory should be sent to you together with your account information) For CCN, this will be /data/dicom/your_lab_folder_name
+
+**Windows**
+
+Use a platform such as PuTTY for SSH terminal. See `Hoffman's documentation <https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html>`_ for instructions on how to connect and set up functionality (such as running GUI applications).
+
+2.5.3 Acessing DICOM Remotely
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you want to access the DICOM server from off-campus, you will need to either use a Mednet-specific VPN or log into Hoffman2 first, then ssh into DICOM. Trying to ssh into DICOM directly from a general UCLA VPN (or no VPN) will result in your login request hanging until it times out.
+
+2.5.4 Sharing File Systems with Mac
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can mount the Dicom file system to your local Mac computer using SSHFS
+
+Please follow these similar `instructions for Hoffman2 <https://ccn-wiki.readthedocs.io/en/latest/hoffman.html#sharing-filesystems>`_.
+
+Usage:
+
+.. code-block::
+
+   sshfs -o idmap=user -o uid=1010 -o gid=20 userid@dicomserver:/path/to/groupdir ~/MOUNTPOINT
+
+2.5.5 Copying Files to Hoffman2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Please note that copying files off the Dicom server takes much longer when the scanner is in active use, due to the system prioritizing incoming data. As such, you may want to check the scanner calendar and wait for off hours or gaps in the schedule to do your download.
+
+**From SSH command line**
+
+After login to Hoffman2, run one of the following commands from one of the Hoffman2 server
+
+.. code-block::
+   scp -r dicomuserID@dicomserver:/path/to/group_directory/subject /path/to/your_directory/
+
+or
+
+.. code-block:
+   rsync -av dicomuserID@dicomserver:/path/to/group_directory/subject /path/to/your_directory/
+
+**Script**
+setup_subject script [page in progress] is used to copy files from Dicom to Hoffman2, and do other processing such as nifti convert.
+
+
+2.6  FAQ: Project Management 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
