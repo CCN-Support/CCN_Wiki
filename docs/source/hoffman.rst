@@ -450,6 +450,12 @@ A `Beginners' Guide to man Pages <http://www.tfug.org/helpdesk/general/man.html>
 1.8 Password-less ssh Login
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+.. raw:: html
+
+   <hr>
+
+
 Computing
 ---------
 2.1 Software Tools
@@ -1472,9 +1478,9 @@ Below are some batch file templates you can start with. To work with these examp
 #. Copy the contents of the script template into a new script, e.g. ``myscript.sh.`` Watch out for line ending errors caused by copying/pasting from a Mac or PC. Line ending issues can be fixed with ``dos2unix myscript.sh``.
 #. Edit the "preamble" content at the top to adjust the memory (h_data) and run time (h_rt).
 
-  - For jobs longer than 24 hours, you must specify the 'highp' option, e.g. ``-l h_rt=36:00:00,h_data=4G,highp``
-  - You can also adjust the number of cores: 2 cores is '-pe shared 2'. I recommend 2, 4, or 8 for this value. Be aware that the number of cores is a multiplier for the RAM. h_data=4G and 2 cores is 8G total.
-  - Edit the mail notification options: '-m bea' means you want to receive a message when your job Begins, Ends, or Aborts (quits due to an error). You may use any combination of 'b', 'e', and 'a' for this setting.
+   - For jobs longer than 24 hours, you must specify the 'highp' option, e.g. ``-l h_rt=36:00:00,h_data=4G,highp``
+   - You can also adjust the number of cores: 2 cores is '-pe shared 2'. I recommend 2, 4, or 8 for this value. Be aware that the number of cores is a multiplier for the RAM. h_data=4G and 2 cores is 8G total.
+   - Edit the mail notification options: '-m bea' means you want to receive a message when your job Begins, Ends, or Aborts (quits due to an error). You may use any combination of 'b', 'e', and 'a' for this setting.
 
 #. Put your script content at the bottom.
 #. Submit directly to the job scheduler like this: ``qsub myscript.sh``
@@ -1621,7 +1627,7 @@ Below are some batch file templates you can start with. To work with these examp
     
     # Your script content goes here...
 
-**Part 1: Request Computing Resource**
+**Part 1: Request Computing Resources**
 
 This example is based on code from the Submit Job template.
 
@@ -1875,6 +1881,12 @@ At the end, call your script to process the subject
 
 2.3 Monitoring Jobs
 ~~~~~~~~~~~~~~~~~~~
+
+
+.. raw:: html
+
+   <hr>
+
 
 Software
 --------
@@ -2200,6 +2212,11 @@ Solution:
 Place fix_perms.sh or any other commands in ~/.bash_logout
 
 Commands in ~/.bash_logout are issued when a bash login shell exits. This should resolve issues with X2Go and also allow users to continue using these commands.
+
+
+.. raw:: html
+
+   <hr>
 
 
 Productivity
