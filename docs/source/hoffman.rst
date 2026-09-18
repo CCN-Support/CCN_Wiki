@@ -157,7 +157,7 @@ The NX Client program allows you to set up a Virtual Network Computing (VNC)-lik
 
 **X2Go - GUI**
 
-X2Go provides a desktop-like GUI for accessing the Hoffman server. Please see here [insert X2Go section] to find out more about setup details.
+X2Go provides a desktop-like GUI for accessing the Hoffman server. Please see `here <https://ccn-wiki.readthedocs.io/en/latest/hoffman.html#x2go>`_ to find out more about setup details.
 
 
 
@@ -1467,7 +1467,168 @@ Once you have your batch file, you can submit it using the qsub command. For exa
 
 **Job Submission Templates**
 
-Here are some batch file templates you can start with: Job Submission Templates [insert link]
+Here are some batch file templates you can start with. To work with these example scripts:
+
+#. Copy the contents of the script template into a new script, e.g. ``myscript.sh.`` Watch out for line ending errors caused by copying/pasting from a Mac or PC. Line ending issues can be fixed with ``dos2unix myscript.sh``.
+#. Edit the "preamble" content at the top to adjust the memory (h_data) and run time (h_rt).
+
+  - For jobs longer than 24 hours, you must specify the 'highp' option, e.g. ``-l h_rt=36:00:00,h_data=4G,highp``
+  - You can also adjust the number of cores: 2 cores is '-pe shared 2'. I recommend 2, 4, or 8 for this value. Be aware that the number of cores is a multiplier for the RAM. h_data=4G and 2 cores is 8G total.
+  - Edit the mail notification options: '-m bea' means you want to receive a message when your job Begins, Ends, or Aborts (quits due to an error). You may use any combination of 'b', 'e', and 'a' for this setting.
+
+#. Put your script content at the bottom.
+#. Submit directly to the job scheduler like this: ``qsub myscript.sh``
+
+*Submit job*
+
+Example script for submitting a single job:
+
+.. code-block::
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  #$ -o joblog.$JOB_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  # Email address to notify
+  #$ -M $USER@mail
+  # Notify when
+  #$ -m bea
+  
+  # load the job environment:
+  . /u/local/Modules/default/init/modules.sh
+  module use /u/project/CCN/apps/modulefiles
+  
+  # Load the FSL module
+  module load fsl
+
+# This is optional
+# More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
+export NO_FSL_JOBS=true
+
+# Your script content goes here...
+
+*Submit job (tcsh)*
+
+Same as above, written for tcsh:
+
+
+.. code-block::
+
+  #!/bin/tcsh
+  #$ -cwd
+  # error = Merged with joblog
+  #$ -o joblog.$JOB_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  # Email address to notify
+  #$ -M $USER@mail
+  # Notify when
+  #$ -m bea
+  
+  # Load the job environment:
+  source /u/local/Modules/default/init/modules.csh
+  module use /u/project/CCN/apps/modulefiles
+  
+  # Load the FSL module
+  module load fsl
+  
+  # This is optional
+  # More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
+  setenv NO_FSL_JOBS true
+  
+  # Your script content goes here...
+
+
+*Submit jobarray*
+
+Example script for submitting a jobarray with hard-coded array values:
+
+.. code-block::
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  #$ -o joblog.$JOB_ID.$TASK_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  # Email address to notify
+  #$ -M $USER@mail
+  # Notify when
+  #$ -m a
+  #  Job array indexes
+  #$ -t 1-5:1
+  
+  # Load the job environment:
+  . /u/local/Modules/default/init/modules.sh
+  module use /u/project/CCN/apps/modulefiles
+  
+  # Load the FSL module
+  module load fsl
+  
+  # This is optional
+  # More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
+  export NO_FSL_JOBS=true
+  
+  # Set up the subjects list
+  declare -a subjects
+  
+  subjects[1]="su3v3hkaykw2"
+  subjects[2]="wxg5mk5u5xbz"
+  subjects[3]="6q2bgkqu5grp"
+  subjects[4]="whjue68jmwyh"
+  subjects[5]="pfx3ju9wz8rr"
+  
+  echo "This is sub-job $SGE_TASK_ID"
+  echo "This is subject ${subjects[$SGE_TASK_ID]}"
+  
+  # Your script content goes here...
+
+*Submit jobarray (readarray)*
+
+Example script for submitting a jobarray with an array read in from a file, e.g., 'subjects.txt'
+
+In this example, subjects are read in from a subjects.txt file. subjects.txt is a text file with a single subject ID on each line. Watch out for line ending errors caused by copying/pasting from a Mac or PC. Line ending issues can be fixed with dos2unix subjects.txt.
+
+.. code-block::
+
+  #!/bin/bash
+  #$ -cwd
+  # error = Merged with joblog
+  #$ -o joblog.$JOB_ID.$TASK_ID
+  #$ -j y
+  #$ -pe shared 2
+  #$ -l h_rt=8:00:00,h_data=4G
+  # Email address to notify
+  #$ -M $USER@mail
+  # Notify when
+  #$ -m a
+  #  Job array indexes
+  #$ -t 1-16:1
+  
+  # Load the job environment:
+  . /u/local/Modules/default/init/modules.sh
+  module use /u/project/CCN/apps/modulefiles
+  
+  # Load the FSL module
+  module load fsl
+  
+  # This is optional
+  # More info here: https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:FSL 
+  export NO_FSL_JOBS=true
+  
+  # Set up the subjects list
+  readarray -t subjects < subjects.txt
+  (( i=$SGE_TASK_ID - 1 ))
+  
+  echo "This is sub-job $SGE_TASK_ID"
+  echo "This is subject ${subjects[$i]}"
+  
+  # Your script content goes here...
 
 **Part 1: Request Computing Resource**
 
