@@ -40,7 +40,8 @@ The EEG Suite contains two fully shielded EEG suites and a prep room. There is a
 
 - `EGI Net Amps 300 <https://www.egi.com/images/stories/manuals/GES_300/GES_300_tman_8103003-51_20150304_hires.pdf>`_
 - `Polygraph Input Box (PIB) for Net Amps 300 <https://www.egi.com/images/stories/placards/legacy/PIB_instructions_plac_8404162-51_20100427.pdf>`_
-- `MR-safe EGI Net Amps 400 <https://www.egi.com/images/stories/company/documents/net_amps_400_flyer_oct_2015_MM_421.pdf>`_
+- EGI Net Amps 400
+-`MR-safe EGI Net Amps 400 <https://www.egi.com/images/stories/company/documents/net_amps_400_flyer_oct_2015_MM_421.pdf>`_
 - `EGI HydroCel EEG Nets - S/M/L of MR and non-MR compatible versions <https://www.egi.com/research-division/geodesic-sensor-net>`_
 
 **5.2 The Right EEG Suite:**
