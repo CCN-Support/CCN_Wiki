@@ -18,7 +18,7 @@ Resource List - Table
    <iframe
       src="_static/resources_matrix_preview_with_links.html"
       title="Complete 17-topic resource matrix"
-      style="width: 100%; height: 600px; border: 1px solid #d9dee7; border-radius: 8px;"
+      style="width: 100%; height: 550px; border: 1px solid #d9dee7; border-radius: 8px;"
       loading="lazy">
    </iframe>
 
