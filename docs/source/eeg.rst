@@ -4,6 +4,9 @@ EEG
 Safety Certification and Training
 ---------------------------------
 
+1.1 How to get certified
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 The first step to booking EEG suite time at the CCN is certification and training. The certification for use of EEG equipment follows a protocol analogous to that for MRI certification (see MRI section 1.1). It can be accessed through the same Bruinlearn link and is available as its own module (EEG certification), which includes study materials and online test, followed by a walkthrough needed for operation of the EGI equipment.
 
 Project Management
@@ -22,12 +25,12 @@ EEG Data Collection			$100/hr
 EEG (with fMRI) Data Collection 	$75/hr
 
 Personnel Policies 
-~~~~~~~~~~~~~~~~~~
+------------------
 
 The same policies apply to the EEG suite as to the MRI suite. Please be familiar with sections 3.1-3.7 of the MRI guide.
 
 Scheduling Policies
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 The same policies apply to the EEG suite as to the MRI suite. Please be familiar with sections 4.1-4.2 of the MRI guide.
 
