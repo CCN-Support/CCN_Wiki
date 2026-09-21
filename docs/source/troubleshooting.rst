@@ -14,7 +14,6 @@ Retry the Failed Series
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 - Right-click > Rerun From Here on the sequence that acquisition failed on. Start-stop if necessary.
-- See "Adding/Deleting a Sequences During a Scan" further above on this page for help with this.
 
 Re-plug the Coils
 ^^^^^^^^^^^^^^^^^
@@ -225,7 +224,7 @@ Optoacoustics Headphones
 
 .. dropdown:: Unit won't turn on
 
-  This may happen if a group forgets to turn the system off at the end of their session and it stays on for a long time before finally being switched off. Turn the unit off and leave it off for some time, perhaps while you are setting up and registering your participant. Try pressing the switch again and repeat until it turns on. It may take a few cycles of switch flipping, but the unit has always come back on before long.
+  This may happen if a group forgets to turn the system off at the end of their session and it stays on for a long time before finally being switched off. Turn the unit off and leave it off for at least a few minutes, perhaps while you are setting up and registering your participant. Try pressing the switch again--a few cycles of downtime and switch flipping has always been sufficient to turn the unit back on in the past. If you have tried at least three times (not in rapid succession) and the system still won't turn on, contact CCN support.
 
 .. dropdown:: The task/computer audio isn't playing through headphones
 
