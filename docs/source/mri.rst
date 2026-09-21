@@ -4,17 +4,12 @@ MRI
 On This Page
 ------------
 
-🔹 :ref:`Safety Certification and Training <safety_cert>`
-
-🔹 :ref:`Project Management <project-management>`
-
-🔹 :ref:`Personnel Policies <mri-personnel-policies>`
-
-🔹 :ref:`Scheduling Policies <mri-scheduling-policies>`
-
-🔹 :ref:`Scan Facility & Equipment <mri-facility-equipment>`
-
-🔹 :ref:`Scanning Procedures <mri-scanning-procedures>`
+| 🔹 :ref:`Safety Certification and Training <safety_cert>`
+| 🔹 :ref:`Project Management <project-management>`
+| 🔹 :ref:`Personnel Policies <mri-personnel-policies>`
+| 🔹 :ref:`Scheduling Policies <mri-scheduling-policies>`
+| 🔹 :ref:`Scan Facility & Equipment <mri-facility-equipment>`
+| 🔹 :ref:`Scanning Procedures <mri-scanning-procedures>`
 
 .. raw:: html
 
@@ -287,7 +282,7 @@ Please note that copying files off the Dicom server takes much longer when the s
 
 **From SSH command line**
 
-After login to Hoffman2, run one of the following commands from one of the Hoffman2 server
+After logging in to Hoffman2, run one of the following commands from one of the Hoffman2 server
 
 .. code-block::
 
@@ -295,7 +290,7 @@ After login to Hoffman2, run one of the following commands from one of the Hoffm
 
 or
 
-.. code-block:
+.. code-block::
 
    rsync -av dicomuserID@dicomserver:/path/to/group_directory/subject /path/to/your_directory/
 
