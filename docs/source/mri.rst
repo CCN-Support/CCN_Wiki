@@ -6,7 +6,7 @@ Safety Certification and Training
 .. _safety_cert:
 1.1  How to Get Safety Certified
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_. You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Please get an enrollment link from your lab manager or the #ccn-resources channel on Slack. Only contact CCN personnel after first checking with your lab admin and the Slack channel. The enrollment link is not posted on this wiki for security reasons.
+CCN safety certification is achieved using a combination of in-person sessions and remote work via the Staglin Safety and Training Course on `Bruinlearn <https://bruinlearn.ucla.edu/>`_. You can log into BruinLearn with your UCLA credentials, but will need an enrollment link to register for the Staglin Center Safety module for the first time. Ask your lab manager or check the #ccn-resources channel on Slack for the enrollment link. If neither source can provide it, contact CCN support. The enrollment link is not posted on this wiki for security reasons.
 
 - Overview: The process is summarized as follows and the BruinLearn module will guide you through the steps once you begin:
 
@@ -270,14 +270,18 @@ Please note that copying files off the Dicom server takes much longer when the s
 After login to Hoffman2, run one of the following commands from one of the Hoffman2 server
 
 .. code-block::
+
    scp -r dicomuserID@dicomserver:/path/to/group_directory/subject /path/to/your_directory/
 
 or
 
 .. code-block:
+
    rsync -av dicomuserID@dicomserver:/path/to/group_directory/subject /path/to/your_directory/
 
+
 **Script**
+
 setup_subject script [page in progress] is used to copy files from Dicom to Hoffman2, and do other processing such as nifti convert.
 
 
@@ -482,7 +486,7 @@ Peripherals
 ^^^^^^^^^^^
 
 - Siemens intercom system
-- Siemens physiological measurement system: pulse, respiration, and EKG (is this still true?)
+- Siemens physiological measurement system: pulse, respiration, and EKG
 - Optoacoustic Noise Canceling Headphones: Thin profile headphones that fit in 32CH coil with active noise cancellation technology
 - BOLDscreen Display: LCD display system controlled via fiberoptic cabling
 - Current Designs Response Devices: 4-button, 2-button, and track-ball response devices
@@ -667,7 +671,7 @@ FIRMM on XA30 is seamlessly integrated and starts automatically via settings in 
 
    - Of note, there is a bug whereby using FIRMM disables the automatic copy reference feature. As the scan runs, you will be forced to double-click each referenced sequence to reopen it and re-apply the prescription before it will start. This can be done, but may introduce small differences in the FoV in your final data set. It is up to you to decide if the FIRMM/copy-reference tradeoff is worthwhile for your study.
 
-   - As of August 2023, this is a known issue with Siemens workstations and Siemens is working on the problem.
+   - As of August 2023, this is a known issue with Siemens workstations. Siemens is aware of the problem, but there is no confirmed resolution date.
 
 
 .. image:: images/FirmmTablet.png
