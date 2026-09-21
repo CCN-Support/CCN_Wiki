@@ -90,6 +90,12 @@ Overview - CCN Space & Use Policies
 
    CCN has some tools for making basic repairs and adjustments to equipment. These are stored in a locked office/workshop space to make sure they are not accidentally carried into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
 
+
+.. raw:: html
+
+   <hr>
+
+
 Getting Started at CCN
 ----------------------
 
@@ -147,7 +153,7 @@ Actions within the same card (section with blue heading) below can be completed 
 
   :bdg-success:`BruinLearn` **Get your scan team safety certified**
 
-  `BruinLearn <bruinlearn.ucla.edu>`_ is our platform (hosted by Canvas, through UCLA) for certifying users to safely operate scans. Every lab member who plans to participate in running scans needs an active safety certification.
+  `BruinLearn <https://bruinlearn.ucla.edu>`_ is our platform (hosted by Canvas, through UCLA) for certifying users to safely operate scans. Every lab member who plans to participate in running scans needs an active safety certification.
 
     - Make sure the user can log in to `BruinLearn <bruinlearn.ucla.edu>`_ using their UCLA credentials.
 
