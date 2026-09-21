@@ -1,6 +1,19 @@
 EEG
 ===
 
+On This Page
+------------
+
+| 🔹 :ref:`Safety Certification and Training <eeg-safety_cert>`
+| 🔹 :ref:`Project Management <eeg-project-management>`
+| 🔹 :ref:`Personnel Policies <eeg-personnel-policies>`
+| 🔹 :ref:`Scheduling Policies <eeg-scheduling-policies>`
+| 🔹 :ref:`Scan Facility & Equipment <eeg-facility-equipment>`
+| 🔹 :ref:`Scanning Procedures <eeg-procedures>`
+| 🔹 :ref:`EKG <EKG>`
+| 🔹 :ref:`Useful Links <eeg-useful-links>`
+
+.. _eeg-safety-cert:
 Safety Certification and Training
 ---------------------------------
 
@@ -9,6 +22,7 @@ Safety Certification and Training
 
 The first step to booking EEG suite time at the CCN is certification and training. The certification for use of EEG equipment follows a protocol analogous to that for MRI certification (see MRI section 1.1). It can be accessed through the same Bruinlearn link and is available as its own module (EEG certification), which includes study materials and online test, followed by a walkthrough needed for operation of the EGI equipment.
 
+.. _eeg-project-management:
 Project Management
 ------------------
 
@@ -24,16 +38,19 @@ EEG Data Collection			$100/hr
 
 EEG (with fMRI) Data Collection 	$75/hr
 
+.. _eeg-personnel-policies:
 Personnel Policies 
 ------------------
 
 The same policies apply to the EEG suite as to the MRI suite. Please be familiar with sections 3.1-3.7 of the MRI guide.
 
+.. _eeg-personnel-policies:
 Scheduling Policies
 -------------------
 
 The same policies apply to the EEG suite as to the MRI suite. Please be familiar with sections 4.1-4.2 of the MRI guide.
 
+.. _eeg-facility-equipment:
 Facilities & Equipment
 ----------------------
 The EEG Suite contains two fully shielded EEG suites and a prep room. There is a `SiStat booking system <https://www.sistat.ucla.edu/ccnsas/login.asp>`_  to reserve the Staglin EEG Suite. Request access to SiStat by emailing CCN support (ccnsupport@g.ucla.edu). When you are ready to collect EEG data, make a reservation on SiStat ahead of time.
@@ -52,6 +69,7 @@ The EEG Suite contains two fully shielded EEG suites and a prep room. There is a
 
 - Bio-Semi 64 channel EEG system using active electrodes
 
+.. _eeg-procedures:
 EEG Procedures
 --------------
 
@@ -275,7 +293,8 @@ References:
 **EGI Rinsing and Disinfecting Instructions**
 The EGI instructions can be found in the black binder in the cabinet in the prep room.
 
-6.7 EKG
+.. _EKG:
+EKG
 -------
 
 A good tutorial (visual) for EKG application (we typically work with v2 and v4 in the eeg-fmri set up): https://www.adinstruments.com/blog/correctly-place-electrodes-12-lead-ecg
@@ -290,6 +309,7 @@ But here's a quick step-by-step:
 6. Tape down the electrode/lead pairs.
 7. Check the EKG signal in NetStation.
 
+.. _eeg-useful-links:
 Useful Links
 ------------
 
