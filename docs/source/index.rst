@@ -1,5 +1,5 @@
 Welcome to the CCN Wiki
-===================================
+=======================
 
 This wiki provides practical guidance for researchers and staff who conduct studies at the Staglin Center for Cognitive Neuroscience. Find information on getting started, training and certification, booking scans, using equipment, and troubleshooting.
 
@@ -9,6 +9,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    generalpolicies
    links-and-forms
@@ -19,6 +20,28 @@ Contents
    resources-and-learning
    future_content
    testing
+
+:doc:`General Policies <generalpolicies>`
+   Policies and procedures that apply to all CCN users.
+
+:doc:`Links and Forms <links-and-forms>`
+   Commonly used forms, websites, and administrative resources.
+
+:doc:`MRI <mri>`
+   Information about MRI scanning, procedures, equipment, and safety.
+
+:doc:`EEG <eeg>`
+   Information about EEG equipment, acquisition, and procedures.
+
+:doc:`Hoffman2 <hoffman>`
+   Information and procedures specific to the Hoffman facility.
+
+:doc:`Troubleshooting <troubleshooting>`
+   Solutions to common technical and operational problems.
+
+:doc:`Resources and Learning <resources-and-learning>`
+   Training materials, tutorials, and other learning resources.
+
 
 At-A-Glance Contacts
 --------------------
