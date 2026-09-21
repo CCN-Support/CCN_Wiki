@@ -21,26 +21,19 @@ Contents
    future_content
    testing
 
-:doc:`General Policies <generalpolicies>`
-   Policies and procedures that apply to all CCN users.
+:doc:`General Policies <generalpolicies>`: Starting a lab or project and understanding policies that apply to all users of the CCN space.
 
-:doc:`Links and Forms <links-and-forms>`
-   Commonly used forms, websites, and administrative resources.
+:doc:`Links and Forms <links-and-forms>`: Manuals, forms, and other frequently used resources.
 
-:doc:`MRI <mri>`
-   Information about MRI scanning, procedures, equipment, and safety.
+:doc:`MRI <mri>`: MRI safety certification, project setup, pricing, scheduling, equipment, and procedures.
 
-:doc:`EEG <eeg>`
-   Information about EEG equipment, acquisition, and procedures.
+:doc:`EEG <eeg>`: EEG equipment, data collection, and export guidance.
 
-:doc:`Hoffman2 <hoffman>`
-   Information and procedures specific to the Hoffman facility.
+:doc:`Hoffman2 <hoffman>`: Using the computing cluster.
 
-:doc:`Troubleshooting <troubleshooting>`
-   Solutions to common technical and operational problems.
+:doc:`Troubleshooting <troubleshooting>`: Help with scanner, equipment, and software problems.
 
-:doc:`Resources and Learning <resources-and-learning>`
-   Training materials, tutorials, and other learning resources.
+:doc:`Resources and Learning <resources-and-learning>` Supplemental tutorials, workshops, and other learning resources.
 
 
 At-A-Glance Contacts
