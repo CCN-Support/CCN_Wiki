@@ -10,7 +10,6 @@ On This Page
 | 🔹 :ref:`Scheduling Policies <eeg-scheduling-policies>`
 | 🔹 :ref:`Scan Facility & Equipment <eeg-facility-equipment>`
 | 🔹 :ref:`Scanning Procedures <eeg-procedures>`
-| 🔹 :ref:`EKG <EKG>`
 | 🔹 :ref:`Useful Links <eeg-useful-links>`
 
 .. _eeg-safety-cert:
@@ -293,9 +292,8 @@ References:
 **EGI Rinsing and Disinfecting Instructions**
 The EGI instructions can be found in the black binder in the cabinet in the prep room.
 
-.. _EKG:
-EKG
--------
+**6.7 EKG**
+~~~~~~~~~~~
 
 A good tutorial (visual) for EKG application (we typically work with v2 and v4 in the eeg-fmri set up): https://www.adinstruments.com/blog/correctly-place-electrodes-12-lead-ecg
 
