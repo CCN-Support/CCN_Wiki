@@ -342,7 +342,7 @@ In the event that this cannot be achieved, please make every effort to pull in b
 - Can perform all scan related responsibilities independently without the need for supervision
 - Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user is a Volunteer
 
-3.2.1  Secondary User Definition
+3.2.2  Secondary User Definition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Allowable Roles:** Any of the aforementioned full-time roles, Part-time paid/work-study students, volunteers
