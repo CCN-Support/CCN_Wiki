@@ -8,8 +8,8 @@ On This Page
 | 🔹 :ref:`Project Management <eeg-project-management>`
 | 🔹 :ref:`Personnel Policies <eeg-personnel-policies>`
 | 🔹 :ref:`Scheduling Policies <eeg-scheduling-policies>`
-| 🔹 :ref:`Scan Facility & Equipment <eeg-facility-equipment>`
-| 🔹 :ref:`Scanning Procedures <eeg-procedures>`
+| 🔹 :ref:`EEG Facility & Equipment <eeg-facility-equipment>`
+| 🔹 :ref:`EEG Procedures <eeg-procedures>`
 | 🔹 :ref:`Useful Links <eeg-useful-links>`
 
 .. _eeg-safety-cert:
@@ -223,7 +223,7 @@ To lower impedance, we're going to add more electrolyte solution to the electrod
 
 EGI User instructions can be found here: https://www.egi.com/images/stories/manuals/Second%20Batch%20of%20IFUs%20with%20new%20Notified%20Body%20Jan%202019/HC_GSN_MR_uins_8402110-01_20181221.pdf
 
-6.4 Data Storage
+6.5 Data Storage
 ~~~~~~~~~~~~~~~~
 
 **Creating your Directory**
@@ -249,8 +249,8 @@ Exporting Data
 
 After data collection, many decide to export their data onto the Hoffman2 server; however, NetStation files are cumbersome to work with because of their size and format. Therefore, here are some data export instructions to convert and export files in your desired format:
 
-**6.5 Feedback Form**
-~~~~~~~~~~~~~~~~~~~~~
+6.6 Feedback Form
+~~~~~~~~~~~~~~~~~
 
 For quality control, we devised a feedback form that we ask researchers to fill out each time they collect data in the Staglin EEG Suite. Access to the form is located on the desktop of the Netstation computer, labeled steps 1 and 2:
 
@@ -259,8 +259,8 @@ For quality control, we devised a feedback form that we ask researchers to fill 
 
 The identification names of each net can be found on the plug.
 
-**6.6 Clean Up**
-~~~~~~~~~~~~~~~~
+6.7 Clean Up
+~~~~~~~~~~~~
 
 After removing the net and unplugging it from the amp, wrap a dry towel around the plug. Remember, this plug must stay DRY, especially during the following process which involves a lot of water!
 
@@ -292,8 +292,8 @@ References:
 **EGI Rinsing and Disinfecting Instructions**
 The EGI instructions can be found in the black binder in the cabinet in the prep room.
 
-**6.7 EKG**
-~~~~~~~~~~~
+6.8 EKG
+~~~~~~~
 
 A good tutorial (visual) for EKG application (we typically work with v2 and v4 in the eeg-fmri set up): https://www.adinstruments.com/blog/correctly-place-electrodes-12-lead-ecg
 
