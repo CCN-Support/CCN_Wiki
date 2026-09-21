@@ -4,13 +4,21 @@ MRI
 On This Page
 ------------
 
-🔹 :ref:`Safety Certification and Training <safety_cert>`  
-🔹 :ref:`Project Management <project-management>`  
-🔹 :ref:`Personnel Policies <mri-personnel-policies>`  
-🔹 :ref:`Scheduling Policies <mri-scheduling-policies>`  
-🔹 :ref:`Scan Facility & Equipment <mri-facility-equipment>`  
+🔹 :ref:`Safety Certification and Training <safety_cert>`
+
+🔹 :ref:`Project Management <project-management>`
+
+🔹 :ref:`Personnel Policies <mri-personnel-policies>`
+
+🔹 :ref:`Scheduling Policies <mri-scheduling-policies>`
+
+🔹 :ref:`Scan Facility & Equipment <mri-facility-equipment>`
+
 🔹 :ref:`Scanning Procedures <mri-scanning-procedures>`
 
+.. raw:: html
+
+   <hr>
 
 Safety Certification and Training
 ---------------------------------
