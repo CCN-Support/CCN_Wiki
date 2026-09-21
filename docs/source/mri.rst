@@ -1,5 +1,17 @@
 MRI 
 ===
+
+On This Page
+------------
+
+🔹 :ref:`Safety Certification and Training <safety_cert>`  
+🔹 :ref:`Project Management <project-management>`  
+🔹 :ref:`Personnel Policies <mri-personnel-policies>`  
+🔹 :ref:`Scheduling Policies <mri-scheduling-policies>`  
+🔹 :ref:`Scan Facility & Equipment <mri-facility-equipment>`  
+🔹 :ref:`Scanning Procedures <mri-scanning-procedures>`
+
+
 Safety Certification and Training
 ---------------------------------
 
@@ -300,6 +312,7 @@ setup_subject script [page in progress] is used to copy files from Dicom to Hoff
 
    <hr>
 
+.. _mri-personnel-policies:
 Personnel Policies
 ------------------
 
@@ -412,6 +425,7 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 
    <hr>
 
+.. _mri-scheduling-policies:
 Scheduling Policies
 -------------------
 
@@ -474,6 +488,7 @@ Each funded project starts with two free cancellations and accrues another after
 
    <hr>
 
+.. _mri-facility-equipment:
 Scan Facility & Equipment
 --------------------------
 
@@ -799,6 +814,7 @@ At the Eyelink station on the right side of the room, there is a cable with a ye
 - Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
 
 
+.. _mri-scanning-procedures:
 Scanning Procedures
 -------------------
 
