@@ -25,8 +25,8 @@ Forms
 Manuals
 -------
 
-- `CCN Safety Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about emergency devices and procedures.
-- `CCN Operations Manual: <https://drive.google.com/file/d/13xyaDkLcjBykdLvge3fMe-t_9HoukyMR/view>`_ Includes important information about handling reboots, save logs, and incidental findings.
+- `CCN Safety Manual: <https://drive.google.com/file/d/1ocMVWpSLnR-oUUMrK7BbQakE5fyiw9OU/view?usp=sharing>`_ Includes important information about emergency devices and procedures.
+- `CCN Operations Manual: <https://drive.google.com/file/d/1dRt_A6ZsFMJwupx9PPbaWokV70NhxesR/view?usp=sharing>`_ Includes important information about handling reboots, save logs, and incidental findings.
 - `Best Practices for Appointment Management: <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ A list of recommendations for minimizing late cancellations.
 - `MR Safety Considerations: <https://drive.google.com/file/d/17ntnhvzU91m7uJYVULiTRkr-u77_ioSt/view?usp=sharing>`_ A compilation of important items to consider when screening a potential participant for MRI. This list includes many topics that are frequently overlooked and/or participants often forget to mention.
 
