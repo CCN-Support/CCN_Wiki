@@ -3,7 +3,6 @@ Welcome to the CCN Wiki
 
 This wiki provides practical guidance for researchers and staff who conduct studies at the Staglin Center for Cognitive Neuroscience. Find information on getting started, training and certification, booking scans, using equipment, and troubleshooting.
 
-Visit CCN's main website for general information about the Center: `UCLA Staglin Center for Cognitive Neuroscience <https://staglincenterforcogneuro.semel.ucla.edu/>`_
 
 Contents
 --------
@@ -11,8 +10,8 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   generalpolicies: can I add text to this?
-   links-and-forms : does adding space before colon work?
+   generalpolicies
+   links-and-forms
    mri
    eeg
    hoffman
@@ -30,6 +29,8 @@ At-A-Glance Contacts
 💾 Questions regarding DICOM? Please contact Haiyan (HaiyanWang@mednet.ucla.edu) or Jonathan (JonHernandez@mednet.ucla.edu) .
 
 🖥️ Issues with Hoffman2? Submit an IT ticket at `<https://support.idre.ucla.edu/>`_ under the Group Support > CCN (Hoffman2 cluster) category.
+
+🌐 Looking for CCN's main website? Visit `UCLA Staglin Center for Cognitive Neuroscience <https://staglincenterforcogneuro.semel.ucla.edu/>`_!
 
 📫 **ccnsupport@g.ucla.edu:** Email this address with all other CCN-related questions and requests.
 
