@@ -1,7 +1,7 @@
 Resources and Learning
 ======================
 
-CCN has compiled a list of useful resources for learning about data analysis, coding, and research science. These resources are provided below in both Table and filterable Directory formats, to allow the user to easily discern which items cover which topics.
+CCN has compiled a list of useful resources for learning about data analysis, coding, and research science. They are provided below in both Table and filterable Directory formats, making it easy to identify resources by topic.
 
 
 Resource List - Table
@@ -34,7 +34,7 @@ Resource List - Directory
 
 The directory below allows you to easily see which topics each resource addresses and filter by one or more topics.
 
-If you are on mobile, it will be easier than the table above to navigate.
+On mobile devices, the directory may be easier to navigate than the table above.
 
 .. raw:: html
 
