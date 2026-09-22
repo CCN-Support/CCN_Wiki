@@ -10,6 +10,7 @@ Overview - CCN Space & Use Policies
   
    The monitor on the wall displays recruitment flyers from labs on a loop. Contact ccnsupport@g.ucla.edu if you are a CCN user with an active study and would like to include your recruitment materials in this slideshow.
 
+.. _restricted-areas:
 .. dropdown:: Restricted Areas
 
    MR Zones are marked with signage. Only safety-certified users and screened participants are allowed to enter the scanning suite (control room & scanner room) unless granted an exemption by CCN. This restriction protects individual safety and limits Center liability. Uncertified users are not permitted to touch any research equipment or enter the scanner room while shadowing.
