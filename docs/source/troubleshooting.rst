@@ -1,48 +1,54 @@
 Troubleshooting
 ===============
 
+This page provides troubleshooting guidance for common scanner, peripheral, and task-equipment problems. Routine setup and operating procedures are described in the relevant sections of the CCN Wiki and are linked here where needed. For each problem below, follow the troubleshooting steps in order and contact CCN Support if the problem remains unresolved.
+
 Scan Failures
 -------------
 
-Sometimes, if the coils aren't plugged in correctly or if the scanner has been working continuously for a long time, unusual things will happen during your protocol. These issues may include your scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
+If the coil wasn't plugged in correctly or the scanner has been working continuously for a long time, unusual issues may occur during your protocol. These issues typically manifest as the scan not starting or acquisition stopping mid-sequence with strange activity on the bore screen.
 
-In some cases, it may be necessary to reboot the system (and in fact, restarts are conducted regularly outside of operating hours to keep data acquisition running as smoothly as possible). Before restarting the whole system, however, first determine if your issue can be resolved by other methods.
-
-Try each of the following steps in the escalating order described. The more drastic the action, the more time it will take to resume your scan, so generally it is worth trying the simpler solutions before moving on to full restarts.
+If you encounter these problems, try the troubleshooting steps below in order, beginning with the least disruptive option. Proceed to a full system restart only if the earlier steps do not resolve the problem, as restarting the system requires additional time.
 
 Retry the Failed Series
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-- Right-click > Rerun From Here on the sequence that acquisition failed on. Start-stop if necessary.
+- Right-click > Rerun From Here on the sequence that acquisition failed on.
+- If Rerun From Here is greyed out, it means the scanner has prepped the sequence and considers it already running. Click Stop first, then try Rerun from Here again.
 
 Re-plug the Coils
 ^^^^^^^^^^^^^^^^^
 
-- This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "failed to converge".
-- Move the bed back to home.
-- Remove the participant or at least have them sit up.
-- Unplug the coils. Make sure the posterior coil is flush with the back of the bed and not sitting crookedly in the square space. Plug the coil back in.
-- The 32ch coil is sensitive to positioning inconsistencies. Be aware that just being able to push the plug into the port isn't enough--make sure the posterior coil is completely flush with the back of the bed and everything is lined up straight. When the posterior is plugged in and ready, you should be able to push it (in the direction of the bore) and feel no movement at all.
-- Confirm there are no coil file errors on the bore screen and no System Check errors on the console.
-- Re-align and send the participant back to isocenter. 
+This can help if you notice your sequence refusing to start (e.g., the status says "Preparing...", then cycles back to "Waiting for User to Continue" without doing anything). Other typical accompanying errors include "Preparation of measurement system has failed" and "Dico failed to converge".
+
+#. Move the bed back to home.
+#. Remove the participant or at least have them sit up.
+#. Unplug the coils. Make sure the posterior coil is flush with the back of the bed and aligned straight within the square recessed area. Plug the coil back in.
+
+   - The 32ch coil is sensitive to even small deviations in positioning. Be aware that being able to force the plug into the port does not mean you have set up the coil correctly.
+   - Gently push the coil toward the bore to confirm that it is seated correctly. There should be no movement at all.
+
+#. Confirm there are no coil file errors on the bore screen and no System Check errors on the console.
+#. Re-align and send the participant back to isocenter. 
 
 Reset the Bed Alignment
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-- Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
-- Move the bed back to home.
-- Unplug and re-plug the coil connections.
-- Lower the bed down (as if you were preparing to have a participant climb up or step down).
-- Move the bed back to home. Re-align and try moving to isocenter again.
+Re-aligning the bed can help resolve the issue in which the bore screen reads "Isocenter" in positions that are not isocenter. This can be done even while you have a participant on the bed--just be sure to talk them through what's happening.
+
+#. Move the bed back to home.
+#. Unplug and re-plug the coil connections.
+#. Lower the bed down (as if you were preparing to have a participant climb up or step down).
+#. Move the bed back to home. Re-align and try moving to isocenter again.
 
 Completely Redo the Patient Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Close out the subject.
-- Redo the prep as if you were just beginning a new scan:
-- Move the bed back to the home position. Unplug and re-plug the coils. Re-navigate the bed to isocenter.
-- Re-register the participant. You can use the same Subject ID if you'd like--everything is timestamped, so the console will allow you to do this. You will just get multiple subdirectories under that ID's folder in the DICOM server, differentiated by timestamp. If you'd rather have the new attempt saved under an entirely new folder at the Subject ID level, use a different ID.
-- Try running your protocol again.
+#. Close out the subject.
+#. Redo the prep as if you were just beginning a new scan:
+#. Move the bed back to the home position. Unplug and re-plug the coils. Re-navigate the bed to isocenter.
+#. Re-register the participant. You can use the same Subject ID if you'd like--everything is timestamped, so the console will allow you to do this. You will just get multiple subdirectories under that ID's folder in the DICOM server, differentiated by timestamp. If you'd rather have the new attempt saved under an entirely new folder at the Subject ID level, use a different ID.
+#. Try running your protocol again.
 
 Restart the Scanner
 ^^^^^^^^^^^^^^^^^^^
@@ -60,7 +66,7 @@ Restart the Scanner
 General Console Operations
 ------------------
 
-.. dropdown:: Stop a sequence that is running
+.. dropdown:: Stop a running sequence
 
    * Click the button with the square on it, labelled "STOP", at the bottom of the scan queue toward the left of the screen.
    * You should hear the sound of active acquisition stop.
@@ -80,7 +86,7 @@ General Console Operations
    * Right-click the series and click "Delete".
    * This will remove it from the queue you are currently running, but will not delete it from the exam card as it was designed and intended to be run. Meaning, if you are pressed for time and need to make a real-time decision to skip sequences, be assured that you can delete sequences from the currently-running program and the entire original protocol will still appear the next time you start the study.
 
-.. dropdown:: Closing the Participant
+.. dropdown:: Close the participant
 
   * Click the X on the "Patient" tab at the top left of the screen and choose "Close Patient".
 
@@ -91,7 +97,7 @@ General Console Operations
     * Start the next sequence and stop it again immediately--the "Close Patient" option should now be available to you.
     * This occurs because the software automatically prepares the next sequence after it finishes the current one, so you cannot close out when the scanner is already primed to continue. Allowing the primed sequence to begin and stopping it tells the system that the user wants the procedure stopped and it is now okay to close out the registered patient.
 
-.. dropdown:: Editing Registration Info
+.. dropdown:: Correct registration information
 
   If you realize that the registration information is incorrect for your participant, you should correct it. This is especially important for the Last Name, Participant ID, and Referring Physician fields. Incorrect information will cause your data to be mislabelled or sent to the wrong folder on the DICOM server.
 
@@ -113,7 +119,7 @@ General Console Operations
 
     4. Make your changes and export the data again in its corrected form.
 
-.. dropdown:: (Re-) Exporting Data
+.. dropdown:: (Re-) Export Data
 
   1. Click on the "Person with magnifying glass" icon at the top of the computer screen
   2. Click on the scan that you want to export. If you only want to export specific sequences, not the entire scan, you can select them from the smaller window that opens up to the right.
@@ -142,11 +148,14 @@ Peripherals
 
 .. dropdown:: Task is failing to trigger
 
-  - Exit your task (and ideally its entire host program) completely.
-  - Unplug the trigger cable.
-  - If there have been any shenanigans with the button box, re-configure those settings in the controller box now.
-  - Plug the trigger cable back in and start your task again.
-  - This restart routine is usually sufficient to fix trigger problems because most of them arise from the task program not communicating with the task computer correctly. Matlab in particular can be finicky about this--for example, unplugging and re-plugging the trigger USB while Matlab is running will cause unreliable behaviors that often affect downstream functionality (such as the scan triggers and button box responses). If you are using the eyetracker, multiple calibration/validation attempts have also been observed to cause problems with task triggers.
+  #. Exit your task and close the host program completely.
+  #. Disconnect the trigger cable.
+  #. Reset the button box configuration on the silver box under the console desk.
+  #. Reconnect the trigger cable before restarting the task program.
+
+  This restart routine is usually sufficient to fix trigger problems, because most of them arise from the task program not communicating with the task computer correctly. Do not disconnect and reconnect the trigger USB while a task program like MATLAB is running. Many programs do not reliably detect and initialize devices that are not already connected upon startup.
+
+   If the trigger is still not working, start again from Step 1. Add another step between #2 and #3: go into the scanner room and replug the button box into the fiber bundle. Be gentle when disconnecting and firm when reconnecting.
 
 
 .. dropdown:: Pulse monitor isn't working
@@ -154,7 +163,7 @@ Peripherals
   - Note that the HR monitor needs to be close enough to the scanner before the computer in the control room can detect it on the physiological display. The screen on the bore will also show the physio readings and relevant error messages when it senses that the monitor is nearby. If you try to test or check the monitor device from the control room, the waveform won't change and the battery icon will be red regardless of actual charge.
   - The small square lights on the top left of the device are the charging indicators. They will flash green when the device is successfully charging.
   - The small light at the top right corner of the device is the finger detection indicator. It will shine red when the sensor is not successfully picking up on a physiological signal. The bore screen will also display an error message. When you see this light and/or error, it means no finger is detected--whether this be because there is no finger in the clip yet, the finger is improperly positioned in the clip, or the sensors in the clip are not positioned correctly to pick up on the signal.
-  - The most common reason for the HR monitoring device to fail is insufficient charge. It is easy to replace the device in the the charging port and unintentionally leave it in a discharging state by not pushing down all the way. If the charge is depleted, you probably won't be able to restore charge quickly enough to use it for your current scan, unfortunately. Replace the monitor in the charging port and make sure you plug it in completely (the little squares at the top will flash green).
+  - The most common reason for the HR monitoring device to fail is insufficient charge. It is easy to replace the device in the charging port and unintentionally leave it in a discharging state by not pushing down all the way. If the charge is depleted, you probably won't be able to restore charge quickly enough to use it for your current scan, unfortunately. Replace the monitor in the charging port and make sure you plug it in completely (the little squares at the top will flash green).
   - If the charge seems fine, look inside the finger attachment. There are two small, oval-shaped holes inside: a red light is projected through one and received by a sensor in the other. Make sure neither the light nor the sensor are occluded by the attachment. Check that when you put the monitor on, the light is over the fingernail.
   - If you do not see the red light at all, the sensor loop has gotten shifted around and is now positioned incorrectly within the clip. Remove the rubber finger attachment completely by gently pulling on it--it should slide off easily. Straighten out the sensor loop inside and replace the attachment so that the red light properly shines through one of the holes. Make sure the sensor is not blocked on the opposite side of the light, then try inserting a finger again.
   - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
@@ -253,17 +262,18 @@ Optoacoustics Headphones
 
   The most common reason that noise cancellation stops completely is because the stimulus presented is too loud and overshoots the safety threshold (111dB).
   
-  1. This can be avoided by making sure the volume on your stimulus machine is at max and you can control/adjust the volume of the headphones using the 'Line 1' dial on the top of the unit.
-  2. Doing a volume test before your scan starts can help.
+  1. This can be avoided by making sure the volume on your stimulus machine remains at max. Adjust the volume of the headphones using the 'Line 1' dial on the top of the unit.
+  2. Do a volume test before your scan starts.
   3. Start with the 'Line 1' volume dial in the middle (facing the top), and adjust as needed.
-  Note: There is no need to adjust the 'Line 2' volume dial, it doesn't do anything to affect the sound unless you have two volume sources!
+  
+Note: There is no need to adjust the 'Line 2' volume dial, it doesn't do anything to affect the sound unless you have two volume sources!
   
 .. dropdown:: Noise cancelling is fading
 
   Studies that run numerous functional tasks, or have sequences in between functional runs that don't use the ANC function, will notice that over time the algorithm used to produce the noise cancellation may fade and the quality of the noise cancellation will diminish.
   
   1. The most effective way to avoid this is adding another short learning sequence into your protocol.
-  2. Stopping the algorithm just before the end of your sequence and starting the algorithm again just after your next sequence starts up again has proven somewhat effective in keeping the ANC feature intact.
+  2. Stopping the algorithm just before the end of your sequence, then starting the algorithm again just after your next sequence begins has proven somewhat effective in keeping the ANC feature intact.
 
 
 .. raw:: html
@@ -301,7 +311,7 @@ Always make sure the power to the AV hub is on and the HDMI/DisplayPort cables a
   
   1. Make sure that the AV hub box is turned on. There should be a light on at the leftmost side of the box and a red/green light flashing from the back.
   2. Make sure that the correct input is selected. An orange light should be illuminated on the front of the AV box, to the right of the input you are using. Press the corresponding button if not.
-  3. Do not plug in multiple inputs. There is no need to plug both the HDMI and DisplayPort cables into your laptop, for example, because the input selection button will determine which one is being used anyway.
+  3. Do not plug in multiple inputs. There is no need to connect both the HDMI and DisplayPort cables to your laptop, for example, because the input selection button will determine which one is used.
   4. Check that all the cables are plugged into the correct ports. See the picture and description above for reference.
   5. Disconnect and reconnect the cables between the AV hub and your laptop. Check that all other cables are firmly plugged into their proper, labelled positions (see image above).
   6. If you usually use HDMI, try DisplayPort instead (or vice versa). You may need to use an adapter to try the new connection method.
@@ -369,12 +379,10 @@ Please make sure the grey USB cable (labelled "TRIGGER") is plugged into your de
     1. Unplug the trigger cable from your device and connect it to the iMac instead.
     2. Open a text editor and ask the participant to press buttons.
     3. If the numbers appear, the problem is with your task laptop, not the trigger cable or button box setup. Try another port and/or another adapter with your laptop.
-    4. If the numbers do not comem through, the problem is with the trigger cable or button box setup.
+    4. If the numbers do not come through, the problem is with the trigger cable or button box setup.
     5. Watch the configuration box under the desk as the participant presses buttons.
-
       * Check to make sure the bottom row of lights on the button box interface light up when the corresponding buttons are pressed. Left-most light corresponds to the left most button (2BB) or the top button (4BB)
       * Check that the USB indicator on the button box interface is static (not blinking). A blinking USB status means the button box interface isn't registering that it's connected to a laptop/computer.
-    
     6. If the lights do not flash as buttons are pressed, something is wrong with the button box's communication with the interface. Disconnect the trigger cable, make sure your task program is still closed, enter the scanner room, and reconnect the button box cable firmly.
     7. Redo the configuration on the box under the desk and try again.
     8. If the interface still does not react to the button presses, try a backup button box. There are spares in the drawer by the sink, beneath where the test magnet and thermometer are kept.
@@ -410,6 +418,9 @@ FIRMM
   1. Make sure the HDMI cable is plugged into HDMI 2 on the AV box and the light to its right is turned on. The other end should be plugged into the HDMI port on the right side of the FIRMM tablet.
   2. Press the Windows key and check the resolution: 1920 x 1080 at 60 Hz.
 
+.. raw:: html
+
+   <hr>
 
 .. _trouble-eyetracker:
 Eyetracker
@@ -420,13 +431,12 @@ Eyetracker
   1. Make sure the lens cap is off.
   2. Make sure your task computer is connected to the Eyelink computer. This is typically done with the ethernet cable, so check that it is firmly connected and your network settings are configured to use it.
   3. Check the tower under the eyetracker computer. The small, rectangular box on top of the tower should have the following cables connected to it:
-
     * Transducer cable with yellow tag plugged into the round, yellow port that says 12V@2A
     * Ethernet cable plugged into the rectangular port right next to transducer cable
     * Orange fiber optic cable plugged into a port on the long side of the box
 
-  3. If you still see nothing, restart the program. Quit Eyelink, check the cable connections on the tracker in the bore, then click the square button at the top left of the desktop screen to launch Eyelink again.
-  4. If nothing works, contact CCN staff. There may be another cable that isn't plugged in or needs replacing.
+  4. If you still see nothing, restart the program. Quit Eyelink, check the cable connections on the tracker in the bore, then click the square button at the top left of the desktop screen to launch Eyelink again.
+  5. If nothing works, contact CCN staff. There may be another cable that isn't plugged in or needs replacing.
 
 .. dropdown:: Everything seems set up correctly, but there is a green "D" and green crosshairs (instead of white) during calibration
 
