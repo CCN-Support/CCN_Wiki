@@ -166,7 +166,7 @@ CCN maintains a DICOM server that raw imaging data is automatically transferred 
 ~~~~~~~~~~~~~~~~~~~~~~~~
 All active projects must have complete project information in SIStat.
 
-- New project: Go to Project → Project Management and complete ADD NEW PROJECT, including IRB, funding, PI, start and end dates, expected scans per week, total scan load, and duration.
+- New project: Go to Project → Project Management and complete the fields under "ADD NEW PROJECT", including IRB, funding, PI, start and end dates, expected scans per week, total scan load, and duration.
 - Existing project: On the same page, select Edit/View beside the project name and complete the information fields.
 
 CCN uses these details to assess demand and accommodate projects with strict time constraints.
@@ -174,6 +174,7 @@ CCN uses these details to assess demand and accommodate projects with strict tim
 .. image:: AddProjInfo.png
    :width: 50%
 
+   The required fields in the "Add New Project" panel on SIStat.
 
 2.4  Funding & Costs
 ~~~~~~~~~~~~~~~~~~~~
@@ -409,7 +410,7 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 
 **Can an uncertified person shadow my scan?**
 
-- A CCN exemption is required for an uncertified individual to enter the control room for shadowing a scan. Contact CCN to request one; each exemption applies to a single visit. An exempt observer must not touch research equipment and must be strictly supervised by the certified scan team. A user who has started but not completed the full certification process is still considered uncertified. See CCN’s :ref:`restricted-areas` policy.
+- A CCN exemption is required for an uncertified individual to enter the control room for shadowing a scan. Contact CCN to request one; each exemption applies to a single visit. An exempt observer must not touch research equipment and must be strictly supervised by the certified scan team. A user who has started but not completed the full certification process is still considered uncertified. See CCN’s Restricted Areas policy under :ref:`ccn-space`.
 
 **Can I be a primary user?**
 
@@ -479,7 +480,7 @@ There is no cancellation fee for scans cancelled more than 72 hours before the s
    
    Even if the cancellation occurs 5 minutes before the start time, the system will allow it and mark the session to be charged the 25% late cancellation fee. As soon as the start time passes, SIStat considers it complete and indicates the full charge should apply.
 
-For repeated late cancellations, CCN may request information to verify that bookings were made in compliance with the scheduling rules. CCN may restrict future bookings, including the number of scans reserved at one time, for groups that repeatedly cancel late or reserve slots without confirmed participants. See the `list of scheduling best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ for guidance on how to mitigate late cancellations.
+For repeated late cancellations, CCN may request information to verify that bookings were made in compliance with the scheduling rules. CCN may restrict future bookings, including the number of scans reserved at one time, for groups that repeatedly cancel late or reserve slots without confirmed participants. See this `list of Scheduling Best Practices and Recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ for guidance on how to mitigate late cancellations.
 
 Each funded project starts with two free cancellations and accrues another after every 10 completed scans. When a user cancels a scan late, the system will automatically use a free cancellation if one is available.
 
@@ -772,11 +773,13 @@ Setup
 The eyetracker is installed in the back of the bore. It should stay behind the blue tape marking the best position on the rail.
 
 There are three cables that need to be attached when you begin an eyetracking session:
+
    - Two thick, black cables: Power cables. Plug them into the two round ports on the back of the eyetracker (doesn't matter which one goes on which side).
    - One skinny, orange cable connected to a blue cable: Fiber optic cable. Plug it into its port on the back of the eyetracker.
 
 #. Remove the lens cap. Place it somewhere nearby so you can find and replace it again easily when your scan is complete.
 #. The camera above the eye tracker emits infrared light that may interfere with eye tracking. You may unplug it before the session, but reconnect it after the scan. 
+
    - Alternatively, cover the camera with a mesh headphone cover. Please use these covers sparingly.
 
 #. At this point, the Eyelink desktop computer in the control room can be turned on. The camera now needs to be aligned so that it points at the participant's (usually right) eye, reflected in the mirror.
@@ -785,6 +788,7 @@ There are three cables that need to be attached when you begin an eyetracking se
    - Do not clean this mirror using the wipes. They will degrade the reflectiveness over time. Use the special cleaning products stored in the same cabinet that the EYETRACKER mirror itself is kept in.
 
 #. Once the participant is in the bore, adjust the controls as needed to obtain a stable image:
+
    - Wheel close to lens: Focus wheel.
    - Wheel close to base: Aperture wheel.
    - Large knob near the base: Adjust eyetracker positioning in all directions.
@@ -910,7 +914,7 @@ Give participants a direct lab contact and ensure someone is available to coordi
 
 Your lab is responsible for meeting your participants. Do not rely on CCN staff to let them in and answer their questions.
 
-*Unexpected Arrivals*
+*Unexpected Arrivals*:
 
 If you are in CCN and someone unexpectedly rings the doorbell asking to be let in, request that they wait on the bench outside. If you have time, help them contact their research team. Admit only expected participants, certified labmates you recognize, and people explicitly authorized by CCN (e.g., helium tech).
 
