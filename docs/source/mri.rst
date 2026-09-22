@@ -172,6 +172,7 @@ All active projects must have complete project information in SIStat.
 CCN uses these details to assess demand and accommodate projects with strict time constraints.
 
 .. image:: AddProjInfo.png
+   :width: 50%
 
 
 2.4  Funding & Costs
@@ -219,10 +220,12 @@ To request a DICOM account, email CCN’s Programmer Analyst at JonHernandez@med
    2. The directory you need to access, typically named LASTNAMEGROUP
    3. Your Hoffman2 account ID, if you have one
 
+.. _storage-policy:
 2.5.1 Storage Policy
 ^^^^^^^^^^^^^^^^^^^^
 
-Data is stored on the DICOM server for 5 years, then deleted. Data collected in the past calendar year or older may be moved to archive folders for space management. Please email ccnsupport@g.ucla.edu for help if you are having trouble finding data from the last calendar year (and up to 5 years old).
+Data is stored on the DICOM server for 5 years, then deleted. Data collected in the past calendar year or older may be moved to archive folders for space management. Please email ccnsupport@g.ucla.edu and cc HaiyanWang@mednet.ucla.edu for help if you are having trouble finding data from the last calendar year (and up to 5 years old).
+
 
 2.5.2 Accessing DICOM Using SSH - Command Line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -768,8 +771,8 @@ The eyetracker is installed in the back of the bore. It should stay behind the b
 
 There are three cables that need to be attached when you begin an eyetracking session:
 
-- Two thick, black cables: Power cables. Plug them into the two round ports on the back of the eyetracker (doesn't matter which one goes on which side).
-- One skinny, orange cable connected to a blue cable: Fiber optic cable. Plug it into its port on the back of the eyetracker.
+   - Two thick, black cables: Power cables. Plug them into the two round ports on the back of the eyetracker (doesn't matter which one goes on which side).
+   - One skinny, orange cable connected to a blue cable: Fiber optic cable. Plug it into its port on the back of the eyetracker.
 
 #. Remove the lens cap. Place it somewhere nearby so you can find and replace it again easily when your scan is complete.
 #. The camera above the eye tracker emits infrared light that may interfere with eye tracking. You may unplug it before the session, but reconnect it after the scan. 
@@ -781,23 +784,23 @@ There are three cables that need to be attached when you begin an eyetracking se
    - Do not clean this mirror using the wipes. They will degrade the reflectiveness over time. Use the special cleaning products stored in the same cabinet that the EYETRACKER mirror itself is kept in.
 
 #. Once the participant is in the bore, adjust the controls as needed to obtain a stable image:
-
   - Wheel close to lens: Focus wheel.
   - Wheel close to base: Aperture wheel.
   - Large knob near the base: Adjust eyetracker positioning in all directions.
 
 **In Control Room:**
 
-At the Eyelink station on the right side of the room, there is a cable with a yellow tag on it and is attached to a battery box labelled EYELINK (pictured below). This is the transducer cable--plug it into the rightmost port (labelled with "12V") on the box on top of the tower unit.
+Locate the transducer cable, identified with a yellow tag, attached to a battery box labelled EYELINK (pictured below). Plug it into the rightmost port (labelled with "12V") on the box on top of the tower unit.
 
 .. figure:: images/EYELINK_transducer.jpg
+   :width: 50%
 
    Transducer cable plugged into the Eyelink box.
 
-- Plug the eyetracker ethernet cable into your task computer. This will be the blue cable labelled EYELINK.
-- Make sure your computer network is set to use this connection. This will be how your computer communicates with the Eyelink station to run calibration and record fixations when your scan starts.
-- Once the cables are connected to the eyetracker in the bore, turn on the tower unit. You will likely get errors if you try to power on before those cables are connected.
-- The main Eyelink menu screen should appear, now that all the cables are connected and the computer is powered on.
+#. Plug the eyetracker ethernet cable into your task computer. This will be the blue cable labelled EYELINK.
+#. Make sure your computer network is set to use this connection. This will be how your computer communicates with the Eyelink station to run calibration and record fixations when your scan starts.
+#. Make sure to turn on the tower only after the cables are connected to the eye tracker in the bore.
+#. The main Eyelink menu screen should appear, now that all the cables are connected and the computer is powered on.
 
 **Calibration:**
 
@@ -826,28 +829,34 @@ Scanning Procedures
 Pilot Program
 ~~~~~~~~~~~~~
 
-CCN will consider proposals by members of the UCLA community to access both the scanning and analysis core services for pilot studies without charge to the investigator. Priority will be given to junior investigators and to proposals for novel cognitive neuroscience projects that have a high likelihood of achieving extramural funding. 
+CCN will consider proposals by UCLA investigators to access the scanning and analysis core services for pilot studies at no charge. Priority is given to junior investigators and novel cognitive neuroscience projects with high likelihood of achieving extramural funding. 
 
-See the `Pilot Application here <https://drive.google.com/file/d/1rhfezXO3QP4pV5yjUnNmI8LNkjw7EqS9/view?usp=drive_link>`_. Fill out the application if you would like to apply for scan hours toward a pilot project. Send the completed form to alenarto@g.ucla.edu and be sure to inform CCN about the outcome of the pilot--if it helps you successfully secure funding, this information is crucial to keeping the pilot program going!
-
-The proposal will be reviewed by the Executive Committee members and CCN personnel will contact you regarding the status of the submission. As stated in the application, if you need more space than provided for any item within please use a Word document to submit your answers.
+#. Complete the `Pilot Application <https://drive.google.com/file/d/1rhfezXO3QP4pV5yjUnNmI8LNkjw7EqS9/view?usp=drive_link>`_. Use a Word document if more space is needed.
+#. Send the completed application to alenarto@g.ucla.edu
+#. The proposal will be reviewed by the Executive Committee members and CCN personnel will contact you regarding the status of the submission.
+#. Report the outcome of the pilot to CCN. If it helps you successfully secure funding, this information is crucial to keep the pilot program going!
 
 .. note::
 Please still consider `CTSI <https://ctsi.ucla.edu/funding-opportunities>`_ for funding opportunities. 
 
 Metal Screening and Safety Clearance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-All participants need to be diligently screened for contraindications to MR imaging during recruitment. Review and sign the `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing>`_ with each participant for each scan session. If there are any items of concern, follow up with your participant for more information, collect all relevant documentation from them and/or their medical team, and pass everything along to CCN staff for a final decision. Do not ask CCN about your participant's implant or device without first researching the relevant background. 
 
-All implants needs to be cleared by CCN *before scanning*. If your participant has an implant, please follow the `instructions <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_ to submit a ticket in our `ticketing system <https://support.idre.ucla.edu/helpdesk/>`_ for clearance. Please keep in mind:
+All participants need to be diligently screened for MR contraindications during recruitment.
+
+#. Review and sign the `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing>`_ with each participant for every scan session.
+#. For items of potential concern, obtain further information and relevant documentation from the participant, their medical team, or both before requesting CCN review. Do not ask CCN about your participant's implant or device without first researching the relevant background.
+#. Follow these instructions to `Submit a Ticket for CCN Safety Clearance <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_. 
+
+**CCN must clear all implants before scanning.** See `MR Safety Considerations <https://drive.google.com/file/d/17ntnhvzU91m7uJYVULiTRkr-u77_ioSt/view?usp=sharing>`_ for topics that are frequently overlooked or forgotten during safety screening.
 
 .. warning::
    At least six weeks must pass after any surgical procedure before your participant can be considered for scanning.
 
 .. danger::
-   No tattoos or other permanent cosmetics on the face or head. The ONLY exception is microbloaded (NOT tattooed) eyebrows.
+  Participants with tattoos or other permanent cosmetics on the face or head are not eligible for scanning at CCN. The ONLY exception is microbladed (NOT tattooed) eyebrows.
 
-   Submit a clearance ticket for any other tattoos your participant may have. Just be aware that permanent ink of any kind on the face or head (except microbladed eyebrows) automatically disqualifies your subject.
+   Submit a ticket for tattoos elsewhere on the body. Just be aware that permanent ink of any kind on the face or head (except microbladed eyebrows *specifically*) automatically disqualifies your subject.
 
 Developing & Testing a Scan Protocol
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -856,14 +865,14 @@ Protocol Development
 ^^^^^^^^^^^^^^^^^^^^
 CCN can assist you with developing and refining a scan protocol at no charge.
 
-If you need CCN staff to help you with creating and designing the protocol on the console computer, reach out to ccnsupport@g.ucla.edu with the following information:
+If you need CCN staff to help you with creating a protocol on the console computer, reach out to ccnsupport@g.ucla.edu with the following information:
 
 - Name of lab and PI
 - Name of existing or new project you want this protocol to be organized under
 - Description of desired sequences with as much detail as possible (TR, number of volumes/measurements, resolution, etc.)
 - All resources from other protocols that can be used as references (e.g., PDF and/or .exar1 file from another study you ran and would like to closely emulate)
 
-The more information you can provide up front, the more work CCN staff can start doing whenever the scanner is available. References from other protocols will be especially helpful to speed things up as a starting point.
+The more information you can provide up front, the more CCN staff can leverage scanner availability to make progress on your request. References from other protocols will be especially helpful to speed things up as a starting point.
 
 CCN will grant your SIStat account uncharged time that you can use to schedule development time on the calendar. This time will need to be coordinated with CCN staff and take place during regular business hours.
 
@@ -874,38 +883,40 @@ Protocol Testing
 ^^^^^^^^^^^^^^^^
 Once you have a workable protocol, you will need to run through it in its entirety. CCN has phantoms available for this purpose. Please reach out to CCN staff for phantom scanning with tech assistance. Even if scanning independently with an experienced team, please still keep CCN notified (especially if you will be needing a phantom other than the standard Siemens bottle).
 
-Each new project is permitted two free scan sessions with a human phantom for the sole purpose of ensuring that the full setup is functional. The group is responsible for recruiting their own test participant, whose images cannot be used as publishable data, and who must still undergo safety screening despite not being included as a real study participant.
+Each new project is permitted two free sessions with a test participant (‘human phantom’) solely to verify that the full setup works. The lab is responsible for recruiting the test participant and screening them for safety, as if they were any other participant. Images from these sessions cannot be used as publishable data.
 
 All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
 
 Running a Participant Scan
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**5.5.1**  Infection Control
+**6.4.1**  Infection Control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please make sure the participant completes the `Pre-Appointment Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ before arriving at UCLA. You should administer this form either the night before or the morning of their scan appointment. Many other researchers, staff, research subjects, and family members come through CCN, meaning we need to minimize the potential for unknown infections floating around the Center. If your participant fails to clear the illness screening, please reschedule their appointment.
+Administer the `Pre-Appointment Illness Screening Form <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ the night before or the morning of the scan, prior to the participant's arrival at UCLA. If the participant does not clear the screening, reschedule the appointment. This helps protect everyone, researchers and participant populations alike, who comes through the Center.
 
 Past guidance for infection control policies can be found `here <https://drive.google.com/file/d/18CiRxYb4VmBn4z3tE7jADcGV5wBg4-xb/view?usp=sharing>`_. This is archived to document the policy changes that were implemented to safely navigate the COVID-19 restrictions. Most policies described within no longer apply, but some (e.g., handwashing upon arrival at the Center) were retained.
 
-**5.5.2**  Participant Arrival
+**6.4.2**  Participant Arrival
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please make sure that your study participants have a direct contact readily on hand and that lab personnel will be available to respond promptly to calls, texts, and emails as the scheduled appointement time approaches.
+*Your Participants*:
 
-If a participant arrives early and you are part of their research team, make sure someone is available to communicate with the person and help give directions in case they are having trouble finding the suite. Once they are at C7-439, direct them to wait on the bench right outside CCN until lab personnel meets them and brings them inside. Generally, study participants should not be sitting in the CCN lobby unattended. This increases the risk of their wandering into restricted spaces or seeing information from other labs working in the area that they should not be privy to.
+Give participants a direct lab contact and ensure someone is available to coordinate promptly, provide directions, and meet early arrivals as the appointment time approaches. Ask participants to wait on the bench outside C7-439 until lab personnel escorts them inside. Do not leave participants unattended in the CCN lobby, where they could enter restricted areas or be exposed to other labs' information and activities.
 
-If you are in CCN and someone unexpectedly rings the doorbell saying they are here for a scan, it is up to you if you have the time to ask questions and help them get in touch with their research contact. Regardless, you should still ask them to wait on the bench outside CCN.
+Your lab is responsible for meeting your participants. Do not rely on CCN staff to let them in and answer their questions.
 
-Do NOT let someone in just because they claim to be here for research. The presence of the powerful magnet means that access should be highly controlled. You should only let in participants you are expecting, your certified labmates that you recognize, and people explicitly permitted by CCN (e.g., helium refill tech).
+*Unexpected Arrivals*
 
-Do NOT rely on CCN staff to let your participant in if they arrive early. CCN admins are in and out of the suite, scanner room, and equipment room all day and may not hear the doorbell. Moreover, they are not responsible for standing at the door with your participant and investing time to figure out who they are supposed to be meeting. 
+If you are in CCN and someone unexpectedly rings the doorbell asking to be let in, request that they wait on the bench outside. If you have time, help them contact their research team. Admit only expected participants, certified labmates you recognize, and people explicitly authorized by CCN (e.g., helium tech).
+
+Do NOT let someone in just because they claim to be here for research. The presence of the powerful magnet means that access should be highly controlled.
 
 
-**5.5.3**  Scan Start & End Time
+**6.4.3**  Scan Start & End Time
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-All scans are expected to start and end promptly at the scheduled time. Start and stop time includes setup and cleanup, meaning users must build this into their scanner scheduling (i.e., the lab must have the scanner ready for next group, not just starting to clean up, by the scheduled end time).
+All scans are expected to start and end punctually at the scheduled time. Your reserved time includes setup and cleanup. Start promptly and leave the scanner ready for the next group by your scheduled end time (i.e., do not start cleaning up only when your scheduled end time arrives).
 
 All users have the right to start their scan on time, no questions asked.
 
@@ -913,57 +924,57 @@ When possible, try and be flexible. However, if the next group is adamant about 
 
 CCN periodically audits the schedule and keeps track of all pre- and post-scan reports. Projects that continually run over time will be required to book more time for future scans.
 
-**5.5.4**  Data Transfer & Storage
+**6.4.4**  Data Transfer & Storage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-All f/MRI data are transferred automatically to a dedicated remote server as it is acquired. There is no further action required during or after a scan to send your data to this DICOM server.
+All f/MRI data are transferred automatically to a dedicated remote server as it is acquired. No manual transfer action is required.
 
-If data is not accessible in the DICOM server 24 hours after acquisition, please contact MR Technician immediately to resolve. Due to high scan load, only 2 days of scan data can be guaranteed to be kept on the host machine at any given time. The onus is on each lab to check DICOM after each scan and make sure all images have transferred successfully. Data typically finishes transferring within several hours of the scan's end time, but at a minimum should be present and complete by the following morning. It is not CCN's responsibility to check that each data set has transferred to the server without issue.
+It is your lab's responsibility to check after each scan and verify that all data have transferred successfully to this DICOM server. These transfers usually finish within several hours of the scan's end time and should be complete by the following morning at latest. If data are still unavailable 24 hours after acquisition, contact ccnsupport@g.ucla.edu immediately. Only two days of data are guaranteed to remain on the scanner host at any given time.
 
-Data is stored for 5 years on the remote DICOM server before being deleted. However, Data collected in the past calendar year or older may be moved to archive folders for space management. Please email ccnsupport@g.ucla.edu and cc HaiyanWang@mednet.ucla.edu for help if you are having trouble finding data from the last calendar year (up to 5 years old).
+DICOM data are retained for five years. For archive locations and help finding older data, see :ref:`storage-policy`.
 
-In cases where data must be transferred manually from any of the computers in the MR suite, please notify the MR Technician to make arrangements. No external storage devices (flash drives, hard disks, etc.) are to be connected to the scanner without prior approval.
+In cases where data must be transferred manually from any of the computers in the MR suite, please notify CCN staff to make arrangements. No external storage devices (flash drives, hard disks, etc.) are to be connected to the scanner without prior approval.
 
-**5.5.5** Incident Reporting
+**6.4.5** Incident Reporting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Users are responsible for communicating with CCN staff any equipment malfunction or software irregularities that occur during the course of the scan session. This includes scanner error messages which do not allow users to continue with their session, the breaking or malfunction of peripheral equipment, and so on. The pre- and post-scan forms on the iMac will ask basic questions about the state of the suite and equipment.
 
-Emergency incidents, such as injuries, natural disasters or magnet quench, should be relayed to the MR Tech immediately and CCN's `Incident Reporting Form <https://docs.google.com/forms/d/e/1FAIpQLSckiYXnkzlWcYBfD6BEGTV60Tb36Jj2680Tq8mdw02auoFiKQ/viewform>`_ should be filled out in a timely manner.
+Emergency incidents, such as injuries, natural disasters, or magnet quench, should be relayed to CCN staff immediately and CCN's `Incident Reporting Form <https://docs.google.com/forms/d/e/1FAIpQLSckiYXnkzlWcYBfD6BEGTV60Tb36Jj2680Tq8mdw02auoFiKQ/viewform>`_ should be filled out in a timely manner.
 
 Staff will be on-site during regular hours. If they have stepped out for deliveries, meetings, lunch, etc. please send a Slack or phone message. Contact information (including the appropriate after-hours call tree) is posted on the control room wall.
 
-Incidental Findings
-~~~~~~~~~~~~~~~~~~~
+6.5 Incidental Findings
+~~~~~~~~~~~~~~~~~~~~~~~
 
-A neuroradiologist is on CCN retainer for reviewing potential incidental findings. **To be clear, you may only submit images for incidental finding review if you have this explicitly described in your approved IRB protocol.** As a reminder, CCN is not a clinical facility, and other than our collaborating neuroradiologist, no CCN faculty or staff are medically trained. For sample language, please refer to the `OHRPP's Consent, Assent, and Screening Templates <https://ohrpp.research.ucla.edu/consent-templates/>`_, in particular the section of the `Biomedical Research Consent Form Standards and Sample Language <https://ucla.app.box.com/v/FR-05f01-Biomed-ICF-Stand-Lang>`_ document addressing clinically relevant results.
+**You may only submit images for incidental finding review if you have this explicitly described in your approved IRB protocol.**
+
+CCN retains a neuroradiologist for reviewing potential incidental findings. CCN is not a clinical facility; apart from the collaborating neuroradiologist, its faculty and staff are not medically trained. For sample language, please refer to the `OHRPP's Consent, Assent, and Screening Templates <https://ohrpp.research.ucla.edu/consent-templates/>`_, in particular the section of the `Biomedical Research Consent Form Standards and Sample Language <https://ucla.app.box.com/v/FR-05f01-Biomed-ICF-Stand-Lang>`_ document addressing clinically relevant results.
 
 **How to report incidental findings:**
 
 .. image:: Incidental_finding_report_flow.png
 
-1. Create a folder and put in all your images and movie files you want to send to the radiologist. *Please circle the area that you consider anomalous.*
+1. Prepare T1/T2 images in PNG or JPEG format and circle the area of concern.
 
-   - The images should include T1 and T2, and are saved in png or jpeg/jpg formats.
    - (Optional) You can create a "movie" from MRI images to give the radiologist with a fuller, 3D view. This is not required, but often useful in providing more detailed information for the review.
        - CCN offers a script that will create this movie from a nii.gz folder of structurals: gen_movie.py
        - You may also create the movie using your own program. Just be sure it can be paused, replayed, and so on (e.g., a mp4 file). Animation files (e.g., gifs) will not allow the radiologist to carefully inspect the area of concern and are therefore of less informational value.
-   - Name your folder that contains all the files with your lab name and subject ID. 
 
-2. Compress the folder with zip, and make sure it's named with your lab name+subject ID.
+2. Make sure your image and video files are of good quality so the radiologist can make the best possible interpretation. No phone pictures of computer screens.
+
+3. Put the files in a folder named with the lab name and Subject ID, then compress it to a .zip file of the same name.
 
    - The compressed file should end with ".zip"
    - If you do not zip your folder, the automated script that checks daily for new submissions will not detect it.
 
-3. Upload the zip file to the Box folder, “CCN_report/YOURGROUP”, which should be shared with your lab.
+4. Upload the zipped file to "CCN_report/YOURGROUP" in Box. Place the instruction to request a shared folder, with IRB confirmation, before this step. Move the daily automated processing and PI-only review delivery into an unnumbered “After submission” paragraph.
 
-   - If your lab does not yet have a Box group folder shared by us, please contact ccnsupport@g.ucla.edu (confirming your IRB permits these reviews) so we can set one up for you.
-   - Before you upload the files, please make sure the images and videos are in good quality so the radiologist can make the correct decision based on them. No phone pictures of computer screens.
+**After you report an incidental finding:**
 
-4. What will happen after you upload the zip file:
+An automated CCN script will check the Box folder once a day. If there is a new zip file, it will be unzipped and sent to the radiologist with the images attached. A link to the movie file will also be included.
 
-   - Our script will check the Box folder once a day, and if there is a new zip file, it will be unzipped and sent to the radiologist with the images attached. The link for the movie file will also be included.
-   - CCN will forward the radiologist's read to your PI. Regardless of who submited the materials, only the PI will receive the review.
+CCN will forward the radiologist's read to your PI. Regardless of who submited the materials, only the PI will receive the review.
 
 
 
