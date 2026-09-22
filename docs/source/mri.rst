@@ -369,9 +369,9 @@ All volunteers must complete onboarding through the `UCLA Health Sciences Volunt
 
 The PI or lab administrator creates the Opportunity, and the Volunteer Office handles the onboarding forms and signatures. The duties and responsibilites of the Volunteer are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. In short: 
 
-- Volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
+- Volunteers may not have direct physical contact with participants or operate the scanner during routine scanning, even after safety certification. Their routine duties must be limited to permitted tasks, such as operating the task computer.
 
-- All volunteers must still complete CCN's full safety certification process in order to serve as a Secondary User during scans at CCN. This is because, as Secondary Users, they must still be aware of CCN's protocols and prepared to respond in an emergency situation. In the event that urgent, life-saving action is needed, they must already be knowledgeable about emergency equipment and familiar with basic console operation (e.g., "which button stops a scan?"), even if they are not permitted to use it under normal circumstances. 
+- Volunteers who wish to serve as Secondary Users must complete full CCN safety certification so they can appropriately respond to emergencies, including using emergency equipment and stopping a scan when urgent, life-saving action is needed.
 
 - Note that the copy of the Addendum linked above contains outdated contact information regarding the MRI tech. CCN has submitted updated information to the Volunteer Office and the documents they provide Volunteer applicants should be accurate.
 
@@ -382,7 +382,7 @@ The PI or lab administrator creates the Opportunity, and the Volunteer Office ha
 
 3.4  MR Technician Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Staglin One Mind MR technicians maintain the MR facility and are available to support experimenters in developing scan protocols and troubleshooting scanner-related issues. If there is an anticipated need for support during scanning, experimenters must contact the technicians well in advance of the scheduled scan.
+Staglin CCN technical staff maintain the MR facility and are available to support experimenters in developing scan protocols and troubleshooting scanner-related issues. If you expect to need support during a scan, contact CCN well in advance. 
 
 Contact information is posted in multiple areas throughout the Center (e.g., on the control room wall, by the Eyetracking computer) in the event of unanticipated issues during the scan.
 
@@ -406,7 +406,7 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 
 **Can an uncertified person shadow my scan?**
 
-- Per the information above (see CCN's Restricted Areas policy), uncertified individuals are not allowed in the control room unless granted an exemption by CCN. Contact CCN for such an exemption if it's necessary for someone to shadow your scan. Regardless, the uncertified person is prohibited from touching any research equipment and any exemptions granted only apply to a single instance. Users who have started but not finished the certification process are considered uncertified until the full certification is completed. If you have questions about this, please ask.
+- A CCN exemption is required for an uncertified individual to enter the control room for shadowing a scan. Contact CCN to request one; each exemption applies to a single visit. An exempt observer must not touch research equipment and must be strictly supervised by the certified scan team. A user who has started but not completed the full certification process is still considered uncertified. See CCN’s Restricted Areas policy [insert ref].
 
 **Can I be a primary user?**
 
@@ -427,35 +427,34 @@ Scheduling Policies
 4.1 Rules and Policies
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The center does not mandate a strict limit on when scans can be booked relative to the scanning date. However, to foster cooperation and consideration within the community, booked scan times are assumed to be filled (assigned a participant) promptly and booked on an as-needed basis. Scans that are booked in advance, above and beyond the current scheduling norms, will be reviewed by the CCN staff and potentially cancelled. Under current policy, the scheduling rules are as follows:
+CCN does not set a fixed advance-booking limit. Book scans as needed and in compliance with the rules below. CCN may review and cancel advance bookings that violate policy:
+
 
 **4.1.1**  No slot-holding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects are actively scanning at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
+Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects actively scan at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
 
 **4.1.2**  Prime time scan limits
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The scan limit is 3 scans maximum per project, per week, during prime hours (Mon-Fri, 8am - 6pm). This applies to every project unless you have made prior arrangements with CCN. There are no restrictions after hours (Mon-Fri, 6pm+; Weekends).
+Each project may book up to three scans per week during prime hours (Monday-Friday, 8 a.m.-6 p.m.), unless CCN has approved other arrangements. This scan-count limit does not apply after 6 p.m. on weekdays or on weekends.
 
 **4.1.3**  Appointment reminders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Confirm with participants at least 5 days in advance of your scheduled scan. If your participant cannot commit to their participation 5 days out, please cancel your appointment at that time so other groups may be able to fill the opening. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise-usable time go to waste.
+Confirm participant attendance at least five days before the scan. If the participant cannot confirm at that point, cancel the booking so another group can use the time. After reviewing cancellation patterns, it is evident that sessions cancelled ~72 hours or less do not give adequate time for other groups to fill the space, and hours of otherwise usable time go to waste.
 
 We understand that participants sometimes cancel last minute, no-show, or come in with unexpected safety concerns, but these occasions should be kept to an absolute minimum.
 
 **4.1.4**  15-Minute Gaps 
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Scans cannot be scheduled for a time that would leave a 15-minute gap before or after another scan. This helps prevent small intervals of time from accumulating throughout the day and adding up to wasted usable hours.
-
-The only exception is if the user wants to book time that would necessarily have to leave 15 minutes either before or after their reservation. For example, you may book 1-2pm even if the previous scan ends at 12:45pm and the next one begins at 2pm, because there is no way to avoid leaving 15 minutes open at one end or the other. This is permitted because using 60 of those 75 open minutes is preferable to leaving the entire time unused.
+Do not schedule a scan that leaves a 15-minute gap before or after another scan, unless that gap is unavoidable. For example, if the only opening is 12:45-2 p.m., you may book a one-hour scan from 1-2 p.m. (or 12:45-1:45 p.m.). The scheduling system permits this because using 60 of the available 75 minutes is preferable to leaving the entire opening unused.
 
 **4.1.5**  Subject ID
 ^^^^^^^^^^^^^^^^^^^^^
-As mentioned above, the system will require a Subject ID to book a scan. This ID will be whatever lab convention you are using for the participant who will be coming for that slot (e.g., "ProjectA_Sub01"--DO NOT use the subject's name or any other identifying information).
+As mentioned above, the system will require a Subject ID to book a scan. Enter the participant’s Subject ID using your lab’s naming convention, for example ProjectA_Sub01. Do not enter the participant’s name or any other identifying information.
 
 **4.1.6**  Protocol ID
 ^^^^^^^^^^^^^^^^^^^^^^
-You will also be required to enter a Protocol ID at the time of booking. This is the code that identifies the scan protocol you will be running. It will have the format XXX-X.X and is built into every active protocol name. You can find it on your protocol PDF or on the console computer when you pull up your lab's projects. There is no way to access this information remotely otherwise, so make sure your scan team has made a note of each active project's Protocol ID. DO NOT enter IRB or other numbers in this field.
+The system will also require a Protocol ID to book your scan. Enter the unique ID for your scan protocol, not an IRB number or another identifier. The ID has the format XXX-X.X and appears in each active protocol name. Find it in your protocol PDF or in your lab’s projects on the scanner console. Keep a record of each active project’s ID because it cannot otherwise be retrieved remotely.
 
 **4.1.7**  Special Accommodations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -475,7 +474,7 @@ There is no cancellation fee for scans cancelled more than 72 hours before the s
    
    Even if the cancellation occurs 5 minutes before the start time, the system will allow it and mark the session to be charged the 25% late cancellation fee. As soon as the start time passes, SIStat considers it complete and indicates the full charge should apply.
 
-If a research group continually falls in the late cancellation range, CCN will ask for information to verify those slots were filled using appropriate scheduling practices. CCN may impose additional restrictions on scheduling (such as limiting the amount of scans that can be booked at one time) for groups that engage in profligate cancelling and/or reserving slots without confirmed participants. CCN has compiled a `list of best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ regarding how to mitigate late cancellations.
+For repeated late cancellations, CCN may request information to verify that bookings were made in compliance with the scheduling rules. CCN may restrict future bookings, including the number of scans reserved at one time, for groups that repeatedly cancel late or reserve slots without confirmed participants. See the `list of scheduling best practices and recommendations <https://drive.google.com/file/d/1yLR77cLHod_-bwauu4AtoAq51bbiNUgv/view?usp=sharing>`_ for guidance on how to mitigate late cancellations.
 
 Each funded project starts with two free cancellations and accrues another after every 10 completed scans. When a user cancels a scan late, the system will automatically use a free cancellation if one is available.
 
@@ -521,7 +520,7 @@ On-Site Computer
 ^^^^^^^^^^^^^
 The MR suite is equipped with a dedicated iMac computer running Mac OS High Sierra for the purpose of:
 
-..  Coment: We used to have a dual-boot Windows 10 partition on the control room iMac, but retired it since no one uses it.
+..  Comment: We used to have a dual-boot Windows 10 partition on the control room iMac, but retired it since no one uses it.
 
 **Visual presentation:**
 
@@ -542,9 +541,7 @@ If you need to install new software or images on the iMac, please contact ccnsup
 .. note::
    CCN recommends using your own dedicated task laptop for running fMRI tasks.
 
-   The iMac should only be used for very simple presentation jobs such as displaying crosshairs, playing movies, or running basic tasks via a compatible installed PsychoPy version.
-   Relying on this computer to run your task means editing/troubleshooting your code will be more difficult (because you cannot access the iMac outside of CCN), your files will be susceptible to sudden changes in
-   software without your knowledge, and any issues with/maintenance for the computer will advsersely affect your scan.
+   Use the iMac only for simple presentation tasks, such as displaying crosshairs, playing movies, or running basic tasks compatible with the installed PsychoPy version. You cannot access this desktop computer remotely to edit or troubleshoot your task. Software changes, maintenance, or computer problems may also disrupt your scan.
 
 .. The following features were also listed in the original wiki, but I'm not sure they're still supported/advised:
    -Psychtoolbox
@@ -563,7 +560,7 @@ Overview
 `OptoACTIVE II <https://www.optoacoustics.com/medical/optoactive-slender>`_ slim, over-the-ear headphones with an active noise cancellation (ANC) feature.
 
 
-Please use the sanitary headphone covers located in the middle cabinet inside the scanner room. Do not clean the headphones with the wipes. Commercial cleaning products will cause the material to degrade and crack over time. We will then have to repair the headphones with electrical tape or replace them.
+Please do not clean the headphones with the wipes. Use the sanitary headphone covers located in the middle cabinet inside the scanner room. Commercial cleaning products will cause the material to degrade and crack over time.
 
 Noise Cancellation Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -619,12 +616,16 @@ Specifications:
 Setup
 ^^^^^
 
-If everything is working correctly, setup should be quite straight forward. The BOLDscreen connects via HDMI or DislpayPort cable. Both are labeled "SCREEN".
+If everything is working correctly, setup should be quite straight forward. The BOLDscreen connects via HDMI or DisplayPort cable. Both are labeled "SCREEN".
 
-- Plug in the display cable to the stimulus laptop or CCN iMac, and the BOLDscreen should mirror the display exactly.
-    - Often an adaptor is required. CCN offers all the usual adaptors needed (HDMI to USB-C, Mini Display, VGA).
-    - Please note the Mini Display adaptor only connects in one direction! This is important so you don't damage the display port on the iMac or other devices.
-- There is an external monitor located to the right of the console computer, which should mirror the BOLDscreen so users are able to see what the participant sees. To connect to this monitor, connect the cable labelled "MONITOR" to the port on the box labelled "CLONE".
+The HDMI and DisplayPort cables are labelled "SCREEN".
+
+1. Connect the appropriate display cable to the stimulus laptop or CCN iMac. The BOLDscreen should mirror the display.
+
+   - Use a suitable adapter as needed. CCN provides all the usual adaptors needed (HDMI to USB-C, Mini Display, VGA).
+   - The Mini Display adapter connects in only one direction. Please be careful not to damage your port.
+
+2. To view the participant’s display on the external monitor to the right of the console, connect the cable labelled MONITOR to the port on the box labelled CLONE. This should be set up by default; please do not disconnect it unless prompted to do by CCN.
 
 .. image:: images/AV_box.jpg
    :width: 50%
@@ -648,17 +649,17 @@ Product site from Current Designs: https://www.curdes.com/
 Setup
 ^^^^^
 
-1. The three response devices are located in a drawer inside the scanner room labeled "Button Boxes"
-2. Take one of the devices and remove the small rubber cap located on the connector
-3. Remove the top optical bundle from the wall, and remove the rubber cap from the bundle connector
+1. The three response devices are located in a drawer inside the scanner room labeled "Button Boxes".
+2. Select one of the devices and remove the small rubber cap located on the connector.
+3. Remove the top optical bundle from the wall, and remove the rubber cap from the bundle connector.
 
-  - Carefully put the two caps somewhere they won't get lost. The ledge of the window between the scan suite and control room is a good option, because you will see them when you loop the optical cable back up at the end of the scan.
-4. Gently find the correct orientation for the two connectors to interlock
+  - Keep both caps in a safe, visible place, such as the window ledge, so they can be replaced after the scan.
 
-  - Once the correct orientation is found, connect the button box to the fiber bundle
-5. Back in the control room, follow the instruction sheet attached to the desk above the silver button box interface in order to select the correct device and settings
+4. Gently find the correct orientation for the two connectors to interlock. Once aligned, push firmly to connect the button box to the fiber bundle.
+5. Back in the control room, follow the instruction sheet attached to the desk above the silver button box interface in order to select the correct device and settings.
 
   - Steps 3 and 5 will be different for the trackball mouse. Choose HHSC-TRK2 and HID TRACK COMP for those steps, respectively.
+
 6. Once settings have been selected, please make sure your subject tests the buttons before continuing
 
 Troubleshooting
@@ -699,15 +700,17 @@ See :ref:`trouble-FIRMM` on the Troubleshooting page.
 
 .. dropdown:: **VE11C - ARCHIVED**
 
-   - Register a subject on the scanner (normal procedure).
-   - Check the threshold value on the tablet (the dotted lines above and below the 0 line) and change the value under the Settings tab if desired.
-   - Open up the Windows start menu (CTRL+ESC).
-   - Right click on the 'FIRMM start one patient' towards the top of the menu and click open.
-   - A pop-up will appear asking whether this file is secure, select 'Run'.
-   - A new pop-up will appear that has a large 'CONNECTED' message.
-   - Start your scan and participant motion metrics will appear on the FMRI, DWI, or T1/T2 tabs (if using vNav structural).
-   - Note that the percentage reflects the aggregate motion metrics up to the current moment. If you're looking for the percentage that corresponds to only a particular series, tap "Show Series" and make sure only the one you're interested in is checked.
-   - No need to take any further action when your scan is complete. If the next group intends to collect FIRMM data, they will start the process again (register patient, right click "FIRMM start one patient", etc.) and the tablet will automatically sync with the new functionals as they are acquired.
+   #. Register a subject on the scanner (normal procedure).
+   #. Check the threshold value on the tablet (the dotted lines above and below the 0 line) and change the value under the Settings tab if desired.
+   #. Open up the Windows start menu (CTRL+ESC).
+   #. Right click on the 'FIRMM start one patient' towards the top of the menu and click open.
+   #. A pop-up will appear asking whether this file is secure, select 'Run'.
+   #. A new pop-up will appear that has a large 'CONNECTED' message.
+   #. Start your scan and participant motion metrics will appear on the FMRI, DWI, or T1/T2 tabs (if using vNav structural).
+   
+      - Note that the percentage reflects the aggregate motion metrics up to the current moment. If you're looking for the percentage that corresponds to only a particular series, tap "Show Series" and make sure only the one you're interested in is checked.
+
+   #. No need to take any further action when your scan is complete. If the next group intends to collect FIRMM data, they will start the process again (register patient, right click "FIRMM start one patient", etc.) and the tablet will automatically sync with the new functionals as they are acquired.
 
 .. dropdown:: **Research FIRMM (decommissioned)**
 
@@ -715,31 +718,32 @@ See :ref:`trouble-FIRMM` on the Troubleshooting page.
    
    To begin FIRMM:
    
-   - Press CTRL+ESC on console --> STOP FIRMM Session
-   - Register your participant.
-   - Press CTRL+ESC on console --> START FIRMM Session
-   - Close out of terminal and X11 on the iMac.
-   - Go to "XQuartz" or "Terminal" menu at the top left of the screen, then scroll down and click "Quit"
-   - Double click "FIRMM.command" icon on desktop. This should open up the terminal.
-   - Type FIRMM into command line and press Enter.
-   - Terminal should start spitting out lines, X11 should open up and you should see a message on the terminal window that says "Waiting for DICOMs..."
-   - Click on the Start button on the X11 FIRMM application window.
-   - When your functional scan starts, volumes should start appearing after ~45sec delay.
+   #. Press CTRL+ESC on console --> STOP FIRMM Session
+   #. Register your participant.
+   #. Press CTRL+ESC on console --> START FIRMM Session
+   #. Close out of terminal and X11 on the iMac.
+   #. Go to "XQuartz" or "Terminal" menu at the top left of the screen, then scroll down and click "Quit"
+   #. Double click "FIRMM.command" icon on desktop. This should open up the terminal.
+   #. Type FIRMM into command line and press Enter.
+   #. The terminal should display output, X11 should open, and the terminal should show ‘Waiting for DICOMs…’
+   #. Click on the Start button on the X11 FIRMM application window.
+   #. When your functional scan starts, volumes should start appearing after ~45sec delay.
 
 5.6 Eye Camera
 ~~~~~~~~~~~~~~
 
-The camera feed adaptor should be located on the desk behind the console monitor.
+CCN has an in-bore camera that allows researchers to monitor their subject's wakefulness. Please reach out to ccnsupport@g.ucla.edu to discuss use of this resource, as it is owned by a specific project.
 
-- Make sure the camera feed is plugged into the yellow component of the adaptor, and the USB is plugged into the CCN iMac.
-- Open up the ezcap VideoCapture software on the CCN iMac.
-- If the ezcap application is already open, quit and reopen before moving on. Sometimes the USB is not read properly if opened before connecting USB.
-- After opening the program two windows will popup, these are normal.
-- Navigate to the top of the screen and click on the Digitizers menu and select ezcap VideoGrabber. This should bring up a video feed in a separate window.
+The camera feed adaptor is located on the desk behind the console monitor.
+
+#. Make sure the camera feed is plugged into the yellow component of the adaptor, and the USB is plugged into the CCN iMac.
+#. Open up the ezcap VideoCapture software on the CCN iMac.
+#. If the ezcap application is already open, quit and reopen before moving on. Sometimes the USB is not read properly if opened before connecting USB.
+#. After opening the program two windows will popup, these are normal.
+#. Navigate to the top of the screen and click on the Digitizers menu and select ezcap VideoGrabber. This should bring up a video feed in a separate window.
   
   - If this doesn’t work, restart the ezcap VideoCapture software and try again.
   - If no video feed is present, please email the MR Tech.
-- CCN has a camera attached to the top of the bore in the instance research groups would like to monitor their subject's wakefulness but have no need for the eye tracking metrics.
 
 .. image:: images/EyeCameraAdaptor.png
 
@@ -766,13 +770,18 @@ There are three cables that need to be attached when you begin an eyetracking se
 
 - Two thick, black cables: Power cables. Plug them into the two round ports on the back of the eyetracker (doesn't matter which one goes on which side).
 - One skinny, orange cable connected to a blue cable: Fiber optic cable. Plug it into its port on the back of the eyetracker.
-- Remove the lens cap. Place it somewhere nearby so you can find and replace it again easily when your scan is complete.
-- There is another camera mounted to the inside of the bore, right above the eyetracker. You may want to unplug this camera before you being your eyetracking session, as the infrared light it emits may interfere. If you unplug this camera, please remember to plug it back in when your scan is finished.
-- If your group is finding it difficult to re-plug the camera after scans, whether it be due to time or memory constraints, you may find it helpful to simply cover the camera using one of the mesh headphone covers. This is an acceptable alternative as long as you are mindful not to use an excessive number of covers per week.
-- At this point, the Eyelink desktop computer in the control room can be turned on. The camera now needs to be aligned so that it points at the participant's (usually right) eye, reflected in the mirror.
-- Remember to use the mirror dedicated to eyetracking, not the usual coil mirrors. The eyetracking mirror is stored in the control room cabinet and labelled with EYETRACKER.
-- Do not clean this mirror using the wipes. They will degrade the reflectiveness over time. Use the special cleaning products stored in the same cabinet that the EYETRACKER mirror itself is kept in.
-- Once the participant is inside the bore, adjust the alignment as necessary. You may need to play around with both wheels until a stable image is achieved:
+
+#. Remove the lens cap. Place it somewhere nearby so you can find and replace it again easily when your scan is complete.
+#. The camera above the eye tracker emits infrared light that may interfere with eye tracking. You may unplug it before the session, but reconnect it after the scan. 
+   - Alternatively, cover the camera with a mesh headphone cover. Please use these covers sparingly.
+
+#. At this point, the Eyelink desktop computer in the control room can be turned on. The camera now needs to be aligned so that it points at the participant's (usually right) eye, reflected in the mirror.
+#. Remember to use the coil mirror dedicated to eyetracking, not the usual coil mirrors. The eyetracking mirror is stored in the control room cabinet and labelled with EYETRACKER.
+
+   - Do not clean this mirror using the wipes. They will degrade the reflectiveness over time. Use the special cleaning products stored in the same cabinet that the EYETRACKER mirror itself is kept in.
+
+#. Once the participant is in the bore, adjust the controls as needed to obtain a stable image:
+
   - Wheel close to lens: Focus wheel.
   - Wheel close to base: Aperture wheel.
   - Large knob near the base: Adjust eyetracker positioning in all directions.
