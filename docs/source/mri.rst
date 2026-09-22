@@ -128,6 +128,7 @@ The diagram below shows how a new lab sets up a project in SIStat. For questions
 
 .. image:: images/project-workflow.png
    :target: _images/project-workflow.png
+   :width: 30%
 
 2.1  Getting a SIStat account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -154,13 +155,12 @@ Every new user receives an email summarizing these instructions at the end of th
 
 **DICOM Accounts**
 
-CCN maintains a DICOM server that raw imaging data is automatically transferred to as it is acquired. Each lab has their own directory. As such, lab members involved in checking/analyzing the data will need DICOM accounts to access their lab's folder. To apply for a DICOM account:
+Raw imaging data are transferred automatically to CCN’s DICOM server. Lab members who review or analyze these data will need access to their lab’s directory.
 
-- Send an email with the following information to the CCN Programmer Analyst **Jonathan Hernandez (jonhernandez@mednet.ucla.edu)**
-   - Your Hoffman2 account ID if you have one
-   - CC your request to the PI whose group directory you need access to for approval
 - It is possible to have a SIStat account without a DICOM account or vice versa. The user's role in the lab determines whether they need one, the other, or both.
 - If you have an account with the Brain Mapping Center and want access to the CCN DICOM server, you will still need to apply for an account. CCN and the BMC are separate organizations and require separate accounts with separate policies.
+
+To apply for a DICOM account, see :ref:`dicom`.
 
 2.3  Adding a new project
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -188,6 +188,8 @@ CCN uses these details to assess demand and accommodate projects with strict tim
 See the following table for a full list of pricing:
 
 .. image:: Staglin_MRI_Scanner_Costs.png
+   :target: Staglin_MRI_Scanner_Costs.png
+   :width: 30%
 
 **2.4.2** Adding Funds
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -211,7 +213,7 @@ Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) o
 
 Cancelled Scans: See Section :ref:`cancel_policy` below.
 
-
+.. _dicom::
 2.5 DICOM
 ~~~~~~~~~
 
@@ -636,7 +638,8 @@ The HDMI and DisplayPort cables are labelled "SCREEN".
 2. To view the participant’s display on the external monitor to the right of the console, connect the cable labelled MONITOR to the port on the box labelled CLONE. This should be set up by default; please do not disconnect it unless prompted to do by CCN.
 
 .. image:: images/AV_box.jpg
-   :width: 50%
+   :target: images/AV_box.jpg
+   :width: 30%
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
