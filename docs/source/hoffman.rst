@@ -9,7 +9,10 @@ Getting Started
 
 What is Hoffman?
 ^^^^^^^^^^^^^^^^
-The Hoffman2 Cluster is a campus computing resource at UCLA and is named for Paul Hoffman (1947-2003). It is maintained by the `IDRE <https://idre.ucla.edu/>`_ at UCLA and the main official webage is `here <https://www.hoffman2.idre.ucla.edu/>`_. With many high end processor, data storage, and backup technologies, it is a useful tool for executing research computations especially when working with large datasets. More than 1000 users are currently registered and the cluster sees tremendous usage. Click here [will link to Getting an Account] to find out how to join. In September 2014 alone, there were more than 5.5 million compute hours logged. See more usage statistics `here <https://www.hoffman2.idre.ucla.edu/status/>`_.
+
+The Hoffman2 Cluster is UCLA’s campus high-performance computing resource, maintained by the `Institute for Digital Research and Education (IDRE) <https://idre.ucla.edu/>`_. It provides computing and data-storage resources for research involving large datasets and computationally intensive analyses.
+
+The Hoffman2 Cluster is named for Paul Hoffman (1947-2003) and sees tremendous usage, with 800+ 64-bit nodes and over 26,000 cores. Find out more at the `Hoffman2 documentation homepage <https://www.hoffman2.idre.ucla.edu/About/System-overview.htmls/>`_.
 
 Anatomy of the Computing Cluster
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -50,6 +53,7 @@ The reason the number of computing cores continues to grow is because more resou
 
 Use the command ``mygroup`` to see what resources you have available.
 
+.. _getting-account:
 1.2 Getting an Account
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -65,16 +69,16 @@ ATTENTION: If you are a PI interested in Hoffman2, please see the section **Beco
 2. Read over the application summary.
 3. Click "New User Registration".
 4. Log in using your UCLA Logon ID and password.
-5. Fill out the form with appropriate information. For Hoffman2, your Faculty Sponsor should be Mark Cohen, Alison Burggren (for Susan Bookheimer's lab), or your respective PI if they are a Faculty Sponsor on Hoffman.
+5. Fill out the form with requested information.
 
 **Proposed Username**
 This will be the username you use to sign into the cluster with.
 
 **Select a Resource**
 
-For the Mark Cohen/Susan Bookheimer labs, choose "Hoffman2". However, you can request access to any cluster that is a member of the Grid Portal.
+You can request access to any cluster that is a member of the Grid Portal.
 
-Click Submit. You will receive an email with a link to a temporary password. **PLEASE WRITE IT DOWN.** The link expires after 72 hours. If you missed the link or it expired, go back to the `Application Page <https://www.hoffman2.idre.ucla.edu/Accounts/Users-managing-your-account.html#password-processes>`_ and click Forgot Your Cluster Password? It will take about a day for the cluster to resend you a new password.
+Click Submit. You will receive an email with a link to a temporary password. Save the temporary password when you receive it. The link expires after 72 hours. If you missed the link or it expired, go back to the `Application Page <https://www.hoffman2.idre.ucla.edu/Accounts/Users-managing-your-account.html#password-processes>`_ and click Forgot Your Cluster Password? It will take about a day for the cluster to resend you a new password.
 
 You can change your password once you've logged in by using passwd.
 
