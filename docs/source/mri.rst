@@ -233,23 +233,25 @@ Data is stored on the DICOM server for 5 years, then deleted. Data collected in 
 
 **Mac/Linux/Unix**
 
-Use the ssh command from a terminal:
+#. Connect to the server. Open a terminal and enter this ssh command:
 
-.. code-block::
+   .. code-block::
+   
+      ssh login_id@dicomservername
+   
+   where login_id is replaced by your user account ID. The server host name will be sent by email when you receive your account. For CCN, it should be dcm.semel.ucla.edu.
 
-   ssh login_id@dicomservername
+#. Enter your DICOM server password when prompted.
 
-where login_id is replaced by your user account ID. The server host name will be sent by email when you receive your account. For CCN, it should be dcm.semel.ucla.edu. You will then need to enter your dicom server password.
+#. After logging in, you will be in your home directory: /user/userid/
 
-After login, you will be under your home directory, /user/userid/
-
-To access the group directory, use
-
-.. code-block::
-
-   cd /path/to/group_directory
-
-(/path/to/group_directory should be sent to you together with your account information) For CCN, this will be /data/dicom/your_lab_folder_name
+   To access the group directory, use
+   
+   .. code-block::
+   
+      cd /path/to/group_directory
+   
+   (/path/to/group_directory should be sent to you together with your account information) For CCN, this will be /data/dicom/your_lab_folder_name
 
 **Windows**
 
