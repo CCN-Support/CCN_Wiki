@@ -409,7 +409,7 @@ As per Staglin One Mind CCN safety protocol, visitors are not allowed in the MR 
 
 **Can an uncertified person shadow my scan?**
 
-- A CCN exemption is required for an uncertified individual to enter the control room for shadowing a scan. Contact CCN to request one; each exemption applies to a single visit. An exempt observer must not touch research equipment and must be strictly supervised by the certified scan team. A user who has started but not completed the full certification process is still considered uncertified. See CCN’s Restricted Areas policy [insert ref].
+- A CCN exemption is required for an uncertified individual to enter the control room for shadowing a scan. Contact CCN to request one; each exemption applies to a single visit. An exempt observer must not touch research equipment and must be strictly supervised by the certified scan team. A user who has started but not completed the full certification process is still considered uncertified. See CCN’s :ref:`restricted-areas` policy.
 
 **Can I be a primary user?**
 
@@ -430,12 +430,14 @@ Scheduling Policies
 4.1 Rules and Policies
 ~~~~~~~~~~~~~~~~~~~~~~
 
-CCN does not set a fixed advance-booking limit. Book scans as needed and in compliance with the rules below. CCN may review and cancel advance bookings that violate policy:
+CCN does not set a fixed advance-booking limit. Book scans as needed and in compliance with the rules below. CCN may review and cancel advance bookings that violate policy.
 
 
 **4.1.1**  No slot-holding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to. Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects actively scan at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for everyone.
+Reserving a scan time and finding a participant later to fill it is not allowed. You must have a confirmed participant for each scheduled scan, at the time of scheduling. You will be required to enter a Subject ID when you schedule a scan, to verify you have a participant planning to use the slot. Conduct the recruitment process accordingly--for example, have the calendar open as you discuss availability with your participant and only book time that they agree to.
+
+Do not book time days, weeks, or months ahead with the intention of finding participants to fill them later. We understand that it may feel safer to reserve slots in advance, but many projects actively scan at CCN, and it only takes a few instances of this behavior to throttle scan opportunities for the entire community.
 
 **4.1.2**  Prime time scan limits
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -770,7 +772,6 @@ Setup
 The eyetracker is installed in the back of the bore. It should stay behind the blue tape marking the best position on the rail.
 
 There are three cables that need to be attached when you begin an eyetracking session:
-
    - Two thick, black cables: Power cables. Plug them into the two round ports on the back of the eyetracker (doesn't matter which one goes on which side).
    - One skinny, orange cable connected to a blue cable: Fiber optic cable. Plug it into its port on the back of the eyetracker.
 
@@ -784,9 +785,9 @@ There are three cables that need to be attached when you begin an eyetracking se
    - Do not clean this mirror using the wipes. They will degrade the reflectiveness over time. Use the special cleaning products stored in the same cabinet that the EYETRACKER mirror itself is kept in.
 
 #. Once the participant is in the bore, adjust the controls as needed to obtain a stable image:
-  - Wheel close to lens: Focus wheel.
-  - Wheel close to base: Aperture wheel.
-  - Large knob near the base: Adjust eyetracker positioning in all directions.
+   - Wheel close to lens: Focus wheel.
+   - Wheel close to base: Aperture wheel.
+   - Large knob near the base: Adjust eyetracker positioning in all directions.
 
 **In Control Room:**
 
@@ -820,14 +821,17 @@ Locate the transducer cable, identified with a yellow tag, attached to a battery
 
 - Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
 
+.. raw:: html
+
+   <hr>
 
 .. _mri-scanning-procedures:
 Scanning Procedures
 -------------------
 
 .. _pilot:
-Pilot Program
-~~~~~~~~~~~~~
+6.1 Pilot Program
+~~~~~~~~~~~~~~~~~
 
 CCN will consider proposals by UCLA investigators to access the scanning and analysis core services for pilot studies at no charge. Priority is given to junior investigators and novel cognitive neuroscience projects with high likelihood of achieving extramural funding. 
 
@@ -839,8 +843,8 @@ CCN will consider proposals by UCLA investigators to access the scanning and ana
 .. note::
 Please still consider `CTSI <https://ctsi.ucla.edu/funding-opportunities>`_ for funding opportunities. 
 
-Metal Screening and Safety Clearance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6.2 Metal Screening and Safety Clearance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All participants need to be diligently screened for MR contraindications during recruitment.
 
@@ -858,8 +862,8 @@ All participants need to be diligently screened for MR contraindications during 
 
    Submit a ticket for tattoos elsewhere on the body. Just be aware that permanent ink of any kind on the face or head (except microbladed eyebrows *specifically*) automatically disqualifies your subject.
 
-Developing & Testing a Scan Protocol
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6.3 Developing & Testing a Scan Protocol
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Protocol Development
 ^^^^^^^^^^^^^^^^^^^^
@@ -887,8 +891,8 @@ Each new project is permitted two free sessions with a test participant (‘huma
 
 All such scans must be booked with free Development/Practice time, assigned by CCN personnel.
 
-Running a Participant Scan
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+6.4 Running a Participant Scan
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **6.4.1**  Infection Control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
