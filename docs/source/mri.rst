@@ -25,13 +25,14 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 - Overview: The process is summarized as follows and the BruinLearn module will guide you through the steps once you begin:
 
-   1. Review the safety materials, upload your metal screen form, and pass the MR Safety Exam (on BruinLearn). Once you have passed, check the BruinLearn calendar regularly for Walkthrough and Operations Training sessions. Sign up for an available pair of trainings when you find one you can attend. The Walkthrough and Operations sessions should be one week apart. You should not sign up for a Walkthrough without its corresponding Operations, or vice versa, unless you have explicit permission from CCN staff. If you sign up for a disjointed pair of sessions, or for multiple sessions, it causes problems for other users trying to get certified and your signup will be cancelled.
-   2. Attend a Walkthrough Training session (in person at CCN).
-   3. Submit the Walkthrough Worksheet and pass the Walkthrough Exam (on BruinLearn).
-   4. Attend an Operations Training session (at CCN).
-   5. Pass the Operations Exam (on BruinLearn).
+   1. Review the safety materials, upload your metal screen form, and pass the MR Safety Exam (on BruinLearn).
+   2. Book one matching pair of Walkthrough and Operations Training sessions on the BruinLearn calendar. The sessions should be one week apart. Booking only one session without the other requires explicit permission from CCN staff. Sign-ups for unmatched pairs or multiple sessions will be cancelled.
+   3. Attend a Walkthrough Training session (in person at CCN).
+   4. Submit the Walkthrough Worksheet and pass the Walkthrough Exam (on BruinLearn).
+   5. Attend an Operations Training session (at CCN).
+   6. Pass the Operations Exam (on BruinLearn).
 
-- Step-by-Step Guide: See `this document <https://docs.google.com/document/d/1O_xt0fdFmxP1JE7NKGeT_fQSYbvwXxtdP51_UB-ksH4/edit?usp=sharing>`_ for detailed explanations of all requirements related to safety certification and user status. It walks through the entire process of becoming safety certified, with screenshots, starting from the first step of accessing BruinLearn.
+- `Step-by-Step Guide <https://docs.google.com/document/d/1O_xt0fdFmxP1JE7NKGeT_fQSYbvwXxtdP51_UB-ksH4/edit?usp=sharing>`_: This document provides detailed explanations of all requirements related to safety certification and user status. It walks through the entire process of becoming safety certified, with screenshots, starting from the first step of accessing BruinLearn.
 
 .. _renew_cert:
 1.2  How to Renew Safety Certification
@@ -39,38 +40,33 @@ CCN safety certification is achieved using a combination of in-person sessions a
 - Safety certification expires after one year. Every safety-certified user is required to renew their certification annually.
 - To get recertified, log into BruinLearn, click "Modules" in the left-hand sidebar, and scroll down to the Recertification Module. Complete the two requirements:
 
-   1. Fill out an updated metal screening form for yourself. This form must be resubmitted every year to make sure you as a CCN user do not have any new implants or devices that preclude you from entering the MR environment.
-   2. Pass the MRI Recertification Exam. There is no password necessary to access it.
+   1. Submit an updated metal screening form to identify any new implants or devices that may preclude you from entering the MR environment.
+   2. Pass the MRI Recertification Exam. No password is required.
+   3. Email CCN staff as instructed in the module after completing both requirements.
 
-- Email CCN staff as instructed by the module when you have passed both requirements.
-- Please only email CCN staff about recertification if you have passed these requirements, are experiencing BruinLearn issues, or have questions about the conceptual materials. Consult your labmates and carefully read the detailed guide linked above before sending CCN questions about how to get recertified.
+- For procedural questions, first consult your labmates and the detailed guide above. Contact CCN staff about completed requirements, BruinLearn problems, or questions about the course material.
 
 .. warning::
 
-   **IMPORTANT:** If you have not scanned much or at all in the interim year between (re)certifications, passing the Recertification Exam will not be sufficient to  recertify you. *CCN will request that you repeat some or all of the full certification process.*
+   **IMPORTANT:** If you have not scanned much or at all since your last certification, passing the Recertification Exam will not be sufficient to recertify you. *CCN will request that you repeat some or all of the full certification process.*
 
    This is an important precaution to make sure that every CCN user is familiar and up to date regarding safety protocols and equipment. If you have not been regularly scanning at CCN since you were last certified, email ccnsupport@g.ucla.edu to discuss your situation.
 
 1.3  FAQ: Safety Certification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**My lab has no solid plan regarding whether or not I will be scanning. Should I still get certified just in case?**
+**Should I get certified if I do not yet expect to scan?**
 
-- CCN discourages the practice of having lab members get certified "just in case" when there is no real expectation that they will scan. Safety certification should not be treated like a membership or subscription that can be "re-upped" easily at any time. 
-- Only get certified if you are realistically going to start scanning soon and maintain a level of scan activity throughout the year. The reason is that time is a crucial factor when it comes to maintaining a safe MR environment. The more time passes between certification and regular scanning, the less confident CCN can be that you remain prepared to adequately respond in an emergency situation.
-- That being said, CCN understands--and supports--building a robust scan team, such that the lab has multiple certified members who can step in when scheduled users are unexpectedly unavailable. Please be judicious in deciding which and how many lab members pursue safety certification.
-- Once certified, make an effort to stay active and do not allow months to pass with no scan activity. If you do not scan much or at all after becoming certified, CCN will ask that you repeat some or all of the certification process when it comes time for you to renew your status (see "Warning" box above). Do not get certified, scan once, then expect to become recertified again next year by simply taking the online Recertification Exam.
+ CCN supports training enough active team members to cover unexpected absences, but discourages certification solely for possible future use. If you scan little or not at all, you will need to repeat some or all of the certification process at renewal; see 1.2 How to Renew Safety Certification.
 
-**I've been safety certified with CCN before. How do I get recertified?**
+- CCN discourages the practice of having lab members get certified "just in case" when there is no realistic expectation that they will scan routinely. Pursue certification when you expect to begin scanning soon and remain active throughout the year. Regular scanning is critical for the user to remain familiar with safety procedures, problem solving, and emergency protocols.
+- CCN supports the goal of training enough active team members to cover unexpected absences. Please be judicious in deciding which and how many lab members pursue safety certification.
+- Once certified, make an effort to stay active and do not allow months to pass with no scan activity. If you do not scan much or at all after becoming certified, you will need to repeat some or all of the certification process at renewal; see 1.2 :ref:`renew_cert`.
 
-- See the previous section: :ref:`renew_cert`. To summarize:
-- **Users who have been actively scanning at CCN since they were last certified**: Follow the instructions in the Recertification Module on BruinLearn. You will need to submit an updated metal screening form for yourself and pass the MRI Recertification Exam.
-- **Users who have not been actively/regularly scanning at CCN** since they were last certified*: The online MRI Recertification Exam will not be sufficient to renew your certification. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
-- **Users whose certification has expired**: This indicates that you have not been actively scanning at CCN for quite some time, because only users with un-expired certification can be scheduled on scans. You will need to repeat some or all of the full certification process. Email ccnsupport@g.ucla.edu to discuss your situation.
+**How do I renew a previous or expired certification?**
 
-**I was certified a few years ago. Can I just take the Recertification Exam or skip some of the certification steps?**
-
-- No. Safety is always the top priority. CCN must be fully confident that all certified users are prepared to respond in an emergency situation. Even if you were a PI or have been scanning at another institution in the meantime, there is no way to remember all of the crucial information covered during certification training if you have not been active at CCN since you were last certified. Even though MR safety principles are the same regardless of institution, each site is different and the locations of emergency buttons and tools will be different. The course materials, assignments, and exams themselves are also periodically updated.
+- If you have been actively scanning and your certification is current, follow 1.2 :ref:`renew_cert`.
+- If you have not been regularly scanning or your certification has expired, email ccnsupport@g.ucla.edu. You will need to repeat some or all of the full certification process. Prior experience at CCN or another institution does not replace familiarity with CCN’s current equipment, emergency procedures, and training materials.
 
 **I can log into BruinLearn, but don't see the Staglin Safety course.**
 
@@ -87,9 +83,9 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 **I'm on the Calendar page, but don't see any options to sign up.**
 
-- Make sure you click "Find Appointments" on the right-hand side. The detailed guide linked under :ref:`safety_cert` explains this step and many others that are frequently missed -- please read it carefully.
-- If you still do not see any options for signing up, it means all current postings are full. CCN staff offers these sessions as often as the schedule allows, but demand for safety certification is usually high and the sessions fill up very quickly. Watch the calendar for cancellations and new postings--BruinLearn sends automatic email notifications (if your settings allow it) about new session availabilities.
-- If you have a strict deadline or have been actively trying to find a spot for a long time, email ccnsupport@g.ucla.edu to discuss a special accommodation. CCN will do its best to help, but cannot guarantee anything. Training opportunities are limited by both scanner and staff availability.
+1. Click Find Appointments on the right side of the Calendar page. The guide in :ref:`safety_cert` illustrates this step.
+2. If no appointments appear, the current sessions are full. Check for cancellations and new postings, and make sure BruinLearn email notifications are enabled if you want availability alerts.
+3. If you have a strict deadline or have been unable to find a place despite repeated attempts, email ccnsupport@g.ucla.edu. Accommodations depend on scanner and staff availability and cannot be guaranteed.
 
 **I finished my certification training and passed the exams. Now what?**
 
@@ -100,13 +96,11 @@ CCN safety certification is achieved using a combination of in-person sessions a
 
 **I am a certified user, but need a refresher on how to use the scanner console. Can I attend the Operations Training to review?**
 
-- Yes. Attending the Operations Training is required as part of the safety certification process, but established users may also attend if they need to re-familiarize themselves with the system (e.g., after a significant time away).
-- Please check the BruinLearn calendar for available sessions and contact CCN staff for permission to attend. Do not just sign up without notifying CCN staff. Because new users must attend a Walkthrough and Operations Training as a pair, there are the same number of available spots in both. If you sign up for an Operations Training without the corresponding Walkthrough, you will take up a spot that a Walkthrough attendee needs. Communicate with CCN so staff can help accommodate your extra slot.
+- Yes, certified users may attend Operations Training as a refresher. Check the BruinLearn calendar and obtain CCN staff permission before signing up. Places are paired with Walkthrough sessions for new trainees, so staff must arrange an additional place for a refresher attendee.
 
-**I am a certified Secondary User and want to become a Primary User, but my lab is currently not scanning (much) and has no solid timeline on when we will start again. Can I get Primary status now just so I'll have it when we do get back to scanning?**
+**I am a certified Secondary User and want to become a Primary User, but my lab is currently not scanning (much). Can I obtain Primary User status before my lab resumes regularly scanning??**
 
-- See the first question in this FAQ section above. A aimilar principle applies--CCN generally discourages pursuing certification status on a "just in case" basis. Time is always a critical factor. If you are currently a Secondary User who does not scan much, CCN is unlikely to grant you Primary status on the assumption that you will still be fully familiar with the duties specific to Primary Users at an unknown future date.
-- Reach out to ccnsupport@g.ucla.edu when you have an honest idea of when you expect to start needing to serve in the Primary role. CCN admins will assess your suitability for Primary status at that time.
+- CCN generally discourages seeking Primary User status solely for possible future use, particularly if you are not currently scanning regularly. Contact ccnsupport@g.ucla.edu when you have a realistic timeline for serving as a Primary User. CCN will assess your readiness at that time.
 
 **I am BMC certified. Will I need to get re-certified to be allowed in the CCN scanner and/or to access the CCN server?**
 
@@ -130,8 +124,7 @@ SIStat (https://www.sistat.ucla.edu/ccnsas/login.asp) is the platform CCN uses t
 - Adding certified personnel to your lab/project
 - Scheduling and cancelling scans
 
-The diagram below provides an overview of the steps required to set up a project on SIStat, from the perspective of a completely new lab with new users. Keep this workflow in mind as you read through the following sections.
-For any questions (and Step 1B, referring to the CCN Administrator), please contact ccnsupport@g.ucla.edu and cc Marlo Duran at mdduran@mednet.ucla.edu. 
+The diagram below shows how a new lab sets up a project in SIStat. For questions or help with Step 1B (CCN Administrator), email ccnsupport@g.ucla.edu and copy Marlo Duran at mdduran@mednet.ucla.edu.
 
 .. image:: images/project-workflow.png
    :target: _images/project-workflow.png
@@ -155,11 +148,9 @@ The lab PI or coordinator should have administrative privileges to add new users
 2. Click the "User" dropdown menu and first check to see if their account already exists. This will be the case for most fund managers and users who are/were affiliated with other labs. If the user does not already exist, select "Create Passport For New User"
 3. Input the new user's information. Only the bolded fields are mandatory. Either create a strong password for them or make a simple one they can change easily to a strong password of their own. Do NOT leave the password field blank.
 4. The new user will receive an email with their login credentials.
+5. If the user has just completed safety certification, the user or the person creating the account must email ccnsupport@g.ucla.edu to request activation and entry of the certification details. SIStat does not notify CCN when accounts are created. Wait for CCN’s confirmation before attempting to schedule the user as a Primary or Secondary User.
 
-(*If this new user just completed safety certification:*)
-
-5. Once the account is created, please email ccnsupport@g.ucla.edu to activate the account and input their certification information. SIStat does not notify CCN when accounts are created, so if you forget this step, CCN staff will not know there is a new account to be activated. The new user will not appear in SIStat as a Primary/Secondary User scheduling option until the lab sends CCN the email and receives confirmation that the process is complete. Either the user him/herself or the lab member who creates the account can email CCN with the notification--just make sure nobody forgets/delays this step or you will only find out when you try to schedule the new user for the first time.
-6. Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
+Every new user receives an email summarizing these instructions at the end of the certification process. These steps are also discussed verbally during the final in-person portion of the process (Operations Training).
 
 **DICOM Accounts**
 
@@ -173,9 +164,12 @@ CCN maintains a DICOM server that raw imaging data is automatically transferred 
 
 2.3  Adding a new project
 ~~~~~~~~~~~~~~~~~~~~~~~~
-Navigate to Project --> Project Management. The left side of the page will be titled ADD NEW PROJECT and display the required fields for the user to fill out. This includes IRB, Funding, and PI, as well as project-specific information regarding start and end dates, expected number of scans per week, total scan load, and duration.
+All active projects must have complete project information in SIStat.
 
-All currently active projects should have this form completed. If your project already exists and you need to add this information, navigate to Project --> Project Management in the SISTAT system, click on Edit/View at the right-hand side of the project's name, and fill out the available information fields. These details are very important, as CCN uses this information to assess schedule load and accommodate projects with strict time constraints.
+- New project: Go to Project → Project Management and complete ADD NEW PROJECT, including IRB, funding, PI, start and end dates, expected scans per week, total scan load, and duration.
+- Existing project: On the same page, select Edit/View beside the project name and complete the information fields.
+
+CCN uses these details to assess demand and accommodate projects with strict time constraints.
 
 .. image:: AddProjInfo.png
 
@@ -196,19 +190,20 @@ See the following table for a full list of pricing:
 **2.4.2** Adding Funds
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Funding sources can be added under "Financial" → "Add Fund". You will need the following information:
-   1. Funding agency
-   2. Active FAU
-   3. Start and End date
-   4. Fund manager overseeing this fund
+To add a funding source, go to Financial → Add Fund and enter:
 
-New projects must be linked with Active funds.
+- Funding agency
+- Active FAU
+- Start and end date
+- Fund manager responsible for the fund
+
+New projects must be linked to active funds.
 
 
 **2.4.3** Billing and Refunds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Scan Time: All scans must be paid for. CCN will pay for pilot scans as appropriate (see :ref:`pilot`), but all others are paid for by labs via linked funds. Free scan hours are not permitted by Sales & Service, with the exception of specific technical testing and protocol development purposes, which must first be approved by CCN.
+Scan Time: Labs pay for scans through linked funds. CCN may cover approved pilot scans; see :ref:`pilot`. Sales & Service permits no-charge scan time only for specific technical testing and protocol development approved in advance by CCN.
 
 Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) or exceptional events beyond the users' control (e.g., earthquake during scan).
 
@@ -218,12 +213,11 @@ Cancelled Scans: See Section :ref:`cancel_policy` below.
 2.5 DICOM
 ~~~~~~~~~
 
-To apply for a DICOM server account, send an email with the following information CCN's Programmer Analyst (JonHernandez@mednet.ucla.edu) and cc IT Administrator (HaiyanWang@mednet.ucla.edu):
+To request a DICOM account, email CCN’s Programmer Analyst at JonHernandez@mednet.ucla.edu. Copy the IT Administrator at HaiyanWang@mednet.ucla.edu and the PI whose directory you need to access. The PI must confirm approval. Include in the email:
 
-   #. The name of your lab
-   #. The name of the DICOM directory your lab owns and you need access to (typically, this will have the format of LASTNAMEGROUP)
-   #. Your Hoffman2 account ID if you have one
-   #. cc your request to the PI whoses group directory you need access to (the PI will need to confirm approval)
+   1. The name of your lab
+   2. The directory you need to access, typically named LASTNAMEGROUP
+   3. Your Hoffman2 account ID, if you have one
 
 2.5.1 Storage Policy
 ^^^^^^^^^^^^^^^^^^^^
@@ -257,10 +251,10 @@ To access the group directory, use
 
 Use a platform such as PuTTY for SSH terminal. See `Hoffman's documentation <https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html>`_ for instructions on how to connect and set up functionality (such as running GUI applications).
 
-2.5.3 Acessing DICOM Remotely
+2.5.3 Accessing DICOM Remotely
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you want to access the DICOM server from off-campus, you will need to either use a Mednet-specific VPN or log into Hoffman2 first, then ssh into DICOM. Trying to ssh into DICOM directly from a general UCLA VPN (or no VPN) will result in your login request hanging until it times out.
+To access DICOM from off campus, use either a Mednet-specific VPN or connect to Hoffman2 and then use SSH to connect to DICOM. A direct SSH connection through a general UCLA VPN, or without a VPN, will time out.
 
 2.5.4 Sharing File Systems with Mac
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -278,7 +272,7 @@ Usage:
 2.5.5 Copying Files to Hoffman2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please note that copying files off the Dicom server takes much longer when the scanner is in active use, due to the system prioritizing incoming data. As such, you may want to check the scanner calendar and wait for off hours or gaps in the schedule to do your download.
+Transfers from DICOM take longer while the scanner is in use because incoming scan data take priority. Check the scanner calendar and, when possible, download files outside scan hours or during gaps in the schedule.
 
 **From SSH command line**
 
@@ -305,11 +299,11 @@ setup_subject script [page in progress] is used to copy files from Dicom to Hoff
 
 **My IRB doesn't expire. Do I still need to put an expiration date?**
 
-- Yes. In cases of IRBs that were approved without need for continuing review, CCN uses this "expiration" date as a reminder to periodically check in with the PI and be made aware of any changes to the protocol, consent form, or administrative details.
+- Yes. For IRBs that do not require continuing review, CCN uses the expiration-date field as a reminder to check with the PI for changes to the protocol, consent form, or administrative details.
 
 **How will my fund be billed?**
 
-- CCN billing is processed through recharge (not through a system like Epic).  Recharges are submitted the month following the completed scan, which allows 1) the MR Operations Manager to confirm the scan session was completed, and 2) the Finance Administrator to prepare the recharge documents for submission to the fund manager for general ledger posting.
+- CCN bills through recharge rather than a system such as Epic. Recharges are submitted in the month after the scan. This allows the MR Operations Manager to confirm that the session took place and the Finance Administrator to prepare the recharge documents for the fund manager to post to the general ledger.
 
 .. raw:: html
 
@@ -321,13 +315,11 @@ Personnel Policies
 
 3.1  User Rights
 ~~~~~~~~~~~~~~~~
-All users have equal rights and privileges to perform projects at the center. All users will be treated with respect; failure to do so may result in suspension of scanning privileges. Any user can ask questions and suggest policy changes/additions by reaching out to Executive Committee.
+All users have equal rights and privileges to conduct projects at the Center and must treat one another respectfully. Disrespectful conduct may result in suspension of scanning privileges. Users may contact the Executive Committee with questions or proposed policy changes.
 
 3.2  Scan User Roles & Definitions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-For the safety of both the participants and the investigators, all scans must have two MR-safety certified investigators in the facility for the entire duration of the scan.
-
-In the event that this cannot be achieved, please make every effort to pull in backup scan team members, contact certified colleagues in other labs, and reach out to the CCN community (e.g., via the #general channel on the CCN Slack workspace). Only request arrangements with one of our MR Technicians as a last resort. MR Technicians are not required to be on the premises during all scans, and cannot be assumed to provide backup support without prior notice.
+Two MR-safety-certified investigators must remain in the facility throughout every scan. If a scheduled team member is unavailable, seek a replacement from your backup team, certified colleagues in other labs, or the CCN Slack #general channel. Request MR Technician assistance only as a last resort and arrange it in advance. Technicians are not required to be present for every scan and cannot be assumed to be available as backup.
 
 .. note::
    At least one individual present is required to be a full-time/part-time staff, graduate student, post-doc etc. Part-time paid undergraduate researchers cannot presently act as primary users unless approved by CCN after additional review. Email ccnsupport@g.ucla.edu to request review. See below for a full breakdown of roles and permitted duties.
@@ -337,10 +329,10 @@ In the event that this cannot be achieved, please make every effort to pull in b
 
 **Allowable Roles:** Full-time staff, Post-doc, Graduate student, or Faculty member
 
-- Also known as "Responsible User"
-- Leads scan and serves as console operator 
-- Can perform all scan related responsibilities independently without the need for supervision
-- Responsible for assigning tasks to and providing oversight for the secondary user, especially if secondary user is a Volunteer
+- Also called "Responsible User"
+- Leads the scan and operates the console
+- Performs scan-related responsibilities independently
+- Assigns tasks to and supervises the Secondary User, especially Volunteers
 
 3.2.2  Secondary User Definition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -373,9 +365,9 @@ In the event that this cannot be achieved, please make every effort to pull in b
 
 3.3  Volunteers
 ~~~~~~~~~~~~~~~
-All volunteers who would like to join a lab and gain valuable research experience at the Staglin Center are required to undergo the full onboarding process with the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Go through the Clinical UCLA Health Sciences Volunteer Program even if your project does not involve clinical interventions or procedures. Anyone working with human subjects is considered Clinical where the Volunteer Office is concerned.
+All volunteers must complete onboarding through the `UCLA Health Sciences Volunteer Program <https://www.uclahealth.org/Volunteer/ucla-health-sciences-volunteer-program>`_. Go through the Clinical UCLA Health Sciences Volunteer Program even if your project does not involve clinical interventions or procedures. Anyone working with human subjects is considered Clinical where the Volunteer Office is concerned.
 
-The PI/lab admin creates the "Opportunity" with the Volunteer Office, which will then handle the forms and required signatures as part of the onboarding. The duties and responsibilites of the Volunteer are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. In short: 
+The PI or lab administrator creates the Opportunity, and the Volunteer Office handles the onboarding forms and signatures. The duties and responsibilites of the Volunteer are outlined in accordance with the `Staglin Volunteer Addendum <https://drive.google.com/file/d/1zPvjn6u_a6ogrXOi2bJVTLCrzhcw35qz/view?usp=sharing>`_. Please read it over carefully. In short: 
 
 - Volunteers are not allowed to have direct physical contact with research participants or operate the scanner unless dealing with an emergency. Their role should be limited to tasks that do not involve handling the scanner or touching the subject, such as operating the task computer. This is true even for volunteers who have completed safety certification.
 
