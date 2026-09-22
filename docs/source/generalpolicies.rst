@@ -12,17 +12,23 @@ Overview - CCN Space & Use Policies
 
 .. dropdown:: Restricted Areas
 
-   MR Zones are marked with signage. Only safety-certified users and screened participants are allowed to enter the scanning suite (control room & scanner room) unless granted an exemption by CCN. This is for the safety of the individuals and liability of the Center. It is paramount that uncertified users do not touch any research equipment or enter the scanner room while shadowing.
+   MR Zones are marked with signage. Only safety-certified users and screened participants are allowed to enter the scanning suite (control room & scanner room) unless granted an exemption by CCN. This restriction protects individual safety and limits Center liability. Uncertified users are not permitted to touch any research equipment or enter the scanner room while shadowing.
   
-   **Exceptions to Restricted Access:**  CCN may allow a non-operator, non-participant individual into the scanner room only under a very narrow set of circumstances. If an exemption is granted, it is for a single instance. See :ref:`observers` and :ref:`visitors` for details on rules that must be strictly followed in such cases.
+   **Exceptions to Restricted Access:**  CCN may allow a non-operator, non-participant individual to enter the scanner room under highly limited circumstances. Any exemption applies only to a single instance. See :ref:`observers` and :ref:`visitors` for details on rules that must be strictly followed in such cases.
 
 .. dropdown:: MR/EEG Suite & Shared Areas
 
-   It is the responsibility of all experimenters to maintain the facility in a clean and orderly state. This includes all surfaces, linens, cabling, computing and other equipment in the MRI scanner room, control room, hallways, back/supply area, sink and counters, mock scanner, side rooms, and EEG suites.
+   All experimenters are responsible for keeping the facility clean and orderly. This includes all surfaces, linens, cabling, computing and other equipment in the MRI scanner room, control room, hallways, back/supply area, sink and counters, mock scanner, side rooms, and EEG suites.
 
-   Clean up after your group and your participant. If you come in to set up for a scan and find the space messy, report it on the pre-scan form bookmarked on the iMac (or email ccnsupport@g.ucla.edu if you are in for scan-unrelated activites). Do not assume that the next group, CCN staff, or Semel Facilities will tidy up for you. Loop cables back on their hooks on the walls, return equipment to their designated storage locations, unplug head coils from the scanner bed, throw away all trash, and put the Participant Items bin back by the door.
+   *Before Your Session*
 
-   If the linens bin in the scanner room or hallway is full after you've used it, take out the full bag, tie it off, and leave it aginst the wall behind the sink. There are typically new bags in the bin underneath the full one--if not, there will be more in the cabinet marked "LINEN BAGS". Do NOT stack your used linens on top and simply leave the full bag in the bin for someone else to take out. 
+    If you come in to set up for a scan and find the space messy, report it on the pre-scan form bookmarked on the iMac (or email ccnsupport@g.ucla.edu if you are present for scan-unrelated activities). 
+
+   *After Your Session*
+
+   Clean up after your group and your participant. Do not assume that the next group, CCN staff, or Semel Facilities will tidy up for you. Loop cables back on their hooks on the walls, return equipment to their designated storage locations, unplug head coils from the scanner bed, throw away all trash, and put the Participant Items bin back by the door.
+
+   If the linens bin is full after use, remove and tie the full bag and leave it against the wall behind the sink. Replacement bags are usually underneath the full bag; additional bags are stored in the back corner cabinet marked ‘LINEN BAGS'. Do NOT stack your used linens on top and simply leave the full bag in the bin for someone else to take out. 
 
    Clean water, gel, adhesive, and all other substances from the counters and furnishings if your study procedures leave them behind. This includes:
 
@@ -31,21 +37,21 @@ Overview - CCN Space & Use Policies
    - Water on the counter around the sink.
    - Drinks spilled on the floor/carpets.
 
-   Semel Facilities periodically vacuums the carpets, but does not have access to every room or time to deep-clean every stain. Address messes promptly to avoid worse messes that become more difficult to clean down the road. There is stain remover in the cleaning supplies cabinet, washcloths and towels with the linens, and brushes in the left-most drawer when facing the sink. Reach out to CCN staff for help as needed.
+   Semel Facilities periodically vacuums the carpets but cannot access every room or deep-clean every stain. Clean spills and stains promptly before they become more difficult to remove. There is stain remover in the cleaning supplies cabinet, washcloths and towels with the linens, and brushes in the left-most drawer when facing the sink. Reach out to CCN staff for help as needed.
 
 .. dropdown:: Mock Scanner
 
-   An MRI simulator or "mock scanner" that gives subjects a realistic sensory experience. Features a real table fitted with a wooden bore (no magnetic field or metal concerns). Includes a dedicated laptop for playing recorded scanner noise and running Mo-Track software, for the purpose of giving the participant live feedback on how much they are moving.
+  The MRI simulator, or ‘mock scanner,’ gives participants a realistic sensory experience. It features a real scanner table fitted with a wooden bore, but has no magnetic field or metal restrictions. A dedicated laptop plays recorded scanner noise and runs Mo-Track software, which provides live feedback on participant movement.
 
-   The mock scanner is available as a resource for any research group who would find it useful. It may help young participants practice holding still, reassure parents who are unsure what to expect for their child's scan, and offer a trial experience for anyone who anticipates difficulty tolerating the experience (e.g., an adult with claustrophobia). Email ccnsupport@g.ucla.edu if you would like to be added to the calendar for scheduling time on the mock scanner.
+   The mock scanner is available as a resource to all research groups. It may help young participants practice holding still, reassure parents who are unsure what to expect for their child's scan, and offer a trial experience for anyone who anticipates difficulty tolerating the experience (e.g., an adult with claustrophobia). Email ccnsupport@g.ucla.edu if you would like to be added to the calendar for scheduling time on the mock scanner.
 
 .. dropdown:: Testing Room
 
    The suite houses a private side room for scan-related testing and tasks. Each group is allowed 30 minutes of access to this room with any paid scan, at no additional charge, directly before or after that scan. The testing room must be reserved on SIStat when you book your scan.
 
-   Do not come to CCN and use the room for your own purposes when the schedule indicates it is open. The purpose of this room is to support the activities required immediately before or after a scan, NOT to serve as an open resource for anybody to use when it is unreserved.
+   The testing room is reserved for activities immediately before or after a scan and is not available for general use when unreserved.
 
-   If you have the testing room booked and need to use it longer than your reserved time, you may only do so if it does not impinge on another group's scheduled room time. Communicate promptly and courteously with the next group if you are seeking permission to run into their time.
+   You may remain in the testing room beyond your reservation only if doing so does not interfere with another group’s scheduled time. Communicate promptly and courteously with the next group if you are seeking permission to run into their time.
 
    Please work cooperatively with your fellow researchers as much as possible. Some projects are logistically demanding and value access to a private room/work surface highly. If your need for the room is less critical, please extend as much grace and flexibility to the group with greater needs as you can. For example, if you only needed the room as a space for your participant to change into scrubs, and the group before you is not yet finished administering behavioral assessments, please consider directing your participant to the restroom down the hall instead.
 
@@ -53,11 +59,11 @@ Overview - CCN Space & Use Policies
 
 .. dropdown:: Blood Collection
 
-   CCN has gone through the necessary review and approval to open C7-439C (EEG Prep Room) to its users as a blood collection site. Submit the appropriate paperwork (see below) to ccnsupport@g.ucla.edu. Strict adherence to protocol is required to maintain a safe research site for everyone:
+  CCN has received EH&S approval to use C7-439C (EEG Prep Room) as a blood collection site. Submit the appropriate paperwork (see below) to ccnsupport@g.ucla.edu. Strict adherence to protocol is required to maintain a safe research site for everyone:
   
    - For traditional venipuncture phlebotomy: Send CCN the completed `Blood Collection SOP (Venipuncture) <https://docs.google.com/document/d/1WNXvtkOqQU1CcQjaQm7HOkLU_xgSrStZXLESRDcd9Ks/edit?usp=sharing>`_. Updated signatures will be required annually.
    - For self-contained devices (e.g., Tasso): Send CCN the completed `Blood Collection SOP (Self-Contained) <https://docs.google.com/document/d/1TB9sdUqEMPC-ZqQI7L7XA0Jw_-r7aU8cuRgXdh_Uro0/edit?usp=sharing>`_ and a copy of your IRB confirming self-contained blood collection is approved for your study. Updated signatures will be required annually.
-   Ensure that all lab personnel involved in blood collection have completed the required training, in accordance with UCLA/IRB policy. Typically, this will involve BBP, medical waste, and biosafety trainings like the ones listed below, but it is the lab's responsibility to make sure their staff are compliant with current guidelines:
+   Ensure that all lab personnel involved in blood collection have completed the required training, in accordance with UCLA/IRB policy. Required training typically includes BBP, medical waste, and biosafety courses. Each lab is responsible for ensuring that its personnel meet current training requirements.
   
    - `Bloodborne Pathogens Online Training <https://worksafe.ucla.edu/UCLA/Programs/Standard/Control/elmLearner.wml?UPID=0321200236&Segment=CourseHomePage&Option=&ReloadSegmentID=CourseSearch&ReloadOptionID=&CourseID=BIO-BBP-OL>`_
    - `Medical Waste Online Training <https://worksafe.ucla.edu/UCLA/Programs/Standard/Control/elmLearner.wml?UPID=0321200236&Segment=CourseHomePage&Option=&ReloadSegmentID=CourseSearch&ReloadOptionID=&CourseID=BIO-MWM-OL>`_
@@ -88,7 +94,7 @@ Overview - CCN Space & Use Policies
 
 .. dropdown:: Workshop
 
-   CCN has some tools for making basic repairs and adjustments to equipment. These are stored in a locked office/workshop space to make sure they are not accidentally carried into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
+   CCN maintains tools for basic equipment repairs and adjustments. They are stored in a locked workshop/office to prevent accidental entry into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
 
 
 .. raw:: html
@@ -103,9 +109,9 @@ Getting Started at CCN
 Checklist for New PIs
 ~~~~~~~~~~~~~~~~~~~~~
 
-The following workflow summarizes the steps required to start a project at CCN. More details regarding every topic can be found within the MRI page (see left-hand sidebar).
+The following workflow summarizes the steps required to start a project at CCN. More information on each topic is availabe on the MRI page (see left-hand sidebar).
 
-Actions within the same card (section with blue heading) below can be completed concurrently. Each section needs to be completed before the next section can begin.
+Actions within the same card (blue heading) below can be completed concurrently, but each card needs to be completed before proceeding to the next.
 
 .. card::
   :class-card: sd-rounded-1
@@ -172,9 +178,9 @@ Actions within the same card (section with blue heading) below can be completed 
 
   Send ccnsupport@g.ucla.edu your protocol and/or ask for help creating one.
 
-  The more information and documentation you send us up front, the faster we can draft a protocol for you! If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
+  Providing supporting information and documentation up front will help CCN draft your protocol more quickly. If you have a PDF or .exar1 file from a previous study, or any other study that has elements you'd like to emulate, include those in the email.
 
-  Most groups request assistance with building their protocols, but this is not mandatory. If you know exactly what you need, are safety certified, and can confidently navigate the XA30 interface, you may be permitted to create your protocol on your own. Still, email ccnsupport@g.ucla.edu so admins can grant you free development time to work on the console and stay in the loop about your activities.
+  Most groups request CCN assistance with protocol development, but this is not required. Safety-certified users who can independently navigate the XA30 interface may be permitted to create their own protocols. Contact ccnsupport@g.ucla.edu when you are ready to build a protocol so CCN can grant development time and coordinate access.
 
 .. card::
   :class-card: sd-rounded-2
@@ -185,10 +191,10 @@ Actions within the same card (section with blue heading) below can be completed 
 
   :bdg-secondary:`Email` **Request testing time**
 
-  Once your protocol is ready, you will want to test it before starting to schedule participants.
+  Test your protocol before scheduling participants.
 
    - Read :ref:`protocol-testing` for CCN's policies regarding protocol testing.
-   - If you have a task and/or stimuli you will want to present during the scan, make sure all the necessary hardware and software (video, sound, triggers, etc. work on your task laptop) is ready for testing.
+   - If your scan includes tasks or stimuli, make sure all required hardware and software, including video, audio, and triggers, are working on your task laptop before testing at CCN.
    - Email ccnsupport@g.ucla.edu to request a sufficient amount of time to test everything.
 
   .. raw:: html
@@ -197,7 +203,7 @@ Actions within the same card (section with blue heading) below can be completed 
 
   :bdg-secondary:`Email` **Request a DICOM account**
 
-  The DICOM server (or "DICOM") is the remote server were all scan data is automatically transferred as it is acquired. Each lab that collects data at CCN will need a folder to receive their images and set up accounts for all users who need access for preprocessing and analysis.
+  The DICOM server (also called "DICOM") is the remote server where scan data are automatically transferred as they are acquired. Each lab that collects data at CCN needs a folder to receive its images. Accounts must also be created for personnel who need access to the data for preprocessing or analysis.
 
   Email ccnsupport@g.ucla.edu and cc HaiyanWang@mednet.ucla.edu with the following information:
 
@@ -216,7 +222,7 @@ Actions within the same card (section with blue heading) below can be completed 
 
   :bdg-warning:`SIStat` **Request an encumbrance**
 
-  Go to Financial > Request Encumbrances. This will earmark money in the linked funding source to be reserved for scanning. You can request as many encumbrances as needed as your project progresses.
+  Go to Financial > Request Encumbrances. This reserves funds from the linked funding source for scanning. You can request as many encumbrances as needed as your project progresses.
 
 Recruitment Resources
 ~~~~~~~~~~~~~~~~~~~~~
@@ -238,7 +244,7 @@ Recruitment Resources
 IT and Required Trainings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following is a list of trainings and services that may or may not be required for your particular situation. Check with your PI and lab admins for information about what is most applicable to you.
+The following trainings and services may apply to your work. Check with your PI or lab administrator to determine which are required for your role.
 
 1. Google Apps for UCLA: https://g.ucla.edu/
 
@@ -268,7 +274,7 @@ The following is a list of trainings and services that may or may not be require
 
 7. UCLA Health trainings (requires AD/Mednet ID): https://uclahealth.csod.com/samldefault.aspx
 
-   You may have trainings required by UCLA Health. Check "My Transcript" and ask your lab admins about your required courses.
+   UCLA Health may require additional training. Check ‘My Transcript’ and confirm applicable courses with your lab administrator.
 
 8. UCLA Employee Discounts: Check for deals on supplies and services as you get set up at UCLA! https://campusservices.ucla.edu/discounts
 
