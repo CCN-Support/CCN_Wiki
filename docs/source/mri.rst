@@ -136,11 +136,11 @@ The diagram below shows how a new lab sets up a project in SIStat. For questions
 
 **New user with new lab:** CCN will need to create your lab in the system, then add the PI. The PI can then add lab members from there.
 
+.. _add-user:
 2.2  Adding personnel to your lab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Information about your current lab members can be found under General --> My Profile | My Personnel.
 
-.. _add-user:
 **Adding a New User**
 
 The lab PI or coordinator should have administrative privileges to add new users to the lab.
@@ -188,8 +188,8 @@ CCN uses these details to assess demand and accommodate projects with strict tim
 See the following table for a full list of pricing:
 
 .. image:: images/Staglin_MRI_Scanner_Costs.png
-   :target: images/Staglin_MRI_Scanner_Costs.png
-   :width: 30%
+   :target: _images/Staglin_MRI_Scanner_Costs.png
+   :width: 40%
 
 **2.4.2** Adding Funds
 ^^^^^^^^^^^^^^^^^^^^^^
