@@ -639,7 +639,7 @@ The HDMI and DisplayPort cables are labelled "SCREEN".
 2. To view the participant’s display on the external monitor to the right of the console, connect the cable labelled MONITOR to the port on the box labelled CLONE. This should be set up by default; please do not disconnect it unless prompted to do by CCN.
 
 .. image:: images/AV_box.jpg
-   :target: images/AV_box.jpg
+   :target: _images/AV_box.jpg
    :width: 30%
 
 Troubleshooting
@@ -704,6 +704,7 @@ FIRMM on XA30 is seamlessly integrated and starts automatically via settings in 
 
 
 .. image:: images/FIRMM_HBCD_settings.png
+   :target: _images/FIRMM_HBCD_settings.png
 
 
 Troubleshooting
@@ -768,8 +769,10 @@ MR Compatible EyeLink 1000
 CCN is equipped with an in-bore `EyeLink 1000 Plus - Long Range <https://www.sr-research.com/fmri-meg-systems/>`_.
 
 .. image:: images/Image-size-projector-screen.png
+   :target: _images/Image-size-projector-screen.png
 
 .. image:: images/Eyelink-in-scanner-eye-to-screen-distance.png
+   :target: _images/Eyelink-in-scanner-eye-to-screen-distance.png
 
 Setup
 ^^^^^
@@ -968,6 +971,7 @@ CCN retains a neuroradiologist for reviewing potential incidental findings. CCN 
 **How to report incidental findings:**
 
 .. image:: Incidental_finding_report_flow.png
+   :target: Incidental_finding_report_flow.png
 
 1. Prepare T1/T2 images in PNG or JPEG format and circle the area of concern.
 
