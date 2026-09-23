@@ -489,11 +489,16 @@ Use the passwd command to change password. It will prompt you for your old passw
 1.8 Password-less ssh Login
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+1.9 Getting Support
+~~~~~~~~~~~~~~~~~~~
+
+When opening a support ticket with IDRE team, you can choose “Group Support” then choose “CCN (Hoffman2)“. This will redirect the questions to us. In that way we can support you on items such as MRI software or computing questions with CCN supported applications.
+
+In case you want to send a direct ticket to IDRE team, please choose other categories that match your question. Once the ticket is open, you will receive an email. If you still want us to be a part of this ticket, please reply to this ticket and cc to Haiyan and Jonathan’s email address.
 
 .. raw:: html
 
    <hr>
-
 
 Computing
 ---------
