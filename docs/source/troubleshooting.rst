@@ -159,14 +159,38 @@ Peripherals
 
 
 .. dropdown:: Pulse monitor isn't working
+
+   #. Confirm that the pulse monitor is close enough to the scanner to be detected.
+
+      - The HR monitor needs to be close to the scanner before the computer in the control room will detect it on the physiological display.
+      - The bore screen should show physio readings and any relevant error messages when it senses that the monitor is nearby.
+      - If you try to test or check the monitor device from the control room, the waveform will not change and the battery icon will show red regardless of actual charge.
+
+   #. Check for sufficient battery charge.
+
+      - The small square lights at the top left of the device are the charging indicators. Dark means the device insufficient charge. Red means low charge. Green means sufficient charge.
+      - The most common reason for the HR monitoring device to fail is insufficient charge. If the charge is depleted at the beginning of your scan time time, you will unfortunately not be able to use the HR monitor for your session. If you are setting up very early, you may plug the monitor into its charging port and try to restore enough power for your scan.
+      - Place the monitor into the charging port and push down firmly to make sure it is seated completely. The charging indicators will flash green when the device is successfully charging.
+      - Be sure to leave the monitor in its charging port properly after using it. It is easy to unintentionally leave it in a discharging state by not seating it correctly. This means the battery will be dead for the next group who needs it.
+
+   #. Check the finger-detection indicator and participant finger position.
+
+      - The small light at the top right corner of the device is the finger detection indicator. It will shine red when the sensor is not successfully picking up on a physiological signal. The bore screen will also display an error message.
+      - When you see this light and/or error, it means no finger is detected--whether this is because there is no finger in the clip yet, the finger is improperly positioned in the clip, or the sensors in the clip are not positioned correctly to pick up on the signal.
+
+   #. Inspect the light and sensor openings for obstruction or misalignment.
+
+     - Look inside the finger attachment. There are two small, oval-shaped holes inside: a red light is projected through one and received by a sensor in the other. Make sure neither the light nor the sensor are occluded by the attachment. Check that when you put the monitor on, the light is over the fingernail.
+     - If you do not see the red light at all, the sensor loop has gotten shifted around and is now positioned incorrectly within the clip. Remove the rubber finger attachment completely by gently pulling on it--it should slide off easily. Straighten out the sensor loop inside and replace the attachment so that the red light properly shines through one of the holes. Make sure the sensor is not blocked on the opposite side of the light, then try inserting a finger again.
+
+   #. Inspect and clean the finger attachment.
   
-  - Note that the HR monitor needs to be close enough to the scanner before the computer in the control room can detect it on the physiological display. The screen on the bore will also show the physio readings and relevant error messages when it senses that the monitor is nearby. If you try to test or check the monitor device from the control room, the waveform won't change and the battery icon will be red regardless of actual charge.
-  - The small square lights on the top left of the device are the charging indicators. They will flash green when the device is successfully charging.
-  - The small light at the top right corner of the device is the finger detection indicator. It will shine red when the sensor is not successfully picking up on a physiological signal. The bore screen will also display an error message. When you see this light and/or error, it means no finger is detected--whether this be because there is no finger in the clip yet, the finger is improperly positioned in the clip, or the sensors in the clip are not positioned correctly to pick up on the signal.
-  - The most common reason for the HR monitoring device to fail is insufficient charge. It is easy to replace the device in the charging port and unintentionally leave it in a discharging state by not pushing down all the way. If the charge is depleted, you probably won't be able to restore charge quickly enough to use it for your current scan, unfortunately. Replace the monitor in the charging port and make sure you plug it in completely (the little squares at the top will flash green).
-  - If the charge seems fine, look inside the finger attachment. There are two small, oval-shaped holes inside: a red light is projected through one and received by a sensor in the other. Make sure neither the light nor the sensor are occluded by the attachment. Check that when you put the monitor on, the light is over the fingernail.
-  - If you do not see the red light at all, the sensor loop has gotten shifted around and is now positioned incorrectly within the clip. Remove the rubber finger attachment completely by gently pulling on it--it should slide off easily. Straighten out the sensor loop inside and replace the attachment so that the red light properly shines through one of the holes. Make sure the sensor is not blocked on the opposite side of the light, then try inserting a finger again.
-  - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside. If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment. If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
+      - If nothing seems to be wrong with the sensors, check the finger attachment itself. Make sure it is undamaged and snugly encases the sensor loop inside.
+      - If the attachment is ripped or missing, there are new ones in the scanner suite in the labelled drawer with the other physio equipment.
+      - If it does not appear damaged, clean it thoroughly and try again. Sometimes a careful cleaning helps recover the sensor's sensitivity.
+
+   #. If the problem persists, contact CCN support.
+  
 
 
 .. dropdown:: MR-safe glasses
