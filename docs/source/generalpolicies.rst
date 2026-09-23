@@ -48,7 +48,7 @@ Overview - CCN Space & Use Policies
 
 .. dropdown:: Testing Room
 
-   The suite houses a private side room for scan-related testing and tasks. Each group is allowed 30 minutes of access to this room with any paid scan, at no additional charge, directly before or after that scan. The testing room must be reserved on SIStat when you book your scan.
+   The suite houses a private side room for scan-related testing and tasks. Each group is allowed 30 minutes of access to this room with any paid scan, at no additional charge, directly before or after that scan. The testing room must be reserved on the `SIStat reservation system <https://sistat.ucla.edu/ccnsas/login.asp>`_, where you book your scan.
 
    The testing room is reserved for activities immediately before or after a scan and is not available for general use when unreserved.
 
@@ -95,7 +95,7 @@ Overview - CCN Space & Use Policies
 
 .. dropdown:: Workshop
 
-   CCN maintains tools for basic equipment repairs and adjustments. They are stored in a locked workshop/office to prevent accidental entry into the scanner room. Speak to CCN staff if you need to borrow a tool while conducting research activities in the suite.
+   CCN maintains tools for basic equipment repairs and adjustments. They are stored in a locked workshop/office to prevent accidental entry into the scanner room. Speak to CCN staff if CCN equipment is in need of repairs.
 
 
 .. raw:: html
@@ -107,7 +107,7 @@ Getting Started at CCN
 ----------------------
 
 
-Checklist for New PIs
+Workflow for New PIs
 ~~~~~~~~~~~~~~~~~~~~~
 
 The following workflow summarizes the steps required to start a project at CCN. More information on each topic is availabe on the MRI page (see left-hand sidebar).
@@ -136,7 +136,7 @@ Actions within the same card (blue heading) below can be completed concurrently,
 
   :bdg-warning:`SIStat` **Set up your project**
 
-  `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is our platform for all scan management activities: linking funds/IRBs, scheduling scans, assigning team members to scans, and more.
+  `SIStat <https://sistat.ucla.edu/ccnsas/login.asp>`_ is a Semel Institute platform that CCN uses for all scan management activities: linking funds/IRBs, scheduling scans, assigning team members to scans, and more.
 
     - Link funding source
 
