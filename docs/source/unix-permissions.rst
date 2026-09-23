@@ -3,7 +3,7 @@
 UNIX Permissions
 ================
 
-Information on this page is heavily based on Perifect's article: `Understanding UNIX and chmod <https://www.perlfect.com/articles/chmod.shtml>`_
+Information on this page is heavily based on Perifect's article: "Understanding UNIX and chmod".
 
 There are some differences in the way OSX handles permissions compared to other UNIX's.
 However, the following should be accurate for all lab members on the Hoffman2 cluster.
