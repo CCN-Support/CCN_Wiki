@@ -14,9 +14,6 @@ Introduction
 There are three levels of ownership and three levels of permission that you
 need to know.
 
-.. image:: images/Unix-Permission.gif
-   :width: 60%
-
 Ownership
 ~~~~~~~~~
 
@@ -145,8 +142,6 @@ column shows the owner, and the fourth column shows the owner group. The
 information provided by ``ls -l`` should be enough for you to determine what
 each user of the system can do with any of the files in the directory.
 
-.. image:: images/Unix-Permission.png
-   :width: 80%
 
 chmod
 ~~~~~
@@ -431,10 +426,10 @@ file.
 Further Reading
 ---------------
 
-* `Understanding UNIX and chmod <https://www.perlfect.com/articles/chmod.shtml>`_
+* Original article: `Understanding UNIX and chmod <https://www.perlfect.com/articles/chmod.shtml>`_
 * For additional information, see the ``chmod`` manual page by running
   ``man chmod``. It contains additional options and types of permissions that
   are beyond the scope of this introduction.
-* `An exhaustively complete tutorial for the chmod utility
+* `An exhaustive tutorial for the chmod utility
   <https://www.catcode.com/teachmod/>`_
 * `ONLamp chmod tutorial <https://www.onlamp.com/>`_
