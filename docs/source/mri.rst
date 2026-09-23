@@ -816,23 +816,30 @@ Locate the transducer cable, identified with a yellow tag, attached to a battery
 #. Make sure to turn on the tower only after the cables are connected to the eye tracker in the bore.
 #. The main Eyelink menu screen should appear, now that all the cables are connected and the computer is powered on.
 
-**Calibration:**
+**Calibration Settings:**
 
-- Click on the center of the eye to put the red circle around the pupil.
-    - Set the thresholds so that the cross locks on to the center of the pupil and maintains as stable a tracking as possible:
+- The parameters for running the calibration will depend on how the corresponding script is written on your task computer's side. You will need some code that tells Eyelink when to present a fixation cross and when to accept fixations.
+- This can be a relatively simple Matlab script with just a few commands for having the user decide when to show a cross, accept a fixation, show the next cross, and exit the script when calibration is done.
+- "Auto-trigger" is off by default. You will most likely want to keep this off.
+- "Force Manual Accept" will tell Eyelink that you want the program to wait for you to press a key in order to accept the calibration attempt on a particular fixation point before moving on. 
+- Other settings will depend on your lab's preferences. For example, there are different calibration types that will present fixation points in various configurations, such as a row of three, a triangle, a five-point cross, or a full-screen grid.
+- Make a note of what settings your lab/project uses so it will be consistent across all your participants.
+
+**Running Calibration:**
+
+#. Click on the center of the eye to put the red circle around the pupil.
+#. Set the thresholds so that the cross locks on to the center of the pupil and maintains as stable a tracking as possible:
     - Start by clicking "Auto Threshold". Eyelink will give you its best estimate of what threshold values give you the most accurate capture of pupil and corneal reflection.
     - Adjust the pupil threshold until the dark blue (pupil) fills as much of the pupil as possible without including too much non-pupil (e.g., eyelashes).
     - Adjust the CR threshold until the light blue (corneal reflection) circumscribes a spot on the pupil without including too much non-CR (e.g., the coil).
 
-- Once the threshold settings are as stable as you can get them, click "Calibrate" on the right side of the screen to begin calibration.
-    - The details of running the calibration will depend on how the corresponding script is written on your task computer's side. You will need some code that tells Eyelink when to present a fixation cross and when to accept fixations.
-    - This can be a relatively simple Matlab script with just a few commands for having the user decide when to show a cross, accept a fixation, show the next cross, and exit the script when calibration is done.
-    - "Auto-trigger" is off by default. You will most likely want to keep this off.
-    - Other settings will depend on your lab's preferences. For example, there are different calibration types that will present fixation points in various configurations, such as a row of three, a triangle, a five-point cross, or a full-screen grid. "Force Manual Accept" will tell Eyelink that you want the program to wait for you to press a key in order to accept the calibration attempt on a particular fixation point before moving on. There are a number of other settings--make a note of what your lab wants to do so it will be consistent across all your participants.
-    - If you are using manual accept, you generally want to accept a corresponding fixation very quickly after presenting a cross. This is because a person's immediate saccade to a new fixation point tends to be the most accurate. Once they fixate, the eye often drifts off even if the person feels like they are still focused on the cross.
-    - During calibration, the crosses look like they appear at the edges of the screen while the fixations do not. This is normal--the fixations will look clustered around the center of the screen, but as long as they make a generally rectangular shape, calibration is working correctly.
+#. Once the threshold settings are as stable as you can get them, click "Calibrate" on the right side of the screen to begin calibration.
 
-- Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
+    - During calibration, the crosses look like they appear at the edges of the screen while the fixations do not. This is normal--the fixations will look clustered around the center of the screen, but as long as they make a generally rectangular shape, calibration is working correctly.
+    - If you are using manual accept, you generally want to accept a corresponding fixation very quickly after presenting a cross. This is because a person's immediate saccade to a new fixation point tends to be the most accurate. Once they fixate, the eye often drifts off even if the person feels like they are still focused on the cross.
+
+
+#. Click "Accept" and "Validate" to validate the calibration once it's complete. This will run you through another (similar, but not identical) process to verify the calibration results.
 
 .. raw:: html
 
