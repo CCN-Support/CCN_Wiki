@@ -190,9 +190,7 @@ Permissions
 
 Permissions determine who and to what degree users can access a file.
 
-The key terminology and function of the permission system is found here:
-
-[insert unix permissions page]
+The key terminology and function of the permission system is found here: :ref:`unix-permissions`
 
 
 **List of Utilities Covered**
