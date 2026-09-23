@@ -14,17 +14,19 @@ To use this script, you need to load Anaconda module first and use conda environ
 ccn_py37 contains nibabel which is needed to read nifti files. ffmpeg is also required for this script to run.
 
 .. code-block::
+
    module load anaconda3
    conda activate /u/project/CCN/apps/conda/rh7/ccn_py37
    module load ffmpeg/5.0.1
 
-If you want to run this script on other Linux machines instead of Hoffman2, make sure you have Python3, Nibabel and ffmpeg installed.
+If you want to run this script on other Linux machines instead of Hoffman2, make sure you have Python3, nibabel and ffmpeg installed.
 
 Usage/Help
 ----------
 To see the usage of this script, enter:
 
 .. code-block::
+
   ./gen_movie.py --help usage: gen_movie.py [-h] -i INPUT [-o OUTDIR] [-b BIN] [-w WIN]
 
 optional arguments:
@@ -44,6 +46,7 @@ Example
 -------
 
 .. code-block::
+
   /u/project/CCN/apps/scripts/gen_movie.py -i /path/to/T1w_brain.nii.gz -o /path/to/output/ --win "0.05 0.995" --bin 100 --dim 2
 
 In this example, the script reads the input file from ``/path/to/T1w_brain.nii.gz`` and creates a "movie" folder under ``/path/to/output/``.
