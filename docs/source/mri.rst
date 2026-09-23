@@ -970,13 +970,13 @@ CCN retains a neuroradiologist for reviewing potential incidental findings. CCN 
 
 **How to report incidental findings:**
 
-.. image:: Incidental_finding_report_flow.png
-   :target: Incidental_finding_report_flow.png
+.. image:: images/Incidental_finding_report_flow.png
+   :target: _images/Incidental_finding_report_flow.png
 
 1. Prepare T1/T2 images in PNG or JPEG format and circle the area of concern.
 
    - (Optional) You can create a "movie" from MRI images to give the radiologist with a fuller, 3D view. This is not required, but often useful in providing more detailed information for the review.
-       - CCN offers a script that will create this movie from a nii.gz folder of structurals: gen_movie.py
+       - CCN offers a script that will create this movie from a nii.gz folder of structurals: :ref:`gen_movie.py`
        - You may also create the movie using your own program. Just be sure it can be paused, replayed, and so on (e.g., a mp4 file). Animation files (e.g., gifs) will not allow the radiologist to carefully inspect the area of concern and are therefore of less informational value.
 
 2. Make sure your image and video files are of good quality so the radiologist can make the best possible interpretation. No phone pictures of computer screens.
