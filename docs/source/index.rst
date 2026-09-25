@@ -18,6 +18,9 @@ Contents
    hoffman
    troubleshooting
    resources-and-learning
+
+..
+   This is a comment block to temporarily remove Future Content and Testing Area from the sidebar. Simply add the entries below back into the toctree to restore them.
    future_content
    testing
 
