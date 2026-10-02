@@ -122,5 +122,5 @@ View the website `here! <https://urldefense.com/v3/__https://sites.google.com/g.
   
 - Session 1: TBD (a week or two before session 2)
 - Session 2: Friday April 16, 2027, 10a-1pm - Room GH-113
-- Session 2: Friday April 23, 2027, 10a-1pm - Room GH-113
+- Session 3: Friday April 23, 2027, 10a-1pm - Room GH-113
 
