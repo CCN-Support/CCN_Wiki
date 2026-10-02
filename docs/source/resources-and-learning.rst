@@ -90,7 +90,7 @@ This will be an interactive workshop!
 HPC (Hoffman2) Fundamentals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wed Dec 2 11-11:50am - location TBD, in-person
+Wed Dec 2 11-11:50am - location Semel 17-256, in-person
 
 **By Haiyan Wang**
 
@@ -105,7 +105,9 @@ Topics include:
 Electrophysiology of Brain Dynamics Affinity Group Workshops
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These are in-person events only!
+These are in-person events only! `Sign up here! <https://urldefense.com/v3/__https://forms.gle/8Fg2bMCWDRsBNRTs5__;!!F9wkZZsI-LA!HlQOVkY9S4m5lq5svCembrtpsPahZlGUqbnPDSshv5LrbVgnJPh-Mk-PSpHWOncDgLDkZF4O8jlcqccNo8Z7vi96Y7qL$>`_
+
+View the website `here! <https://urldefense.com/v3/__https://sites.google.com/g.ucla.edu/ebdworkshop/home__;!!F9wkZZsI-LA!HlQOVkY9S4m5lq5svCembrtpsPahZlGUqbnPDSshv5LrbVgnJPh-Mk-PSpHWOncDgLDkZF4O8jlcqccNo8Z7vo8RhGck$>`_
  
 **Workshop 1: Python/MNE Workshop on EEG data preprocessing.**
   This session will cover data wrangling and denoising using MNE, a Python library.
@@ -122,23 +124,3 @@ These are in-person events only!
 - Session 2: Friday April 16, 2027, 10a-1pm - Room GH-113
 - Session 2: Friday April 23, 2027, 10a-1pm - Room GH-113
 
-EBD EEG Data Processing Workshop
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Thank you so much for completing our workshop survey `(link) <https://urldefense.com/v3/__https:/forms.gle/pvJN1nbLWMXRDfoe6__;!!F9wkZZsI-LA!ALFhtF7a2BEMwf5YC3Oh1MpVXvxKtd2vepEBXP4MQB8uCXgBVxlXYfAN8-nNVCYuKEhbYktgnY0Ti9mrMSyYT8SOuEc$>`_. We are excited to share with you the date/times for the workshop alongside a preliminary agenda!
- 
-The workshop will be divided into a Python/MNE and MATLAB/EEGLab series - each comprising 3 sessions. The first session will be an (optional) Zoom session for around 1-2 hours that will cover the background on data wrangling and denoising techniques. The second and third sessions will each be an in-person session, lasting around 2-3 hours, that involves hands-on practice with data wrangling while the third session will deal with practicing denoising.
- 
-The dates and times for the first **Python/MNE** series are as follows:
-
-- Session 1: Friday, December 11th, 10a-1p, Zoom
-- Session 2: Friday, January 8th, 10a-1p, room TBD
-- Session 3: Friday, January 15th, 10a-1p, room TBD
-
-The dates and times for the **Matlab/EEGLAB** series are as follows:
-
-- Session 1: TBD (a week or two before session 2)
-- Session 2: Friday April 15, 2027, 10a-1pm
-- Session 3: Friday April 23, 2027, 10a-1pm
-
-We will be reaching out with a sign-up sheet in November, so please be on the look-out!
