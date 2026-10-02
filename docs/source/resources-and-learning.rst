@@ -94,6 +94,8 @@ Wed Dec 2 11-11:50am - location Semel 17-256, in-person
 
 **By Haiyan Wang**
 
+`Sign up here! <https://docs.google.com/forms/d/e/1FAIpQLSd-ZHFl-mRyuw0tk9gBuFg88tA-5DMhIMiPSW96ju08rPWjsg/viewform?usp=publish-editor>`_
+
 Topics include:
 
 - Connecting to Hoffman2
