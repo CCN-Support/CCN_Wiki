@@ -64,6 +64,8 @@ On mobile devices, the directory may be easier to navigate than the table above.
    })();
    </script>
 
+----
+
 Upcoming Workshops
 ------------------
 
@@ -87,6 +89,8 @@ Topics include:
 
 This will be an interactive workshop!
 
+----
+
 HPC (Hoffman2) Fundamentals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -103,6 +107,8 @@ Topics include:
 - How to request interactive mode, batch mode and use job array
 - How to use modules
 - Mamba and Container
+
+----
 
 Electrophysiology of Brain Dynamics Affinity Group Workshops
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
