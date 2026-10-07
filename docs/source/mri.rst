@@ -213,7 +213,8 @@ Refunds: Refunds are provided only for CCN-side issues (e.g., scanner problem) o
 
 Cancelled Scans: See Section :ref:`cancel_policy` below.
 
-.. _dicom::
+.. _dicom:
+
 2.5 DICOM
 ~~~~~~~~~
 

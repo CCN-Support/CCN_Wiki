@@ -492,9 +492,64 @@ Use the passwd command to change password. It will prompt you for your old passw
 1.9 Getting Support
 ~~~~~~~~~~~~~~~~~~~
 
-When opening a support ticket with IDRE team, you can choose “Group Support” then choose “CCN (Hoffman2)“. This will redirect the questions to us. In that way we can support you on items such as MRI software or computing questions with CCN supported applications.
 
-In case you want to send a direct ticket to IDRE team, please choose other categories that match your question. Once the ticket is open, you will receive an email. If you still want us to be a part of this ticket, please reply to this ticket and cc to Haiyan and Jonathan’s email address.
+For Hoffman2 computing and CCN IT help, use the **IDRE support portal**. Choose **Group Support → CCN (Hoffman2 Cluster)** and submit your request.
+
+**Start here:** `Open a pre-filled CCN ticket <https://support.idre.ucla.edu/Tickets/New?CategoryID=303291&Body=Hoffman2+username%3A+%7C+What+you+tried+to+do+%28command%2C+module%2C+or+app%29%3A+%7C+What+happened+instead+%28exact+error+message+or+behavior%29%3A+%7C+Files+or+paths+involved+%28e.g.%2C+your+project+directory%29%3A+%7C+%28attach+a+screenshot+if+the+problem+is+visual%29>`_. The category and a checklist are filled in for you; you still need to add your email, subject, and problem details, then click **Submit**.
+
+**Step-by-step instructions (including the manual route):**
+
+1. Go to https://support.idre.ucla.edu/ and click :guilabel:`New ticket`. Enter your email address, subject, and problem details.
+
+   .. figure:: images/idre_step1_newticket.png
+      :alt: IDRE Hoffman2 Support portal home page with the New ticket button highlighted
+      :width: 800
+
+      Step 1 — the IDRE support portal. Click :guilabel:`New ticket`.
+
+2. Under :guilabel:`Category`, choose :menuselection:`Group Support --> CCN (Hoffman2 Cluster)`. If you used the pre-filled link, check that **CCN (Hoffman2 Cluster)** is already selected. This category routes your request to CCN staff for CCN-supported software and computing help. **Do not choose CCN MRI Safety for computing problems.**
+
+   .. figure:: images/idre_step2a_groupsupport.png
+      :alt: Category dropdown with the Group Support option highlighted
+      :width: 800
+
+      Step 2a — in the Category dropdown, select **Group Support**.
+
+   .. figure:: images/idre_step2b_ccn.png
+      :alt: Group Support subcategories with the CCN Hoffman2 Cluster option highlighted
+      :width: 800
+
+      Step 2b — inside Group Support, select **CCN (Hoffman2 Cluster)**.
+
+3. Enter a short :guilabel:`Subject`, such as **“FSL job fails with an error”**. In the message, replace the checklist prompts with your details:
+
+   .. code-block:: text
+
+      Hoffman2 username:
+      What you tried to do (command, module, or app):
+      What happened instead (exact error message or behavior):
+      Files or paths involved (e.g., your project directory):
+      (attach a screenshot if the problem is visual)
+
+   Attach a screenshot if it helps explain the problem, then click :guilabel:`Submit`.
+
+.. tip::
+
+   All updates and staff replies come to your email, and replying to those emails updates the ticket automatically.
+
+.. note::
+
+   The same dropdown also contains a **CCN MRI Safety** category — that is for MRI safety-clearance issues only. For participant safety screening, follow the safety-ticket instructions on the wiki home page instead. The CCN (Hoffman2 Cluster) category is the correct choice for Hoffman2 computing and CCN IT questions.
+
+**Already submitted under the wrong category?**
+
+Reply to the confirmation email and CC **HaiyanWang@mednet.ucla.edu** and **JonHernandez@mednet.ucla.edu**. Ask for the ticket to be routed to **CCN (Hoffman2 Cluster)**. A ticket filed elsewhere may not reach CCN staff and can delay help.
+
+.. seealso::
+
+   For **DICOM questions or server access**, email **Jonathan (JonHernandez@mednet.ucla.edu)** and CC **Haiyan (HaiyanWang@mednet.ucla.edu)** instead of using the IDRE portal. See :ref:`dicom` for account details.
+
+Not sure where to send your request, or having trouble with the ticket process? `Email ccnsupport@g.ucla.edu <mailto:ccnsupport@g.ucla.edu>`_ for help finding the right channel.
 
 .. raw:: html
 
