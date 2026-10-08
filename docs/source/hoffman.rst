@@ -1180,6 +1180,15 @@ Known issue: 5.0.10 fsleyes crash on x2go
    * - Version
      - Install Date
      - Notes
+   * - 2.2.1
+     - 2026.10.08
+     - Newest. New Slurm cluster only
+   * - 2.0.1
+     - 2025.03.10
+     - Program reports version 1.5.0
+   * - 1.5.0
+     - 2021.02.26
+     - Program reports version 1.4.2
    * - 1.3.2
      - 2019.05.22
      - New
@@ -1195,6 +1204,33 @@ Known issue: 5.0.10 fsleyes crash on x2go
    * - 0.84
      - 
      - 
+
+**On the new Slurm cluster (preview)**
+
+All versions are available. Versions 1.0 to 2.2.1 use a new module folder; 0.84 uses the older one.
+
+.. code-block:: bash
+
+   # Versions 1.0 to 2.2.1
+   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
+   module load hcp/2.2.1
+
+   # Version 0.84
+   module use /u/project/CCN/apps/modulefiles_rh6
+   module load hcp/0.84
+
+   wb_command -version
+
+**Open the viewer (wb_view)**
+
+First set up a Mac once and connect with ``ssh -Y`` (see :ref:`slurm-preview`). Then:
+
+.. code-block:: bash
+
+   srun --x11 --time=01:00:00 --mem=4G --cpus-per-task=2 --pty bash -l
+   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
+   module load hcp/2.2.1
+   wb_view
 
 2.1.30 ICA-AROMA
 ^^^^^^^^^^^^^^^^
