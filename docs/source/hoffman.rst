@@ -1117,6 +1117,32 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2023.08.22
      - new
 
+**On the new Slurm cluster (preview)**
+
+Run FSL_MRS 2.1.12 inside a Slurm compute allocation. To connect and start a session, see :ref:`slurm-preview`.
+
+.. code-block:: bash
+
+   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
+   module load fsl_mrs/2.1.12
+   export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+   fsl_mrs --data spectrum.txt --basis basis/ --h2o water.txt \
+     --output fit_results --algo Newton --report
+
+Replace the example paths with your spectrum, matching basis set and water
+reference. Use a new output folder.
+
+Copy ``fit_results`` to your computer and open ``report.html`` in a browser.
+
+The example reports values relative to total creatine (Cr+PCr), not absolute
+concentrations.
+
+.. figure:: images/fsl_mrs_fit_summary.png
+   :alt: Public example spectrum, fitted model and residuals from the Slurm pilot.
+   :width: 800
+
+   Example single-voxel fit.
+
 2.1.26 ggseg
 ^^^^^^^^^^^^
 
