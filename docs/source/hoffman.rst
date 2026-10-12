@@ -2401,7 +2401,7 @@ Things to try, in this order:
 
 3. On a Mac with XQuartz, FSLeyes does not draw at all. Use NoMachine, or FSLView (FSL 6.0.4 and older).
 
-We are still checking these fixes on Hoffman2. If neither works, open a ticket (see section 1.9).
+These fixes are not yet confirmed on Hoffman2. If neither works, open a ticket (see section 1.9).
 
 3.5 Python
 ~~~~~~~~~~
