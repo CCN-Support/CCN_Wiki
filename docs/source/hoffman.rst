@@ -2386,6 +2386,23 @@ Solution:
 
   3. In noMachine terminal, input "module load fsl/versionxxx". Then it should avoid the same error this time.
 
+**FSLeyes opens, but the image is black**
+
+The FSLeyes window and menus show, but the image area stays black. No error is printed. In NoMachine this happens most with the GNOME desktop and FSL 6.0.0, 6.0.1, 6.0.3 and 6.0.4. This is a known FSLeyes problem with some graphics setups (`FSLeyes issue #142 <https://github.com/pauldmccarthy/fsleyes/issues/142>`_).
+
+Things to try, in this order:
+
+1. In NoMachine, start a new desktop with **MATE** or **XFCE** instead of GNOME.
+2. Start FSLeyes with software drawing:
+
+.. code-block:: bash
+
+  LIBGL_ALWAYS_SOFTWARE=1 fsleyes
+
+3. On a Mac with XQuartz, FSLeyes does not draw at all. Use NoMachine, or FSLView (FSL 6.0.4 and older).
+
+We are still checking these fixes on Hoffman2. If neither works, open a ticket (see section 1.9).
+
 3.5 Python
 ~~~~~~~~~~
 3.6 Jupyter Notebook
