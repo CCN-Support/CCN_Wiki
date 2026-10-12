@@ -1011,9 +1011,6 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
    * - Version
      - Install Date
      - Notes
-   * - 8.2.0
-     - 2026.10.12
-     - New Slurm cluster only
    * - 7.2.0
      - 2021.11.29
      - 
@@ -1023,30 +1020,6 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
    * - 6.0.0
      - 2017.01.18
      - CentOS 6 only
-
-**On the new Slurm cluster (preview)**
-
-FreeSurfer 7.2.0, 7.1.1, 6.0.0 and 8.2.0 (new) are in the new module folder. Run FreeSurfer inside a Slurm session or job, not on the login node. To connect and start a session, see :ref:`slurm-preview`.
-
-.. code-block:: bash
-
-   srun --time=02:00:00 --mem=8G --cpus-per-task=2 --pty bash -l
-   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
-   module load freesurfer/7.2.0
-   export SUBJECTS_DIR=$HOME/subjects
-   mkdir -p $SUBJECTS_DIR
-   recon-all --version
-
-Set ``SUBJECTS_DIR`` after ``module load``. The module sets it to the install folder, which you cannot write to.
-
-**FreeSurfer 6.0.0**
-
-6.0.0 needs CentOS 6, so it runs in a container. ``module load freesurfer/6.0.0`` handles the container for you; use the normal commands (``recon-all``, ``mri_convert`` and so on).
-
-- The first FreeSurfer command in each session or job prints ``FreeSurfer 6.0.0: preparing container, about 1 minute, once per job``. Later commands start at once.
-- To run any other program from the container, use ``fs6 <command>``, for example ``fs6 tcsh``.
-- Files under ``/u`` (home, project, scratch) keep the same paths. For other folders, set ``FS6_BIND=/path`` before the command.
-- On the login node the commands stop with ``run inside a Slurm allocation, not on a login node``. Start ``srun`` first.
 
 2.1.24 FSL
 ^^^^^^^^^^
@@ -1117,32 +1090,6 @@ Known issue: 5.0.10 fsleyes crash on x2go
      - 2023.08.22
      - new
 
-**On the new Slurm cluster (preview)**
-
-Run FSL_MRS 2.1.12 inside a Slurm compute allocation. To connect and start a session, see :ref:`slurm-preview`.
-
-.. code-block:: bash
-
-   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
-   module load fsl_mrs/2.1.12
-   export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-   fsl_mrs --data spectrum.txt --basis basis/ --h2o water.txt \
-     --output fit_results --algo Newton --report
-
-Replace the example paths with your spectrum, matching basis set and water
-reference. Use a new output folder.
-
-Copy ``fit_results`` to your computer and open ``report.html`` in a browser.
-
-The example reports values relative to total creatine (Cr+PCr), not absolute
-concentrations.
-
-.. figure:: images/fsl_mrs_fit_summary.png
-   :alt: Public example spectrum, fitted model and residuals from the Slurm pilot.
-   :width: 800
-
-   Example single-voxel fit.
-
 2.1.26 ggseg
 ^^^^^^^^^^^^
 
@@ -1206,15 +1153,6 @@ concentrations.
    * - Version
      - Install Date
      - Notes
-   * - 2.2.1
-     - 2026.10.08
-     - Newest. New Slurm cluster only
-   * - 2.0.1
-     - 2025.03.10
-     - Program reports version 1.5.0
-   * - 1.5.0
-     - 2021.02.26
-     - Program reports version 1.4.2
    * - 1.3.2
      - 2019.05.22
      - New
@@ -1230,33 +1168,6 @@ concentrations.
    * - 0.84
      - 
      - 
-
-**On the new Slurm cluster (preview)**
-
-All versions are available. Versions 1.0 to 2.2.1 use a new module folder; 0.84 uses the older one.
-
-.. code-block:: bash
-
-   # Versions 1.0 to 2.2.1
-   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
-   module load hcp/2.2.1
-
-   # Version 0.84
-   module use /u/project/CCN/apps/modulefiles_rh6
-   module load hcp/0.84
-
-   wb_command -version
-
-**Open the viewer (wb_view)**
-
-First set up a Mac once and connect with ``ssh -Y`` (see :ref:`slurm-preview`). Then:
-
-.. code-block:: bash
-
-   srun --x11 --time=01:00:00 --mem=4G --cpus-per-task=2 --pty bash -l
-   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
-   module load hcp/2.2.1
-   wb_view
 
 2.1.30 ICA-AROMA
 ^^^^^^^^^^^^^^^^
@@ -2066,103 +1977,6 @@ At the end, call your script to process the subject
   # Your script content goes here...
   myFunc.sh  ${subjects[$SGE_TASK_ID]}
 
-.. _slurm-preview:
-
-**2.2.4 Slurm Preview Cluster (New)**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Hoffman2 is moving from Grid Engine (``qrsh``, ``qsub``) to Slurm. You can use the new Slurm cluster now. Your files in ``$HOME``, ``$SCRATCH`` and ``/u/project`` are the same on both clusters. The commands and the software builds are different. Full guide: `OARC: Computing on the Slurm preview cluster <https://www.hoffman2.idre.ucla.edu/Using-H2/Computing/Computing-Slurm-preview.html>`__.
-
-**Connect**
-
-.. code-block:: bash
-
-   ssh login_id@login.hoffman2.oarc.ucla.edu
-
-Use ``ssh -Y`` instead if you will open a program window (see below).
-
-**Old command → new command**
-
-.. list-table::
-   :header-rows: 1
-   :widths: 40 60
-
-   * - Grid Engine (current cluster)
-     - Slurm (new cluster)
-   * - ``qrsh``
-     - ``srun --pty bash -l``
-   * - ``qsub job.sh``
-     - ``sbatch job.sh``
-   * - ``qstat`` / ``myjobs``
-     - ``squeue -u $USER``
-   * - ``qdel <job_id>``
-     - ``scancel <job_id>``
-   * - ``#$`` lines in a job script
-     - ``#SBATCH`` lines
-   * - ``-l h_rt=2:00:00``
-     - ``--time=02:00:00``
-   * - ``-l h_data=4G``
-     - ``--mem-per-cpu=4G`` (or ``--mem=4G`` for the whole job)
-   * - ``-pe shared 4``
-     - ``--cpus-per-task=4``
-   * - ``-t 1-10`` and ``$SGE_TASK_ID``
-     - ``--array=1-10`` and ``$SLURM_ARRAY_TASK_ID``
-
-You do not need ``--account``, ``--partition`` or ``--qos`` if you belong to one group. Slurm picks your group account and the ``campus`` partition for you.
-
-**Interactive session**
-
-.. code-block:: bash
-
-   srun --time=02:00:00 --mem=4G --cpus-per-task=2 --pty bash -l
-
-**Batch job**
-
-.. code-block:: bash
-
-   #!/bin/bash
-   #SBATCH --job-name=myjob
-   #SBATCH --time=02:00:00
-   #SBATCH --mem=4G
-   #SBATCH --output=myjob.%j.out
-
-   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
-   module load <tool>/<version>
-   my_command
-
-Submit with ``sbatch myjob.sh``. Check with ``squeue -u $USER``.
-
-**CCN software on the new cluster**
-
-Tested CCN tools use a new module folder. Each tool in `2.1 Software Tools`_ says which versions work.
-
-.. code-block:: bash
-
-   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
-   module avail
-
-**Open a program window (GUI) from a Mac**
-
-1. Install `XQuartz <https://www.xquartz.org/>`__. Turn on indirect GLX once, then quit and reopen XQuartz:
-
-   .. code-block:: bash
-
-      defaults write org.xquartz.X11 enable_iglx -bool true
-
-2. Connect with ``ssh -Y`` (above).
-3. Start an interactive session with ``--x11``, load the tool, and start it:
-
-   .. code-block:: bash
-
-      srun --x11 --time=01:00:00 --mem=4G --cpus-per-task=2 --pty bash -l
-
-Remote Desktop (NoMachine) does not reach the new cluster yet.
-
-**Known problems**
-
-- ``X Error ... BadValue`` or ``glXCreateContext failed``: indirect GLX is off. Do GUI step 1.
-- ``unable to open display``: wait a few seconds and start the program again.
-
 
 2.3 Monitoring Jobs
 ~~~~~~~~~~~~~~~~~~~
@@ -2385,23 +2199,6 @@ Solution:
   2. Start noMachine
 
   3. In noMachine terminal, input "module load fsl/versionxxx". Then it should avoid the same error this time.
-
-**FSLeyes opens, but the image is black**
-
-The FSLeyes window and menus show, but the image area stays black. No error is printed. In NoMachine this happens most with the GNOME desktop and FSL 6.0.0, 6.0.1, 6.0.3 and 6.0.4. This is a known FSLeyes problem with some graphics setups (`FSLeyes issue #142 <https://github.com/pauldmccarthy/fsleyes/issues/142>`_).
-
-Things to try, in this order:
-
-1. In NoMachine, start a new desktop with **MATE** or **XFCE** instead of GNOME.
-2. Start FSLeyes with software drawing:
-
-.. code-block:: bash
-
-  LIBGL_ALWAYS_SOFTWARE=1 fsleyes
-
-3. On a Mac with XQuartz, FSLeyes does not draw at all. Use NoMachine, or FSLView (FSL 6.0.4 and older).
-
-These fixes are not yet confirmed on Hoffman2. If neither works, open a ticket (see section 1.9).
 
 3.5 Python
 ~~~~~~~~~~
