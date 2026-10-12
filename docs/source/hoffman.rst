@@ -1977,6 +1977,103 @@ At the end, call your script to process the subject
   # Your script content goes here...
   myFunc.sh  ${subjects[$SGE_TASK_ID]}
 
+.. _slurm-preview:
+
+**2.2.4 Slurm Preview Cluster (New)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Hoffman2 is moving from Grid Engine (``qrsh``, ``qsub``) to Slurm. You can use the new Slurm cluster now. Your files in ``$HOME``, ``$SCRATCH`` and ``/u/project`` are the same on both clusters. The commands and the software builds are different. Full guide: `OARC: Computing on the Slurm preview cluster <https://www.hoffman2.idre.ucla.edu/Using-H2/Computing/Computing-Slurm-preview.html>`__.
+
+**Connect**
+
+.. code-block:: bash
+
+   ssh login_id@login.hoffman2.oarc.ucla.edu
+
+Use ``ssh -Y`` instead if you will open a program window (see below).
+
+**Old command → new command**
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 60
+
+   * - Grid Engine (current cluster)
+     - Slurm (new cluster)
+   * - ``qrsh``
+     - ``srun --pty bash -l``
+   * - ``qsub job.sh``
+     - ``sbatch job.sh``
+   * - ``qstat`` / ``myjobs``
+     - ``squeue -u $USER``
+   * - ``qdel <job_id>``
+     - ``scancel <job_id>``
+   * - ``#$`` lines in a job script
+     - ``#SBATCH`` lines
+   * - ``-l h_rt=2:00:00``
+     - ``--time=02:00:00``
+   * - ``-l h_data=4G``
+     - ``--mem-per-cpu=4G`` (or ``--mem=4G`` for the whole job)
+   * - ``-pe shared 4``
+     - ``--cpus-per-task=4``
+   * - ``-t 1-10`` and ``$SGE_TASK_ID``
+     - ``--array=1-10`` and ``$SLURM_ARRAY_TASK_ID``
+
+You do not need ``--account``, ``--partition`` or ``--qos`` if you belong to one group. Slurm picks your group account and the ``campus`` partition for you.
+
+**Interactive session**
+
+.. code-block:: bash
+
+   srun --time=02:00:00 --mem=4G --cpus-per-task=2 --pty bash -l
+
+**Batch job**
+
+.. code-block:: bash
+
+   #!/bin/bash
+   #SBATCH --job-name=myjob
+   #SBATCH --time=02:00:00
+   #SBATCH --mem=4G
+   #SBATCH --output=myjob.%j.out
+
+   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
+   module load <tool>/<version>
+   my_command
+
+Submit with ``sbatch myjob.sh``. Check with ``squeue -u $USER``.
+
+**CCN software on the new cluster**
+
+Tested CCN tools use a new module folder. Each tool in `2.1 Software Tools`_ says which versions work.
+
+.. code-block:: bash
+
+   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
+   module avail
+
+**Open a program window (GUI) from a Mac**
+
+1. Install `XQuartz <https://www.xquartz.org/>`__. Turn on indirect GLX once, then quit and reopen XQuartz:
+
+   .. code-block:: bash
+
+      defaults write org.xquartz.X11 enable_iglx -bool true
+
+2. Connect with ``ssh -Y`` (above).
+3. Start an interactive session with ``--x11``, load the tool, and start it:
+
+   .. code-block:: bash
+
+      srun --x11 --time=01:00:00 --mem=4G --cpus-per-task=2 --pty bash -l
+
+Remote Desktop (NoMachine) does not reach the new cluster yet.
+
+**Known problems**
+
+- ``X Error ... BadValue`` or ``glXCreateContext failed``: indirect GLX is off. Do GUI step 1.
+- ``unable to open display``: wait a few seconds and start the program again.
+
 
 2.3 Monitoring Jobs
 ~~~~~~~~~~~~~~~~~~~
