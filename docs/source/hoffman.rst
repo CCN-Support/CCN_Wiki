@@ -1011,6 +1011,9 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
    * - Version
      - Install Date
      - Notes
+   * - 8.2.0
+     - 2026.10.12
+     - New Slurm cluster only
    * - 7.2.0
      - 2021.11.29
      - 
@@ -1020,6 +1023,30 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
    * - 6.0.0
      - 2017.01.18
      - CentOS 6 only
+
+**On the new Slurm cluster (preview)**
+
+FreeSurfer 7.2.0, 7.1.1, 6.0.0 and 8.2.0 (new) are in the new module folder. Run FreeSurfer inside a Slurm session or job, not on the login node. To connect and start a session, see :ref:`slurm-preview`.
+
+.. code-block:: bash
+
+   srun --time=02:00:00 --mem=8G --cpus-per-task=2 --pty bash -l
+   module use /u/project/CCN/apps/runtime-deps/el9-x86_64/modulefiles
+   module load freesurfer/7.2.0
+   export SUBJECTS_DIR=$HOME/subjects
+   mkdir -p $SUBJECTS_DIR
+   recon-all --version
+
+Set ``SUBJECTS_DIR`` after ``module load``. The module sets it to the install folder, which you cannot write to.
+
+**FreeSurfer 6.0.0**
+
+6.0.0 needs CentOS 6, so it runs in a container. ``module load freesurfer/6.0.0`` handles the container for you; use the normal commands (``recon-all``, ``mri_convert`` and so on).
+
+- The first FreeSurfer command in each session or job prints ``FreeSurfer 6.0.0: preparing container, about 1 minute, once per job``. Later commands start at once.
+- To run any other program from the container, use ``fs6 <command>``, for example ``fs6 tcsh``.
+- Files under ``/u`` (home, project, scratch) keep the same paths. For other folders, set ``FS6_BIND=/path`` before the command.
+- On the login node the commands stop with ``run inside a Slurm allocation, not on a login node``. Start ``srun`` first.
 
 2.1.24 FSL
 ^^^^^^^^^^
