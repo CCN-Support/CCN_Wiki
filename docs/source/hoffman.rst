@@ -964,6 +964,8 @@ Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, 
 
 `Official Website <https://fmriprep.readthedocs.io/en/stable/usage.html>`_
 
+See more about FMRIprep here: :ref:`hoffman2_fmriprep`
+
 .. list-table::
    :header-rows: 1
 
