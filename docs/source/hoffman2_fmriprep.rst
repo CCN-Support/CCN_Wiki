@@ -1,3 +1,5 @@
+.. _hoffman2_fmriprep:
+
 Hoffman 2 Software Tools: FMRIprep
 ==================================
 
