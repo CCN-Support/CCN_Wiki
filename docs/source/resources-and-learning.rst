@@ -76,6 +76,8 @@ Wed Oct 21 11-11:50am -  Semel 27-418/28-221, in-person
 
 **By Robert Welsh**
 
+`Sign up here! <https://forms.gle/yW8Y6Sn8S4Le4jkD8>`_
+
 Topics include:
 
 - Concepts of scientific stewardship, why it matters
