@@ -1100,6 +1100,8 @@ Known issue: 5.0.10 fsleyes crash on x2go
 
 `Revision History <https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/changelog.html>`_
 
+Usage: :ref:`hoffman2_fslmrs`
+
 .. list-table::
    :header-rows: 1
 
