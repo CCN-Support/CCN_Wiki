@@ -847,6 +847,8 @@ Usage: :ref:`hoffman2_DSIStudio`
 
 `Official Website: <https://github.com/nipreps/dmriprep>`_
 
+Usage: :ref:`hoffman2_dmriprep`
+
 .. list-table::
    :header-rows: 1
 
