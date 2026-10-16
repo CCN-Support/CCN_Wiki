@@ -965,6 +965,8 @@ Usage: :ref:`hoffman2_fastsurfer`
 
 `Official Website <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FIX/UserGuide>`_
 
+Use Fix in Hoffman: :ref:`hoffman2_fix`
+
 .. list-table::
    :header-rows: 1
 
