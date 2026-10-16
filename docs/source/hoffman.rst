@@ -689,6 +689,8 @@ Below is a list of the available software tools. We will do our best to update i
 
 R Library `Official Website <http://https//mc-stan.org/users/interfaces/brms>`_
 
+How to load: :ref:`hoffman2_brms`
+
 .. list-table::
    :header-rows: 1
 
