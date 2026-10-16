@@ -896,6 +896,8 @@ Usage: :ref:`hoffman2_dmriprep`
 
 `Official Website <https://www.nitrc.org/projects/dtiprep/>`_
 
+Usage: :ref:`hoffman2_enigma`
+
 .. list-table::
    :header-rows: 1
 
