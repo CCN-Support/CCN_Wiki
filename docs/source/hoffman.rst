@@ -751,6 +751,8 @@ How to load: :ref:`hoffman2_ccn_py37`
 
 `Official Website <https://web.conn-toolbox.org/>`_
 
+Load CONN module: 
+
 .. list-table::
    :header-rows: 1
 
