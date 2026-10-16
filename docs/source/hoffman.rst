@@ -930,6 +930,8 @@ Usage: :ref:`hoffman2_enigmahp`
 
 `Official Website <https://github.com/Deep-MI/FastSurfer/>`_
 
+Usage: :ref:`hoffman2_fastsurfer`
+
 .. list-table::
    :header-rows: 1
 
