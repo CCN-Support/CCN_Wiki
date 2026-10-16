@@ -1,4 +1,4 @@
-
+.. _hoffman2_brms:
 
 Hoffman2>Software Tools>brms
 ============================
