@@ -913,6 +913,8 @@ Usage: :ref:`hoffman2_enigma`
 
 `Official Website <https://github.com/HALFpipe/HALFpipe>`_
 
+Usage: :ref:`hoffman2_enigmahp`
+
 .. list-table::
    :header-rows: 1
 
