@@ -1,5 +1,5 @@
 .. _hoffman2_CONN:
-
+  
 CONN
 ====
 
@@ -7,16 +7,17 @@ The newest version in Hoffman2 currently is 19.b
 
 To use it, you need to load Matlab and set path for SPM
 
-.. code-block:: python
+.. code-block::
   
   module load Matlab/9.7
   module load conn/19.b
-  Start Matlab GUI.
+
+Start Matlab GUI.
 
 In MatLab GUI, set path for
 
-.. code-block:: python
-
+.. code-block::
+  
   /u/project/CCN/apps/conn/conn19b
   /u/project/CCN/apps/spm12
 
