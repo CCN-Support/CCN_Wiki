@@ -721,6 +721,8 @@ How to load: :ref:`hoffman2_brms`
 
 Conda virtual environment with nibabel, nilearn, pydicom, pandas, scikit-learn, scipy
 
+How to load: :ref:`hoffman2_ccn_py37`
+
 .. list-table::
    :header-rows: 1
 
