@@ -828,6 +828,8 @@ Load CONN module: :ref:`hoffman2_CONN`
 
 `Official Website <https://dsi-studio.labsolver.org/>`_
 
+Usage: :ref:`hoffman2_DSIStudio`
+
 **Please note DSI studio only works with NoMachine**
 
 .. list-table::
