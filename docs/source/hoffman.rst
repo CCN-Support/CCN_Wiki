@@ -1301,6 +1301,8 @@ Usage: :ref:`hoffman2_ica-aroma_py27`
 
 `Official Website <https://github.com/NDAR/nda-tools>`_
 
+Usage: :ref:`hoffman2_NDATools`
+
 .. list-table::
    :header-rows: 1
 
