@@ -1117,6 +1117,8 @@ Usage: :ref:`hoffman2_fslmrs`
 
 `Official Website <https://github.com/ggseg/ggseg>`_
 
+Load pre-requisite models: :ref:`hoffman2_ggseg`
+
 .. list-table::
    :header-rows: 1
 
