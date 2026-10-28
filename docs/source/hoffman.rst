@@ -1665,7 +1665,13 @@ Below are some batch file templates you can start with. To work with these examp
     source /u/local/Modules/default/init/modules.csh
     module use /u/project/CCN/apps/modulefiles
     
-    # Load the FSL module
+    # Apply ~/.tcshrc
+    source ~/.tcshrc
+
+    # disable core dump (optional)
+    limit coredumpsize 0
+
+    # Load the FSL module (optional)
     module load fsl
     
     # This is optional
