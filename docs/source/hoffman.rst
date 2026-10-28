@@ -1169,6 +1169,8 @@ Load pre-requisite models: :ref:`hoffman2_ggseg`
 
 `Official Website <https://www.humanconnectome.org/software/connectome-workbench>`_
 
+Usage: :ref:`hoffman2_HCPBench`
+
 - Note: module name: hcp
 
 .. list-table::
