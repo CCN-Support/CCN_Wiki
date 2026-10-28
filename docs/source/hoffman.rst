@@ -1855,6 +1855,11 @@ For example, if you setup umask as “007” in your ~/.bashrc to ensure new fil
 
 Similarly, when running FSL in your batch mode script without "source ~/.bashrc", FSL will setup the permissions as its default, instead of setting the outputs writable for the group. 
 
+.. code-block:: python
+
+  # disable core dump
+  ulimit -c 0
+
 For example, load FSL
 
 .. code-block:: python
