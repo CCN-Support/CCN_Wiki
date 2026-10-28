@@ -1629,8 +1629,14 @@ Below are some batch file templates you can start with. To work with these examp
     # load the job environment:
     . /u/local/Modules/default/init/modules.sh
     module use /u/project/CCN/apps/modulefiles
-    
-    # Load the FSL module
+
+    # apply ~/.bashrc environment (optional)
+    source ~/.bashrc
+
+    # disable core dump (optional)
+    ulimit -c 0
+
+    # Load the FSL module (optional)
     module load fsl
     
     # This is optional
