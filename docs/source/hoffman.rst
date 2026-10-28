@@ -1829,7 +1829,8 @@ To use any module provided by Hoffman and CCN, you'll need the following two lin
 
 To import your personal environment setup in your ~/.bashrc file, you should include the following command at the beginning of your batch file
 
-.. code-block:: python
+.. code-block:: bash
+  # apply settings in .bashrc under your home directory to the batch mode working environment
   source  ~/.bashrc
 
 Without this command, your custom configurations setup in your ~/.bashrc will not apply to the job's outputs.
