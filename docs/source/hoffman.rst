@@ -1348,6 +1348,8 @@ Usage: :ref:`hoffman2_OpenSmile`
 
 `Official Website <https://git.fmrib.ox.ac.uk/samh/profumo>`_
 
+Usage: :ref:`hoffman2_profumo`
+
 .. list-table::
    :header-rows: 1
 
