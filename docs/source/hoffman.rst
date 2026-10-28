@@ -1827,7 +1827,7 @@ To use any module provided by Hoffman and CCN, you'll need the following two lin
   . /u/local/Modules/default/init/modules.sh
   module use /u/project/CCN/apps/modulefiles
 
-To import your personal environment setup in your ~/.bashrc or ~/.bash_profile file, you should include the following command at the beginning of your batch file
+To import your personal environment setup in your ~/.bashrc or ~/.bash_profile file, you should include the following command at the beginning of your batch file (Note: make sure your ~/.bashrc file settings doesn't have any conflict with your current batch script environment)
 
 .. code-block:: python
 
@@ -1835,9 +1835,9 @@ To import your personal environment setup in your ~/.bashrc or ~/.bash_profile f
 
 Without this command, your custom configurations setup in your ~/.bashrc will not apply to the job's outputs.
 
-For example, if you setup umask as “007” in your .bashrc to ensure new files and folders are created with rw-rw---- and rwxrwx--- permissions, and you want your batch mode outputs to have the same permissions, you should source your .bashrc in your batch script.
+For example, if you setup umask as “007” in your ~/.bashrc to ensure new files and folders are created with rw-rw---- and rwxrwx--- permissions and you want your batch mode outputs to have the same permissions, you should use this command in your batch script.
 
-Similarly, when running FSL in your batch mode script without source the .bashrc, FSL will setup the permissions as its default, instead of setting the outputs writable for the group. 
+Similarly, when running FSL in your batch mode script without "source ~/.bashrc", FSL will setup the permissions as its default, instead of setting the outputs writable for the group. 
 
 For example, load FSL
 
