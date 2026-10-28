@@ -1827,11 +1827,10 @@ To use any module provided by Hoffman and CCN, you'll need the following two lin
   . /u/local/Modules/default/init/modules.sh
   module use /u/project/CCN/apps/modulefiles
 
-To import your personal environment setup in your ~/.bashrc file, you should include the following command at the beginning of your batch file
+To import your personal environment setup in your ~/.bashrc or ~/.bash_profile file, you should include the following command at the beginning of your batch file
 
 .. code-block:: python
 
-  # apply settings in .bashrc under your home directory to the batch mode working environment
   source  ~/.bashrc
 
 Without this command, your custom configurations setup in your ~/.bashrc will not apply to the job's outputs.
