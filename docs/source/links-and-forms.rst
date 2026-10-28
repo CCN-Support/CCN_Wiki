@@ -14,7 +14,7 @@ Links & Sites
 Forms
 -----
 
-- `Metal Screening Form: <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing/>`_ **REQUIRED** for any person entering the scanner. “Review the form carefully and submit documentation for any concerns `as a ticket <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_.
+- `Metal Screening Form: <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing/>`_ **REQUIRED** for any person entering the scanner. Review the form carefully and submit documentation for any concerns `as a ticket <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_.
 - `Illness Screening Form: <https://drive.google.com/file/d/1kXsq_b25apk08NTTJ82GWX4adjsyz_iq/view?usp=sharing/>`_ Must be administered the evening before or morning of the participant's scan appointment. Reschedule your participant if they show signs of illness.
 - `Pre-Scan Form: <https://uclahs.az1.qualtrics.com/jfe/form/SV_6tI8o3SvorTot9k/>`_ Fill out this brief form at the beginning of every scan. It is bookmarked on the iMac.
 - `Post-Scan Form: <https://uclahs.az1.qualtrics.com/jfe/form/SV_3BQesXgv9K8kgPc/>`_ Fill out this brief form after each scan. It is bookmarked on the iMac.
