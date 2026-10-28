@@ -1197,6 +1197,7 @@ Usage: :ref:`hoffman2_HCPBench`
 
 2.1.30 ICA-AROMA
 ^^^^^^^^^^^^^^^^
+Usage: :ref:`hoffman2_ica-aroma_py27`
 
 - Note: Python 2.7 available for v0.4.5, module name: ica-aroma_py27
 
