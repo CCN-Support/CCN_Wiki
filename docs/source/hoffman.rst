@@ -1397,6 +1397,8 @@ Usage: :ref:`hoffman2_ Simnibs`
 
 `Official Website <https://mc-stan.org/>`_
 
+Usage: :ref:`hoffman2_Rstan`
+
 .. list-table::
    :header-rows: 1
 
