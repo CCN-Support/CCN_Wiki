@@ -1318,6 +1318,8 @@ Usage: :ref:`hoffman2_NDATools`
 
 `Official Website <https://www.audeering.com/opensmile/>`_
 
+Usage: :ref:`hoffman2_OpenSmile`
+
 .. list-table::
    :header-rows: 1
 
