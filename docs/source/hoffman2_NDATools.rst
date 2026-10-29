@@ -5,7 +5,7 @@ NDATools
 
 `More information of NDATools <https://github.com/NDAR/nda-tools>`_
 
-*Use a wrapper script
+Use a wrapper script: :ref:`hoffman2_NDAWrapper`
 
 NDATools is for downloadig or uploading data to NDA. Here is how to use it in Hoffman to download data.
 
