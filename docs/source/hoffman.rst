@@ -1380,7 +1380,7 @@ Usage: :ref:`hoffman2_profumo`
 
 `Official Website <https://simnibs.github.io/simnibs/build/html/installation/simnibs_installer.html/>`_
 
-Usage: :ref:`hoffman2_ Simnibs`
+Usage: :ref:`hoffman2_Simnibs`
 
 .. list-table::
    :header-rows: 1
