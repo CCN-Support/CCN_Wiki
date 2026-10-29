@@ -1,4 +1,4 @@
-.. _hoffman_profumo:
+.. _hoffman2_profumo:
 
 Profumo
 =======
