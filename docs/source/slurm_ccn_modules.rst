@@ -18,4 +18,14 @@ CCN Modules on Slurm
 
    1. FSL
 
-   2. FreeSurfer: Usage: :ref:`hoffman2_freesurfer`
+   2. FreeSurfer: 
+
+      How to use FreeSurfer's Apptainer images: :ref:`hoffman2_freesurfer`
+
+   3. AFNI
+
+      Version 26.1.05 (Apptainer image)
+
+   4. ASHS
+
+      version 2.5.4, 2.6.5 (module)
