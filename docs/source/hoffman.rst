@@ -2,6 +2,7 @@ Hoffman2 Computing Cluster
 ==========================
 
 What's new:
+---------------
 
 Migration to Slurm:
 
