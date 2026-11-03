@@ -1025,7 +1025,7 @@ See more about fMRIPrep here: :ref:`hoffman2_fmriprep`
 
 `Release Notes <http://freesurfer.net/fswiki/ReleaseNotes>`_
 
-Please check the usage at :doc:`hoffman2_freesurfer`
+Please check the usage at :ref:`hoffman2_freesurfer`
 
 .. list-table::
    :header-rows: 1
