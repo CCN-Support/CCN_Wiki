@@ -1,6 +1,6 @@
-Use FreeSurfer Apptainer images
+Use FreeSurfer Apptainer images on Slurm
 
-Here's the batch script for using FreeSurfer's Apptainer images under
+FreeSurfer's Apptainer images are under
 
 .. code-block:: python
 
