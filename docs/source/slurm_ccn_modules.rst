@@ -18,4 +18,4 @@ CCN Modules on Slurm
 
    1. FSL
 
-   2. FreeSurfer
+   2. FreeSurfer: :ref:`hoffman2_freesurfer`
