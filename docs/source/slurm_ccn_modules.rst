@@ -11,4 +11,4 @@ CCN Modules on Slurm
 
 Once the migration is completed and no need of modules on SGE, we will change this path back to the current /u/project/CCN/apps/modulefiles
 
-Even you can see these new installations from the SGE system, you won't be able to run them on SGE. Similarly, even you see the old modules from SGE on Slurm by "module av" command, you can run only the Slurm version on the Slurm platform.
+Although you can see these new installations from the SGE system by "module av", you won't be able to run them on SGE. Similarly, even you see the old modules on Slurm, you can run the Slurm versions only on the Slurm platform.
