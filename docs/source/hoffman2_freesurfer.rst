@@ -1,3 +1,8 @@
+.. _hoffman2_freesurfer:
+
+FreeSurfer
+==========
+
 Use FreeSurfer Apptainer images on Slurm
 
 FreeSurfer's Apptainer images are under
