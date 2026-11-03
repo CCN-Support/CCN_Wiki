@@ -1032,17 +1032,25 @@ Usage: :ref:`hoffman2_freesurfer`
 
    * - Version
      - Install Date
-     - Notes
-   * - 7.2.0
-     - 2021.11.29
-     - 
-   * - 7.1.1
-     - 2021.02.26
-     -  
+     - Notes:
+   * - 8.2.0
+     - 2026.11.03
+     - Apptainer Image
+   * - 8.0.0
+     - 2025.07.17
+     - Apptainer Image
+   * - 7.4.1
+     - 2024.04.12
+     - Apptainer Image
+   * - 7.3.2
+     - 2023.01.05
+     - Apptainer Image
    * - 6.0.0
      - 2017.01.18
      - CentOS 6 only
-
+   * - 5.3.0
+     - 2022.09.06
+     - Apptainer Image
 2.1.24 FSL
 ^^^^^^^^^^
 
