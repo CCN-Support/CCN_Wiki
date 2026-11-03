@@ -5,6 +5,7 @@ What's new:
 ---------------
 
 Migration to Slurm:
+~~~~~~~~~~~~~~~~~~~
 
 1. Hoffman2 cluster is transitioning completely to Slurm in mid-November
 
