@@ -182,6 +182,100 @@ The NX Client program allows you to set up a Virtual Network Computing (VNC)-lik
 X2Go provides a desktop-like GUI for accessing the Hoffman server. Please see `here <https://ccn-wiki.readthedocs.io/en/latest/hoffman.html#x2go>`_ to find out more about setup details.
 
 
+.. _dcv-quickstart:
+
+Remote Desktop on Slurm (DCV)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On the Slurm cluster, the remote desktop is **DCV**. The DCV desktop has the
+Slurm commands, so no extra SSH step is needed. Full guide:
+`Connecting via DCV remote desktop <https://www.hoffman2.idre.ucla.edu/Using-H2/Connecting/Connecting.html#connecting-via-dcv-remote-desktop>`__.
+
+First time only:
+
+1. Install the DCV Viewer for your computer (Windows, Mac or Linux) from
+   `amazondcv.com <https://www.amazondcv.com/>`__ (Clients section).
+2. Download the OARC launcher script. Use a terminal on your own computer,
+   not a terminal connected to Hoffman2:
+
+   .. code-block:: bash
+
+      curl -O https://raw.githubusercontent.com/ucla-oarc-hpc/H2C_launch_DCV/master/h2c_launch_dcv.sh
+
+   On Windows, download
+   `h2c_launch_dcv.cmd <https://raw.githubusercontent.com/ucla-oarc-hpc/H2C_launch_DCV/master/h2c_launch_dcv.cmd>`__
+   instead.
+
+Every time:
+
+3. Start or reconnect to your desktop. Replace ``login_id`` with your
+   Hoffman2 user name:
+
+   .. code-block:: bash
+
+      bash h2c_launch_dcv.sh -u login_id
+
+   On Windows (PowerShell): ``.\h2c_launch_dcv.cmd -User login_id``.
+
+   The script asks for your Hoffman2 password (and 2FA). Then the DCV Viewer
+   opens and asks for your user name and password again.
+
+   The first time, two security checks appear. Continue only if the values
+   match:
+
+   - SSH host key of ``dcv1.hoffman2.oarc.ucla.edu``:
+     ``SHA256:Ys5xUjsAe1j4sLwWNmCBRMJS0cQbkWg7BdH5hOnElN0``
+   - DCV Viewer certificate warning: SHA256
+     ``BE:D8:1F:89:2A:78:6B:78:A4:A2:4A:91:8E:F7:AD:53:BD:27:DE:DC:28:63:5B:29:1B:69:E3:FA:4C:22:D4:74``
+     (the viewer can show dashes instead of colons). Then choose
+     **Trust & Connect**.
+
+4. On the DCV desktop, open a terminal: **Activities** (top left), type
+   ``terminal``, press Enter.
+
+   .. figure:: images/dcv_activities_terminal.png
+      :alt: DCV desktop with Activities open and the search word terminal typed; Terminal is the first result
+      :width: 600
+
+5. Start a job on a compute node with ``--x11``. Do not run programs on the
+   desktop itself: all DCV users share it. Replace ``pi_<yourpi>`` with your
+   PI's Slurm account:
+
+   .. code-block:: bash
+
+      srun -A pi_<yourpi> --x11 --mem=4G --time=01:00:00 --pty bash -l
+
+6. In that job, select the CCN module folder, then load and start the
+   program. Example with FSLeyes:
+
+   .. code-block:: bash
+
+      module use /u/project/CCN/apps/modulefiles_rl9
+      module load fsl/6.0.4
+      fsleyes &
+
+   The program window opens on the DCV desktop:
+
+   .. figure:: images/dcv_fsleyes.png
+      :alt: FSLeyes showing the MNI152 brain on the DCV desktop; the title says it runs on a compute node
+      :width: 600
+
+When you are done:
+
+- **Pause:** close the DCV Viewer window. Your desktop and programs keep
+  running. Do step 3 again to return.
+- **Locked screen:** after some idle time the desktop locks. Type your
+  Hoffman2 password to unlock it.
+- **End:** click the icons at the top right of the desktop, then
+  **Power Off / Log Out** > **Log Out**. Do not choose Suspend, Restart or
+  Power Off. Log Out closes all programs on the desktop. Your ``srun`` job
+  also ends when its ``--time`` runs out.
+
+  .. figure:: images/dcv_logout_menu.png
+     :alt: DCV top-right menu with Power Off / Log Out open; Log Out is the last item
+     :width: 300
+
+
 
 Change Passwords
 ^^^^^^^^^^^^^^^^
@@ -1529,6 +1623,152 @@ Usage: :ref:`hoffman2_weka`
 
 2.2 Run Your Jobs
 ~~~~~~~~~~~~~~~~~
+
+**Slurm quick start (new)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+
+   Hoffman2 moves to Slurm in mid-November 2026. This part shows the Slurm
+   commands. Sections 2.2.1 to 2.2.3 below show the old Grid Engine commands.
+   Replace ``pi_<yourpi>`` with your PI's Slurm account. Full guide:
+   `OARC: Computing with Slurm <https://www.hoffman2.idre.ucla.edu/Using-H2/Computing/Computing-Slurm.html>`__.
+
+**Old command → new command**
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 36 34
+
+   * - Grid Engine (old)
+     - Slurm (new)
+     - Note
+   * - ``qrsh``
+     - ``srun --pty bash -l``
+     - Interactive session on a compute node.
+   * - ``qsub job.sh``
+     - ``sbatch job.sh``
+     - Submit a batch job.
+   * - ``#$ ...`` lines
+     - ``#SBATCH ...`` lines
+     - Job options at the top of a script.
+   * - ``-l h_rt=8:00:00``
+     - ``--time=08:00:00``
+     - Time limit. Campus limit on Slurm: 24 hours.
+   * - ``-l h_data=4G``
+     - ``--mem-per-cpu=4G``
+     - Memory per core. For the whole job, use ``--mem``.
+   * - ``-pe shared 2``
+     - ``--cpus-per-task=2``
+     - CPU cores on one node.
+   * - ``-l highp``
+     - ``--qos=highp``
+     - Not available yet for CCN on Slurm.
+   * - ``-t 1-10`` and ``$SGE_TASK_ID``
+     - ``--array=1-10`` and ``$SLURM_ARRAY_TASK_ID``
+     - Job array.
+   * - ``qstat`` / ``myjobs``
+     - ``squeue -u $USER``
+     - List your jobs.
+   * - ``qdel 123``
+     - ``scancel 123``
+     - Cancel a job.
+   * - ``module use .../modulefiles``
+     - ``module use .../modulefiles_rl9``
+     - CCN module folder: ``/u/project/CCN/apps/modulefiles_rl9``.
+
+**Interactive session**
+
+Connect to the Slurm login host (replace ``login_id`` with your user name).
+Then start a session on a compute node. Example: 4 hours, 2 cores, 4 GB per
+core:
+
+.. code-block:: bash
+
+   ssh login_id@hoffman2.oarc.ucla.edu
+   srun -A pi_<yourpi> --time=04:00:00 --mem-per-cpu=4G --cpus-per-task=2 --pty bash -l
+
+Type ``exit`` to end the session. Campus jobs have a 24-hour limit. CCN
+nodes are not on Slurm yet, so ``highp`` (over 24 hours) is not available
+yet. For program windows, use DCV (see :ref:`DCV quickstart <dcv-quickstart>`).
+
+Never run programs on the login node. Use ``srun`` or ``sbatch`` so they run
+on a compute node.
+
+To use CCN modules on Slurm, run this first in each session or job. The
+module list is in :ref:`slurm_ccn_modules`.
+
+.. code-block:: bash
+
+   module use /u/project/CCN/apps/modulefiles_rl9
+
+**Batch job**
+
+Save this script as ``myjob.sh`` in the folder where you want the output.
+Slurm starts the job in that folder. ``%j`` is the job number. Mail needs
+``--mail-user``; a ``@g.ucla.edu`` address worked, a ``@mednet.ucla.edu``
+address got no mail.
+
+.. code-block:: bash
+
+   #!/bin/bash
+   #SBATCH -A pi_<yourpi>
+   #SBATCH --output=joblog.%j
+   #SBATCH --cpus-per-task=2
+   #SBATCH --time=08:00:00
+   #SBATCH --mem-per-cpu=4G
+   #SBATCH --mail-user=you@g.ucla.edu
+   #SBATCH --mail-type=BEGIN,END,FAIL
+
+   module use /u/project/CCN/apps/modulefiles_rl9
+   module load fsl/6.0.4
+   # your commands here
+
+Submit it:
+
+.. code-block:: bash
+
+   sbatch myjob.sh
+
+**Job array**
+
+Example: run the same script for 5 subjects. ``%A`` is the array job number
+and ``%a`` is the task number. ``--array=1-5%2`` runs at most 2 tasks at a
+time.
+
+.. code-block:: bash
+
+   #!/bin/bash
+   #SBATCH -A pi_<yourpi>
+   #SBATCH --output=joblog.%A_%a
+   #SBATCH --time=08:00:00
+   #SBATCH --mem-per-cpu=4G
+   #SBATCH --array=1-5
+
+   subjects=(none sub01 sub02 sub03 sub04 sub05)
+   echo "Subject ${subjects[$SLURM_ARRAY_TASK_ID]}"
+
+**Check and cancel jobs**
+
+.. list-table::
+   :header-rows: 1
+   :widths: 28 34 38
+
+   * - Grid Engine (old)
+     - Slurm (new)
+     - What it does
+   * - ``qstat -u $USER``
+     - ``squeue -u $USER``
+     - List your waiting and running jobs.
+   * - ``qstat -j 123``
+     - ``scontrol show job 123``
+     - Details of one job.
+   * - ``qdel 123``
+     - ``scancel 123``
+     - Cancel a job.
+   * - ``qacct -j 123``
+     - ``sacct -j 123 --format=JobID,State,Elapsed,ReqMem,MaxRSS``
+     - Finished job: state, run time and memory.
 
 **2.2.1 Hoffman 2: Interactive Sessions**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
