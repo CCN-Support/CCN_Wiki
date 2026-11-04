@@ -2,3 +2,24 @@
 .wy-nav-content {
     max-width: 1600px !important;
 }
+
+/* Old-vs-new command tables: wrap long cells instead of scrolling */
+.rst-content table.docutils.sge-slurm td,
+.rst-content table.docutils.sge-slurm th {
+    white-space: normal;
+}
+.rst-content table.docutils.sge-slurm code {
+    white-space: nowrap;
+}
+
+/* Old-vs-new command cards: tighter padding so 50-character lines fit */
+.sd-card.sge-slurm-card .sd-card-body {
+    padding: 0.6rem;
+}
+/* Wrap long lines inside old-vs-new cards so no command is hidden.
+   Copy buttons still copy the original lines. */
+.sd-card.sge-slurm-card div.highlight pre {
+    padding: 8px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}

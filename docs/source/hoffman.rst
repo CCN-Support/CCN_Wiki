@@ -1076,6 +1076,8 @@ Usage: :ref:`hoffman2_freesurfer`
 
 `Revision History <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/WhatsNew>`_
 
+Usage: :ref:`hoffman2_fsl`
+
 .. list-table::
    :header-rows: 1
 
@@ -1164,6 +1166,8 @@ Load pre-requisite models: :ref:`hoffman2_ggseg`
 
 `Official Website <https://trendscenter.org/software/gift/>`_
 
+Usage: :ref:`hoffman2_gift`
+
 .. list-table::
    :header-rows: 1
 
@@ -1181,6 +1185,8 @@ Load pre-requisite models: :ref:`hoffman2_ggseg`
 ^^^^^^^^^^^^^^^^^
 
 `Official Website <https://github.com/Washington-University/gradunwarp>`_
+
+Usage: :ref:`hoffman2_gradunwarp`
 
 .. list-table::
    :header-rows: 1
@@ -1286,6 +1292,8 @@ Usage: :ref:`hoffman2_ica-aroma_py27`
 
 `Official Website <http://www.k-wave.org/doxygen/index.html>`_
 
+Usage: :ref:`hoffman2_kwave`
+
 .. list-table::
    :header-rows: 1
 
@@ -1298,6 +1306,8 @@ Usage: :ref:`hoffman2_ica-aroma_py27`
 
 2.1.34 MANGO
 ^^^^^^^^^^^^
+
+Usage: :ref:`hoffman2_mango`
 
 .. list-table::
    :header-rows: 1
@@ -1313,6 +1323,8 @@ Usage: :ref:`hoffman2_ica-aroma_py27`
 ^^^^^^^^^^^^
 
 `Official Website <https://mriqc.readthedocs.io/en/latest/>`_
+
+Usage: :ref:`hoffman2_mriqc`
 
 .. list-table::
    :header-rows: 1
@@ -1360,6 +1372,8 @@ Usage: :ref:`hoffman2_OpenSmile`
 
 2.1.38 Osprey
 ^^^^^^^^^^^^^
+
+Usage: :ref:`hoffman2_osprey`
 
 .. list-table::
    :header-rows: 1
@@ -1442,6 +1456,8 @@ Usage: :ref:`hoffman2_Rstan`
 
 `Official Website <http://www.fil.ion.ucl.ac.uk/spm/>`_
 
+Usage: :ref:`hoffman2_spm`
+
 .. list-table::
    :header-rows: 1
 
@@ -1492,6 +1508,8 @@ Usage: :ref:`hoffman2_Rstan`
 ^^^^^^^^^^^
 
 `Official Website <http://www.cs.waikato.ac.nz/ml/weka/>`_
+
+Usage: :ref:`hoffman2_weka`
 
 .. list-table::
    :header-rows: 1
