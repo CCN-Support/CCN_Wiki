@@ -6,16 +6,17 @@ What's new:
 
 Migration to Slurm:
 ~~~~~~~~~~~~~~~~~~~
+1. Known issue with applications on Slurm: :ref:`slurm_issue`
 
-1. Hoffman2 cluster is transitioning completely to Slurm in mid-November
+2. Hoffman2 cluster is transitioning completely to Slurm in mid-November
 
-2. IDRE workshop on Slurm batch jobs
+3. IDRE workshop on Slurm batch jobs
    
    Date : November 12, 2026
 
    `Workshop URL <https://idre.ucla.edu/calendar-event/batch-job-submission-on-the-hoffman2-cluster>`_
 
-3. CCN modules for Slurm : :ref:`slurm_ccn_modules`
+4. CCN modules for Slurm : :ref:`slurm_ccn_modules`
    
 ---------------
 
