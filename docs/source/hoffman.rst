@@ -1767,8 +1767,14 @@ time.
      - ``scancel 123``
      - Cancel a job.
    * - ``qacct -j 123``
-     - ``sacct -j 123 --format=JobID,State,Elapsed,ReqMem,MaxRSS``
-     - Finished job: state, run time and memory.
+     - ``sacct -j 123``
+     - Finished job: state and run time. Full command below.
+
+For a finished job's run time and memory use, run:
+
+.. code-block:: bash
+
+   sacct -j 123 --format=JobID,State,Elapsed,ReqMem,MaxRSS
 
 **2.2.1 Hoffman 2: Interactive Sessions**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
