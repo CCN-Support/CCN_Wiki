@@ -1,1 +1,4 @@
-Known issue with applications on Slurm system
+.. _slurm_issue:
+
+Known issues on Slurm
+======================
