@@ -871,7 +871,7 @@ All participants need to be diligently screened for MR contraindications during 
 
 #. Review and sign the `Metal Screening Form <https://drive.google.com/file/d/1aUwmgXoij_czd8YktXmo0yDLjpqbuUpm/view?usp=sharing>`_ with each participant for every scan session.
 #. For items of potential concern, obtain further information and relevant documentation from the participant, their medical team, or both before requesting CCN review. Do not ask CCN about your participant's implant or device without first researching the relevant background.
-#. Follow these instructions to `Submit a Ticket for CCN Safety Clearance <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_. 
+#. Follow these `instructions <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_ to `Submit a Ticket for CCN Safety Clearance <https://docs.google.com/document/d/13g-DVRauCgZAkScw0D5j03cCPeCiu2Fi/edit#heading=h.rgb25in7p2nc>`_. 
 
 **CCN must clear all implants before scanning.** See `MR Safety Considerations <https://drive.google.com/file/d/17ntnhvzU91m7uJYVULiTRkr-u77_ioSt/view?usp=sharing>`_ for topics that are frequently overlooked or forgotten during safety screening.
 
