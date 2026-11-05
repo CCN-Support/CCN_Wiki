@@ -10,7 +10,11 @@ Known issues on Slurm
    
    Solution:
 
-   At the matlab prompt, input command "restoredefaultpath" 
+   At the matlab prompt, input command 
+
+   .. code-block:: python
+
+     restoredefaultpath 
 
    Then type in 
      
