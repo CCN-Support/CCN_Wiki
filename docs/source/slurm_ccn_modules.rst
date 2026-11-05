@@ -24,6 +24,8 @@ CCN Modules on Slurm
 
    2. FreeSurfer: 
 
+      Version: 8.2.0 (module and image), 8.0.0, 7.4.1, 7.3.2, 6.0.0, 5.3.0 (image)
+
       How to use FreeSurfer's Apptainer images: :ref:`hoffman2_freesurfer`
 
    3. AFNI
