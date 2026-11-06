@@ -34,7 +34,7 @@ CCN Modules on Slurm
 
    4. ANTs
 
-        Version 2.6.5, 2.5.4 (module)
+      Version 2.6.5, 2.5.4 (module)
 
    5. ASHS
 
