@@ -7,13 +7,13 @@ CCN Modules on Slurm
 
 .. code-block:: python
 
-  module use /u/project/CCN/apps/modulefiles_rl9
+    module use /u/project/CCN/apps/modulefiles_rl9
 
 and comment out the old one
 
 .. code-block:: python
 
-  module use /u/project/CCN/apps/modulefiles
+    module use /u/project/CCN/apps/modulefiles
 
 The logout and login again.
 
