@@ -48,8 +48,10 @@ FreeSurfer's Apptainer images are under
   sleep 300
 
 2. Run Freeview
-   Freeview currently is only working with Freesurfer module, version 8.2.0. The Apptainer container images have missing libaries and we are still working on it.
-   .. code-block:: python
 
-     module load freesurfer/8.2.0
-     freeview
+Freeview currently is only working with Freesurfer module, version 8.2.0. The Apptainer container images have missing libaries and we are still working on it.
+
+.. code-block:: python
+
+  module load freesurfer/8.2.0
+  freeview
