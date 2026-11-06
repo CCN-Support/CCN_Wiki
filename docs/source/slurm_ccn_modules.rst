@@ -5,21 +5,21 @@ CCN Modules on Slurm
 
 1. To use the new CCN module installations for Slurm, temporarily add this new modulefile for CCN modules on Slurm
 
-   .. code-block:: python
+.. code-block:: python
 
-     module use /u/project/CCN/apps/modulefiles_rl9
+  module use /u/project/CCN/apps/modulefiles_rl9
 
 and comment out the old one
 
-   .. code-block:: python
+.. code-block:: python
 
-     module use /u/project/CCN/apps/modulefiles
+  module use /u/project/CCN/apps/modulefiles
 
 The logout and login again.
 
-   Once the migration is completed and no need of modules on SGE, we will change this path back to the current /u/project/CCN/apps/modulefiles
+Once the migration is completed and no need of modules on SGE, we will change this path back to the current /u/project/CCN/apps/modulefiles
 
-   Although you can see these new installations from the SGE system by "module av", you won't be able to run them on SGE. 
+Although you can see these new installations from the SGE system by "module av", you won't be able to run them on SGE. 
    Similarly, even you see the old modules on Slurm, you can run the Slurm versions only on the Slurm platform.
 
 2. Modules ready for Slurm:
