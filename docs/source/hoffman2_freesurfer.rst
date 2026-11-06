@@ -3,7 +3,7 @@
 FreeSurfer
 ==========
 
-Use FreeSurfer Apptainer images on Slurm
+1. Use FreeSurfer Apptainer images on Slurm
 
 FreeSurfer's Apptainer images are under
 
@@ -46,3 +46,9 @@ FreeSurfer's Apptainer images are under
 
   ## Optional, just to prevent the job ends less than 5 minutes when error happens
   sleep 300
+
+2. Run Freeview
+   Freeview currently is only working with Freesurfer module, version 8.2.0. The Apptainer container images have missing libaries and we are still working on it.
+   .. code-block:: python
+     module load freesurfer/8.2.0
+     freeview
