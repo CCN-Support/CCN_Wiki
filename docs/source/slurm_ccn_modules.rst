@@ -54,79 +54,85 @@ CCN Modules on Slurm
 
       How to use: :ref:`hoffman2_CONN`
 
-   7. FSL_MRS
+   7. dcmtk
+      Version : 3.6.0, 3.6.6 (modul)
+
+   8. dtiprep
+      Version : 1.2.9 (image)
+
+   9. FSL_MRS
 
       Version 2.1.12 (module)
 
       How to use: :ref:`hoffman2_fslmrs`
 
-   8. GIFT
+   10. GIFT
 
       Version 4.0c, 4.0b (module)
 
       How to use: :ref:`hoffman2_gift`
 
-   9. gradunwarp
+   11. gradunwarp
 
       Version 1.1.0 (module)
 
       How to use: :ref:`hoffman2_gradunwarp`
 
-   10. HCP Workbench
+   12. HCP Workbench
 
       Version 2.2.1, 2.0.1, 1.5.0, 1.3.2, 1.2.3, 1.1.1, 1.0 (module ``hcp``)
 
       How to use: :ref:`hoffman2_HCPBench`
 
-   11. ICA-AROMA
+   13. ICA-AROMA
 
        Version 0.4.5, 0.4.1-beta (module ``ica-aroma``)
 
        How to use: :ref:`hoffman2_ica-aroma_py27`
 
-   12. k-Wave
+   14. k-Wave
 
        Version 1.4.1, 1.3 (module ``kwave``; CPU only, the GPU binary does not work yet)
 
        How to use: :ref:`hoffman2_kwave`
 
-   13. MANGO
+   15. MANGO
 
        Version 4.1 (module)
 
        How to use: :ref:`hoffman2_mango`
 
-   14. MRIQC
+   16. MRIQC
 
        Version 24.0.2, 22.0.1, 0.16.1 (module; 22.0.1 tested on human data only)
 
        How to use: :ref:`hoffman2_mriqc`
 
-   15. openSMILE
+   17. openSMILE
 
        Version 3.0.0 (module)
 
        How to use: :ref:`hoffman2_OpenSmile`
 
-   16. Osprey
+   18. Osprey
 
        Version 2.9.6 (module)
 
        How to use: :ref:`hoffman2_osprey`
 
-   17. RStan
+   19. RStan
 
        Version 2.32.7: module ``rstan/2.32.7-R4.1.2`` (with CCN R 4.1.2) or ``rstan/2.32.7`` (with the Hoffman2 R 4.4.1 module)
 
        How to use: :ref:`hoffman2_Rstan`
 
-   18. SimNIBS
+   20. SimNIBS
 
        Version 4.6.0 (module, Apptainer image inside)
 
        How to use: :ref:`hoffman2_Simnibs`
 
-   19. SPM
+   21. SPM
 
        Standalone (no MATLAB license needed): ``spm-standalone/26.10.01`` (default), ``spm-standalone/25.01.02``
 
@@ -134,7 +140,7 @@ CCN Modules on Slurm
 
        How to use: :ref:`hoffman2_spm`
 
-   20. WEKA
+   22. WEKA
 
        Version 3.8.1, 3.8.5, 3.8.7 (module ``weka/3.8``; run ``weka-3.8.1``, ``weka-3.8.5`` or ``weka-3.8.7``)
 
