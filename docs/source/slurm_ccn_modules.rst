@@ -55,9 +55,11 @@ CCN Modules on Slurm
       How to use: :ref:`hoffman2_CONN`
 
    7. dcmtk
+
       Version : 3.6.0, 3.6.6 (modul)
 
    8. dtiprep
+
       Version : 1.2.9 (image)
 
    9. FSL_MRS
