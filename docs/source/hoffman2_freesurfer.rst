@@ -51,9 +51,13 @@ FreeSurfer's Apptainer images are under
 
 Freeview currently is only working with Freesurfer module, version 8.2.0. The Apptainer container images have missing libaries and we are still working on it.
 
-To run Freeview, you should connect to dcv serves first, then from there,
+To run Freeview, you should connect to dcv serves first, then from there staring an interactive mode
+
+.. code-block:: python
+
+  x11session --time=03:00:00 --cpus-per-task=4 --mem=16G
 
 .. code-block:: python
 
   module load freesurfer/8.2.0
-  freeview
+  freeview &
