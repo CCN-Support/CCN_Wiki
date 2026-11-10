@@ -28,3 +28,9 @@ Known issues on Slurm
    a) Matlab currently has only R2026a.
       
       We have requested IDRE team for R2020a. Please let us know if your lab needs different Matlab version. 
+
+   b) Python has only version 3.10.20 and 3.12.13. Some old applications use Python2 which can be a problem. We provide Python2 from CCN modules now. To use it,
+
+      .. code-block:: python
+
+        module load python/2.7.18
