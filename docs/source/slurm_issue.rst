@@ -23,6 +23,7 @@ Known issues on Slurm
      savepath /PATH/TO/pathdef.m
    
 2. Version of Modules provided by IDRE team
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    a) Matlab currently has only R2026a.
       
