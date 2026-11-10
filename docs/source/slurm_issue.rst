@@ -25,7 +25,7 @@ Known issues on Slurm
 2. Version of Modules provided by IDRE team
    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   a) Matlab currently has only R2026a.
+   a) Matlab currently has only version R2026a.
       
       We have requested IDRE team for R2020a. Please let us know if your lab needs different Matlab version. 
 
