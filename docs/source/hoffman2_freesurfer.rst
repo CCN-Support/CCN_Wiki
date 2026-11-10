@@ -55,7 +55,7 @@ To run Freeview, you should connect to `dcv <https://www.hoffman2.idre.ucla.edu/
 
 .. code-block:: python
 
-  x11session --time=03:00:00 --cpus-per-task=4 --mem=16G
+  x11session --time=03:00:00 --cpus-per-task=4 --mem=16G -A pi_YOURGROUP
 
 .. code-block:: python
 
