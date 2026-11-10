@@ -26,4 +26,4 @@ Known issues on Slurm
 
    a) Matlab currently has only R2026a.
       
-      We have notified IDRE team some of our labs need R2020a. Please let us know if your lab needs different Matlab version. 
+      We have requested IDRE team for R2020a. Please let us know if your lab needs different Matlab version. 
